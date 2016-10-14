@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/mahmud/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.0_01fa581500d2e5707f3d9b7b74c399b542f42123.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="dab6944860c986980dcc6002a5ca2f127b587317">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-config-9.4.0_7742011bbb60e3457449acc5ae05304f69000e15.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e6e2251f3d3abf4eecd6bf6919d41fc7af497852">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-games-9.4.0_0b25eeac9e530090e2b289ab10b9eb1985bf4440.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-9.4.0_fd70be42e6e9546f379c51198152e05649c30b44.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.4.0_1684ee93b6f89e2d4b45792b4149190ff5da3814.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="b1acf13f1b7d8232af78a30833f9a966d1394c84">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wearable-9.4.0_56878a352ed44224038861d290af2a628c9de534.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a432629397351d3ec7f27a23d258b229b81af08f">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-cast-9.4.0_6c9b1f976436d9288d14fe56f9a9f8ea86dc8053.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-9.4.0_2ade95df82eb3e393c1380a592deacde577faeac.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="7ea53c4458b80e8ea71f7fd6831fa184c501377b">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tagmanager-api-9.4.0_f74167ffe89f4836c8d6c589850817a0c115b579.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-contextmanager/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="72eacac37fc64e95d53abd2a041bf81a952d8615">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-contextmanager-9.4.0_a4482752617ef98dce8cee690145bf3ab9852957.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="03829a2618892d438a1f59c6286699ca1f476e93">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-cast-framework-9.4.0_d83e4776670f24ea63fae00f7eb03f5c7ee1dc5c.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4348dd26d83b56c2058b768222c3271bce911724">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-9.4.0_8a4e201d33a97b3c3036078a29ad89a696576086.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="59a16a4a42d25b2c243dd1e8aea87d06895b4a06">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-iid-9.4.0_46cb2a2a60aea0f10bbc8cf42ef12f6ebfd13bca.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="dd763e0269f2854f5828ae62dd968b80bff6a0db">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-clearcut-9.4.0_ff217050540b617df8f3588477eefb8e5128b39a.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="ba47b210d36301e237ccfea860eaada04590f12a">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-9.4.0_dddba69753e646ffdf49a6c30311caf3b59f10eb.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8ce5e7a4a146dddd1d9e66b09c714a6c149916d8">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-drive-9.4.0_fea9700d73461e564a431116049e797cf449495d.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="7bc6ea2bcfd6de4b7085e0f3a01616c5c8e0e2ad">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-safetynet-9.4.0_97b3b2e869223db973eaef6fb04fb1f921c65531.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-9.4.0_955d9e715b9cc2d43d6750bdcd6ba68d55ebca98.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0_66977e0ea2b36a65ad60a1ca4fc8492b2c62f333.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="dd51b31890731591729f046d7a09c4fe4e483ed1">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-plus-9.4.0_e5611418e3a1898a81e8a1c8a26207dbf296199d.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-9.4.0_9be4ab8d2cdc4c11100b1647e86fba078b4316c2.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="fe1e258763f0c707e6fd358a2a52864ce88f8a87">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/instant-run_63aaef17ac49d6b0be64b35300428ab1ec187561.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e5e8e535d15834e824817bdf5370556f62b4b2a5">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tagmanager-9.4.0_7809730f51350e63ab01a854273457e1d97f1460.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="670df81539ab71918d49b186598b7eff08ef6563">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-vision-9.4.0_4a3cd1aac60f3d9cd1624df928de00d144a40ced.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="b15f898c9047f9d612a63000126b485dd024eaac">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gass-9.4.0_0a22fe8af0819a54fe78c0224c13c3b6a7e52ac1.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="c8f5d56f8f8a287c95e02c542baade138a378048">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-storage-common-9.4.0_6dc51b34ac600d8272700c2acedc2506028a398d.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.4.0_61e4f58cab461a7353cce304ca2af8fabcafdbbc.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="58c9f5ee817fdb8b658fd7455fadfb74119f7ee9">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-base-9.4.0_6ce934b454fd90807e86b7d8c4d53a3011ef4f79.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="ea7b1cdbca4b95757b8de5fdcaa2d6080f3775d5">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_b6d2b50433fb714d945f744b223ecc59cc42ff7d.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4b630471536351be7c3c3100735c75b7ad2cbd84">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-9.4.0_0219c428629fa512e54d1b7e49bb9e64e2ca7b4d.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.android.support-mediarouter-v7-23.0.0_83724043a7da4d343396a1838e4840b5a00900e3.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="d49118ba67a101c4895f0581f17142cba85b330b">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-panorama-9.4.0_24465ea35e9679ecfb50c5a4d7cfd5ea299ac6f3.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="5e04c0b3683ca45b343284d93e5594b5f9044551">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-identity-9.4.0_a578d3be2d2ad39e3cfcda1b22c284058477c45d.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.0_d11020150ad3f511300d90c848c4f66a742a6d0e.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-9.4.0_8bae6d145cc48042177bff5cc350ffd09461f945.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-messaging-9.4.0_a643fc1437c199ba7afcabc67d42228001bfae14.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0_0f52238fb1aa814fccaf8d63b522b49e0f9f9d2d.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="98e97da89d4df8e2f6eba63498d3d46a587372f2">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-storage-9.4.0_f1c5e1d5c1c42468800d12de684ba2c3b612bc04.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.4.0_570023554b8d5132f32fa51b403860e3f918a9a4.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-lite-9.4.0_d2bcd6bbe562e9ea6fe99c8e480b11ffeacf688f.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-crash-9.4.0_d4d383bb23ccbca38d2018a1554cb1aedf3dc831.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e454c414a069241ee08444d187f2dd3a702596b5">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-9.4.0_92c176a1bd04a21d533a797d5a3eb38bda386f81.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="6bc41d9d6fd12d2ef23c785a259011001f4a1a5b">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-module-9.4.0_54cf6b62a10fa75e13d5d53e4f19544586cf661a.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="736d8893fb702f128a153c9d87c9c29724d37872">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appinvite-9.4.0_3fec31e9274b6c74d69bdb6377eae914eee1680c.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-connection-9.4.0_6dfb8126c0c59b213858129f508df3e92f7ca324.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e35002351f2d415093a9b564652d4b56be6a0593">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-places-9.4.0_cf791c677f15a4fc0684d0d4c0244f622c9ff57d.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="c10df7344e31161852c20bb8143fc37319aa10ec">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-9.4.0_be8bddebe970673b3c4c2647fc9d667955acd191.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8197651ce1af4d89b47f4545cc720bc4f8611e7d">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-fitness-9.4.0_2b73f372ad588a7060a85a5ddc3f06d0c062f285.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="34762013d39dbe6c656050589c44e8b61b9a2c5d">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-common-9.4.0_d3d8fb188bfe48f9001a0cde8526e65496ebf52c.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-9.4.0_9a5dec4dc8079bca472fe4e37e9b815e2841e1a3.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="ece40b09e9d4d488bc270cf6af5a9af73bc1cfa3">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-9.4.0_ebe42c46134e7f173fd9aeaadb3dd64198c512a1.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.0_0b1f7df2369c391b4ea379f7f591dc1b4a21f54f.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="0ad33eb600f3d80bdff5ce355c90d5533ade652a">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-impl-9.4.0_9def39fe8a355425a5931484d9da9ed32a10e045.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="0b060160e7daee343f5315b3da91b0ff2d7eed89">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-9.4.0_8334814edd496992e2e88e77b6b9a9812382a23d.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="461e4257888c25ec05abcd91e758fe7f4949230a">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-nearby-9.4.0_dae6ed142877181b983c191e877a8d5843565298.jar" />
+    </item>
+    <item
+        jar="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="954697ee6ea7bdd596babf4f70e8b7a17ca7649e">
+        <dex dex="/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wallet-9.4.0_fdd68f2f3310a6141c13de9a5afdf1c8ef8d59ae.jar" />
+    </item>
+
+</items>

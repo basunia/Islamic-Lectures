@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCCC00"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#f1f1f1"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/row" >
+        </ListView>
+    </LinearLayout>
+
+<!--     <Button -->
+<!--         android:id="@+id/button1" -->
+<!--         style="?android:attr/buttonStyleSmall" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_alignParentBottom="true" -->
+<!--         android:layout_alignParentRight="true" -->
+<!--         /> -->
+
+<!--     <Button -->
+<!--         android:id="@+id/button2" -->
+<!--         style="?android:attr/buttonStyleSmall" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_alignParentBottom="true" -->
+<!--         android:layout_alignTop="@+id/button1" -->
+<!--         android:layout_toLeftOf="@+id/button1" -->
+<!--          /> -->
+
+<!--     <SeekBar -->
+<!--         android:id="@+id/seekBar1" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_alignParentBottom="true" -->
+<!--         android:layout_toLeftOf="@+id/button2" /> -->
+
+<!--     <TextView -->
+<!--         android:id="@+id/textView2" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_alignTop="@+id/button2" -->
+<!--         android:layout_toLeftOf="@+id/button2" -->
+<!--         android:text="00:00:00" -->
+<!--         android:textAppearance="?android:attr/textAppearanceSmall" /> -->
+
+<!--     <TextView -->
+<!--         android:id="@+id/textView1" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_alignParentLeft="true" -->
+<!--         android:layout_below="@+id/textView3" -->
+<!--         android:text="00:00:00" -->
+<!--         android:textAppearance="?android:attr/textAppearanceSmall" /> -->
+
+<!--     <TextView -->
+<!--         android:id="@+id/textView3" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_above="@+id/textView2" -->
+<!--         android:layout_alignParentLeft="true" -->
+        
+<!--         android:text="Select a lecture from the list above" -->
+<!--         android:textAppearance="?android:attr/textAppearanceSmall" /> -->
+
+</RelativeLayout>
