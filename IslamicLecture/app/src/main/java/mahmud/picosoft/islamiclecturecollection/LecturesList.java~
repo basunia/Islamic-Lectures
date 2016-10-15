@@ -421,7 +421,17 @@ public class LecturesList extends Activity implements OnSeekBarChangeListener {
 
 	@Override
 	protected void onDestroy() {
-	
+		// Unregister broadcast receiver edited by mh
+		// if (mBufferBroadcastIsRegistered) {
+		// unregisterReceiver(broadcastBufferReceiver);
+		// mBufferBroadcastIsRegistered = false;
+		// }
+		// // Unregister broadcast receiver
+		// if (mBufferBroadcastIsRegistered) {
+		// unregisterReceiver(broadcastBufferReceiver);
+		// mBufferBroadcastIsRegistered = false;
+		// }
+		//
 		// // /////////13 Feb edited by hasan
 		// if (mBroadcastIsRegistered) {
 		// unregisterReceiver(broadcastReceiver);
