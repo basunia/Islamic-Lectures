@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/res/merged/debug/menu/foreground.xml",
-        "source": "/home/mahmud/MyGithub/IslamicLecture/app/src/main/res/menu/foreground.xml"
+        "merged": "E:\\Dev\\Github\\Islamic-Lectures\\IslamicLecture\\app\\build\\intermediates\\res\\merged\\debug\\menu\\foreground.xml",
+        "source": "E:\\Dev\\Github\\Islamic-Lectures\\IslamicLecture\\app\\src\\main\\res\\menu\\foreground.xml"
     },
     {
-        "merged": "/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/res/merged/debug/menu/main.xml",
-        "source": "/home/mahmud/MyGithub/IslamicLecture/app/src/main/res/menu/main.xml"
+        "merged": "E:\\Dev\\Github\\Islamic-Lectures\\IslamicLecture\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "E:\\Dev\\Github\\Islamic-Lectures\\IslamicLecture\\app\\src\\main\\res\\menu\\main.xml"
     }
 ]

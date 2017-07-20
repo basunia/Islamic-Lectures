@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/res/merged/debug/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
+        "outputFile": "E:\\Dev\\Github\\Islamic-Lectures\\IslamicLecture\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 109
                 },
                 "from": {
-                    "file": "/home/mahmud/MyGithub/IslamicLecture/app/src/main/res/values-sw720dp-land/dimens.xml",
+                    "file": "E:\\Dev\\Github\\Islamic-Lectures\\IslamicLecture\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,

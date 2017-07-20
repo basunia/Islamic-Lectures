@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/res/merged/debug/values-v11/values-v11.xml",
+        "outputFile": "E:\\Dev\\Github\\Islamic-Lectures\\IslamicLecture\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 187
                 },
                 "from": {
-                    "file": "/home/mahmud/MyGithub/IslamicLecture/app/src/main/res/values-v11/styles.xml",
+                    "file": "E:\\Dev\\Github\\Islamic-Lectures\\IslamicLecture\\app\\src\\main\\res\\values-v11\\styles.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -33,14 +33,14 @@
                     "endOffset": 606
                 },
                 "from": {
-                    "file": "/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-v11/values-v11.xml",
+                    "file": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\6143a2922b9ff9db5e165e04b9f622dc0fff5124\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 286,
-                        "endLine": 9,
+                        "startOffset": 55,
+                        "endLine": 7,
                         "endColumn": 12,
-                        "endOffset": 700
+                        "endOffset": 469
                     }
                 }
             },
@@ -54,14 +54,14 @@
                     "endOffset": 1031
                 },
                 "from": {
-                    "file": "/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-v11/values-v11.xml",
+                    "file": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\6143a2922b9ff9db5e165e04b9f622dc0fff5124\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
-                        "startLine": 10,
+                        "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 705,
-                        "endLine": 15,
+                        "startOffset": 474,
+                        "endLine": 13,
                         "endColumn": 12,
-                        "endOffset": 1125
+                        "endOffset": 894
                     }
                 }
             },
@@ -75,14 +75,14 @@
                     "endOffset": 1459
                 },
                 "from": {
-                    "file": "/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-v11/values-v11.xml",
+                    "file": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\6143a2922b9ff9db5e165e04b9f622dc0fff5124\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
-                        "startLine": 16,
+                        "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 1130,
-                        "endLine": 21,
+                        "startOffset": 899,
+                        "endLine": 19,
                         "endColumn": 12,
-                        "endOffset": 1553
+                        "endOffset": 1322
                     }
                 }
             },
@@ -96,14 +96,14 @@
                     "endOffset": 1885
                 },
                 "from": {
-                    "file": "/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-v11/values-v11.xml",
+                    "file": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\6143a2922b9ff9db5e165e04b9f622dc0fff5124\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
-                        "startLine": 22,
+                        "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 1558,
-                        "endLine": 27,
+                        "startOffset": 1327,
+                        "endLine": 25,
                         "endColumn": 12,
-                        "endOffset": 1979
+                        "endOffset": 1748
                     }
                 }
             },
@@ -117,14 +117,14 @@
                     "endOffset": 2312
                 },
                 "from": {
-                    "file": "/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-v11/values-v11.xml",
+                    "file": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\6143a2922b9ff9db5e165e04b9f622dc0fff5124\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
-                        "startLine": 28,
+                        "startLine": 26,
                         "startColumn": 4,
-                        "startOffset": 1984,
-                        "endLine": 33,
+                        "startOffset": 1753,
+                        "endLine": 31,
                         "endColumn": 12,
-                        "endOffset": 2406
+                        "endOffset": 2175
                     }
                 }
             },
@@ -138,14 +138,14 @@
                     "endOffset": 2737
                 },
                 "from": {
-                    "file": "/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-v11/values-v11.xml",
+                    "file": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\6143a2922b9ff9db5e165e04b9f622dc0fff5124\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
-                        "startLine": 34,
+                        "startLine": 32,
                         "startColumn": 4,
-                        "startOffset": 2411,
-                        "endLine": 39,
+                        "startOffset": 2180,
+                        "endLine": 37,
                         "endColumn": 12,
-                        "endOffset": 2831
+                        "endOffset": 2600
                     }
                 }
             },
@@ -158,13 +158,13 @@
                     "endOffset": 2826
                 },
                 "from": {
-                    "file": "/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-v11/values-v11.xml",
+                    "file": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\6143a2922b9ff9db5e165e04b9f622dc0fff5124\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
-                        "startLine": 42,
+                        "startLine": 38,
                         "startColumn": 4,
-                        "startOffset": 3062,
+                        "startOffset": 2605,
                         "endColumn": 88,
-                        "endOffset": 3146
+                        "endOffset": 2689
                     }
                 }
             },
@@ -173,80 +173,80 @@
                     "startLine": 42,
                     "startColumn": 4,
                     "startOffset": 2831,
-                    "endColumn": 100,
-                    "endOffset": 2927
+                    "endLine": 45,
+                    "endColumn": 12,
+                    "endOffset": 3072
                 },
                 "from": {
-                    "file": "/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-v11/values-v11.xml",
+                    "file": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\6143a2922b9ff9db5e165e04b9f622dc0fff5124\\output\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 2694,
+                        "endLine": 42,
+                        "endColumn": 12,
+                        "endOffset": 2935
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 3077,
+                    "endLine": 49,
+                    "endColumn": 12,
+                    "endOffset": 3321
+                },
+                "from": {
+                    "file": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\6143a2922b9ff9db5e165e04b9f622dc0fff5124\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 43,
                         "startColumn": 4,
-                        "startOffset": 3151,
+                        "startOffset": 2940,
+                        "endLine": 46,
+                        "endColumn": 12,
+                        "endOffset": 3184
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 3326,
+                    "endColumn": 100,
+                    "endOffset": 3422
+                },
+                "from": {
+                    "file": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\6143a2922b9ff9db5e165e04b9f622dc0fff5124\\output\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 4,
+                        "startOffset": 3189,
                         "endColumn": 100,
-                        "endOffset": 3247
+                        "endOffset": 3285
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 43,
+                    "startLine": 51,
                     "startColumn": 4,
-                    "startOffset": 2932,
-                    "endLine": 47,
-                    "endColumn": 12,
-                    "endOffset": 3335
-                },
-                "from": {
-                    "file": "/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-v11/values-v11.xml",
-                    "position": {
-                        "startLine": 44,
-                        "startColumn": 4,
-                        "startOffset": 3252,
-                        "endLine": 48,
-                        "endColumn": 12,
-                        "endOffset": 3655
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 48,
-                    "startColumn": 4,
-                    "startOffset": 3340,
-                    "endLine": 52,
-                    "endColumn": 12,
-                    "endOffset": 3755
-                },
-                "from": {
-                    "file": "/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-v11/values-v11.xml",
-                    "position": {
-                        "startLine": 49,
-                        "startColumn": 4,
-                        "startOffset": 3660,
-                        "endLine": 53,
-                        "endColumn": 12,
-                        "endOffset": 4075
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 53,
-                    "startColumn": 4,
-                    "startOffset": 3760,
+                    "startOffset": 3427,
                     "endLine": 54,
                     "endColumn": 12,
-                    "endOffset": 3862
+                    "endOffset": 3674
                 },
                 "from": {
-                    "file": "/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-v11/values-v11.xml",
+                    "file": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\6143a2922b9ff9db5e165e04b9f622dc0fff5124\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
-                        "startLine": 56,
+                        "startLine": 48,
                         "startColumn": 4,
-                        "startOffset": 4306,
-                        "endLine": 57,
+                        "startOffset": 3290,
+                        "endLine": 51,
                         "endColumn": 12,
-                        "endOffset": 4408
+                        "endOffset": 3537
                     }
                 }
             },
@@ -254,58 +254,20 @@
                 "to": {
                     "startLine": 55,
                     "startColumn": 4,
-                    "startOffset": 3867,
-                    "endLine": 56,
+                    "startOffset": 3679,
+                    "endLine": 58,
                     "endColumn": 12,
-                    "endOffset": 3991
+                    "endOffset": 3929
                 },
                 "from": {
-                    "file": "/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-v11/values-v11.xml",
+                    "file": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\6143a2922b9ff9db5e165e04b9f622dc0fff5124\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
-                        "startLine": 58,
+                        "startLine": 52,
                         "startColumn": 4,
-                        "startOffset": 4413,
-                        "endLine": 59,
+                        "startOffset": 3542,
+                        "endLine": 55,
                         "endColumn": 12,
-                        "endOffset": 4537
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 57,
-                    "startColumn": 4,
-                    "startOffset": 3996,
-                    "endColumn": 70,
-                    "endOffset": 4062
-                },
-                "from": {
-                    "file": "/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-v11/values-v11.xml",
-                    "position": {
-                        "startLine": 62,
-                        "startColumn": 4,
-                        "startOffset": 4768,
-                        "endColumn": 70,
-                        "endOffset": 4834
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 58,
-                    "startColumn": 4,
-                    "startOffset": 4067,
-                    "endColumn": 82,
-                    "endOffset": 4145
-                },
-                "from": {
-                    "file": "/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-v11/values-v11.xml",
-                    "position": {
-                        "startLine": 63,
-                        "startColumn": 4,
-                        "startOffset": 4839,
-                        "endColumn": 82,
-                        "endOffset": 4917
+                        "endOffset": 3792
                     }
                 }
             },
@@ -313,79 +275,243 @@
                 "to": {
                     "startLine": 59,
                     "startColumn": 4,
-                    "startOffset": 4150,
-                    "endLine": 109,
-                    "endColumn": 12,
-                    "endOffset": 7853
+                    "startOffset": 3934,
+                    "endColumn": 102,
+                    "endOffset": 4032
                 },
                 "from": {
-                    "file": "/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-v11/values-v11.xml",
+                    "file": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\6143a2922b9ff9db5e165e04b9f622dc0fff5124\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
-                        "startLine": 64,
+                        "startLine": 56,
                         "startColumn": 4,
-                        "startOffset": 4922,
-                        "endLine": 114,
-                        "endColumn": 12,
-                        "endOffset": 8625
+                        "startOffset": 3797,
+                        "endColumn": 102,
+                        "endOffset": 3895
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 110,
+                    "startLine": 60,
                     "startColumn": 4,
-                    "startOffset": 7858,
-                    "endLine": 161,
+                    "startOffset": 4037,
+                    "endLine": 63,
                     "endColumn": 12,
-                    "endOffset": 11701
+                    "endOffset": 4285
                 },
                 "from": {
-                    "file": "/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-v11/values-v11.xml",
+                    "file": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\6143a2922b9ff9db5e165e04b9f622dc0fff5124\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
-                        "startLine": 115,
+                        "startLine": 57,
                         "startColumn": 4,
-                        "startOffset": 8630,
-                        "endLine": 166,
+                        "startOffset": 3900,
+                        "endLine": 60,
                         "endColumn": 12,
-                        "endOffset": 12473
+                        "endOffset": 4148
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 162,
+                    "startLine": 64,
                     "startColumn": 4,
-                    "startOffset": 11706,
+                    "startOffset": 4290,
+                    "endLine": 68,
+                    "endColumn": 12,
+                    "endOffset": 4693
+                },
+                "from": {
+                    "file": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\6143a2922b9ff9db5e165e04b9f622dc0fff5124\\output\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 4,
+                        "startOffset": 4153,
+                        "endLine": 65,
+                        "endColumn": 12,
+                        "endOffset": 4556
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 4698,
+                    "endLine": 73,
+                    "endColumn": 12,
+                    "endOffset": 5113
+                },
+                "from": {
+                    "file": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\6143a2922b9ff9db5e165e04b9f622dc0fff5124\\output\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 4,
+                        "startOffset": 4561,
+                        "endLine": 70,
+                        "endColumn": 12,
+                        "endOffset": 4976
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 74,
+                    "startColumn": 4,
+                    "startOffset": 5118,
+                    "endLine": 78,
+                    "endColumn": 12,
+                    "endOffset": 5535
+                },
+                "from": {
+                    "file": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\6143a2922b9ff9db5e165e04b9f622dc0fff5124\\output\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 71,
+                        "startColumn": 4,
+                        "startOffset": 4981,
+                        "endLine": 75,
+                        "endColumn": 12,
+                        "endOffset": 5398
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 79,
+                    "startColumn": 4,
+                    "startOffset": 5540,
+                    "endLine": 80,
+                    "endColumn": 12,
+                    "endOffset": 5642
+                },
+                "from": {
+                    "file": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\6143a2922b9ff9db5e165e04b9f622dc0fff5124\\output\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 76,
+                        "startColumn": 4,
+                        "startOffset": 5403,
+                        "endLine": 77,
+                        "endColumn": 12,
+                        "endOffset": 5505
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 81,
+                    "startColumn": 4,
+                    "startOffset": 5647,
+                    "endLine": 82,
+                    "endColumn": 12,
+                    "endOffset": 5771
+                },
+                "from": {
+                    "file": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\6143a2922b9ff9db5e165e04b9f622dc0fff5124\\output\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 78,
+                        "startColumn": 4,
+                        "startOffset": 5510,
+                        "endLine": 79,
+                        "endColumn": 12,
+                        "endOffset": 5634
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 83,
+                    "startColumn": 4,
+                    "startOffset": 5776,
+                    "endColumn": 70,
+                    "endOffset": 5842
+                },
+                "from": {
+                    "file": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\6143a2922b9ff9db5e165e04b9f622dc0fff5124\\output\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 80,
+                        "startColumn": 4,
+                        "startOffset": 5639,
+                        "endColumn": 70,
+                        "endOffset": 5705
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 5847,
+                    "endColumn": 82,
+                    "endOffset": 5925
+                },
+                "from": {
+                    "file": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\6143a2922b9ff9db5e165e04b9f622dc0fff5124\\output\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 81,
+                        "startColumn": 4,
+                        "startOffset": 5710,
+                        "endColumn": 82,
+                        "endOffset": 5788
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 5930,
+                    "endLine": 138,
+                    "endColumn": 12,
+                    "endOffset": 9950
+                },
+                "from": {
+                    "file": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\6143a2922b9ff9db5e165e04b9f622dc0fff5124\\output\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 82,
+                        "startColumn": 4,
+                        "startOffset": 5793,
+                        "endLine": 135,
+                        "endColumn": 12,
+                        "endOffset": 9813
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 139,
+                    "startColumn": 4,
+                    "startOffset": 9955,
+                    "endLine": 193,
+                    "endColumn": 12,
+                    "endOffset": 14118
+                },
+                "from": {
+                    "file": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\6143a2922b9ff9db5e165e04b9f622dc0fff5124\\output\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 136,
+                        "startColumn": 4,
+                        "startOffset": 9818,
+                        "endLine": 190,
+                        "endColumn": 12,
+                        "endOffset": 13981
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 194,
+                    "startColumn": 4,
+                    "startOffset": 14123,
                     "endColumn": 90,
-                    "endOffset": 11792
+                    "endOffset": 14209
                 },
                 "from": {
-                    "file": "/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-v11/values-v11.xml",
+                    "file": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\6143a2922b9ff9db5e165e04b9f622dc0fff5124\\output\\res\\values-v11\\values-v11.xml",
                     "position": {
-                        "startLine": 169,
+                        "startLine": 191,
                         "startColumn": 4,
-                        "startOffset": 12704,
+                        "startOffset": 13986,
                         "endColumn": 90,
-                        "endOffset": 12790
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 163,
-                    "startColumn": 4,
-                    "startOffset": 11797,
-                    "endColumn": 117,
-                    "endOffset": 11910
-                },
-                "from": {
-                    "file": "/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.4.0/res/values-v11/values.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 219,
-                        "endColumn": 117,
-                        "endOffset": 332
+                        "endOffset": 14072
                     }
                 }
             }

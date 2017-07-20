@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/res/merged/debug/values-h720dp-v13/values-h720dp-v13.xml",
+        "outputFile": "E:\\Dev\\Github\\Islamic-Lectures\\IslamicLecture\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,13 +11,13 @@
                     "endOffset": 117
                 },
                 "from": {
-                    "file": "/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-h720dp/values-h720dp.xml",
+                    "file": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\6143a2922b9ff9db5e165e04b9f622dc0fff5124\\output\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 279,
+                        "startOffset": 55,
                         "endColumn": 66,
-                        "endOffset": 341
+                        "endOffset": 117
                     }
                 }
             }

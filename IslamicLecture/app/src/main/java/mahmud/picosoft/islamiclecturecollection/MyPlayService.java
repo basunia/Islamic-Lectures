@@ -20,12 +20,11 @@ import android.media.MediaPlayer.OnPreparedListener;
 import android.media.MediaPlayer.OnSeekCompleteListener;
 import android.os.Handler;
 import android.os.IBinder;
-import android.support.v7.app.NotificationCompat;
+//import android.support.v7.app.NotificationCompat;
 import android.telephony.PhoneStateListener;
 import android.telephony.TelephonyManager;
 import android.util.Log;
 import android.widget.Toast;
-import mahmud.picosoft.islamiclecturecollection.R;
 
 
 /* This file contains the source code for examples discussed in Tutorials 1-9 of developerglowingpigs YouTube channel.
@@ -465,7 +464,7 @@ public class MyPlayService extends Service implements OnCompletionListener,
 		String ns = Context.NOTIFICATION_SERVICE;
 		NotificationManager mNotificationManager = (NotificationManager) getSystemService(ns);
 		int icon = R.drawable.calli;
-		CharSequence tickerText = "Service started by audio lecture collection";
+		CharSequence tickerText = "Service started by Audio lecture collection";
 		long when = System.currentTimeMillis();
 		Notification notification = new Notification(icon, tickerText, when);
 		notification.flags = Notification.FLAG_ONGOING_EVENT;
@@ -479,6 +478,7 @@ public class MyPlayService extends Service implements OnCompletionListener,
 		Notification.Builder builder = new Notification.Builder(context)
 				.setContentIntent(contentIntent)
 				.setContentText(contentText)
+				.setSmallIcon(R.drawable.calli)
 				.setContentTitle(contentTitle);
 		notification = builder.build();
 

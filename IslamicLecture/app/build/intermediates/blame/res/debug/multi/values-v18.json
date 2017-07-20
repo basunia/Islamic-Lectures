@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/res/merged/debug/values-v18/values-v18.xml",
+        "outputFile": "E:\\Dev\\Github\\Islamic-Lectures\\IslamicLecture\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
         "map": [
             {
                 "to": {
@@ -11,13 +11,13 @@
                     "endOffset": 99
                 },
                 "from": {
-                    "file": "/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-v18/values-v18.xml",
+                    "file": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\6143a2922b9ff9db5e165e04b9f622dc0fff5124\\output\\res\\values-v18\\values-v18.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 276,
+                        "startOffset": 55,
                         "endColumn": 48,
-                        "endOffset": 320
+                        "endOffset": 99
                     }
                 }
             }

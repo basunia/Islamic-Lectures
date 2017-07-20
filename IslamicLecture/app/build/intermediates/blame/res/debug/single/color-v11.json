@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "E:\\Dev\\Github\\Islamic-Lectures\\IslamicLecture\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\6143a2922b9ff9db5e165e04b9f622dc0fff5124\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
     },
     {
-        "merged": "/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
-        "source": "/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+        "merged": "E:\\Dev\\Github\\Islamic-Lectures\\IslamicLecture\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\6143a2922b9ff9db5e165e04b9f622dc0fff5124\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     }
 ]

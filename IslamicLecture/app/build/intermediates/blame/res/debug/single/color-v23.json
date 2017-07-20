@@ -1,6 +1,46 @@
 [
     {
-        "merged": "/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
-        "source": "/home/mahmud/MyGithub/IslamicLecture/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/color-v23/abc_color_highlight_material.xml"
+        "merged": "E:\\Dev\\Github\\Islamic-Lectures\\IslamicLecture\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\c9200e999022b65d154b2436e73ffcc0716af3c8\\output\\res\\color-v23\\design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "E:\\Dev\\Github\\Islamic-Lectures\\IslamicLecture\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\6143a2922b9ff9db5e165e04b9f622dc0fff5124\\output\\res\\color-v23\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "E:\\Dev\\Github\\Islamic-Lectures\\IslamicLecture\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\6143a2922b9ff9db5e165e04b9f622dc0fff5124\\output\\res\\color-v23\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "E:\\Dev\\Github\\Islamic-Lectures\\IslamicLecture\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\6143a2922b9ff9db5e165e04b9f622dc0fff5124\\output\\res\\color-v23\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "E:\\Dev\\Github\\Islamic-Lectures\\IslamicLecture\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\6143a2922b9ff9db5e165e04b9f622dc0fff5124\\output\\res\\color-v23\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "E:\\Dev\\Github\\Islamic-Lectures\\IslamicLecture\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_thumb.xml",
+        "source": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\6143a2922b9ff9db5e165e04b9f622dc0fff5124\\output\\res\\color-v23\\abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "E:\\Dev\\Github\\Islamic-Lectures\\IslamicLecture\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\6143a2922b9ff9db5e165e04b9f622dc0fff5124\\output\\res\\color-v23\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "E:\\Dev\\Github\\Islamic-Lectures\\IslamicLecture\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
+        "source": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\6143a2922b9ff9db5e165e04b9f622dc0fff5124\\output\\res\\color-v23\\abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "E:\\Dev\\Github\\Islamic-Lectures\\IslamicLecture\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\6143a2922b9ff9db5e165e04b9f622dc0fff5124\\output\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "E:\\Dev\\Github\\Islamic-Lectures\\IslamicLecture\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\6143a2922b9ff9db5e165e04b9f622dc0fff5124\\output\\res\\color-v23\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "E:\\Dev\\Github\\Islamic-Lectures\\IslamicLecture\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_default.xml",
+        "source": "C:\\Users\\Mahmud Basunia\\.android\\build-cache\\6143a2922b9ff9db5e165e04b9f622dc0fff5124\\output\\res\\color-v23\\abc_tint_default.xml"
     }
 ]

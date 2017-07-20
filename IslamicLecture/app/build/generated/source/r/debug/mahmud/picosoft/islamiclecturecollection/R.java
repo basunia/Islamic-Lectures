@@ -19,24 +19,29 @@ public final class R {
         public static final int abc_slide_in_top=0x7f040007;
         public static final int abc_slide_out_bottom=0x7f040008;
         public static final int abc_slide_out_top=0x7f040009;
+        public static final int design_bottom_sheet_slide_in=0x7f04000a;
+        public static final int design_bottom_sheet_slide_out=0x7f04000b;
+        public static final int design_fab_in=0x7f04000c;
+        public static final int design_fab_out=0x7f04000d;
+        public static final int design_snackbar_in=0x7f04000e;
+        public static final int design_snackbar_out=0x7f04000f;
     }
-    public static final class array {
-        public static final int cast_expanded_controller_default_control_buttons=0x7f0b0000;
-        public static final int cast_mini_controller_default_control_buttons=0x7f0b0001;
+    public static final class animator {
+        public static final int design_appbar_state_list_animator=0x7f050000;
     }
     public static final class attr {
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarDivider=0x7f0100bb;
+        public static final int actionBarDivider=0x7f010046;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarItemBackground=0x7f0100bc;
+        public static final int actionBarItemBackground=0x7f010047;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarPopupTheme=0x7f0100b5;
+        public static final int actionBarPopupTheme=0x7f010040;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -54,117 +59,117 @@ containing a value of this type.
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
          */
-        public static final int actionBarSize=0x7f0100ba;
+        public static final int actionBarSize=0x7f010045;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarSplitStyle=0x7f0100b7;
+        public static final int actionBarSplitStyle=0x7f010042;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarStyle=0x7f0100b6;
+        public static final int actionBarStyle=0x7f010041;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarTabBarStyle=0x7f0100b1;
+        public static final int actionBarTabBarStyle=0x7f01003c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarTabStyle=0x7f0100b0;
+        public static final int actionBarTabStyle=0x7f01003b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarTabTextStyle=0x7f0100b2;
+        public static final int actionBarTabTextStyle=0x7f01003d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarTheme=0x7f0100b8;
+        public static final int actionBarTheme=0x7f010043;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarWidgetTheme=0x7f0100b9;
+        public static final int actionBarWidgetTheme=0x7f010044;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionButtonStyle=0x7f0100d5;
+        public static final int actionButtonStyle=0x7f010061;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionDropDownStyle=0x7f0100d1;
+        public static final int actionDropDownStyle=0x7f01005d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionLayout=0x7f010081;
+        public static final int actionLayout=0x7f0100d8;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionMenuTextAppearance=0x7f0100bd;
+        public static final int actionMenuTextAppearance=0x7f010048;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int actionMenuTextColor=0x7f0100be;
+        public static final int actionMenuTextColor=0x7f010049;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeBackground=0x7f0100c1;
+        public static final int actionModeBackground=0x7f01004c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeCloseButtonStyle=0x7f0100c0;
+        public static final int actionModeCloseButtonStyle=0x7f01004b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeCloseDrawable=0x7f0100c3;
+        public static final int actionModeCloseDrawable=0x7f01004e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeCopyDrawable=0x7f0100c5;
+        public static final int actionModeCopyDrawable=0x7f010050;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeCutDrawable=0x7f0100c4;
+        public static final int actionModeCutDrawable=0x7f01004f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeFindDrawable=0x7f0100c9;
+        public static final int actionModeFindDrawable=0x7f010054;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModePasteDrawable=0x7f0100c6;
+        public static final int actionModePasteDrawable=0x7f010051;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModePopupWindowStyle=0x7f0100cb;
+        public static final int actionModePopupWindowStyle=0x7f010056;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeSelectAllDrawable=0x7f0100c7;
+        public static final int actionModeSelectAllDrawable=0x7f010052;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeShareDrawable=0x7f0100c8;
+        public static final int actionModeShareDrawable=0x7f010053;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeSplitBackground=0x7f0100c2;
+        public static final int actionModeSplitBackground=0x7f01004d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeStyle=0x7f0100bf;
+        public static final int actionModeStyle=0x7f01004a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeWebSearchDrawable=0x7f0100ca;
+        public static final int actionModeWebSearchDrawable=0x7f010055;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionOverflowButtonStyle=0x7f0100b3;
+        public static final int actionOverflowButtonStyle=0x7f01003e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionOverflowMenuStyle=0x7f0100b4;
+        public static final int actionOverflowMenuStyle=0x7f01003f;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -172,7 +177,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int actionProviderClass=0x7f010083;
+        public static final int actionProviderClass=0x7f0100da;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -180,39 +185,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int actionViewClass=0x7f010082;
+        public static final int actionViewClass=0x7f0100d9;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int activityChooserViewStyle=0x7f0100dd;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int adSize=0x7f010028;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int adSizes=0x7f010029;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int adUnitId=0x7f01002a;
+        public static final int activityChooserViewStyle=0x7f010069;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int alertDialogButtonGroupStyle=0x7f0100ff;
+        public static final int alertDialogButtonGroupStyle=0x7f01008d;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -220,15 +201,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int alertDialogCenterButtons=0x7f010100;
+        public static final int alertDialogCenterButtons=0x7f01008e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int alertDialogStyle=0x7f0100fe;
+        public static final int alertDialogStyle=0x7f01008c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int alertDialogTheme=0x7f010101;
+        public static final int alertDialogTheme=0x7f01008f;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -236,26 +217,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int allowShortcuts=0x7f010059;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+        public static final int allowStacking=0x7f0100a5;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int ambientEnabled=0x7f010078;
-        /** <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>holo_dark</code></td><td>0</td><td></td></tr>
-<tr><td><code>holo_light</code></td><td>1</td><td></td></tr>
-</table>
-         */
-        public static final int appTheme=0x7f010124;
+        public static final int alpha=0x7f0100b7;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -265,7 +235,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int arrowHeadLength=0x7f01004d;
+        public static final int arrowHeadLength=0x7f0100c9;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -275,27 +245,27 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int arrowShaftLength=0x7f01004e;
+        public static final int arrowShaftLength=0x7f0100ca;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int autoCompleteTextViewStyle=0x7f010106;
+        public static final int autoCompleteTextViewStyle=0x7f010094;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int background=0x7f010015;
+        public static final int background=0x7f01000c;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int backgroundSplit=0x7f010017;
+        public static final int backgroundSplit=0x7f01000e;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int backgroundStacked=0x7f010016;
+        public static final int backgroundStacked=0x7f01000d;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -304,7 +274,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int backgroundTint=0x7f010122;
+        public static final int backgroundTint=0x7f010138;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -318,7 +288,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
          */
-        public static final int backgroundTintMode=0x7f010123;
+        public static final int backgroundTintMode=0x7f010139;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -328,98 +298,33 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int barLength=0x7f01004f;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int borderlessButtonStyle=0x7f0100da;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int buttonBarButtonStyle=0x7f0100d7;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int buttonBarNegativeButtonStyle=0x7f010104;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int buttonBarNeutralButtonStyle=0x7f010105;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int buttonBarPositiveButtonStyle=0x7f010103;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int buttonBarStyle=0x7f0100d6;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int buttonPanelSideLayout=0x7f01002b;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>standard</code></td><td>0</td><td></td></tr>
-<tr><td><code>wide</code></td><td>1</td><td></td></tr>
-<tr><td><code>icon_only</code></td><td>2</td><td></td></tr>
-</table>
-         */
-        public static final int buttonSize=0x7f01009c;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int buttonStyle=0x7f010107;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int buttonStyleSmall=0x7f010108;
-        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+        public static final int barLength=0x7f0100cb;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int buttonTint=0x7f01003a;
-        /** <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>src_over</code></td><td>3</td><td></td></tr>
-<tr><td><code>src_in</code></td><td>5</td><td></td></tr>
-<tr><td><code>src_atop</code></td><td>9</td><td></td></tr>
-<tr><td><code>multiply</code></td><td>14</td><td></td></tr>
-<tr><td><code>screen</code></td><td>15</td><td></td></tr>
-</table>
+        public static final int behavior_autoHide=0x7f0100d2;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
          */
-        public static final int buttonTintMode=0x7f01003b;
-        /** <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>google_wallet_classic</code></td><td>1</td><td></td></tr>
-<tr><td><code>google_wallet_grayscale</code></td><td>2</td><td></td></tr>
-<tr><td><code>google_wallet_monochrome</code></td><td>3</td><td></td></tr>
-<tr><td><code>android_pay_dark</code></td><td>4</td><td></td></tr>
-<tr><td><code>android_pay_light</code></td><td>5</td><td></td></tr>
-<tr><td><code>android_pay_light_with_border</code></td><td>6</td><td></td></tr>
-<tr><td><code>classic</code></td><td>1</td><td></td></tr>
-<tr><td><code>grayscale</code></td><td>2</td><td></td></tr>
-<tr><td><code>monochrome</code></td><td>3</td><td></td></tr>
-</table>
+        public static final int behavior_hideable=0x7f0100a3;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
          */
-        public static final int buyButtonAppearance=0x7f01012b;
+        public static final int behavior_overlapTop=0x7f0100ec;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -434,150 +339,324 @@ containing a value of this type.
 <colgroup align="left" />
 <colgroup align="left" />
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>match_parent</code></td><td>-1</td><td></td></tr>
-<tr><td><code>wrap_content</code></td><td>-2</td><td></td></tr>
+<tr><td><code>auto</code></td><td>-1</td><td></td></tr>
 </table>
          */
-        public static final int buyButtonHeight=0x7f010128;
+        public static final int behavior_peekHeight=0x7f0100a2;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int behavior_skipCollapsed=0x7f0100a4;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int borderWidth=0x7f0100d0;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int borderlessButtonStyle=0x7f010066;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int bottomSheetDialogTheme=0x7f0100c2;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int bottomSheetStyle=0x7f0100c3;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int buttonBarButtonStyle=0x7f010063;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int buttonBarNegativeButtonStyle=0x7f010092;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int buttonBarNeutralButtonStyle=0x7f010093;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int buttonBarPositiveButtonStyle=0x7f010091;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int buttonBarStyle=0x7f010062;
+        /** <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>top</code></td><td>0x30</td><td></td></tr>
+<tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
+</table>
+         */
+        public static final int buttonGravity=0x7f01012d;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int buttonPanelSideLayout=0x7f010021;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int buttonStyle=0x7f010095;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int buttonStyleSmall=0x7f010096;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int buttonTint=0x7f0100b8;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
 <colgroup align="left" />
 <colgroup align="left" />
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>buy_with</code></td><td>5</td><td></td></tr>
-<tr><td><code>logo_only</code></td><td>6</td><td></td></tr>
-<tr><td><code>donate_with</code></td><td>7</td><td></td></tr>
-<tr><td><code>buy_with_google</code></td><td>1</td><td></td></tr>
-<tr><td><code>buy_now</code></td><td>2</td><td></td></tr>
-<tr><td><code>book_now</code></td><td>3</td><td></td></tr>
-<tr><td><code>donate_with_google</code></td><td>4</td><td></td></tr>
+<tr><td><code>src_over</code></td><td>3</td><td></td></tr>
+<tr><td><code>src_in</code></td><td>5</td><td></td></tr>
+<tr><td><code>src_atop</code></td><td>9</td><td></td></tr>
+<tr><td><code>multiply</code></td><td>14</td><td></td></tr>
+<tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
          */
-        public static final int buyButtonText=0x7f01012a;
-        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
+        public static final int buttonTintMode=0x7f0100b9;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int checkboxStyle=0x7f010097;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int checkedTextViewStyle=0x7f010098;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int closeIcon=0x7f0100f1;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int closeItemLayout=0x7f01001e;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-<p>May be one of the following constant values.</p>
+         */
+        public static final int collapseContentDescription=0x7f01012f;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int collapseIcon=0x7f01012e;
+        /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
 <colgroup align="left" />
 <colgroup align="left" />
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>match_parent</code></td><td>-1</td><td></td></tr>
-<tr><td><code>wrap_content</code></td><td>-2</td><td></td></tr>
+<tr><td><code>top</code></td><td>0x30</td><td></td></tr>
+<tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
+<tr><td><code>left</code></td><td>0x03</td><td></td></tr>
+<tr><td><code>right</code></td><td>0x05</td><td></td></tr>
+<tr><td><code>center_vertical</code></td><td>0x10</td><td></td></tr>
+<tr><td><code>fill_vertical</code></td><td>0x70</td><td></td></tr>
+<tr><td><code>center_horizontal</code></td><td>0x01</td><td></td></tr>
+<tr><td><code>center</code></td><td>0x11</td><td></td></tr>
+<tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
+<tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
          */
-        public static final int buyButtonWidth=0x7f010129;
-        /** <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int cameraBearing=0x7f010069;
-        /** <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int cameraMaxZoomPreference=0x7f01007a;
-        /** <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int cameraMinZoomPreference=0x7f010079;
-        /** <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int cameraTargetLat=0x7f01006a;
-        /** <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int cameraTargetLng=0x7f01006b;
-        /** <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int cameraTilt=0x7f01006c;
-        /** <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int cameraZoom=0x7f01006d;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+        public static final int collapsedTitleGravity=0x7f0100b2;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+         */
+        public static final int collapsedTitleTextAppearance=0x7f0100ac;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
          */
-        public static final int castBackgroundColor=0x7f010031;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+        public static final int color=0x7f0100c5;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
          */
-        public static final int castButtonBackgroundColor=0x7f010032;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+        public static final int colorAccent=0x7f010084;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
          */
-        public static final int castButtonText=0x7f010034;
+        public static final int colorBackgroundFloating=0x7f01008b;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int colorButtonNormal=0x7f010088;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int colorControlActivated=0x7f010086;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int colorControlHighlight=0x7f010087;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int colorControlNormal=0x7f010085;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int colorPrimary=0x7f010082;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int colorPrimaryDark=0x7f010083;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int colorSwitchThumbNormal=0x7f010089;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int castButtonTextAppearance=0x7f010033;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int castControlButtons=0x7f010039;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int castExpandedControllerStyle=0x7f010046;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int castExpandedControllerToolbarStyle=0x7f010000;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+        public static final int commitIcon=0x7f0100f6;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
          */
-        public static final int castFocusRadius=0x7f010036;
+        public static final int contentInsetEnd=0x7f010017;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int contentInsetEndWithActions=0x7f01001b;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int contentInsetLeft=0x7f010018;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int contentInsetRight=0x7f010019;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int contentInsetStart=0x7f010016;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int contentInsetStartWithNavigation=0x7f01001a;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int contentScrim=0x7f0100ad;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int castIntroOverlayStyle=0x7f010044;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int castMiniControllerStyle=0x7f010045;
+        public static final int controlBackground=0x7f01008a;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -585,39 +664,27 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int castShowImageThumbnail=0x7f010037;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int castSubtitleTextAppearance=0x7f010038;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int castTitleTextAppearance=0x7f010035;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int checkboxStyle=0x7f010109;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int checkedTextViewStyle=0x7f01010a;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+        public static final int counterEnabled=0x7f01011a;
+        /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int circleCrop=0x7f010067;
+        public static final int counterMaxLength=0x7f01011b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int closeIcon=0x7f01008b;
+        public static final int counterOverflowTextAppearance=0x7f01011d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int closeItemLayout=0x7f010025;
+        public static final int counterTextAppearance=0x7f01011c;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int customNavigationLayout=0x7f01000f;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -625,110 +692,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int collapseContentDescription=0x7f010119;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int collapseIcon=0x7f010118;
-        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int color=0x7f010049;
-        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int colorAccent=0x7f0100f7;
-        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int colorButtonNormal=0x7f0100fb;
-        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int colorControlActivated=0x7f0100f9;
-        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int colorControlHighlight=0x7f0100fa;
-        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int colorControlNormal=0x7f0100f8;
-        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int colorPrimary=0x7f0100f5;
-        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int colorPrimaryDark=0x7f0100f6;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>dark</code></td><td>0</td><td></td></tr>
-<tr><td><code>light</code></td><td>1</td><td></td></tr>
-<tr><td><code>auto</code></td><td>2</td><td></td></tr>
-</table>
-         */
-        public static final int colorScheme=0x7f01009d;
-        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int colorSwitchThumbNormal=0x7f0100fc;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int commitIcon=0x7f010090;
+        public static final int defaultQueryHint=0x7f0100f0;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -738,115 +702,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int contentInsetEnd=0x7f010020;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int contentInsetLeft=0x7f010021;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int contentInsetRight=0x7f010022;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int contentInsetStart=0x7f01001f;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int contentProviderUri=0x7f01003e;
+        public static final int dialogPreferredPadding=0x7f01005b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int controlBackground=0x7f0100fd;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int corpusId=0x7f01003c;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int corpusVersion=0x7f01003d;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int customNavigationLayout=0x7f010018;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int defaultIntentAction=0x7f010056;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int defaultIntentActivity=0x7f010058;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int defaultIntentData=0x7f010057;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int defaultQueryHint=0x7f01008a;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int dialogPreferredPadding=0x7f0100cf;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int dialogTheme=0x7f0100ce;
+        public static final int dialogTheme=0x7f01005a;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -862,15 +722,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
          */
-        public static final int displayOptions=0x7f01000e;
+        public static final int displayOptions=0x7f010005;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int divider=0x7f010014;
+        public static final int divider=0x7f01000b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int dividerHorizontal=0x7f0100dc;
+        public static final int dividerHorizontal=0x7f010068;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -880,19 +740,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dividerPadding=0x7f010064;
+        public static final int dividerPadding=0x7f0100d6;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int dividerVertical=0x7f0100db;
-        /** <p>Must be an integer value, such as "<code>100</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int documentMaxAgeSecs=0x7f010042;
+        public static final int dividerVertical=0x7f010067;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -902,15 +754,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int drawableSize=0x7f01004b;
+        public static final int drawableSize=0x7f0100c7;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int drawerArrowStyle=0x7f010001;
+        public static final int drawerArrowStyle=0x7f010000;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int dropDownListViewStyle=0x7f0100ed;
+        public static final int dropDownListViewStyle=0x7f01007a;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -920,21 +772,21 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dropdownListPreferredItemHeight=0x7f0100d2;
+        public static final int dropdownListPreferredItemHeight=0x7f01005e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int editTextBackground=0x7f0100e3;
+        public static final int editTextBackground=0x7f01006f;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int editTextColor=0x7f0100e2;
+        public static final int editTextColor=0x7f01006e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int editTextStyle=0x7f01010b;
+        public static final int editTextStyle=0x7f010099;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -944,58 +796,50 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int elevation=0x7f010023;
-        /** <p>Must be one of the following constant values.</p>
+        public static final int elevation=0x7f01001c;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int errorEnabled=0x7f010118;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int errorTextAppearance=0x7f010119;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int expandActivityOverflowButtonDrawable=0x7f010020;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int expanded=0x7f010027;
+        /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
 <colgroup align="left" />
 <colgroup align="left" />
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>production</code></td><td>1</td><td></td></tr>
-<tr><td><code>test</code></td><td>3</td><td></td></tr>
-<tr><td><code>sandbox</code></td><td>0</td><td></td></tr>
-<tr><td><code>strict_sandbox</code></td><td>2</td><td></td></tr>
+<tr><td><code>top</code></td><td>0x30</td><td></td></tr>
+<tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
+<tr><td><code>left</code></td><td>0x03</td><td></td></tr>
+<tr><td><code>right</code></td><td>0x05</td><td></td></tr>
+<tr><td><code>center_vertical</code></td><td>0x10</td><td></td></tr>
+<tr><td><code>fill_vertical</code></td><td>0x70</td><td></td></tr>
+<tr><td><code>center_horizontal</code></td><td>0x01</td><td></td></tr>
+<tr><td><code>center</code></td><td>0x11</td><td></td></tr>
+<tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
+<tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
          */
-        public static final int environment=0x7f010125;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int expandActivityOverflowButtonDrawable=0x7f010027;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int externalRouteEnabledDrawable=0x7f01007f;
-        /** <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>match_global_nicknames</code></td><td>1</td><td></td></tr>
-<tr><td><code>demote_common_words</code></td><td>2</td><td></td></tr>
-<tr><td><code>demote_rfc822_hostnames</code></td><td>3</td><td></td></tr>
-<tr><td><code>omnibox_url_section</code></td><td>4</td><td></td></tr>
-<tr><td><code>omnibox_title_section</code></td><td>5</td><td></td></tr>
-<tr><td><code>index_entity_types</code></td><td>6</td><td></td></tr>
-</table>
-         */
-        public static final int featureType=0x7f01009b;
-        /** <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>buyButton</code></td><td>1</td><td></td></tr>
-<tr><td><code>selectionDetails</code></td><td>2</td><td></td></tr>
-</table>
-         */
-        public static final int fragmentMode=0x7f010127;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int fragmentStyle=0x7f010126;
+        public static final int expandedTitleGravity=0x7f0100b3;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1005,11 +849,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int gapBetweenBars=0x7f01004c;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int goIcon=0x7f01008c;
+        public static final int expandedTitleMargin=0x7f0100a6;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1019,59 +859,53 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int height=0x7f010002;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+        public static final int expandedTitleMarginBottom=0x7f0100aa;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int hideOnContentScroll=0x7f01001e;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int homeAsUpIndicator=0x7f0100d4;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int homeLayout=0x7f010019;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int icon=0x7f010012;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+        public static final int expandedTitleMarginEnd=0x7f0100a9;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int iconifiedByDefault=0x7f010088;
-        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+        public static final int expandedTitleMarginStart=0x7f0100a7;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int imageAspectRatio=0x7f010066;
+        public static final int expandedTitleMarginTop=0x7f0100a8;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int expandedTitleTextAppearance=0x7f0100ab;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
 <colgroup align="left" />
 <colgroup align="left" />
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>none</code></td><td>0</td><td></td></tr>
-<tr><td><code>adjust_width</code></td><td>1</td><td></td></tr>
-<tr><td><code>adjust_height</code></td><td>2</td><td></td></tr>
+<tr><td><code>auto</code></td><td>-1</td><td></td></tr>
+<tr><td><code>normal</code></td><td>0</td><td></td></tr>
+<tr><td><code>mini</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static final int imageAspectRatioAdjust=0x7f010065;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int indeterminateProgressStyle=0x7f01001b;
+        public static final int fabSize=0x7f0100ce;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1079,7 +913,91 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int indexPrefixes=0x7f010098;
+        public static final int foregroundInsidePadding=0x7f0100d3;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int gapBetweenBars=0x7f0100c8;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int goIcon=0x7f0100f2;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int headerLayout=0x7f0100e2;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int height=0x7f010001;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int hideOnContentScroll=0x7f010015;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int hintAnimationEnabled=0x7f01011e;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int hintEnabled=0x7f010117;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int hintTextAppearance=0x7f010116;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int homeAsUpIndicator=0x7f010060;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int homeLayout=0x7f010010;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int icon=0x7f010009;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int iconifiedByDefault=0x7f0100ee;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int imageButtonStyle=0x7f010070;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int indeterminateProgressStyle=0x7f010012;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1087,207 +1005,25 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int initialActivityCount=0x7f010026;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int inputEnabled=0x7f01005c;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int isLightTheme=0x7f010003;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int itemPadding=0x7f01001d;
-        /** <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int latLngBoundsNorthEastLatitude=0x7f01007d;
-        /** <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int latLngBoundsNorthEastLongitude=0x7f01007e;
-        /** <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int latLngBoundsSouthWestLatitude=0x7f01007b;
-        /** <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int latLngBoundsSouthWestLongitude=0x7f01007c;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int layout=0x7f010087;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int listChoiceBackgroundIndicator=0x7f0100f4;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int listDividerAlertDialog=0x7f0100d0;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int listItemLayout=0x7f01002f;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int listLayout=0x7f01002c;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int listPopupWindowStyle=0x7f0100ee;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int listPreferredItemHeight=0x7f0100e8;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int listPreferredItemHeightLarge=0x7f0100ea;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int listPreferredItemHeightSmall=0x7f0100e9;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int listPreferredItemPaddingLeft=0x7f0100eb;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int listPreferredItemPaddingRight=0x7f0100ec;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int liteMode=0x7f01006e;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int logo=0x7f010013;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int logoDescription=0x7f01011c;
-        /** <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>none</code></td><td>0</td><td></td></tr>
-<tr><td><code>normal</code></td><td>1</td><td></td></tr>
-<tr><td><code>satellite</code></td><td>2</td><td></td></tr>
-<tr><td><code>terrain</code></td><td>3</td><td></td></tr>
-<tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
-</table>
-         */
-        public static final int mapType=0x7f010068;
+        public static final int initialActivityCount=0x7f01001f;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int maskedWalletDetailsBackground=0x7f01012e;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+        public static final int insetForeground=0x7f0100eb;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
          */
-        public static final int maskedWalletDetailsButtonBackground=0x7f010130;
+        public static final int isLightTheme=0x7f010002;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int maskedWalletDetailsButtonTextAppearance=0x7f01012f;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int maskedWalletDetailsHeaderTextAppearance=0x7f01012d;
-        /** <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>google_wallet_classic</code></td><td>1</td><td></td></tr>
-<tr><td><code>google_wallet_monochrome</code></td><td>2</td><td></td></tr>
-<tr><td><code>android_pay</code></td><td>3</td><td></td></tr>
-<tr><td><code>classic</code></td><td>1</td><td></td></tr>
-<tr><td><code>monochrome</code></td><td>2</td><td></td></tr>
-</table>
-         */
-        public static final int maskedWalletDetailsLogoImageType=0x7f010132;
+        public static final int itemBackground=0x7f0100e0;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1296,11 +1032,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int maskedWalletDetailsLogoTextColor=0x7f010131;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int maskedWalletDetailsTextAppearance=0x7f01012c;
+        public static final int itemIconTint=0x7f0100de;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1310,51 +1042,28 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int maxButtonHeight=0x7f010117;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+        public static final int itemPadding=0x7f010014;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int itemTextAppearance=0x7f0100e1;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int measureWithLargestChild=0x7f010062;
+        public static final int itemTextColor=0x7f0100df;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int mediaRouteButtonStyle=0x7f010004;
+        public static final int keylines=0x7f0100ba;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int mediaRouteCastDrawable=0x7f010005;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int mediaRouteConnectingDrawable=0x7f010006;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int mediaRouteOffDrawable=0x7f010007;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int mediaRouteOnDrawable=0x7f010008;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int mediaRoutePauseDrawable=0x7f010009;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int mediaRoutePlayDrawable=0x7f01000a;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int mediaRouteSettingsDrawable=0x7f01000b;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int multiChoiceItemLayout=0x7f01002d;
+        public static final int layout=0x7f0100ed;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1362,11 +1071,255 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int navigationContentDescription=0x7f01011b;
+        public static final int layoutManager=0x7f0100e7;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int navigationIcon=0x7f01011a;
+        public static final int layout_anchor=0x7f0100bd;
+        /** <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>top</code></td><td>0x30</td><td></td></tr>
+<tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
+<tr><td><code>left</code></td><td>0x03</td><td></td></tr>
+<tr><td><code>right</code></td><td>0x05</td><td></td></tr>
+<tr><td><code>center_vertical</code></td><td>0x10</td><td></td></tr>
+<tr><td><code>fill_vertical</code></td><td>0x70</td><td></td></tr>
+<tr><td><code>center_horizontal</code></td><td>0x01</td><td></td></tr>
+<tr><td><code>fill_horizontal</code></td><td>0x07</td><td></td></tr>
+<tr><td><code>center</code></td><td>0x11</td><td></td></tr>
+<tr><td><code>fill</code></td><td>0x77</td><td></td></tr>
+<tr><td><code>clip_vertical</code></td><td>0x80</td><td></td></tr>
+<tr><td><code>clip_horizontal</code></td><td>0x08</td><td></td></tr>
+<tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
+<tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
+</table>
+         */
+        public static final int layout_anchorGravity=0x7f0100bf;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int layout_behavior=0x7f0100bc;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>pin</code></td><td>1</td><td></td></tr>
+<tr><td><code>parallax</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int layout_collapseMode=0x7f0100b5;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int layout_collapseParallaxMultiplier=0x7f0100b6;
+        /** <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0x0</td><td></td></tr>
+<tr><td><code>top</code></td><td>0x30</td><td></td></tr>
+<tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
+<tr><td><code>left</code></td><td>0x03</td><td></td></tr>
+<tr><td><code>right</code></td><td>0x03</td><td></td></tr>
+<tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
+<tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
+<tr><td><code>all</code></td><td>0x77</td><td></td></tr>
+</table>
+         */
+        public static final int layout_dodgeInsetEdges=0x7f0100c1;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0x0</td><td></td></tr>
+<tr><td><code>top</code></td><td>0x30</td><td></td></tr>
+<tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
+<tr><td><code>left</code></td><td>0x03</td><td></td></tr>
+<tr><td><code>right</code></td><td>0x03</td><td></td></tr>
+<tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
+<tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
+</table>
+         */
+        public static final int layout_insetEdge=0x7f0100c0;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int layout_keyline=0x7f0100be;
+        /** <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>scroll</code></td><td>0x1</td><td></td></tr>
+<tr><td><code>exitUntilCollapsed</code></td><td>0x2</td><td></td></tr>
+<tr><td><code>enterAlways</code></td><td>0x4</td><td></td></tr>
+<tr><td><code>enterAlwaysCollapsed</code></td><td>0x8</td><td></td></tr>
+<tr><td><code>snap</code></td><td>0x10</td><td></td></tr>
+</table>
+         */
+        public static final int layout_scrollFlags=0x7f01002a;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int layout_scrollInterpolator=0x7f01002b;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int listChoiceBackgroundIndicator=0x7f010081;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int listDividerAlertDialog=0x7f01005c;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int listItemLayout=0x7f010025;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int listLayout=0x7f010022;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int listMenuViewStyle=0x7f0100a1;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int listPopupWindowStyle=0x7f01007b;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int listPreferredItemHeight=0x7f010075;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int listPreferredItemHeightLarge=0x7f010077;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int listPreferredItemHeightSmall=0x7f010076;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int listPreferredItemPaddingLeft=0x7f010078;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int listPreferredItemPaddingRight=0x7f010079;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int logo=0x7f01000a;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int logoDescription=0x7f010132;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int maxActionInlineWidth=0x7f0100fa;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int maxButtonHeight=0x7f01012c;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int measureWithLargestChild=0x7f0100d4;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int menu=0x7f0100dd;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int multiChoiceItemLayout=0x7f010023;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int navigationContentDescription=0x7f010131;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int navigationIcon=0x7f010130;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1378,7 +1331,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
          */
-        public static final int navigationMode=0x7f01000d;
+        public static final int navigationMode=0x7f010004;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1386,15 +1339,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int noIndex=0x7f010096;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int overlapAnchor=0x7f010085;
+        public static final int overlapAnchor=0x7f0100e3;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1404,7 +1349,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int paddingEnd=0x7f010120;
+        public static final int paddingBottomNoButtons=0x7f0100e5;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1414,15 +1359,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int paddingStart=0x7f01011f;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int panelBackground=0x7f0100f1;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int panelMenuListTheme=0x7f0100f3;
+        public static final int paddingEnd=0x7f010136;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1432,51 +1369,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int panelMenuListWidth=0x7f0100f2;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int paramName=0x7f010051;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int paramValue=0x7f010052;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int perAccountTemplate=0x7f010043;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int popupMenuStyle=0x7f0100e0;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int popupTheme=0x7f010024;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int popupWindowStyle=0x7f0100e1;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int preserveIconSpacing=0x7f010084;
+        public static final int paddingStart=0x7f010135;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1486,15 +1379,25 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int progressBarPadding=0x7f01001c;
+        public static final int paddingTopNoTitle=0x7f0100e6;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int progressBarStyle=0x7f01001a;
+        public static final int panelBackground=0x7f01007e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int queryBackground=0x7f010092;
+        public static final int panelMenuListTheme=0x7f010080;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int panelMenuListWidth=0x7f01007f;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1502,36 +1405,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int queryHint=0x7f010089;
+        public static final int passwordToggleContentDescription=0x7f010121;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int radioButtonStyle=0x7f01010c;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int ratingBarStyle=0x7f01010d;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int schemaOrgProperty=0x7f01009a;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int schemaOrgType=0x7f010040;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-         */
-        public static final int scopeUris=0x7f01009e;
+        public static final int passwordToggleDrawable=0x7f010120;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1539,48 +1417,78 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int searchEnabled=0x7f010053;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int searchHintIcon=0x7f01008e;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int searchIcon=0x7f01008d;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+        public static final int passwordToggleEnabled=0x7f01011f;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int searchLabel=0x7f010054;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int searchViewStyle=0x7f0100e7;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int sectionContent=0x7f01005b;
+        public static final int passwordToggleTint=0x7f010122;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
 <colgroup align="left" />
 <colgroup align="left" />
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>plain</code></td><td>0</td><td></td></tr>
-<tr><td><code>html</code></td><td>1</td><td></td></tr>
-<tr><td><code>rfc822</code></td><td>2</td><td></td></tr>
-<tr><td><code>url</code></td><td>3</td><td></td></tr>
+<tr><td><code>src_over</code></td><td>3</td><td></td></tr>
+<tr><td><code>src_in</code></td><td>5</td><td></td></tr>
+<tr><td><code>src_atop</code></td><td>9</td><td></td></tr>
+<tr><td><code>multiply</code></td><td>14</td><td></td></tr>
+<tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
          */
-        public static final int sectionFormat=0x7f010095;
+        public static final int passwordToggleTintMode=0x7f010123;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int popupMenuStyle=0x7f01006c;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int popupTheme=0x7f01001d;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int popupWindowStyle=0x7f01006d;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int preserveIconSpacing=0x7f0100db;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int pressedTranslationZ=0x7f0100cf;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int progressBarPadding=0x7f010013;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int progressBarStyle=0x7f010011;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int queryBackground=0x7f0100f8;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1588,26 +1496,40 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int sectionId=0x7f010094;
-        /** <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>text1</code></td><td>0</td><td></td></tr>
-<tr><td><code>text2</code></td><td>1</td><td></td></tr>
-<tr><td><code>icon_uri</code></td><td>2</td><td></td></tr>
-<tr><td><code>intent_action</code></td><td>3</td><td></td></tr>
-<tr><td><code>intent_data</code></td><td>4</td><td></td></tr>
-<tr><td><code>intent_data_id</code></td><td>5</td><td></td></tr>
-<tr><td><code>intent_extra_data</code></td><td>6</td><td></td></tr>
-<tr><td><code>large_icon_uri</code></td><td>7</td><td></td></tr>
-<tr><td><code>intent_activity</code></td><td>8</td><td></td></tr>
-<tr><td><code>thing_proto</code></td><td>9</td><td></td></tr>
-</table>
+        public static final int queryHint=0x7f0100ef;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int sectionType=0x7f01005a;
+        public static final int radioButtonStyle=0x7f01009a;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int ratingBarStyle=0x7f01009b;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int ratingBarStyleIndicator=0x7f01009c;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int ratingBarStyleSmall=0x7f01009d;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int reverseLayout=0x7f0100e9;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int rippleColor=0x7f0100cd;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1615,31 +1537,41 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int sectionWeight=0x7f010097;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int selectableItemBackground=0x7f0100d8;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int selectableItemBackgroundBorderless=0x7f0100d9;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+        public static final int scrimAnimationDuration=0x7f0100b1;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int semanticallySearchable=0x7f010041;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
+        public static final int scrimVisibleHeightTrigger=0x7f0100b0;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int settingsDescription=0x7f010055;
+        public static final int searchHintIcon=0x7f0100f4;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int searchIcon=0x7f0100f3;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int searchViewStyle=0x7f010074;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int seekBarStyle=0x7f01009e;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int selectableItemBackground=0x7f010064;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int selectableItemBackgroundBorderless=0x7f010065;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1653,7 +1585,7 @@ containing a value of this type.
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
          */
-        public static final int showAsAction=0x7f010080;
+        public static final int showAsAction=0x7f0100d7;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1666,7 +1598,7 @@ containing a value of this type.
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
          */
-        public static final int showDividers=0x7f010063;
+        public static final int showDividers=0x7f0100d5;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1674,23 +1606,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int showText=0x7f0100a5;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int singleChoiceItemLayout=0x7f01002e;
-        /** <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>email</code></td><td>0</td><td></td></tr>
-<tr><td><code>contact</code></td><td>1</td><td></td></tr>
-<tr><td><code>instant_message</code></td><td>2</td><td></td></tr>
-</table>
-         */
-        public static final int sourceClass=0x7f01005d;
+        public static final int showText=0x7f010105;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1698,15 +1614,19 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int spinBars=0x7f01004a;
+        public static final int showTitle=0x7f010026;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int spinnerDropDownItemStyle=0x7f0100d3;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static final int singleChoiceItemLayout=0x7f010024;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
          */
-        public static final int spinnerStyle=0x7f01010e;
+        public static final int spanCount=0x7f0100e8;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1714,7 +1634,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int splitTrack=0x7f0100a4;
+        public static final int spinBars=0x7f0100c6;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int spinnerDropDownItemStyle=0x7f01005f;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int spinnerStyle=0x7f01009f;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1722,31 +1650,47 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int state_above_anchor=0x7f010086;
+        public static final int splitTrack=0x7f010104;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int submitBackground=0x7f010093;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+        public static final int srcCompat=0x7f01002c;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int subsectionSeparator=0x7f010099;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+        public static final int stackFromEnd=0x7f0100ea;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int subtitle=0x7f01000f;
+        public static final int state_above_anchor=0x7f0100e4;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int state_collapsed=0x7f010028;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int state_collapsible=0x7f010029;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int subtitleTextAppearance=0x7f010111;
+        public static final int statusBarBackground=0x7f0100bb;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1755,15 +1699,44 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int subtitleTextColor=0x7f01011e;
+        public static final int statusBarScrim=0x7f0100ae;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int subtitleTextStyle=0x7f010011;
+        public static final int subMenuArrow=0x7f0100dc;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int suggestionRowLayout=0x7f010091;
+        public static final int submitBackground=0x7f0100f9;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int subtitle=0x7f010006;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int subtitleTextAppearance=0x7f010125;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int subtitleTextColor=0x7f010134;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int subtitleTextStyle=0x7f010008;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int suggestionRowLayout=0x7f0100f7;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1773,7 +1746,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int switchMinWidth=0x7f0100a2;
+        public static final int switchMinWidth=0x7f010102;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1783,15 +1756,162 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int switchPadding=0x7f0100a3;
+        public static final int switchPadding=0x7f010103;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int switchStyle=0x7f01010f;
+        public static final int switchStyle=0x7f0100a0;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int switchTextAppearance=0x7f0100a1;
+        public static final int switchTextAppearance=0x7f010101;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int tabBackground=0x7f010109;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int tabContentStart=0x7f010108;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>fill</code></td><td>0</td><td></td></tr>
+<tr><td><code>center</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static final int tabGravity=0x7f01010b;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int tabIndicatorColor=0x7f010106;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int tabIndicatorHeight=0x7f010107;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int tabMaxWidth=0x7f01010d;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int tabMinWidth=0x7f01010c;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>scrollable</code></td><td>0</td><td></td></tr>
+<tr><td><code>fixed</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static final int tabMode=0x7f01010a;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int tabPadding=0x7f010115;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int tabPaddingBottom=0x7f010114;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int tabPaddingEnd=0x7f010113;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int tabPaddingStart=0x7f010111;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int tabPaddingTop=0x7f010112;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int tabSelectedTextColor=0x7f010110;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int tabTextAppearance=0x7f01010e;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int tabTextColor=0x7f01010f;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
@@ -1800,125 +1920,37 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceLargePopupMenu=0x7f0100cc;
+        public static final int textAppearanceLargePopupMenu=0x7f010057;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceListItem=0x7f0100ef;
+        public static final int textAppearanceListItem=0x7f01007c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceListItemSmall=0x7f0100f0;
+        public static final int textAppearanceListItemSmall=0x7f01007d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceSearchResultSubtitle=0x7f0100e5;
+        public static final int textAppearancePopupMenuHeader=0x7f010059;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceSearchResultTitle=0x7f0100e4;
+        public static final int textAppearanceSearchResultSubtitle=0x7f010072;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceSmallPopupMenu=0x7f0100cd;
+        public static final int textAppearanceSearchResultTitle=0x7f010071;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int textAppearanceSmallPopupMenu=0x7f010058;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int textColorAlertDialogListItem=0x7f010102;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-         */
-        public static final int textColorSearchUrl=0x7f0100e6;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int theme=0x7f010121;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int thickness=0x7f010050;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int thumbTextPadding=0x7f0100a0;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int title=0x7f01000c;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int titleMarginBottom=0x7f010116;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int titleMarginEnd=0x7f010114;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int titleMarginStart=0x7f010113;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int titleMarginTop=0x7f010115;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int titleMargins=0x7f010112;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int titleTextAppearance=0x7f010110;
+        public static final int textColorAlertDialogListItem=0x7f010090;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1927,263 +1959,97 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleTextColor=0x7f01011d;
+        public static final int textColorError=0x7f0100c4;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int textColorSearchUrl=0x7f010073;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int titleTextStyle=0x7f010010;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+        public static final int theme=0x7f010137;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int toAddressesSection=0x7f010061;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static final int thickness=0x7f0100cc;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
          */
-        public static final int toolbarNavigationButtonStyle=0x7f0100df;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+        public static final int thumbTextPadding=0x7f010100;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
          */
-        public static final int toolbarStyle=0x7f0100de;
+        public static final int thumbTint=0x7f0100fb;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
 <colgroup align="left" />
 <colgroup align="left" />
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>light</code></td><td>1</td><td></td></tr>
-<tr><td><code>dark</code></td><td>2</td><td></td></tr>
+<tr><td><code>src_over</code></td><td>3</td><td></td></tr>
+<tr><td><code>src_in</code></td><td>5</td><td></td></tr>
+<tr><td><code>src_atop</code></td><td>9</td><td></td></tr>
+<tr><td><code>multiply</code></td><td>14</td><td></td></tr>
+<tr><td><code>screen</code></td><td>15</td><td></td></tr>
+<tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
          */
-        public static final int toolbarTextColorStyle=0x7f010048;
+        public static final int thumbTintMode=0x7f0100fc;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int track=0x7f01009f;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+        public static final int tickMark=0x7f01002d;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int trimmable=0x7f01003f;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int uiCompass=0x7f01006f;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int uiMapToolbar=0x7f010077;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int uiRotateGestures=0x7f010070;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int uiScrollGestures=0x7f010071;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int uiTiltGestures=0x7f010072;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int uiZoomControls=0x7f010073;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int uiZoomGestures=0x7f010074;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int useViewLifecycle=0x7f010075;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int userInputSection=0x7f01005f;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int userInputTag=0x7f01005e;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int userInputValue=0x7f010060;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int voiceIcon=0x7f01008f;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int windowActionBar=0x7f0100a6;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int windowActionBarOverlay=0x7f0100a8;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int windowActionModeOverlay=0x7f0100a9;
-        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int windowFixedHeightMajor=0x7f0100ad;
-        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int windowFixedHeightMinor=0x7f0100ab;
-        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int windowFixedWidthMajor=0x7f0100aa;
-        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int windowFixedWidthMinor=0x7f0100ac;
-        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int windowMinWidthMajor=0x7f0100ae;
-        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int windowMinWidthMinor=0x7f0100af;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int windowNoTitle=0x7f0100a7;
+        public static final int tickMarkTint=0x7f01002e;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
 <colgroup align="left" />
 <colgroup align="left" />
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>slide</code></td><td>1</td><td></td></tr>
-<tr><td><code>none</code></td><td>2</td><td></td></tr>
+<tr><td><code>src_over</code></td><td>3</td><td></td></tr>
+<tr><td><code>src_in</code></td><td>5</td><td></td></tr>
+<tr><td><code>src_atop</code></td><td>9</td><td></td></tr>
+<tr><td><code>multiply</code></td><td>14</td><td></td></tr>
+<tr><td><code>screen</code></td><td>15</td><td></td></tr>
+<tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
          */
-        public static final int windowTransitionStyle=0x7f010047;
+        public static final int tickMarkTintMode=0x7f01002f;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int title=0x7f010003;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2191,247 +2057,497 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int zOrderOnTop=0x7f010076;
+        public static final int titleEnabled=0x7f0100b4;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int titleMargin=0x7f010126;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int titleMarginBottom=0x7f01012a;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int titleMarginEnd=0x7f010128;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int titleMarginStart=0x7f010127;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int titleMarginTop=0x7f010129;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int titleMargins=0x7f01012b;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int titleTextAppearance=0x7f010124;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int titleTextColor=0x7f010133;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int titleTextStyle=0x7f010007;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int toolbarId=0x7f0100af;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int toolbarNavigationButtonStyle=0x7f01006b;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int toolbarStyle=0x7f01006a;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int track=0x7f0100fd;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int trackTint=0x7f0100fe;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>src_over</code></td><td>3</td><td></td></tr>
+<tr><td><code>src_in</code></td><td>5</td><td></td></tr>
+<tr><td><code>src_atop</code></td><td>9</td><td></td></tr>
+<tr><td><code>multiply</code></td><td>14</td><td></td></tr>
+<tr><td><code>screen</code></td><td>15</td><td></td></tr>
+<tr><td><code>add</code></td><td>16</td><td></td></tr>
+</table>
+         */
+        public static final int trackTintMode=0x7f0100ff;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int useCompatPadding=0x7f0100d1;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int voiceIcon=0x7f0100f5;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowActionBar=0x7f010031;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowActionBarOverlay=0x7f010033;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowActionModeOverlay=0x7f010034;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowFixedHeightMajor=0x7f010038;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowFixedHeightMinor=0x7f010036;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowFixedWidthMajor=0x7f010035;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowFixedWidthMinor=0x7f010037;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowMinWidthMajor=0x7f010039;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowMinWidthMinor=0x7f01003a;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowNoTitle=0x7f010032;
     }
     public static final class bool {
-        public static final int abc_action_bar_embed_tabs=0x7f090002;
-        public static final int abc_action_bar_embed_tabs_pre_jb=0x7f090000;
-        public static final int abc_action_bar_expanded_action_views_exclusive=0x7f090003;
-        public static final int abc_config_actionMenuItemAllCaps=0x7f090004;
-        public static final int abc_config_allowActionMenuItemTextWithIcon=0x7f090001;
-        public static final int abc_config_closeDialogWhenTouchOutside=0x7f090005;
-        public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f090006;
+        public static final int abc_action_bar_embed_tabs=0x7f090000;
+        public static final int abc_allow_stacked_button_bar=0x7f090001;
+        public static final int abc_config_actionMenuItemAllCaps=0x7f090002;
+        public static final int abc_config_closeDialogWhenTouchOutside=0x7f090003;
+        public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f090004;
     }
     public static final class color {
-        public static final int abc_background_cache_hint_selector_material_dark=0x7f0c0065;
-        public static final int abc_background_cache_hint_selector_material_light=0x7f0c0066;
-        public static final int abc_color_highlight_material=0x7f0c0067;
-        public static final int abc_input_method_navigation_guard=0x7f0c0000;
-        public static final int abc_primary_text_disable_only_material_dark=0x7f0c0068;
-        public static final int abc_primary_text_disable_only_material_light=0x7f0c0069;
-        public static final int abc_primary_text_material_dark=0x7f0c006a;
-        public static final int abc_primary_text_material_light=0x7f0c006b;
-        public static final int abc_search_url_text=0x7f0c006c;
-        public static final int abc_search_url_text_normal=0x7f0c0001;
-        public static final int abc_search_url_text_pressed=0x7f0c0002;
-        public static final int abc_search_url_text_selected=0x7f0c0003;
-        public static final int abc_secondary_text_material_dark=0x7f0c006d;
-        public static final int abc_secondary_text_material_light=0x7f0c006e;
-        public static final int accent_material_dark=0x7f0c0004;
-        public static final int accent_material_light=0x7f0c0005;
-        public static final int background_floating_material_dark=0x7f0c0006;
-        public static final int background_floating_material_light=0x7f0c0007;
-        public static final int background_material_dark=0x7f0c0008;
-        public static final int background_material_light=0x7f0c0009;
-        public static final int bright_foreground_disabled_material_dark=0x7f0c000a;
-        public static final int bright_foreground_disabled_material_light=0x7f0c000b;
-        public static final int bright_foreground_inverse_material_dark=0x7f0c000c;
-        public static final int bright_foreground_inverse_material_light=0x7f0c000d;
-        public static final int bright_foreground_material_dark=0x7f0c000e;
-        public static final int bright_foreground_material_light=0x7f0c000f;
-        public static final int button_material_dark=0x7f0c0010;
-        public static final int button_material_light=0x7f0c0011;
-        public static final int cast_expanded_controller_background_color=0x7f0c0012;
-        public static final int cast_expanded_controller_progress_text_color=0x7f0c0013;
-        public static final int cast_expanded_controller_text_color=0x7f0c0014;
-        public static final int cast_intro_overlay_background_color=0x7f0c0015;
-        public static final int cast_intro_overlay_button_background_color=0x7f0c0016;
-        public static final int cast_libraries_material_featurehighlight_outer_highlight_default_color=0x7f0c0017;
-        public static final int cast_libraries_material_featurehighlight_text_body_color=0x7f0c0018;
-        public static final int cast_libraries_material_featurehighlight_text_header_color=0x7f0c0019;
-        public static final int common_google_signin_btn_text_dark=0x7f0c006f;
-        public static final int common_google_signin_btn_text_dark_default=0x7f0c001a;
-        public static final int common_google_signin_btn_text_dark_disabled=0x7f0c001b;
-        public static final int common_google_signin_btn_text_dark_focused=0x7f0c001c;
-        public static final int common_google_signin_btn_text_dark_pressed=0x7f0c001d;
-        public static final int common_google_signin_btn_text_light=0x7f0c0070;
-        public static final int common_google_signin_btn_text_light_default=0x7f0c001e;
-        public static final int common_google_signin_btn_text_light_disabled=0x7f0c001f;
-        public static final int common_google_signin_btn_text_light_focused=0x7f0c0020;
-        public static final int common_google_signin_btn_text_light_pressed=0x7f0c0021;
-        public static final int common_plus_signin_btn_text_dark=0x7f0c0071;
-        public static final int common_plus_signin_btn_text_dark_default=0x7f0c0022;
-        public static final int common_plus_signin_btn_text_dark_disabled=0x7f0c0023;
-        public static final int common_plus_signin_btn_text_dark_focused=0x7f0c0024;
-        public static final int common_plus_signin_btn_text_dark_pressed=0x7f0c0025;
-        public static final int common_plus_signin_btn_text_light=0x7f0c0072;
-        public static final int common_plus_signin_btn_text_light_default=0x7f0c0026;
-        public static final int common_plus_signin_btn_text_light_disabled=0x7f0c0027;
-        public static final int common_plus_signin_btn_text_light_focused=0x7f0c0028;
-        public static final int common_plus_signin_btn_text_light_pressed=0x7f0c0029;
-        public static final int dim_foreground_disabled_material_dark=0x7f0c002a;
-        public static final int dim_foreground_disabled_material_light=0x7f0c002b;
-        public static final int dim_foreground_material_dark=0x7f0c002c;
-        public static final int dim_foreground_material_light=0x7f0c002d;
-        public static final int foreground_material_dark=0x7f0c002e;
-        public static final int foreground_material_light=0x7f0c002f;
-        public static final int highlighted_text_material_dark=0x7f0c0030;
-        public static final int highlighted_text_material_light=0x7f0c0031;
-        public static final int hint_foreground_material_dark=0x7f0c0032;
-        public static final int hint_foreground_material_light=0x7f0c0033;
-        public static final int material_blue_grey_800=0x7f0c0034;
-        public static final int material_blue_grey_900=0x7f0c0035;
-        public static final int material_blue_grey_950=0x7f0c0036;
-        public static final int material_deep_teal_200=0x7f0c0037;
-        public static final int material_deep_teal_500=0x7f0c0038;
-        public static final int material_grey_100=0x7f0c0039;
-        public static final int material_grey_300=0x7f0c003a;
-        public static final int material_grey_50=0x7f0c003b;
-        public static final int material_grey_600=0x7f0c003c;
-        public static final int material_grey_800=0x7f0c003d;
-        public static final int material_grey_850=0x7f0c003e;
-        public static final int material_grey_900=0x7f0c003f;
-        public static final int place_autocomplete_prediction_primary_text=0x7f0c0040;
-        public static final int place_autocomplete_prediction_primary_text_highlight=0x7f0c0041;
-        public static final int place_autocomplete_prediction_secondary_text=0x7f0c0042;
-        public static final int place_autocomplete_search_hint=0x7f0c0043;
-        public static final int place_autocomplete_search_text=0x7f0c0044;
-        public static final int place_autocomplete_separator=0x7f0c0045;
-        public static final int primary_dark_material_dark=0x7f0c0046;
-        public static final int primary_dark_material_light=0x7f0c0047;
-        public static final int primary_material_dark=0x7f0c0048;
-        public static final int primary_material_light=0x7f0c0049;
-        public static final int primary_text_default_material_dark=0x7f0c004a;
-        public static final int primary_text_default_material_light=0x7f0c004b;
-        public static final int primary_text_disabled_material_dark=0x7f0c004c;
-        public static final int primary_text_disabled_material_light=0x7f0c004d;
-        public static final int ripple_material_dark=0x7f0c004e;
-        public static final int ripple_material_light=0x7f0c004f;
-        public static final int secondary_text_default_material_dark=0x7f0c0050;
-        public static final int secondary_text_default_material_light=0x7f0c0051;
-        public static final int secondary_text_disabled_material_dark=0x7f0c0052;
-        public static final int secondary_text_disabled_material_light=0x7f0c0053;
-        public static final int switch_thumb_disabled_material_dark=0x7f0c0054;
-        public static final int switch_thumb_disabled_material_light=0x7f0c0055;
-        public static final int switch_thumb_material_dark=0x7f0c0073;
-        public static final int switch_thumb_material_light=0x7f0c0074;
-        public static final int switch_thumb_normal_material_dark=0x7f0c0056;
-        public static final int switch_thumb_normal_material_light=0x7f0c0057;
-        public static final int wallet_bright_foreground_disabled_holo_light=0x7f0c0058;
-        public static final int wallet_bright_foreground_holo_dark=0x7f0c0059;
-        public static final int wallet_bright_foreground_holo_light=0x7f0c005a;
-        public static final int wallet_dim_foreground_disabled_holo_dark=0x7f0c005b;
-        public static final int wallet_dim_foreground_holo_dark=0x7f0c005c;
-        public static final int wallet_dim_foreground_inverse_disabled_holo_dark=0x7f0c005d;
-        public static final int wallet_dim_foreground_inverse_holo_dark=0x7f0c005e;
-        public static final int wallet_highlighted_text_holo_dark=0x7f0c005f;
-        public static final int wallet_highlighted_text_holo_light=0x7f0c0060;
-        public static final int wallet_hint_foreground_holo_dark=0x7f0c0061;
-        public static final int wallet_hint_foreground_holo_light=0x7f0c0062;
-        public static final int wallet_holo_blue_light=0x7f0c0063;
-        public static final int wallet_link_text_light=0x7f0c0064;
-        public static final int wallet_primary_text_holo_light=0x7f0c0075;
-        public static final int wallet_secondary_text_holo_dark=0x7f0c0076;
+        public static final int abc_background_cache_hint_selector_material_dark=0x7f0b0049;
+        public static final int abc_background_cache_hint_selector_material_light=0x7f0b004a;
+        public static final int abc_btn_colored_borderless_text_material=0x7f0b004b;
+        public static final int abc_btn_colored_text_material=0x7f0b004c;
+        public static final int abc_color_highlight_material=0x7f0b004d;
+        public static final int abc_hint_foreground_material_dark=0x7f0b004e;
+        public static final int abc_hint_foreground_material_light=0x7f0b004f;
+        public static final int abc_input_method_navigation_guard=0x7f0b0001;
+        public static final int abc_primary_text_disable_only_material_dark=0x7f0b0050;
+        public static final int abc_primary_text_disable_only_material_light=0x7f0b0051;
+        public static final int abc_primary_text_material_dark=0x7f0b0052;
+        public static final int abc_primary_text_material_light=0x7f0b0053;
+        public static final int abc_search_url_text=0x7f0b0054;
+        public static final int abc_search_url_text_normal=0x7f0b0002;
+        public static final int abc_search_url_text_pressed=0x7f0b0003;
+        public static final int abc_search_url_text_selected=0x7f0b0004;
+        public static final int abc_secondary_text_material_dark=0x7f0b0055;
+        public static final int abc_secondary_text_material_light=0x7f0b0056;
+        public static final int abc_tint_btn_checkable=0x7f0b0057;
+        public static final int abc_tint_default=0x7f0b0058;
+        public static final int abc_tint_edittext=0x7f0b0059;
+        public static final int abc_tint_seek_thumb=0x7f0b005a;
+        public static final int abc_tint_spinner=0x7f0b005b;
+        public static final int abc_tint_switch_thumb=0x7f0b005c;
+        public static final int abc_tint_switch_track=0x7f0b005d;
+        public static final int accent_material_dark=0x7f0b0005;
+        public static final int accent_material_light=0x7f0b0006;
+        public static final int background_floating_material_dark=0x7f0b0007;
+        public static final int background_floating_material_light=0x7f0b0008;
+        public static final int background_material_dark=0x7f0b0009;
+        public static final int background_material_light=0x7f0b000a;
+        public static final int bright_foreground_disabled_material_dark=0x7f0b000b;
+        public static final int bright_foreground_disabled_material_light=0x7f0b000c;
+        public static final int bright_foreground_inverse_material_dark=0x7f0b000d;
+        public static final int bright_foreground_inverse_material_light=0x7f0b000e;
+        public static final int bright_foreground_material_dark=0x7f0b000f;
+        public static final int bright_foreground_material_light=0x7f0b0010;
+        public static final int button_material_dark=0x7f0b0011;
+        public static final int button_material_light=0x7f0b0012;
+        public static final int colorAccent=0x7f0b0013;
+        public static final int colorPrimary=0x7f0b0014;
+        public static final int colorPrimaryDark=0x7f0b0015;
+        public static final int design_bottom_navigation_shadow_color=0x7f0b0016;
+        public static final int design_error=0x7f0b005e;
+        public static final int design_fab_shadow_end_color=0x7f0b0017;
+        public static final int design_fab_shadow_mid_color=0x7f0b0018;
+        public static final int design_fab_shadow_start_color=0x7f0b0019;
+        public static final int design_fab_stroke_end_inner_color=0x7f0b001a;
+        public static final int design_fab_stroke_end_outer_color=0x7f0b001b;
+        public static final int design_fab_stroke_top_inner_color=0x7f0b001c;
+        public static final int design_fab_stroke_top_outer_color=0x7f0b001d;
+        public static final int design_snackbar_background_color=0x7f0b001e;
+        public static final int design_textinput_error_color_dark=0x7f0b001f;
+        public static final int design_textinput_error_color_light=0x7f0b0020;
+        public static final int design_tint_password_toggle=0x7f0b005f;
+        public static final int dim_foreground_disabled_material_dark=0x7f0b0021;
+        public static final int dim_foreground_disabled_material_light=0x7f0b0022;
+        public static final int dim_foreground_material_dark=0x7f0b0023;
+        public static final int dim_foreground_material_light=0x7f0b0024;
+        public static final int foreground_material_dark=0x7f0b0025;
+        public static final int foreground_material_light=0x7f0b0026;
+        public static final int highlighted_text_material_dark=0x7f0b0027;
+        public static final int highlighted_text_material_light=0x7f0b0028;
+        public static final int material_blue_grey_800=0x7f0b0029;
+        public static final int material_blue_grey_900=0x7f0b002a;
+        public static final int material_blue_grey_950=0x7f0b002b;
+        public static final int material_deep_teal_200=0x7f0b002c;
+        public static final int material_deep_teal_500=0x7f0b002d;
+        public static final int material_grey_100=0x7f0b002e;
+        public static final int material_grey_300=0x7f0b002f;
+        public static final int material_grey_50=0x7f0b0030;
+        public static final int material_grey_600=0x7f0b0031;
+        public static final int material_grey_800=0x7f0b0032;
+        public static final int material_grey_850=0x7f0b0033;
+        public static final int material_grey_900=0x7f0b0034;
+        public static final int notification_action_color_filter=0x7f0b0000;
+        public static final int notification_icon_bg_color=0x7f0b0035;
+        public static final int notification_material_background_media_default_color=0x7f0b0036;
+        public static final int primary_dark_material_dark=0x7f0b0037;
+        public static final int primary_dark_material_light=0x7f0b0038;
+        public static final int primary_material_dark=0x7f0b0039;
+        public static final int primary_material_light=0x7f0b003a;
+        public static final int primary_text_default_material_dark=0x7f0b003b;
+        public static final int primary_text_default_material_light=0x7f0b003c;
+        public static final int primary_text_disabled_material_dark=0x7f0b003d;
+        public static final int primary_text_disabled_material_light=0x7f0b003e;
+        public static final int ripple_material_dark=0x7f0b003f;
+        public static final int ripple_material_light=0x7f0b0040;
+        public static final int secondary_text_default_material_dark=0x7f0b0041;
+        public static final int secondary_text_default_material_light=0x7f0b0042;
+        public static final int secondary_text_disabled_material_dark=0x7f0b0043;
+        public static final int secondary_text_disabled_material_light=0x7f0b0044;
+        public static final int switch_thumb_disabled_material_dark=0x7f0b0045;
+        public static final int switch_thumb_disabled_material_light=0x7f0b0046;
+        public static final int switch_thumb_material_dark=0x7f0b0060;
+        public static final int switch_thumb_material_light=0x7f0b0061;
+        public static final int switch_thumb_normal_material_dark=0x7f0b0047;
+        public static final int switch_thumb_normal_material_light=0x7f0b0048;
     }
     public static final class dimen {
-        public static final int abc_action_bar_content_inset_material=0x7f07000b;
+        public static final int abc_action_bar_content_inset_material=0x7f07000c;
+        public static final int abc_action_bar_content_inset_with_nav=0x7f07000d;
         public static final int abc_action_bar_default_height_material=0x7f070001;
-        public static final int abc_action_bar_default_padding_end_material=0x7f07000c;
-        public static final int abc_action_bar_default_padding_start_material=0x7f07000d;
-        public static final int abc_action_bar_icon_vertical_padding_material=0x7f070012;
-        public static final int abc_action_bar_overflow_padding_end_material=0x7f070013;
-        public static final int abc_action_bar_overflow_padding_start_material=0x7f070014;
+        public static final int abc_action_bar_default_padding_end_material=0x7f07000e;
+        public static final int abc_action_bar_default_padding_start_material=0x7f07000f;
+        public static final int abc_action_bar_elevation_material=0x7f07001e;
+        public static final int abc_action_bar_icon_vertical_padding_material=0x7f07001f;
+        public static final int abc_action_bar_overflow_padding_end_material=0x7f070020;
+        public static final int abc_action_bar_overflow_padding_start_material=0x7f070021;
         public static final int abc_action_bar_progress_bar_size=0x7f070002;
-        public static final int abc_action_bar_stacked_max_height=0x7f070015;
-        public static final int abc_action_bar_stacked_tab_max_width=0x7f070016;
-        public static final int abc_action_bar_subtitle_bottom_margin_material=0x7f070017;
-        public static final int abc_action_bar_subtitle_top_margin_material=0x7f070018;
-        public static final int abc_action_button_min_height_material=0x7f070019;
-        public static final int abc_action_button_min_width_material=0x7f07001a;
-        public static final int abc_action_button_min_width_overflow_material=0x7f07001b;
+        public static final int abc_action_bar_stacked_max_height=0x7f070022;
+        public static final int abc_action_bar_stacked_tab_max_width=0x7f070023;
+        public static final int abc_action_bar_subtitle_bottom_margin_material=0x7f070024;
+        public static final int abc_action_bar_subtitle_top_margin_material=0x7f070025;
+        public static final int abc_action_button_min_height_material=0x7f070026;
+        public static final int abc_action_button_min_width_material=0x7f070027;
+        public static final int abc_action_button_min_width_overflow_material=0x7f070028;
         public static final int abc_alert_dialog_button_bar_height=0x7f070000;
-        public static final int abc_button_inset_horizontal_material=0x7f07001c;
-        public static final int abc_button_inset_vertical_material=0x7f07001d;
-        public static final int abc_button_padding_horizontal_material=0x7f07001e;
-        public static final int abc_button_padding_vertical_material=0x7f07001f;
+        public static final int abc_button_inset_horizontal_material=0x7f070029;
+        public static final int abc_button_inset_vertical_material=0x7f07002a;
+        public static final int abc_button_padding_horizontal_material=0x7f07002b;
+        public static final int abc_button_padding_vertical_material=0x7f07002c;
+        public static final int abc_cascading_menus_min_smallest_width=0x7f07002d;
         public static final int abc_config_prefDialogWidth=0x7f070005;
-        public static final int abc_control_corner_material=0x7f070020;
-        public static final int abc_control_inset_material=0x7f070021;
-        public static final int abc_control_padding_material=0x7f070022;
-        public static final int abc_dialog_list_padding_vertical_material=0x7f070023;
-        public static final int abc_dialog_min_width_major=0x7f070024;
-        public static final int abc_dialog_min_width_minor=0x7f070025;
-        public static final int abc_dialog_padding_material=0x7f070026;
-        public static final int abc_dialog_padding_top_material=0x7f070027;
-        public static final int abc_disabled_alpha_material_dark=0x7f070028;
-        public static final int abc_disabled_alpha_material_light=0x7f070029;
-        public static final int abc_dropdownitem_icon_width=0x7f07002a;
-        public static final int abc_dropdownitem_text_padding_left=0x7f07002b;
-        public static final int abc_dropdownitem_text_padding_right=0x7f07002c;
-        public static final int abc_edit_text_inset_bottom_material=0x7f07002d;
-        public static final int abc_edit_text_inset_horizontal_material=0x7f07002e;
-        public static final int abc_edit_text_inset_top_material=0x7f07002f;
-        public static final int abc_floating_window_z=0x7f070030;
-        public static final int abc_list_item_padding_horizontal_material=0x7f070031;
-        public static final int abc_panel_menu_list_width=0x7f070032;
-        public static final int abc_search_view_preferred_width=0x7f070033;
-        public static final int abc_search_view_text_min_width=0x7f070006;
-        public static final int abc_switch_padding=0x7f070010;
-        public static final int abc_text_size_body_1_material=0x7f070034;
-        public static final int abc_text_size_body_2_material=0x7f070035;
-        public static final int abc_text_size_button_material=0x7f070036;
-        public static final int abc_text_size_caption_material=0x7f070037;
-        public static final int abc_text_size_display_1_material=0x7f070038;
-        public static final int abc_text_size_display_2_material=0x7f070039;
-        public static final int abc_text_size_display_3_material=0x7f07003a;
-        public static final int abc_text_size_display_4_material=0x7f07003b;
-        public static final int abc_text_size_headline_material=0x7f07003c;
-        public static final int abc_text_size_large_material=0x7f07003d;
-        public static final int abc_text_size_medium_material=0x7f07003e;
-        public static final int abc_text_size_menu_material=0x7f07003f;
-        public static final int abc_text_size_small_material=0x7f070040;
-        public static final int abc_text_size_subhead_material=0x7f070041;
+        public static final int abc_control_corner_material=0x7f07002e;
+        public static final int abc_control_inset_material=0x7f07002f;
+        public static final int abc_control_padding_material=0x7f070030;
+        public static final int abc_dialog_fixed_height_major=0x7f070006;
+        public static final int abc_dialog_fixed_height_minor=0x7f070007;
+        public static final int abc_dialog_fixed_width_major=0x7f070008;
+        public static final int abc_dialog_fixed_width_minor=0x7f070009;
+        public static final int abc_dialog_list_padding_bottom_no_buttons=0x7f070031;
+        public static final int abc_dialog_list_padding_top_no_title=0x7f070032;
+        public static final int abc_dialog_min_width_major=0x7f07000a;
+        public static final int abc_dialog_min_width_minor=0x7f07000b;
+        public static final int abc_dialog_padding_material=0x7f070033;
+        public static final int abc_dialog_padding_top_material=0x7f070034;
+        public static final int abc_dialog_title_divider_material=0x7f070035;
+        public static final int abc_disabled_alpha_material_dark=0x7f070036;
+        public static final int abc_disabled_alpha_material_light=0x7f070037;
+        public static final int abc_dropdownitem_icon_width=0x7f070038;
+        public static final int abc_dropdownitem_text_padding_left=0x7f070039;
+        public static final int abc_dropdownitem_text_padding_right=0x7f07003a;
+        public static final int abc_edit_text_inset_bottom_material=0x7f07003b;
+        public static final int abc_edit_text_inset_horizontal_material=0x7f07003c;
+        public static final int abc_edit_text_inset_top_material=0x7f07003d;
+        public static final int abc_floating_window_z=0x7f07003e;
+        public static final int abc_list_item_padding_horizontal_material=0x7f07003f;
+        public static final int abc_panel_menu_list_width=0x7f070040;
+        public static final int abc_progress_bar_height_material=0x7f070041;
+        public static final int abc_search_view_preferred_height=0x7f070042;
+        public static final int abc_search_view_preferred_width=0x7f070043;
+        public static final int abc_seekbar_track_background_height_material=0x7f070044;
+        public static final int abc_seekbar_track_progress_height_material=0x7f070045;
+        public static final int abc_select_dialog_padding_start_material=0x7f070046;
+        public static final int abc_switch_padding=0x7f07001a;
+        public static final int abc_text_size_body_1_material=0x7f070047;
+        public static final int abc_text_size_body_2_material=0x7f070048;
+        public static final int abc_text_size_button_material=0x7f070049;
+        public static final int abc_text_size_caption_material=0x7f07004a;
+        public static final int abc_text_size_display_1_material=0x7f07004b;
+        public static final int abc_text_size_display_2_material=0x7f07004c;
+        public static final int abc_text_size_display_3_material=0x7f07004d;
+        public static final int abc_text_size_display_4_material=0x7f07004e;
+        public static final int abc_text_size_headline_material=0x7f07004f;
+        public static final int abc_text_size_large_material=0x7f070050;
+        public static final int abc_text_size_medium_material=0x7f070051;
+        public static final int abc_text_size_menu_header_material=0x7f070052;
+        public static final int abc_text_size_menu_material=0x7f070053;
+        public static final int abc_text_size_small_material=0x7f070054;
+        public static final int abc_text_size_subhead_material=0x7f070055;
         public static final int abc_text_size_subtitle_material_toolbar=0x7f070003;
-        public static final int abc_text_size_title_material=0x7f070042;
+        public static final int abc_text_size_title_material=0x7f070056;
         public static final int abc_text_size_title_material_toolbar=0x7f070004;
-        public static final int activity_horizontal_margin=0x7f07000f;
-        public static final int activity_vertical_margin=0x7f070043;
-        public static final int cast_expanded_controller_control_button_margin=0x7f070011;
-        public static final int cast_intro_overlay_button_margin_bottom=0x7f070044;
-        public static final int cast_intro_overlay_focus_radius=0x7f070045;
-        public static final int cast_intro_overlay_title_margin_top=0x7f070046;
-        public static final int cast_libraries_material_featurehighlight_center_horizontal_offset=0x7f070047;
-        public static final int cast_libraries_material_featurehighlight_center_threshold=0x7f070048;
-        public static final int cast_libraries_material_featurehighlight_inner_margin=0x7f070049;
-        public static final int cast_libraries_material_featurehighlight_inner_radius=0x7f07004a;
-        public static final int cast_libraries_material_featurehighlight_outer_padding=0x7f07004b;
-        public static final int cast_libraries_material_featurehighlight_text_body_size=0x7f07004c;
-        public static final int cast_libraries_material_featurehighlight_text_header_size=0x7f07004d;
-        public static final int cast_libraries_material_featurehighlight_text_horizontal_margin=0x7f07004e;
-        public static final int cast_libraries_material_featurehighlight_text_horizontal_offset=0x7f07004f;
-        public static final int cast_libraries_material_featurehighlight_text_max_width=0x7f070050;
-        public static final int cast_libraries_material_featurehighlight_text_vertical_space=0x7f070051;
-        public static final int cast_mini_controller_control_button_margin=0x7f070052;
-        public static final int cast_mini_controller_font_size_line1=0x7f070053;
-        public static final int cast_mini_controller_font_size_line2=0x7f070054;
-        public static final int cast_mini_controller_icon_height=0x7f070055;
-        public static final int cast_mini_controller_icon_width=0x7f070056;
-        public static final int cast_notification_image_size=0x7f070057;
-        public static final int cast_tracks_chooser_dialog_no_message_text_size=0x7f070058;
-        public static final int cast_tracks_chooser_dialog_row_text_size=0x7f070059;
-        public static final int dialog_fixed_height_major=0x7f070007;
-        public static final int dialog_fixed_height_minor=0x7f070008;
-        public static final int dialog_fixed_width_major=0x7f070009;
-        public static final int dialog_fixed_width_minor=0x7f07000a;
-        public static final int disabled_alpha_material_dark=0x7f07005a;
-        public static final int disabled_alpha_material_light=0x7f07005b;
-        public static final int highlight_alpha_material_colored=0x7f07005c;
-        public static final int highlight_alpha_material_dark=0x7f07005d;
-        public static final int highlight_alpha_material_light=0x7f07005e;
-        public static final int mr_media_route_controller_art_max_height=0x7f07000e;
-        public static final int notification_large_icon_height=0x7f07005f;
-        public static final int notification_large_icon_width=0x7f070060;
-        public static final int notification_subtext_size=0x7f070061;
-        public static final int place_autocomplete_button_padding=0x7f070062;
-        public static final int place_autocomplete_powered_by_google_height=0x7f070063;
-        public static final int place_autocomplete_powered_by_google_start=0x7f070064;
-        public static final int place_autocomplete_prediction_height=0x7f070065;
-        public static final int place_autocomplete_prediction_horizontal_margin=0x7f070066;
-        public static final int place_autocomplete_prediction_primary_text=0x7f070067;
-        public static final int place_autocomplete_prediction_secondary_text=0x7f070068;
-        public static final int place_autocomplete_progress_horizontal_margin=0x7f070069;
-        public static final int place_autocomplete_progress_size=0x7f07006a;
-        public static final int place_autocomplete_separator_start=0x7f07006b;
+        public static final int activity_horizontal_margin=0x7f070018;
+        public static final int activity_vertical_margin=0x7f070057;
+        public static final int design_appbar_elevation=0x7f070058;
+        public static final int design_bottom_navigation_active_item_max_width=0x7f070059;
+        public static final int design_bottom_navigation_active_text_size=0x7f07005a;
+        public static final int design_bottom_navigation_elevation=0x7f07005b;
+        public static final int design_bottom_navigation_height=0x7f07005c;
+        public static final int design_bottom_navigation_item_max_width=0x7f07005d;
+        public static final int design_bottom_navigation_item_min_width=0x7f07005e;
+        public static final int design_bottom_navigation_margin=0x7f07005f;
+        public static final int design_bottom_navigation_shadow_height=0x7f070060;
+        public static final int design_bottom_navigation_text_size=0x7f070061;
+        public static final int design_bottom_sheet_modal_elevation=0x7f070062;
+        public static final int design_bottom_sheet_peek_height_min=0x7f070063;
+        public static final int design_fab_border_width=0x7f070064;
+        public static final int design_fab_elevation=0x7f070065;
+        public static final int design_fab_image_size=0x7f070066;
+        public static final int design_fab_size_mini=0x7f070067;
+        public static final int design_fab_size_normal=0x7f070068;
+        public static final int design_fab_translation_z_pressed=0x7f070069;
+        public static final int design_navigation_elevation=0x7f07006a;
+        public static final int design_navigation_icon_padding=0x7f07006b;
+        public static final int design_navigation_icon_size=0x7f07006c;
+        public static final int design_navigation_max_width=0x7f070010;
+        public static final int design_navigation_padding_bottom=0x7f07006d;
+        public static final int design_navigation_separator_vertical_padding=0x7f07006e;
+        public static final int design_snackbar_action_inline_max_width=0x7f070011;
+        public static final int design_snackbar_background_corner_radius=0x7f070012;
+        public static final int design_snackbar_elevation=0x7f07006f;
+        public static final int design_snackbar_extra_spacing_horizontal=0x7f070013;
+        public static final int design_snackbar_max_width=0x7f070014;
+        public static final int design_snackbar_min_width=0x7f070015;
+        public static final int design_snackbar_padding_horizontal=0x7f070070;
+        public static final int design_snackbar_padding_vertical=0x7f070071;
+        public static final int design_snackbar_padding_vertical_2lines=0x7f070016;
+        public static final int design_snackbar_text_size=0x7f070072;
+        public static final int design_tab_max_width=0x7f070073;
+        public static final int design_tab_scrollable_min_width=0x7f070017;
+        public static final int design_tab_text_size=0x7f070074;
+        public static final int design_tab_text_size_2line=0x7f070075;
+        public static final int disabled_alpha_material_dark=0x7f070076;
+        public static final int disabled_alpha_material_light=0x7f070077;
+        public static final int fab_margin=0x7f070078;
+        public static final int highlight_alpha_material_colored=0x7f070079;
+        public static final int highlight_alpha_material_dark=0x7f07007a;
+        public static final int highlight_alpha_material_light=0x7f07007b;
+        public static final int hint_alpha_material_dark=0x7f07007c;
+        public static final int hint_alpha_material_light=0x7f07007d;
+        public static final int hint_pressed_alpha_material_dark=0x7f07007e;
+        public static final int hint_pressed_alpha_material_light=0x7f07007f;
+        public static final int item_touch_helper_max_drag_scroll_per_frame=0x7f070080;
+        public static final int item_touch_helper_swipe_escape_max_velocity=0x7f070081;
+        public static final int item_touch_helper_swipe_escape_velocity=0x7f070082;
+        public static final int notification_action_icon_size=0x7f070083;
+        public static final int notification_action_text_size=0x7f070084;
+        public static final int notification_big_circle_margin=0x7f070085;
+        public static final int notification_content_margin_start=0x7f07001b;
+        public static final int notification_large_icon_height=0x7f070086;
+        public static final int notification_large_icon_width=0x7f070087;
+        public static final int notification_main_column_padding_top=0x7f07001c;
+        public static final int notification_media_narrow_margin=0x7f07001d;
+        public static final int notification_right_icon_size=0x7f070088;
+        public static final int notification_right_side_padding_top=0x7f070019;
+        public static final int notification_small_icon_background_padding=0x7f070089;
+        public static final int notification_small_icon_size_as_large=0x7f07008a;
+        public static final int notification_subtext_size=0x7f07008b;
+        public static final int notification_top_pad=0x7f07008c;
+        public static final int notification_top_pad_large_text=0x7f07008d;
     }
     public static final class drawable {
         public static final int abc_ab_share_pack_mtrl_alpha=0x7f020000;
@@ -2445,490 +2561,308 @@ containing a value of this type.
         public static final int abc_btn_radio_material=0x7f020008;
         public static final int abc_btn_radio_to_on_mtrl_000=0x7f020009;
         public static final int abc_btn_radio_to_on_mtrl_015=0x7f02000a;
-        public static final int abc_btn_rating_star_off_mtrl_alpha=0x7f02000b;
-        public static final int abc_btn_rating_star_on_mtrl_alpha=0x7f02000c;
-        public static final int abc_btn_switch_to_on_mtrl_00001=0x7f02000d;
-        public static final int abc_btn_switch_to_on_mtrl_00012=0x7f02000e;
-        public static final int abc_cab_background_internal_bg=0x7f02000f;
-        public static final int abc_cab_background_top_material=0x7f020010;
-        public static final int abc_cab_background_top_mtrl_alpha=0x7f020011;
-        public static final int abc_control_background_material=0x7f020012;
-        public static final int abc_dialog_material_background_dark=0x7f020013;
-        public static final int abc_dialog_material_background_light=0x7f020014;
-        public static final int abc_edit_text_material=0x7f020015;
-        public static final int abc_ic_ab_back_mtrl_am_alpha=0x7f020016;
-        public static final int abc_ic_clear_mtrl_alpha=0x7f020017;
-        public static final int abc_ic_commit_search_api_mtrl_alpha=0x7f020018;
-        public static final int abc_ic_go_search_api_mtrl_alpha=0x7f020019;
-        public static final int abc_ic_menu_copy_mtrl_am_alpha=0x7f02001a;
-        public static final int abc_ic_menu_cut_mtrl_alpha=0x7f02001b;
-        public static final int abc_ic_menu_moreoverflow_mtrl_alpha=0x7f02001c;
-        public static final int abc_ic_menu_paste_mtrl_am_alpha=0x7f02001d;
-        public static final int abc_ic_menu_selectall_mtrl_alpha=0x7f02001e;
-        public static final int abc_ic_menu_share_mtrl_alpha=0x7f02001f;
-        public static final int abc_ic_search_api_mtrl_alpha=0x7f020020;
-        public static final int abc_ic_voice_search_api_mtrl_alpha=0x7f020021;
-        public static final int abc_item_background_holo_dark=0x7f020022;
-        public static final int abc_item_background_holo_light=0x7f020023;
-        public static final int abc_list_divider_mtrl_alpha=0x7f020024;
-        public static final int abc_list_focused_holo=0x7f020025;
-        public static final int abc_list_longpressed_holo=0x7f020026;
-        public static final int abc_list_pressed_holo_dark=0x7f020027;
-        public static final int abc_list_pressed_holo_light=0x7f020028;
-        public static final int abc_list_selector_background_transition_holo_dark=0x7f020029;
-        public static final int abc_list_selector_background_transition_holo_light=0x7f02002a;
-        public static final int abc_list_selector_disabled_holo_dark=0x7f02002b;
-        public static final int abc_list_selector_disabled_holo_light=0x7f02002c;
-        public static final int abc_list_selector_holo_dark=0x7f02002d;
-        public static final int abc_list_selector_holo_light=0x7f02002e;
-        public static final int abc_menu_hardkey_panel_mtrl_mult=0x7f02002f;
-        public static final int abc_popup_background_mtrl_mult=0x7f020030;
-        public static final int abc_ratingbar_full_material=0x7f020031;
-        public static final int abc_spinner_mtrl_am_alpha=0x7f020032;
-        public static final int abc_spinner_textfield_background_material=0x7f020033;
-        public static final int abc_switch_thumb_material=0x7f020034;
-        public static final int abc_switch_track_mtrl_alpha=0x7f020035;
-        public static final int abc_tab_indicator_material=0x7f020036;
-        public static final int abc_tab_indicator_mtrl_alpha=0x7f020037;
-        public static final int abc_text_cursor_material=0x7f020038;
-        public static final int abc_textfield_activated_mtrl_alpha=0x7f020039;
-        public static final int abc_textfield_default_mtrl_alpha=0x7f02003a;
-        public static final int abc_textfield_search_activated_mtrl_alpha=0x7f02003b;
-        public static final int abc_textfield_search_default_mtrl_alpha=0x7f02003c;
-        public static final int abc_textfield_search_material=0x7f02003d;
-        public static final int calli=0x7f02003e;
-        public static final int cast_album_art_placeholder=0x7f02003f;
-        public static final int cast_album_art_placeholder_large=0x7f020040;
-        public static final int cast_expanded_controller_actionbar_bg_gradient_light=0x7f020041;
-        public static final int cast_expanded_controller_bg_gradient_light=0x7f020042;
-        public static final int cast_ic_expanded_controller_closed_caption=0x7f020043;
-        public static final int cast_ic_expanded_controller_forward30=0x7f020044;
-        public static final int cast_ic_expanded_controller_mute=0x7f020045;
-        public static final int cast_ic_expanded_controller_pause=0x7f020046;
-        public static final int cast_ic_expanded_controller_play=0x7f020047;
-        public static final int cast_ic_expanded_controller_rewind30=0x7f020048;
-        public static final int cast_ic_expanded_controller_skip_next=0x7f020049;
-        public static final int cast_ic_expanded_controller_skip_previous=0x7f02004a;
-        public static final int cast_ic_mini_controller_closed_caption=0x7f02004b;
-        public static final int cast_ic_mini_controller_forward30=0x7f02004c;
-        public static final int cast_ic_mini_controller_mute=0x7f02004d;
-        public static final int cast_ic_mini_controller_pause=0x7f02004e;
-        public static final int cast_ic_mini_controller_pause_large=0x7f02004f;
-        public static final int cast_ic_mini_controller_play=0x7f020050;
-        public static final int cast_ic_mini_controller_play_large=0x7f020051;
-        public static final int cast_ic_mini_controller_rewind30=0x7f020052;
-        public static final int cast_ic_mini_controller_skip_next=0x7f020053;
-        public static final int cast_ic_mini_controller_skip_prev=0x7f020054;
-        public static final int cast_ic_mini_controller_stop=0x7f020055;
-        public static final int cast_ic_mini_controller_stop_large=0x7f020056;
-        public static final int cast_ic_notification_0=0x7f020057;
-        public static final int cast_ic_notification_1=0x7f020058;
-        public static final int cast_ic_notification_2=0x7f020059;
-        public static final int cast_ic_notification_connecting=0x7f02005a;
-        public static final int cast_ic_notification_disconnect=0x7f02005b;
-        public static final int cast_ic_notification_forward=0x7f02005c;
-        public static final int cast_ic_notification_forward10=0x7f02005d;
-        public static final int cast_ic_notification_forward30=0x7f02005e;
-        public static final int cast_ic_notification_on=0x7f02005f;
-        public static final int cast_ic_notification_pause=0x7f020060;
-        public static final int cast_ic_notification_play=0x7f020061;
-        public static final int cast_ic_notification_rewind=0x7f020062;
-        public static final int cast_ic_notification_rewind10=0x7f020063;
-        public static final int cast_ic_notification_rewind30=0x7f020064;
-        public static final int cast_ic_notification_skip_next=0x7f020065;
-        public static final int cast_ic_notification_skip_prev=0x7f020066;
-        public static final int cast_ic_notification_small_icon=0x7f020067;
-        public static final int cast_ic_notification_stop_live_stream=0x7f020068;
-        public static final int cast_mini_controller_gradient_light=0x7f020069;
-        public static final int cast_mini_controller_img_placeholder=0x7f02006a;
-        public static final int cast_mini_controller_progress_drawable=0x7f02006b;
-        public static final int common_full_open_on_phone=0x7f02006c;
-        public static final int common_google_signin_btn_icon_dark=0x7f02006d;
-        public static final int common_google_signin_btn_icon_dark_disabled=0x7f02006e;
-        public static final int common_google_signin_btn_icon_dark_focused=0x7f02006f;
-        public static final int common_google_signin_btn_icon_dark_normal=0x7f020070;
-        public static final int common_google_signin_btn_icon_dark_pressed=0x7f020071;
-        public static final int common_google_signin_btn_icon_light=0x7f020072;
-        public static final int common_google_signin_btn_icon_light_disabled=0x7f020073;
-        public static final int common_google_signin_btn_icon_light_focused=0x7f020074;
-        public static final int common_google_signin_btn_icon_light_normal=0x7f020075;
-        public static final int common_google_signin_btn_icon_light_pressed=0x7f020076;
-        public static final int common_google_signin_btn_text_dark=0x7f020077;
-        public static final int common_google_signin_btn_text_dark_disabled=0x7f020078;
-        public static final int common_google_signin_btn_text_dark_focused=0x7f020079;
-        public static final int common_google_signin_btn_text_dark_normal=0x7f02007a;
-        public static final int common_google_signin_btn_text_dark_pressed=0x7f02007b;
-        public static final int common_google_signin_btn_text_light=0x7f02007c;
-        public static final int common_google_signin_btn_text_light_disabled=0x7f02007d;
-        public static final int common_google_signin_btn_text_light_focused=0x7f02007e;
-        public static final int common_google_signin_btn_text_light_normal=0x7f02007f;
-        public static final int common_google_signin_btn_text_light_pressed=0x7f020080;
-        public static final int common_ic_googleplayservices=0x7f020081;
-        public static final int common_plus_signin_btn_icon_dark=0x7f020082;
-        public static final int common_plus_signin_btn_icon_dark_disabled=0x7f020083;
-        public static final int common_plus_signin_btn_icon_dark_focused=0x7f020084;
-        public static final int common_plus_signin_btn_icon_dark_normal=0x7f020085;
-        public static final int common_plus_signin_btn_icon_dark_pressed=0x7f020086;
-        public static final int common_plus_signin_btn_icon_light=0x7f020087;
-        public static final int common_plus_signin_btn_icon_light_disabled=0x7f020088;
-        public static final int common_plus_signin_btn_icon_light_focused=0x7f020089;
-        public static final int common_plus_signin_btn_icon_light_normal=0x7f02008a;
-        public static final int common_plus_signin_btn_icon_light_pressed=0x7f02008b;
-        public static final int common_plus_signin_btn_text_dark=0x7f02008c;
-        public static final int common_plus_signin_btn_text_dark_disabled=0x7f02008d;
-        public static final int common_plus_signin_btn_text_dark_focused=0x7f02008e;
-        public static final int common_plus_signin_btn_text_dark_normal=0x7f02008f;
-        public static final int common_plus_signin_btn_text_dark_pressed=0x7f020090;
-        public static final int common_plus_signin_btn_text_light=0x7f020091;
-        public static final int common_plus_signin_btn_text_light_disabled=0x7f020092;
-        public static final int common_plus_signin_btn_text_light_focused=0x7f020093;
-        public static final int common_plus_signin_btn_text_light_normal=0x7f020094;
-        public static final int common_plus_signin_btn_text_light_pressed=0x7f020095;
-        public static final int front=0x7f020096;
-        public static final int ic_action_download=0x7f020097;
-        public static final int ic_action_good=0x7f020098;
-        public static final int ic_action_paste=0x7f020099;
-        public static final int ic_action_share=0x7f02009a;
-        public static final int ic_cast_dark=0x7f02009b;
-        public static final int ic_cast_disabled_light=0x7f02009c;
-        public static final int ic_cast_light=0x7f02009d;
-        public static final int ic_cast_off_light=0x7f02009e;
-        public static final int ic_cast_on_0_light=0x7f02009f;
-        public static final int ic_cast_on_1_light=0x7f0200a0;
-        public static final int ic_cast_on_2_light=0x7f0200a1;
-        public static final int ic_cast_on_light=0x7f0200a2;
-        public static final int ic_launcher=0x7f0200a3;
-        public static final int ic_media_pause=0x7f0200a4;
-        public static final int ic_media_play=0x7f0200a5;
-        public static final int ic_media_route_disabled_mono_dark=0x7f0200a6;
-        public static final int ic_media_route_off_mono_dark=0x7f0200a7;
-        public static final int ic_media_route_on_0_mono_dark=0x7f0200a8;
-        public static final int ic_media_route_on_1_mono_dark=0x7f0200a9;
-        public static final int ic_media_route_on_2_mono_dark=0x7f0200aa;
-        public static final int ic_media_route_on_mono_dark=0x7f0200ab;
-        public static final int ic_pause_dark=0x7f0200ac;
-        public static final int ic_pause_light=0x7f0200ad;
-        public static final int ic_play_dark=0x7f0200ae;
-        public static final int ic_play_light=0x7f0200af;
-        public static final int ic_plusone_medium_off_client=0x7f0200b0;
-        public static final int ic_plusone_small_off_client=0x7f0200b1;
-        public static final int ic_plusone_standard_off_client=0x7f0200b2;
-        public static final int ic_plusone_tall_off_client=0x7f0200b3;
-        public static final int ic_setting_dark=0x7f0200b4;
-        public static final int ic_setting_light=0x7f0200b5;
-        public static final int icon=0x7f0200b6;
-        public static final int icon2=0x7f0200b7;
-        public static final int mr_ic_cast_dark=0x7f0200b8;
-        public static final int mr_ic_cast_light=0x7f0200b9;
-        public static final int mr_ic_media_route_connecting_mono_dark=0x7f0200ba;
-        public static final int mr_ic_media_route_connecting_mono_light=0x7f0200bb;
-        public static final int mr_ic_media_route_mono_dark=0x7f0200bc;
-        public static final int mr_ic_media_route_mono_light=0x7f0200bd;
-        public static final int mr_ic_pause_dark=0x7f0200be;
-        public static final int mr_ic_pause_light=0x7f0200bf;
-        public static final int mr_ic_play_dark=0x7f0200c0;
-        public static final int mr_ic_play_light=0x7f0200c1;
-        public static final int mr_ic_settings_dark=0x7f0200c2;
-        public static final int mr_ic_settings_light=0x7f0200c3;
-        public static final int notification_template_icon_bg=0x7f0200f6;
-        public static final int pause=0x7f0200c4;
-        public static final int places_ic_clear=0x7f0200c5;
-        public static final int places_ic_search=0x7f0200c6;
-        public static final int play=0x7f0200c7;
-        public static final int play_pause=0x7f0200c8;
-        public static final int powered_by_google_dark=0x7f0200c9;
-        public static final int powered_by_google_light=0x7f0200ca;
-        public static final int quantum_ic_art_track_grey600_48=0x7f0200cb;
-        public static final int quantum_ic_cast_connected_white_24=0x7f0200cc;
-        public static final int quantum_ic_cast_white_36=0x7f0200cd;
-        public static final int quantum_ic_clear_white_24=0x7f0200ce;
-        public static final int quantum_ic_closed_caption_grey600_36=0x7f0200cf;
-        public static final int quantum_ic_closed_caption_white_36=0x7f0200d0;
-        public static final int quantum_ic_forward_10_white_24=0x7f0200d1;
-        public static final int quantum_ic_forward_30_grey600_36=0x7f0200d2;
-        public static final int quantum_ic_forward_30_white_24=0x7f0200d3;
-        public static final int quantum_ic_forward_30_white_36=0x7f0200d4;
-        public static final int quantum_ic_keyboard_arrow_down_white_36=0x7f0200d5;
-        public static final int quantum_ic_pause_circle_filled_grey600_36=0x7f0200d6;
-        public static final int quantum_ic_pause_circle_filled_white_36=0x7f0200d7;
-        public static final int quantum_ic_pause_grey600_36=0x7f0200d8;
-        public static final int quantum_ic_pause_grey600_48=0x7f0200d9;
-        public static final int quantum_ic_pause_white_24=0x7f0200da;
-        public static final int quantum_ic_play_arrow_grey600_36=0x7f0200db;
-        public static final int quantum_ic_play_arrow_grey600_48=0x7f0200dc;
-        public static final int quantum_ic_play_arrow_white_24=0x7f0200dd;
-        public static final int quantum_ic_play_circle_filled_grey600_36=0x7f0200de;
-        public static final int quantum_ic_play_circle_filled_white_36=0x7f0200df;
-        public static final int quantum_ic_refresh_white_24=0x7f0200e0;
-        public static final int quantum_ic_replay_10_white_24=0x7f0200e1;
-        public static final int quantum_ic_replay_30_grey600_36=0x7f0200e2;
-        public static final int quantum_ic_replay_30_white_24=0x7f0200e3;
-        public static final int quantum_ic_replay_30_white_36=0x7f0200e4;
-        public static final int quantum_ic_replay_white_24=0x7f0200e5;
-        public static final int quantum_ic_skip_next_grey600_36=0x7f0200e6;
-        public static final int quantum_ic_skip_next_white_24=0x7f0200e7;
-        public static final int quantum_ic_skip_next_white_36=0x7f0200e8;
-        public static final int quantum_ic_skip_previous_grey600_36=0x7f0200e9;
-        public static final int quantum_ic_skip_previous_white_24=0x7f0200ea;
-        public static final int quantum_ic_skip_previous_white_36=0x7f0200eb;
-        public static final int quantum_ic_stop_grey600_36=0x7f0200ec;
-        public static final int quantum_ic_stop_grey600_48=0x7f0200ed;
-        public static final int quantum_ic_stop_white_24=0x7f0200ee;
-        public static final int quantum_ic_volume_mute_grey600_36=0x7f0200ef;
-        public static final int quantum_ic_volume_mute_white_36=0x7f0200f0;
-        public static final int quantum_ic_volume_off_grey600_36=0x7f0200f1;
-        public static final int quantum_ic_volume_off_white_36=0x7f0200f2;
-        public static final int stop=0x7f0200f3;
-        public static final int stop2=0x7f0200f4;
-        public static final int tawfique=0x7f0200f5;
+        public static final int abc_btn_switch_to_on_mtrl_00001=0x7f02000b;
+        public static final int abc_btn_switch_to_on_mtrl_00012=0x7f02000c;
+        public static final int abc_cab_background_internal_bg=0x7f02000d;
+        public static final int abc_cab_background_top_material=0x7f02000e;
+        public static final int abc_cab_background_top_mtrl_alpha=0x7f02000f;
+        public static final int abc_control_background_material=0x7f020010;
+        public static final int abc_dialog_material_background=0x7f020011;
+        public static final int abc_edit_text_material=0x7f020012;
+        public static final int abc_ic_ab_back_material=0x7f020013;
+        public static final int abc_ic_arrow_drop_right_black_24dp=0x7f020014;
+        public static final int abc_ic_clear_material=0x7f020015;
+        public static final int abc_ic_commit_search_api_mtrl_alpha=0x7f020016;
+        public static final int abc_ic_go_search_api_material=0x7f020017;
+        public static final int abc_ic_menu_copy_mtrl_am_alpha=0x7f020018;
+        public static final int abc_ic_menu_cut_mtrl_alpha=0x7f020019;
+        public static final int abc_ic_menu_overflow_material=0x7f02001a;
+        public static final int abc_ic_menu_paste_mtrl_am_alpha=0x7f02001b;
+        public static final int abc_ic_menu_selectall_mtrl_alpha=0x7f02001c;
+        public static final int abc_ic_menu_share_mtrl_alpha=0x7f02001d;
+        public static final int abc_ic_search_api_material=0x7f02001e;
+        public static final int abc_ic_star_black_16dp=0x7f02001f;
+        public static final int abc_ic_star_black_36dp=0x7f020020;
+        public static final int abc_ic_star_black_48dp=0x7f020021;
+        public static final int abc_ic_star_half_black_16dp=0x7f020022;
+        public static final int abc_ic_star_half_black_36dp=0x7f020023;
+        public static final int abc_ic_star_half_black_48dp=0x7f020024;
+        public static final int abc_ic_voice_search_api_material=0x7f020025;
+        public static final int abc_item_background_holo_dark=0x7f020026;
+        public static final int abc_item_background_holo_light=0x7f020027;
+        public static final int abc_list_divider_mtrl_alpha=0x7f020028;
+        public static final int abc_list_focused_holo=0x7f020029;
+        public static final int abc_list_longpressed_holo=0x7f02002a;
+        public static final int abc_list_pressed_holo_dark=0x7f02002b;
+        public static final int abc_list_pressed_holo_light=0x7f02002c;
+        public static final int abc_list_selector_background_transition_holo_dark=0x7f02002d;
+        public static final int abc_list_selector_background_transition_holo_light=0x7f02002e;
+        public static final int abc_list_selector_disabled_holo_dark=0x7f02002f;
+        public static final int abc_list_selector_disabled_holo_light=0x7f020030;
+        public static final int abc_list_selector_holo_dark=0x7f020031;
+        public static final int abc_list_selector_holo_light=0x7f020032;
+        public static final int abc_menu_hardkey_panel_mtrl_mult=0x7f020033;
+        public static final int abc_popup_background_mtrl_mult=0x7f020034;
+        public static final int abc_ratingbar_indicator_material=0x7f020035;
+        public static final int abc_ratingbar_material=0x7f020036;
+        public static final int abc_ratingbar_small_material=0x7f020037;
+        public static final int abc_scrubber_control_off_mtrl_alpha=0x7f020038;
+        public static final int abc_scrubber_control_to_pressed_mtrl_000=0x7f020039;
+        public static final int abc_scrubber_control_to_pressed_mtrl_005=0x7f02003a;
+        public static final int abc_scrubber_primary_mtrl_alpha=0x7f02003b;
+        public static final int abc_scrubber_track_mtrl_alpha=0x7f02003c;
+        public static final int abc_seekbar_thumb_material=0x7f02003d;
+        public static final int abc_seekbar_tick_mark_material=0x7f02003e;
+        public static final int abc_seekbar_track_material=0x7f02003f;
+        public static final int abc_spinner_mtrl_am_alpha=0x7f020040;
+        public static final int abc_spinner_textfield_background_material=0x7f020041;
+        public static final int abc_switch_thumb_material=0x7f020042;
+        public static final int abc_switch_track_mtrl_alpha=0x7f020043;
+        public static final int abc_tab_indicator_material=0x7f020044;
+        public static final int abc_tab_indicator_mtrl_alpha=0x7f020045;
+        public static final int abc_text_cursor_material=0x7f020046;
+        public static final int abc_text_select_handle_left_mtrl_dark=0x7f020047;
+        public static final int abc_text_select_handle_left_mtrl_light=0x7f020048;
+        public static final int abc_text_select_handle_middle_mtrl_dark=0x7f020049;
+        public static final int abc_text_select_handle_middle_mtrl_light=0x7f02004a;
+        public static final int abc_text_select_handle_right_mtrl_dark=0x7f02004b;
+        public static final int abc_text_select_handle_right_mtrl_light=0x7f02004c;
+        public static final int abc_textfield_activated_mtrl_alpha=0x7f02004d;
+        public static final int abc_textfield_default_mtrl_alpha=0x7f02004e;
+        public static final int abc_textfield_search_activated_mtrl_alpha=0x7f02004f;
+        public static final int abc_textfield_search_default_mtrl_alpha=0x7f020050;
+        public static final int abc_textfield_search_material=0x7f020051;
+        public static final int abc_vector_test=0x7f020052;
+        public static final int avd_hide_password=0x7f020053;
+        public static final int avd_hide_password_1=0x7f020078;
+        public static final int avd_hide_password_2=0x7f020079;
+        public static final int avd_hide_password_3=0x7f02007a;
+        public static final int avd_show_password=0x7f020054;
+        public static final int avd_show_password_1=0x7f02007b;
+        public static final int avd_show_password_2=0x7f02007c;
+        public static final int avd_show_password_3=0x7f02007d;
+        public static final int calli=0x7f020055;
+        public static final int calli_=0x7f020056;
+        public static final int design_bottom_navigation_item_background=0x7f020057;
+        public static final int design_fab_background=0x7f020058;
+        public static final int design_ic_visibility=0x7f020059;
+        public static final int design_ic_visibility_off=0x7f02005a;
+        public static final int design_password_eye=0x7f02005b;
+        public static final int design_snackbar_background=0x7f02005c;
+        public static final int front=0x7f02005d;
+        public static final int ic_action_download=0x7f02005e;
+        public static final int ic_action_good=0x7f02005f;
+        public static final int ic_action_paste=0x7f020060;
+        public static final int ic_action_share=0x7f020061;
+        public static final int ic_launcher=0x7f020062;
+        public static final int icon=0x7f020063;
+        public static final int icon2=0x7f020064;
+        public static final int navigation_empty_icon=0x7f020065;
+        public static final int notification_action_background=0x7f020066;
+        public static final int notification_bg=0x7f020067;
+        public static final int notification_bg_low=0x7f020068;
+        public static final int notification_bg_low_normal=0x7f020069;
+        public static final int notification_bg_low_pressed=0x7f02006a;
+        public static final int notification_bg_normal=0x7f02006b;
+        public static final int notification_bg_normal_pressed=0x7f02006c;
+        public static final int notification_icon_background=0x7f02006d;
+        public static final int notification_template_icon_bg=0x7f020076;
+        public static final int notification_template_icon_low_bg=0x7f020077;
+        public static final int notification_tile_bg=0x7f02006e;
+        public static final int notify_panel_notification_icon_bg=0x7f02006f;
+        public static final int pause=0x7f020070;
+        public static final int play=0x7f020071;
+        public static final int play_pause=0x7f020072;
+        public static final int stop=0x7f020073;
+        public static final int stop2=0x7f020074;
+        public static final int tawfique=0x7f020075;
     }
     public static final class id {
-        public static final int LinearLayout1=0x7f0d00b7;
-        public static final int action0=0x7f0d00d1;
-        public static final int action_bar=0x7f0d0089;
-        public static final int action_bar_activity_content=0x7f0d0000;
-        public static final int action_bar_container=0x7f0d0088;
-        public static final int action_bar_root=0x7f0d0084;
-        public static final int action_bar_spinner=0x7f0d0001;
-        public static final int action_bar_subtitle=0x7f0d006d;
-        public static final int action_bar_title=0x7f0d006c;
-        public static final int action_context_bar=0x7f0d008a;
-        public static final int action_divider=0x7f0d00d5;
-        public static final int action_menu_divider=0x7f0d0002;
-        public static final int action_menu_presenter=0x7f0d0003;
-        public static final int action_mode_bar=0x7f0d0086;
-        public static final int action_mode_bar_stub=0x7f0d0085;
-        public static final int action_mode_close_button=0x7f0d006e;
-        public static final int activity_chooser_view_content=0x7f0d006f;
-        public static final int adjust_height=0x7f0d0039;
-        public static final int adjust_width=0x7f0d003a;
-        public static final int alertTitle=0x7f0d0079;
-        public static final int always=0x7f0d003e;
-        public static final int android_pay=0x7f0d006b;
-        public static final int android_pay_dark=0x7f0d0062;
-        public static final int android_pay_light=0x7f0d0063;
-        public static final int android_pay_light_with_border=0x7f0d0064;
-        public static final int art=0x7f0d00c9;
-        public static final int audio_empty_message=0x7f0d00b5;
-        public static final int audio_list_view=0x7f0d00b3;
-        public static final int auto=0x7f0d0050;
-        public static final int background_image_view=0x7f0d0099;
-        public static final int background_place_holder_image_view=0x7f0d009b;
-        public static final int beginning=0x7f0d0036;
-        public static final int book_now=0x7f0d005b;
-        public static final int buffer=0x7f0d00c2;
-        public static final int button=0x7f0d00a9;
-        public static final int button1=0x7f0d00bd;
-        public static final int button2=0x7f0d00be;
-        public static final int buttonPanel=0x7f0d007f;
-        public static final int button_0=0x7f0d00a1;
-        public static final int button_1=0x7f0d00a2;
-        public static final int button_2=0x7f0d00a4;
-        public static final int button_3=0x7f0d00a5;
-        public static final int button_play_pause_toggle=0x7f0d00a3;
-        public static final int buttons=0x7f0d00ce;
-        public static final int buyButton=0x7f0d0058;
-        public static final int buy_now=0x7f0d005c;
-        public static final int buy_with=0x7f0d005d;
-        public static final int buy_with_google=0x7f0d005e;
-        public static final int cancel_action=0x7f0d00d2;
-        public static final int cast_button_type_closed_caption=0x7f0d0004;
-        public static final int cast_button_type_custom=0x7f0d0005;
-        public static final int cast_button_type_empty=0x7f0d0006;
-        public static final int cast_button_type_forward_30_seconds=0x7f0d0007;
-        public static final int cast_button_type_mute_toggle=0x7f0d0008;
-        public static final int cast_button_type_play_pause_toggle=0x7f0d0009;
-        public static final int cast_button_type_rewind_30_seconds=0x7f0d000a;
-        public static final int cast_button_type_skip_next=0x7f0d000b;
-        public static final int cast_button_type_skip_previous=0x7f0d000c;
-        public static final int cast_featurehighlight_help_text_body_view=0x7f0d000d;
-        public static final int cast_featurehighlight_help_text_header_view=0x7f0d000e;
-        public static final int cast_featurehighlight_view=0x7f0d000f;
-        public static final int cast_notification_id=0x7f0d0010;
-        public static final int center=0x7f0d00ac;
-        public static final int checkbox=0x7f0d0081;
-        public static final int chronometer=0x7f0d00d8;
-        public static final int classic=0x7f0d0065;
-        public static final int collapseActionView=0x7f0d003f;
-        public static final int contact=0x7f0d0033;
-        public static final int container_all=0x7f0d00aa;
-        public static final int container_current=0x7f0d00ab;
-        public static final int contentPanel=0x7f0d007a;
-        public static final int controllers=0x7f0d009a;
-        public static final int crash_reporting_present=0x7f0d0011;
-        public static final int custom=0x7f0d007e;
-        public static final int customPanel=0x7f0d007d;
-        public static final int dark=0x7f0d0027;
-        public static final int decor_content_parent=0x7f0d0087;
-        public static final int default_activity_button=0x7f0d0072;
-        public static final int default_control_frame=0x7f0d00c8;
-        public static final int demote_common_words=0x7f0d0047;
-        public static final int demote_rfc822_hostnames=0x7f0d0048;
-        public static final int disableHome=0x7f0d001a;
-        public static final int disconnect=0x7f0d00cf;
-        public static final int donate_with=0x7f0d005f;
-        public static final int donate_with_google=0x7f0d0060;
-        public static final int download=0x7f0d00ec;
-        public static final int edit_query=0x7f0d008b;
-        public static final int email=0x7f0d0034;
-        public static final int end=0x7f0d0037;
-        public static final int end_padder=0x7f0d00db;
-        public static final int end_text=0x7f0d009f;
-        public static final int expand_activities_button=0x7f0d0070;
-        public static final int expanded_menu=0x7f0d0080;
-        public static final int google_wallet_classic=0x7f0d0066;
-        public static final int google_wallet_grayscale=0x7f0d0067;
-        public static final int google_wallet_monochrome=0x7f0d0068;
-        public static final int grayscale=0x7f0d0069;
-        public static final int holo_dark=0x7f0d0052;
-        public static final int holo_light=0x7f0d0053;
-        public static final int home=0x7f0d0012;
-        public static final int homeAdView=0x7f0d00bc;
-        public static final int homeAsUp=0x7f0d001b;
-        public static final int html=0x7f0d0043;
-        public static final int hybrid=0x7f0d003b;
-        public static final int icon=0x7f0d0074;
-        public static final int icon_only=0x7f0d004d;
-        public static final int icon_uri=0x7f0d0029;
-        public static final int icon_view=0x7f0d00ad;
-        public static final int ifRoom=0x7f0d0040;
-        public static final int image=0x7f0d0071;
-        public static final int index_entity_types=0x7f0d0049;
-        public static final int info=0x7f0d00da;
-        public static final int instant_message=0x7f0d0035;
-        public static final int intent_action=0x7f0d002a;
-        public static final int intent_activity=0x7f0d002b;
-        public static final int intent_data=0x7f0d002c;
-        public static final int intent_data_id=0x7f0d002d;
-        public static final int intent_extra_data=0x7f0d002e;
-        public static final int ivImage=0x7f0d00e4;
-        public static final int large_icon_uri=0x7f0d002f;
-        public static final int lecture=0x7f0d00eb;
-        public static final int light=0x7f0d0028;
-        public static final int line1=0x7f0d00d6;
-        public static final int line3=0x7f0d00d9;
-        public static final int linearLayout2=0x7f0d00b8;
-        public static final int list=0x7f0d00ba;
-        public static final int listMode=0x7f0d0017;
-        public static final int list_item=0x7f0d0073;
-        public static final int loading_indicator=0x7f0d00a6;
-        public static final int logo_only=0x7f0d0061;
-        public static final int main_container=0x7f0d0098;
-        public static final int match_global_nicknames=0x7f0d004a;
-        public static final int match_parent=0x7f0d005a;
-        public static final int media_actions=0x7f0d00d4;
-        public static final int media_route_control_frame=0x7f0d00c7;
-        public static final int media_route_list=0x7f0d00c3;
-        public static final int media_route_volume_layout=0x7f0d00cc;
-        public static final int media_route_volume_slider=0x7f0d00cd;
-        public static final int middle=0x7f0d0038;
-        public static final int monochrome=0x7f0d006a;
-        public static final int more=0x7f0d00ea;
-        public static final int multiply=0x7f0d0021;
-        public static final int never=0x7f0d0041;
-        public static final int none=0x7f0d001c;
-        public static final int normal=0x7f0d0018;
-        public static final int omnibox_title_section=0x7f0d004b;
-        public static final int omnibox_url_section=0x7f0d004c;
-        public static final int parentPanel=0x7f0d0076;
-        public static final int place_autocomplete_clear_button=0x7f0d00de;
-        public static final int place_autocomplete_powered_by_google=0x7f0d00e0;
-        public static final int place_autocomplete_prediction_primary_text=0x7f0d00e2;
-        public static final int place_autocomplete_prediction_secondary_text=0x7f0d00e3;
-        public static final int place_autocomplete_progress=0x7f0d00e1;
-        public static final int place_autocomplete_search_button=0x7f0d00dc;
-        public static final int place_autocomplete_search_input=0x7f0d00dd;
-        public static final int place_autocomplete_separator=0x7f0d00df;
-        public static final int plain=0x7f0d0044;
-        public static final int play_pause=0x7f0d00ca;
-        public static final int production=0x7f0d0054;
-        public static final int progressBar=0x7f0d00b0;
-        public static final int progress_circular=0x7f0d0013;
-        public static final int progress_horizontal=0x7f0d0014;
-        public static final int radio=0x7f0d0083;
-        public static final int rate=0x7f0d00e9;
-        public static final int rfc822=0x7f0d0045;
-        public static final int route_name=0x7f0d00c5;
-        public static final int sandbox=0x7f0d0055;
-        public static final int satellite=0x7f0d003c;
-        public static final int screen=0x7f0d0022;
-        public static final int scrollView=0x7f0d007b;
-        public static final int search_badge=0x7f0d008d;
-        public static final int search_bar=0x7f0d008c;
-        public static final int search_button=0x7f0d008e;
-        public static final int search_close_btn=0x7f0d0093;
-        public static final int search_edit_frame=0x7f0d008f;
-        public static final int search_go_btn=0x7f0d0095;
-        public static final int search_mag_icon=0x7f0d0090;
-        public static final int search_plate=0x7f0d0091;
-        public static final int search_src_text=0x7f0d0092;
-        public static final int search_voice_btn=0x7f0d0096;
-        public static final int seekBar1=0x7f0d00bf;
-        public static final int seek_bar=0x7f0d00a0;
-        public static final int seek_bar_controls=0x7f0d009d;
-        public static final int select_dialog_listview=0x7f0d0097;
-        public static final int selectionDetails=0x7f0d0059;
-        public static final int settings=0x7f0d00c6;
-        public static final int share=0x7f0d00e8;
-        public static final int shortcut=0x7f0d0082;
-        public static final int showCustom=0x7f0d001d;
-        public static final int showHome=0x7f0d001e;
-        public static final int showTitle=0x7f0d001f;
-        public static final int slide=0x7f0d0026;
-        public static final int split_action_bar=0x7f0d0015;
-        public static final int src_atop=0x7f0d0023;
-        public static final int src_in=0x7f0d0024;
-        public static final int src_over=0x7f0d0025;
-        public static final int standard=0x7f0d004e;
-        public static final int start_text=0x7f0d009e;
-        public static final int status_bar_latest_event_content=0x7f0d00d3;
-        public static final int status_text=0x7f0d009c;
-        public static final int stop=0x7f0d00d0;
-        public static final int strict_sandbox=0x7f0d0056;
-        public static final int submit_area=0x7f0d0094;
-        public static final int subtitle=0x7f0d00cb;
-        public static final int subtitle_view=0x7f0d00af;
-        public static final int tabMode=0x7f0d0019;
-        public static final int tab_host=0x7f0d00b1;
-        public static final int terrain=0x7f0d003d;
-        public static final int test=0x7f0d0057;
-        public static final int text=0x7f0d00b6;
-        public static final int text1=0x7f0d0030;
-        public static final int text2=0x7f0d0031;
-        public static final int textSpacerNoButtons=0x7f0d007c;
-        public static final int textTitle=0x7f0d00a8;
-        public static final int textView1=0x7f0d00c1;
-        public static final int textView2=0x7f0d00c0;
-        public static final int textView3=0x7f0d00b9;
-        public static final int text_empty_message=0x7f0d00b4;
-        public static final int text_list_view=0x7f0d00b2;
-        public static final int thing_proto=0x7f0d0032;
-        public static final int time=0x7f0d00d7;
-        public static final int title=0x7f0d0075;
-        public static final int title_bar=0x7f0d00c4;
-        public static final int title_template=0x7f0d0078;
-        public static final int title_view=0x7f0d00ae;
-        public static final int toolbar=0x7f0d00a7;
-        public static final int topPanel=0x7f0d0077;
-        public static final int tvContributor=0x7f0d00e6;
-        public static final int tvName=0x7f0d00e5;
-        public static final int tvTime=0x7f0d00e7;
-        public static final int up=0x7f0d0016;
-        public static final int url=0x7f0d0046;
-        public static final int useLogo=0x7f0d0020;
-        public static final int wellcome=0x7f0d00bb;
-        public static final int wide=0x7f0d004f;
-        public static final int withText=0x7f0d0042;
-        public static final int wrap_content=0x7f0d0051;
+        public static final int LinearLayout1=0x7f0c0081;
+        public static final int action0=0x7f0c008f;
+        public static final int action_bar=0x7f0c0064;
+        public static final int action_bar_activity_content=0x7f0c0000;
+        public static final int action_bar_container=0x7f0c0063;
+        public static final int action_bar_root=0x7f0c005f;
+        public static final int action_bar_spinner=0x7f0c0001;
+        public static final int action_bar_subtitle=0x7f0c0042;
+        public static final int action_bar_title=0x7f0c0041;
+        public static final int action_container=0x7f0c008c;
+        public static final int action_context_bar=0x7f0c0065;
+        public static final int action_divider=0x7f0c0093;
+        public static final int action_image=0x7f0c008d;
+        public static final int action_menu_divider=0x7f0c0002;
+        public static final int action_menu_presenter=0x7f0c0003;
+        public static final int action_mode_bar=0x7f0c0061;
+        public static final int action_mode_bar_stub=0x7f0c0060;
+        public static final int action_mode_close_button=0x7f0c0043;
+        public static final int action_text=0x7f0c008e;
+        public static final int actions=0x7f0c009c;
+        public static final int activity_chooser_view_content=0x7f0c0044;
+        public static final int add=0x7f0c001e;
+        public static final int alertTitle=0x7f0c0058;
+        public static final int all=0x7f0c0036;
+        public static final int always=0x7f0c003a;
+        public static final int auto=0x7f0c0025;
+        public static final int beginning=0x7f0c0038;
+        public static final int bottom=0x7f0c0026;
+        public static final int buffer=0x7f0c008b;
+        public static final int button1=0x7f0c0086;
+        public static final int button2=0x7f0c0087;
+        public static final int buttonPanel=0x7f0c004b;
+        public static final int cancel_action=0x7f0c0090;
+        public static final int center=0x7f0c0027;
+        public static final int center_horizontal=0x7f0c0028;
+        public static final int center_vertical=0x7f0c0029;
+        public static final int checkbox=0x7f0c005b;
+        public static final int chronometer=0x7f0c0098;
+        public static final int clip_horizontal=0x7f0c0032;
+        public static final int clip_vertical=0x7f0c0033;
+        public static final int collapseActionView=0x7f0c003b;
+        public static final int contentPanel=0x7f0c004e;
+        public static final int custom=0x7f0c0055;
+        public static final int customPanel=0x7f0c0054;
+        public static final int decor_content_parent=0x7f0c0062;
+        public static final int default_activity_button=0x7f0c0047;
+        public static final int design_bottom_sheet=0x7f0c0078;
+        public static final int design_menu_item_action_area=0x7f0c007f;
+        public static final int design_menu_item_action_area_stub=0x7f0c007e;
+        public static final int design_menu_item_text=0x7f0c007d;
+        public static final int design_navigation_view=0x7f0c007c;
+        public static final int disableHome=0x7f0c0012;
+        public static final int download=0x7f0c00ad;
+        public static final int edit_query=0x7f0c0066;
+        public static final int end=0x7f0c002a;
+        public static final int end_padder=0x7f0c00a2;
+        public static final int enterAlways=0x7f0c0019;
+        public static final int enterAlwaysCollapsed=0x7f0c001a;
+        public static final int exitUntilCollapsed=0x7f0c001b;
+        public static final int expand_activities_button=0x7f0c0045;
+        public static final int expanded_menu=0x7f0c005a;
+        public static final int fab=0x7f0c0074;
+        public static final int fill=0x7f0c0034;
+        public static final int fill_horizontal=0x7f0c0035;
+        public static final int fill_vertical=0x7f0c002b;
+        public static final int fixed=0x7f0c003f;
+        public static final int home=0x7f0c0004;
+        public static final int homeAsUp=0x7f0c0013;
+        public static final int icon=0x7f0c0049;
+        public static final int icon_group=0x7f0c009d;
+        public static final int ifRoom=0x7f0c003c;
+        public static final int image=0x7f0c0046;
+        public static final int info=0x7f0c0099;
+        public static final int item_touch_helper_previous_elevation=0x7f0c0005;
+        public static final int ivImage=0x7f0c00a3;
+        public static final int largeLabel=0x7f0c0076;
+        public static final int lecture=0x7f0c00ac;
+        public static final int left=0x7f0c002c;
+        public static final int line1=0x7f0c009e;
+        public static final int line3=0x7f0c00a0;
+        public static final int linearLayout2=0x7f0c0082;
+        public static final int list=0x7f0c0083;
+        public static final int listMode=0x7f0c000f;
+        public static final int list_item=0x7f0c0048;
+        public static final int masked=0x7f0c00a8;
+        public static final int media_actions=0x7f0c0092;
+        public static final int middle=0x7f0c0039;
+        public static final int mini=0x7f0c0037;
+        public static final int more=0x7f0c00ab;
+        public static final int multiply=0x7f0c001f;
+        public static final int navigation_header_container=0x7f0c007b;
+        public static final int never=0x7f0c003d;
+        public static final int none=0x7f0c0014;
+        public static final int normal=0x7f0c0010;
+        public static final int notification_background=0x7f0c009a;
+        public static final int notification_main_column=0x7f0c0095;
+        public static final int notification_main_column_container=0x7f0c0094;
+        public static final int parallax=0x7f0c0030;
+        public static final int parentPanel=0x7f0c004d;
+        public static final int pin=0x7f0c0031;
+        public static final int progress_circular=0x7f0c0006;
+        public static final int progress_horizontal=0x7f0c0007;
+        public static final int radio=0x7f0c005d;
+        public static final int rate=0x7f0c00aa;
+        public static final int right=0x7f0c002d;
+        public static final int right_icon=0x7f0c009b;
+        public static final int right_side=0x7f0c0096;
+        public static final int screen=0x7f0c0020;
+        public static final int scroll=0x7f0c001c;
+        public static final int scrollIndicatorDown=0x7f0c0053;
+        public static final int scrollIndicatorUp=0x7f0c004f;
+        public static final int scrollView=0x7f0c0050;
+        public static final int scrollable=0x7f0c0040;
+        public static final int search_badge=0x7f0c0068;
+        public static final int search_bar=0x7f0c0067;
+        public static final int search_button=0x7f0c0069;
+        public static final int search_close_btn=0x7f0c006e;
+        public static final int search_edit_frame=0x7f0c006a;
+        public static final int search_go_btn=0x7f0c0070;
+        public static final int search_mag_icon=0x7f0c006b;
+        public static final int search_plate=0x7f0c006c;
+        public static final int search_src_text=0x7f0c006d;
+        public static final int search_voice_btn=0x7f0c0071;
+        public static final int seekBar1=0x7f0c0088;
+        public static final int select_dialog_listview=0x7f0c0072;
+        public static final int share=0x7f0c00a9;
+        public static final int shortcut=0x7f0c005c;
+        public static final int showCustom=0x7f0c0015;
+        public static final int showHome=0x7f0c0016;
+        public static final int showTitle=0x7f0c0017;
+        public static final int smallLabel=0x7f0c0075;
+        public static final int snackbar_action=0x7f0c007a;
+        public static final int snackbar_text=0x7f0c0079;
+        public static final int snap=0x7f0c001d;
+        public static final int spacer=0x7f0c004c;
+        public static final int split_action_bar=0x7f0c0008;
+        public static final int src_atop=0x7f0c0021;
+        public static final int src_in=0x7f0c0022;
+        public static final int src_over=0x7f0c0023;
+        public static final int start=0x7f0c002e;
+        public static final int status_bar_latest_event_content=0x7f0c0091;
+        public static final int submenuarrow=0x7f0c005e;
+        public static final int submit_area=0x7f0c006f;
+        public static final int tabMode=0x7f0c0011;
+        public static final int text=0x7f0c00a1;
+        public static final int text2=0x7f0c009f;
+        public static final int textSpacerNoButtons=0x7f0c0052;
+        public static final int textSpacerNoTitle=0x7f0c0051;
+        public static final int textView1=0x7f0c008a;
+        public static final int textView2=0x7f0c0089;
+        public static final int textView3=0x7f0c0084;
+        public static final int text_input_password_toggle=0x7f0c0080;
+        public static final int textinput_counter=0x7f0c0009;
+        public static final int textinput_error=0x7f0c000a;
+        public static final int time=0x7f0c0097;
+        public static final int title=0x7f0c004a;
+        public static final int titleDividerNoCustom=0x7f0c0059;
+        public static final int title_template=0x7f0c0057;
+        public static final int toolbar=0x7f0c0073;
+        public static final int top=0x7f0c002f;
+        public static final int topPanel=0x7f0c0056;
+        public static final int touch_outside=0x7f0c0077;
+        public static final int transition_current_scene=0x7f0c000b;
+        public static final int transition_scene_layoutid_cache=0x7f0c000c;
+        public static final int tvContributor=0x7f0c00a5;
+        public static final int tvName=0x7f0c00a4;
+        public static final int tvTime=0x7f0c00a6;
+        public static final int up=0x7f0c000d;
+        public static final int useLogo=0x7f0c0018;
+        public static final int view_offset_helper=0x7f0c000e;
+        public static final int visible=0x7f0c00a7;
+        public static final int wellcome=0x7f0c0085;
+        public static final int withText=0x7f0c003e;
+        public static final int wrap_content=0x7f0c0024;
     }
     public static final class integer {
         public static final int abc_config_activityDefaultDur=0x7f0a0001;
         public static final int abc_config_activityShortDur=0x7f0a0002;
-        public static final int abc_max_action_buttons=0x7f0a0000;
-        public static final int cancel_button_image_alpha=0x7f0a0003;
-        public static final int cast_libraries_material_featurehighlight_pulse_base_alpha=0x7f0a0004;
-        public static final int google_play_services_version=0x7f0a0005;
-        public static final int status_bar_notification_info_maxnum=0x7f0a0006;
+        public static final int app_bar_elevation_anim_duration=0x7f0a0003;
+        public static final int bottom_sheet_slide_duration=0x7f0a0004;
+        public static final int cancel_button_image_alpha=0x7f0a0005;
+        public static final int design_snackbar_text_max_lines=0x7f0a0000;
+        public static final int hide_password_duration=0x7f0a0006;
+        public static final int show_password_duration=0x7f0a0007;
+        public static final int status_bar_notification_info_maxnum=0x7f0a0008;
     }
     public static final class layout {
         public static final int abc_action_bar_title_item=0x7f030000;
@@ -2940,56 +2874,65 @@ containing a value of this type.
         public static final int abc_action_mode_close_item_material=0x7f030006;
         public static final int abc_activity_chooser_view=0x7f030007;
         public static final int abc_activity_chooser_view_list_item=0x7f030008;
-        public static final int abc_alert_dialog_material=0x7f030009;
-        public static final int abc_dialog_title_material=0x7f03000a;
-        public static final int abc_expanded_menu_layout=0x7f03000b;
-        public static final int abc_list_menu_item_checkbox=0x7f03000c;
-        public static final int abc_list_menu_item_icon=0x7f03000d;
-        public static final int abc_list_menu_item_layout=0x7f03000e;
-        public static final int abc_list_menu_item_radio=0x7f03000f;
-        public static final int abc_popup_menu_item_layout=0x7f030010;
-        public static final int abc_screen_content_include=0x7f030011;
-        public static final int abc_screen_simple=0x7f030012;
-        public static final int abc_screen_simple_overlay_action_mode=0x7f030013;
-        public static final int abc_screen_toolbar=0x7f030014;
-        public static final int abc_search_dropdown_item_icons_2line=0x7f030015;
-        public static final int abc_search_view=0x7f030016;
-        public static final int abc_select_dialog_material=0x7f030017;
-        public static final int cast_expanded_controller_activity=0x7f030018;
-        public static final int cast_help_text=0x7f030019;
-        public static final int cast_intro_overlay=0x7f03001a;
-        public static final int cast_mini_controller=0x7f03001b;
-        public static final int cast_tracks_chooser_dialog_layout=0x7f03001c;
-        public static final int cast_tracks_chooser_dialog_row_layout=0x7f03001d;
-        public static final int lectures=0x7f03001e;
-        public static final int lectureslist=0x7f03001f;
-        public static final int mr_media_route_chooser_dialog=0x7f030020;
-        public static final int mr_media_route_controller_material_dialog_b=0x7f030021;
-        public static final int mr_media_route_list_item=0x7f030022;
-        public static final int notification_media_action=0x7f030023;
-        public static final int notification_media_cancel_action=0x7f030024;
-        public static final int notification_template_big_media=0x7f030025;
-        public static final int notification_template_big_media_narrow=0x7f030026;
-        public static final int notification_template_lines=0x7f030027;
-        public static final int notification_template_media=0x7f030028;
-        public static final int notification_template_part_chronometer=0x7f030029;
-        public static final int notification_template_part_time=0x7f03002a;
-        public static final int place_autocomplete_fragment=0x7f03002b;
-        public static final int place_autocomplete_item_powered_by_google=0x7f03002c;
-        public static final int place_autocomplete_item_prediction=0x7f03002d;
-        public static final int place_autocomplete_progress=0x7f03002e;
-        public static final int row=0x7f03002f;
-        public static final int select_dialog_item_material=0x7f030030;
-        public static final int select_dialog_multichoice_material=0x7f030031;
-        public static final int select_dialog_singlechoice_material=0x7f030032;
-        public static final int support_simple_spinner_dropdown_item=0x7f030033;
+        public static final int abc_alert_dialog_button_bar_material=0x7f030009;
+        public static final int abc_alert_dialog_material=0x7f03000a;
+        public static final int abc_alert_dialog_title_material=0x7f03000b;
+        public static final int abc_dialog_title_material=0x7f03000c;
+        public static final int abc_expanded_menu_layout=0x7f03000d;
+        public static final int abc_list_menu_item_checkbox=0x7f03000e;
+        public static final int abc_list_menu_item_icon=0x7f03000f;
+        public static final int abc_list_menu_item_layout=0x7f030010;
+        public static final int abc_list_menu_item_radio=0x7f030011;
+        public static final int abc_popup_menu_header_item_layout=0x7f030012;
+        public static final int abc_popup_menu_item_layout=0x7f030013;
+        public static final int abc_screen_content_include=0x7f030014;
+        public static final int abc_screen_simple=0x7f030015;
+        public static final int abc_screen_simple_overlay_action_mode=0x7f030016;
+        public static final int abc_screen_toolbar=0x7f030017;
+        public static final int abc_search_dropdown_item_icons_2line=0x7f030018;
+        public static final int abc_search_view=0x7f030019;
+        public static final int abc_select_dialog_material=0x7f03001a;
+        public static final int activity_main=0x7f03001b;
+        public static final int design_bottom_navigation_item=0x7f03001c;
+        public static final int design_bottom_sheet_dialog=0x7f03001d;
+        public static final int design_layout_snackbar=0x7f03001e;
+        public static final int design_layout_snackbar_include=0x7f03001f;
+        public static final int design_layout_tab_icon=0x7f030020;
+        public static final int design_layout_tab_text=0x7f030021;
+        public static final int design_menu_item_action_area=0x7f030022;
+        public static final int design_navigation_item=0x7f030023;
+        public static final int design_navigation_item_header=0x7f030024;
+        public static final int design_navigation_item_separator=0x7f030025;
+        public static final int design_navigation_item_subheader=0x7f030026;
+        public static final int design_navigation_menu=0x7f030027;
+        public static final int design_navigation_menu_item=0x7f030028;
+        public static final int design_text_input_password_icon=0x7f030029;
+        public static final int lectures=0x7f03002a;
+        public static final int lectureslist=0x7f03002b;
+        public static final int notification_action=0x7f03002c;
+        public static final int notification_action_tombstone=0x7f03002d;
+        public static final int notification_media_action=0x7f03002e;
+        public static final int notification_media_cancel_action=0x7f03002f;
+        public static final int notification_template_big_media=0x7f030030;
+        public static final int notification_template_big_media_custom=0x7f030031;
+        public static final int notification_template_big_media_narrow=0x7f030032;
+        public static final int notification_template_big_media_narrow_custom=0x7f030033;
+        public static final int notification_template_custom_big=0x7f030034;
+        public static final int notification_template_icon_group=0x7f030035;
+        public static final int notification_template_lines_media=0x7f030036;
+        public static final int notification_template_media=0x7f030037;
+        public static final int notification_template_media_custom=0x7f030038;
+        public static final int notification_template_part_chronometer=0x7f030039;
+        public static final int notification_template_part_time=0x7f03003a;
+        public static final int row=0x7f03003b;
+        public static final int select_dialog_item_material=0x7f03003c;
+        public static final int select_dialog_multichoice_material=0x7f03003d;
+        public static final int select_dialog_singlechoice_material=0x7f03003e;
+        public static final int support_simple_spinner_dropdown_item=0x7f03003f;
     }
     public static final class menu {
-        public static final int foreground=0x7f0e0000;
-        public static final int main=0x7f0e0001;
-    }
-    public static final class raw {
-        public static final int gtm_analytics=0x7f050000;
+        public static final int foreground=0x7f0d0000;
+        public static final int main=0x7f0d0001;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f060000;
@@ -3000,104 +2943,50 @@ containing a value of this type.
         public static final int abc_action_mode_done=0x7f060005;
         public static final int abc_activity_chooser_view_see_all=0x7f060006;
         public static final int abc_activitychooserview_choose_application=0x7f060007;
-        public static final int abc_search_hint=0x7f060008;
-        public static final int abc_searchview_description_clear=0x7f060009;
-        public static final int abc_searchview_description_query=0x7f06000a;
-        public static final int abc_searchview_description_search=0x7f06000b;
-        public static final int abc_searchview_description_submit=0x7f06000c;
-        public static final int abc_searchview_description_voice=0x7f06000d;
-        public static final int abc_shareactionprovider_share_with=0x7f06000e;
-        public static final int abc_shareactionprovider_share_with_application=0x7f06000f;
-        public static final int abc_toolbar_collapse_description=0x7f060010;
-        public static final int accept=0x7f060056;
-        public static final int action_settings=0x7f060057;
-        public static final int app_name=0x7f060058;
-        public static final int cast_casting_to_device=0x7f060011;
-        public static final int cast_closed_captions=0x7f060012;
-        public static final int cast_closed_captions_unavailable=0x7f060013;
-        public static final int cast_disconnect=0x7f060014;
-        public static final int cast_expanded_controller_background_image=0x7f060015;
-        public static final int cast_expanded_controller_loading=0x7f060016;
-        public static final int cast_forward=0x7f060017;
-        public static final int cast_forward_10=0x7f060018;
-        public static final int cast_forward_30=0x7f060019;
-        public static final int cast_intro_overlay_button_text=0x7f06001a;
-        public static final int cast_invalid_stream_duration_text=0x7f060059;
-        public static final int cast_invalid_stream_position_text=0x7f06005a;
-        public static final int cast_mute=0x7f06001b;
-        public static final int cast_notification_connected_message=0x7f06001c;
-        public static final int cast_notification_connecting_message=0x7f06001d;
-        public static final int cast_notification_disconnect=0x7f06001e;
-        public static final int cast_pause=0x7f06001f;
-        public static final int cast_play=0x7f060020;
-        public static final int cast_rewind=0x7f060021;
-        public static final int cast_rewind_10=0x7f060022;
-        public static final int cast_rewind_30=0x7f060023;
-        public static final int cast_seek_bar=0x7f060024;
-        public static final int cast_skip_next=0x7f060025;
-        public static final int cast_skip_prev=0x7f060026;
-        public static final int cast_stop=0x7f060027;
-        public static final int cast_stop_live_stream=0x7f060028;
-        public static final int cast_tracks_chooser_dialog_audio=0x7f060029;
-        public static final int cast_tracks_chooser_dialog_cancel=0x7f06002a;
-        public static final int cast_tracks_chooser_dialog_default_track_name=0x7f06002b;
-        public static final int cast_tracks_chooser_dialog_no_audio_tracks=0x7f06002c;
-        public static final int cast_tracks_chooser_dialog_no_text_tracks=0x7f06002d;
-        public static final int cast_tracks_chooser_dialog_no_tracks_available=0x7f06002e;
-        public static final int cast_tracks_chooser_dialog_none=0x7f06002f;
-        public static final int cast_tracks_chooser_dialog_ok=0x7f060030;
-        public static final int cast_tracks_chooser_dialog_subtitles=0x7f060031;
-        public static final int cast_unmute=0x7f060032;
-        public static final int common_google_play_services_enable_button=0x7f060033;
-        public static final int common_google_play_services_enable_text=0x7f060034;
-        public static final int common_google_play_services_enable_title=0x7f060035;
-        public static final int common_google_play_services_install_button=0x7f060036;
-        public static final int common_google_play_services_install_text_phone=0x7f060037;
-        public static final int common_google_play_services_install_text_tablet=0x7f060038;
-        public static final int common_google_play_services_install_title=0x7f060039;
-        public static final int common_google_play_services_notification_ticker=0x7f06003a;
-        public static final int common_google_play_services_unknown_issue=0x7f06003b;
-        public static final int common_google_play_services_unsupported_text=0x7f06003c;
-        public static final int common_google_play_services_unsupported_title=0x7f06003d;
-        public static final int common_google_play_services_update_button=0x7f06003e;
-        public static final int common_google_play_services_update_text=0x7f06003f;
-        public static final int common_google_play_services_update_title=0x7f060040;
-        public static final int common_google_play_services_updating_text=0x7f060041;
-        public static final int common_google_play_services_updating_title=0x7f060042;
-        public static final int common_google_play_services_wear_update_text=0x7f060043;
-        public static final int common_open_on_phone=0x7f060044;
-        public static final int common_signin_button_text=0x7f060045;
-        public static final int common_signin_button_text_long=0x7f060046;
-        public static final int create_calendar_message=0x7f06005b;
-        public static final int create_calendar_title=0x7f06005c;
-        public static final int decline=0x7f06005d;
-        public static final int hello_world=0x7f06005e;
-        public static final int mr_media_route_button_content_description=0x7f060047;
-        public static final int mr_media_route_chooser_searching=0x7f060048;
-        public static final int mr_media_route_chooser_title=0x7f060049;
-        public static final int mr_media_route_controller_disconnect=0x7f06004a;
-        public static final int mr_media_route_controller_no_info_available=0x7f06004b;
-        public static final int mr_media_route_controller_pause=0x7f06004c;
-        public static final int mr_media_route_controller_play=0x7f06004d;
-        public static final int mr_media_route_controller_settings_description=0x7f06004e;
-        public static final int mr_media_route_controller_stop=0x7f06004f;
-        public static final int mr_system_route_name=0x7f060050;
-        public static final int mr_user_route_category_name=0x7f060051;
-        public static final int place_autocomplete_clear_button=0x7f060052;
-        public static final int place_autocomplete_search_hint=0x7f060053;
-        public static final int status_bar_notification_info_overflow=0x7f060054;
-        public static final int store_picture_message=0x7f06005f;
-        public static final int store_picture_title=0x7f060060;
-        public static final int tagmanager_preview_dialog_button=0x7f060061;
-        public static final int tagmanager_preview_dialog_message=0x7f060062;
-        public static final int tagmanager_preview_dialog_title=0x7f060063;
-        public static final int wallet_buy_button_place_holder=0x7f060055;
+        public static final int abc_capital_off=0x7f060008;
+        public static final int abc_capital_on=0x7f060009;
+        public static final int abc_font_family_body_1_material=0x7f060015;
+        public static final int abc_font_family_body_2_material=0x7f060016;
+        public static final int abc_font_family_button_material=0x7f060017;
+        public static final int abc_font_family_caption_material=0x7f060018;
+        public static final int abc_font_family_display_1_material=0x7f060019;
+        public static final int abc_font_family_display_2_material=0x7f06001a;
+        public static final int abc_font_family_display_3_material=0x7f06001b;
+        public static final int abc_font_family_display_4_material=0x7f06001c;
+        public static final int abc_font_family_headline_material=0x7f06001d;
+        public static final int abc_font_family_menu_material=0x7f06001e;
+        public static final int abc_font_family_subhead_material=0x7f06001f;
+        public static final int abc_font_family_title_material=0x7f060020;
+        public static final int abc_search_hint=0x7f06000a;
+        public static final int abc_searchview_description_clear=0x7f06000b;
+        public static final int abc_searchview_description_query=0x7f06000c;
+        public static final int abc_searchview_description_search=0x7f06000d;
+        public static final int abc_searchview_description_submit=0x7f06000e;
+        public static final int abc_searchview_description_voice=0x7f06000f;
+        public static final int abc_shareactionprovider_share_with=0x7f060010;
+        public static final int abc_shareactionprovider_share_with_application=0x7f060011;
+        public static final int abc_toolbar_collapse_description=0x7f060012;
+        public static final int action_settings=0x7f060021;
+        public static final int app_name=0x7f060022;
+        public static final int appbar_scrolling_view_behavior=0x7f060023;
+        public static final int bottom_sheet_behavior=0x7f060024;
+        public static final int button_load=0x7f060025;
+        public static final int character_counter_pattern=0x7f060026;
+        public static final int hello_world=0x7f060027;
+        public static final int password_toggle_content_description=0x7f060028;
+        public static final int path_password_eye=0x7f060029;
+        public static final int path_password_eye_mask_strike_through=0x7f06002a;
+        public static final int path_password_eye_mask_visible=0x7f06002b;
+        public static final int path_password_strike_through=0x7f06002c;
+        public static final int search_menu_title=0x7f060013;
+        public static final int status_bar_notification_info_overflow=0x7f060014;
     }
     public static final class style {
-        public static final int AlertDialog_AppCompat=0x7f08007c;
-        public static final int AlertDialog_AppCompat_Light=0x7f08007d;
-        public static final int Animation_AppCompat_Dialog=0x7f08007e;
-        public static final int Animation_AppCompat_DropDownUp=0x7f08007f;
+        public static final int AlertDialog_AppCompat=0x7f0800a2;
+        public static final int AlertDialog_AppCompat_Light=0x7f0800a3;
+        public static final int Animation_AppCompat_Dialog=0x7f0800a4;
+        public static final int Animation_AppCompat_DropDownUp=0x7f0800a5;
+        public static final int Animation_Design_BottomSheetDialog=0x7f0800a6;
         /**  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
 
@@ -3106,327 +2995,387 @@ containing a value of this type.
             backward-compatibility can go here.
         
          */
-        public static final int AppBaseTheme=0x7f080003;
+        public static final int AppBaseTheme=0x7f08000c;
+        public static final int AppTheme=0x7f0800a7;
+        public static final int AppTheme_AppBarOverlay=0x7f0800a8;
+        public static final int AppTheme_NoActionBar=0x7f0800a9;
+        public static final int AppTheme_PopupOverlay=0x7f0800aa;
         /**  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f080080;
-        public static final int Base_AlertDialog_AppCompat=0x7f080081;
-        public static final int Base_AlertDialog_AppCompat_Light=0x7f080082;
-        public static final int Base_Animation_AppCompat_Dialog=0x7f080083;
-        public static final int Base_Animation_AppCompat_DropDownUp=0x7f080084;
-        public static final int Base_DialogWindowTitle_AppCompat=0x7f080085;
-        public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f080086;
-        public static final int Base_TextAppearance_AppCompat=0x7f08002f;
-        public static final int Base_TextAppearance_AppCompat_Body1=0x7f080030;
-        public static final int Base_TextAppearance_AppCompat_Body2=0x7f080031;
-        public static final int Base_TextAppearance_AppCompat_Button=0x7f08001a;
-        public static final int Base_TextAppearance_AppCompat_Caption=0x7f080032;
-        public static final int Base_TextAppearance_AppCompat_Display1=0x7f080033;
-        public static final int Base_TextAppearance_AppCompat_Display2=0x7f080034;
-        public static final int Base_TextAppearance_AppCompat_Display3=0x7f080035;
-        public static final int Base_TextAppearance_AppCompat_Display4=0x7f080036;
-        public static final int Base_TextAppearance_AppCompat_Headline=0x7f080037;
-        public static final int Base_TextAppearance_AppCompat_Inverse=0x7f080004;
-        public static final int Base_TextAppearance_AppCompat_Large=0x7f080038;
-        public static final int Base_TextAppearance_AppCompat_Large_Inverse=0x7f080005;
-        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f080039;
-        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f08003a;
-        public static final int Base_TextAppearance_AppCompat_Medium=0x7f08003b;
-        public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f080006;
-        public static final int Base_TextAppearance_AppCompat_Menu=0x7f08003c;
-        public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f080087;
-        public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f08003d;
-        public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f08003e;
-        public static final int Base_TextAppearance_AppCompat_Small=0x7f08003f;
-        public static final int Base_TextAppearance_AppCompat_Small_Inverse=0x7f080007;
-        public static final int Base_TextAppearance_AppCompat_Subhead=0x7f080040;
-        public static final int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f080008;
-        public static final int Base_TextAppearance_AppCompat_Title=0x7f080041;
-        public static final int Base_TextAppearance_AppCompat_Title_Inverse=0x7f080009;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f080042;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f080043;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f080044;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f080045;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f080046;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f080047;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f080048;
-        public static final int Base_TextAppearance_AppCompat_Widget_Button=0x7f080049;
-        public static final int Base_TextAppearance_AppCompat_Widget_Button_Inverse=0x7f080078;
-        public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f080088;
-        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f08004a;
-        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f08004b;
-        public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f08004c;
-        public static final int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f08004d;
-        public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f080089;
-        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f08004e;
-        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f08004f;
-        public static final int Base_Theme_AppCompat=0x7f080050;
-        public static final int Base_Theme_AppCompat_CompactMenu=0x7f08008a;
-        public static final int Base_Theme_AppCompat_Dialog=0x7f08000a;
-        public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f08008b;
-        public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f08008c;
-        public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f08008d;
-        public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f080001;
-        public static final int Base_Theme_AppCompat_Light=0x7f080051;
-        public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f08008e;
-        public static final int Base_Theme_AppCompat_Light_Dialog=0x7f08000b;
-        public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f08008f;
-        public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f080090;
-        public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f080091;
-        public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f080002;
-        public static final int Base_ThemeOverlay_AppCompat=0x7f080092;
-        public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f080093;
-        public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f080094;
-        public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f080095;
-        public static final int Base_ThemeOverlay_AppCompat_Light=0x7f080096;
-        public static final int Base_V11_Theme_AppCompat_Dialog=0x7f08000c;
-        public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f08000d;
-        public static final int Base_V12_Widget_AppCompat_AutoCompleteTextView=0x7f080016;
-        public static final int Base_V12_Widget_AppCompat_EditText=0x7f080017;
-        public static final int Base_V21_Theme_AppCompat=0x7f080052;
-        public static final int Base_V21_Theme_AppCompat_Dialog=0x7f080053;
-        public static final int Base_V21_Theme_AppCompat_Light=0x7f080054;
-        public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f080055;
-        public static final int Base_V22_Theme_AppCompat=0x7f080076;
-        public static final int Base_V22_Theme_AppCompat_Light=0x7f080077;
-        public static final int Base_V23_Theme_AppCompat=0x7f080079;
-        public static final int Base_V23_Theme_AppCompat_Light=0x7f08007a;
-        public static final int Base_V7_Theme_AppCompat=0x7f080097;
-        public static final int Base_V7_Theme_AppCompat_Dialog=0x7f080098;
-        public static final int Base_V7_Theme_AppCompat_Light=0x7f080099;
-        public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f08009a;
-        public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f08009b;
-        public static final int Base_V7_Widget_AppCompat_EditText=0x7f08009c;
-        public static final int Base_Widget_AppCompat_ActionBar=0x7f08009d;
-        public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f08009e;
-        public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f08009f;
-        public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f080056;
-        public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f080057;
-        public static final int Base_Widget_AppCompat_ActionButton=0x7f080058;
-        public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f080059;
-        public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f08005a;
-        public static final int Base_Widget_AppCompat_ActionMode=0x7f0800a0;
-        public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0800a1;
-        public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f080018;
-        public static final int Base_Widget_AppCompat_Button=0x7f08005b;
-        public static final int Base_Widget_AppCompat_Button_Borderless=0x7f08005c;
-        public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f08005d;
-        public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0800a2;
-        public static final int Base_Widget_AppCompat_Button_Colored=0x7f08007b;
-        public static final int Base_Widget_AppCompat_Button_Small=0x7f08005e;
-        public static final int Base_Widget_AppCompat_ButtonBar=0x7f08005f;
-        public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0800a3;
-        public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f080060;
-        public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f080061;
-        public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0800a4;
+        public static final int AppThemeBase=0x7f0800ab;
+        public static final int Base_AlertDialog_AppCompat=0x7f0800ac;
+        public static final int Base_AlertDialog_AppCompat_Light=0x7f0800ad;
+        public static final int Base_Animation_AppCompat_Dialog=0x7f0800ae;
+        public static final int Base_Animation_AppCompat_DropDownUp=0x7f0800af;
+        public static final int Base_DialogWindowTitle_AppCompat=0x7f0800b0;
+        public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0800b1;
+        public static final int Base_TextAppearance_AppCompat=0x7f080041;
+        public static final int Base_TextAppearance_AppCompat_Body1=0x7f080042;
+        public static final int Base_TextAppearance_AppCompat_Body2=0x7f080043;
+        public static final int Base_TextAppearance_AppCompat_Button=0x7f080029;
+        public static final int Base_TextAppearance_AppCompat_Caption=0x7f080044;
+        public static final int Base_TextAppearance_AppCompat_Display1=0x7f080045;
+        public static final int Base_TextAppearance_AppCompat_Display2=0x7f080046;
+        public static final int Base_TextAppearance_AppCompat_Display3=0x7f080047;
+        public static final int Base_TextAppearance_AppCompat_Display4=0x7f080048;
+        public static final int Base_TextAppearance_AppCompat_Headline=0x7f080049;
+        public static final int Base_TextAppearance_AppCompat_Inverse=0x7f08000d;
+        public static final int Base_TextAppearance_AppCompat_Large=0x7f08004a;
+        public static final int Base_TextAppearance_AppCompat_Large_Inverse=0x7f08000e;
+        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f08004b;
+        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f08004c;
+        public static final int Base_TextAppearance_AppCompat_Medium=0x7f08004d;
+        public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f08000f;
+        public static final int Base_TextAppearance_AppCompat_Menu=0x7f08004e;
+        public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f0800b2;
+        public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f08004f;
+        public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f080050;
+        public static final int Base_TextAppearance_AppCompat_Small=0x7f080051;
+        public static final int Base_TextAppearance_AppCompat_Small_Inverse=0x7f080010;
+        public static final int Base_TextAppearance_AppCompat_Subhead=0x7f080052;
+        public static final int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f080011;
+        public static final int Base_TextAppearance_AppCompat_Title=0x7f080053;
+        public static final int Base_TextAppearance_AppCompat_Title_Inverse=0x7f080012;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f080097;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f080054;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f080055;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f080056;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f080057;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f080058;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f080059;
+        public static final int Base_TextAppearance_AppCompat_Widget_Button=0x7f08005a;
+        public static final int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f08009e;
+        public static final int Base_TextAppearance_AppCompat_Widget_Button_Colored=0x7f08009f;
+        public static final int Base_TextAppearance_AppCompat_Widget_Button_Inverse=0x7f080098;
+        public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0800b3;
+        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f08005b;
+        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f08005c;
+        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f08005d;
+        public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f08005e;
+        public static final int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f08005f;
+        public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0800b4;
+        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f080060;
+        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f080061;
+        public static final int Base_Theme_AppCompat=0x7f080062;
+        public static final int Base_Theme_AppCompat_CompactMenu=0x7f0800b5;
+        public static final int Base_Theme_AppCompat_Dialog=0x7f080013;
+        public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f080014;
+        public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0800b6;
+        public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f080015;
+        public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f080002;
+        public static final int Base_Theme_AppCompat_Light=0x7f080063;
+        public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0800b7;
+        public static final int Base_Theme_AppCompat_Light_Dialog=0x7f080016;
+        public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f080017;
+        public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0800b8;
+        public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f080018;
+        public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f080003;
+        public static final int Base_ThemeOverlay_AppCompat=0x7f0800b9;
+        public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0800ba;
+        public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0800bb;
+        public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0800bc;
+        public static final int Base_ThemeOverlay_AppCompat_Dialog=0x7f080019;
+        public static final int Base_ThemeOverlay_AppCompat_Dialog_Alert=0x7f08001a;
+        public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0800bd;
+        public static final int Base_V11_Theme_AppCompat_Dialog=0x7f08001b;
+        public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f08001c;
+        public static final int Base_V11_ThemeOverlay_AppCompat_Dialog=0x7f08001d;
+        public static final int Base_V12_Widget_AppCompat_AutoCompleteTextView=0x7f080025;
+        public static final int Base_V12_Widget_AppCompat_EditText=0x7f080026;
+        public static final int Base_V21_Theme_AppCompat=0x7f080064;
+        public static final int Base_V21_Theme_AppCompat_Dialog=0x7f080065;
+        public static final int Base_V21_Theme_AppCompat_Light=0x7f080066;
+        public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f080067;
+        public static final int Base_V21_ThemeOverlay_AppCompat_Dialog=0x7f080068;
+        public static final int Base_V22_Theme_AppCompat=0x7f080095;
+        public static final int Base_V22_Theme_AppCompat_Light=0x7f080096;
+        public static final int Base_V23_Theme_AppCompat=0x7f080099;
+        public static final int Base_V23_Theme_AppCompat_Light=0x7f08009a;
+        public static final int Base_V7_Theme_AppCompat=0x7f0800be;
+        public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0800bf;
+        public static final int Base_V7_Theme_AppCompat_Light=0x7f0800c0;
+        public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0800c1;
+        public static final int Base_V7_ThemeOverlay_AppCompat_Dialog=0x7f0800c2;
+        public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0800c3;
+        public static final int Base_V7_Widget_AppCompat_EditText=0x7f0800c4;
+        public static final int Base_Widget_AppCompat_ActionBar=0x7f0800c5;
+        public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0800c6;
+        public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0800c7;
+        public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f080069;
+        public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f08006a;
+        public static final int Base_Widget_AppCompat_ActionButton=0x7f08006b;
+        public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f08006c;
+        public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f08006d;
+        public static final int Base_Widget_AppCompat_ActionMode=0x7f0800c8;
+        public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0800c9;
+        public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f080027;
+        public static final int Base_Widget_AppCompat_Button=0x7f08006e;
+        public static final int Base_Widget_AppCompat_Button_Borderless=0x7f08006f;
+        public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f080070;
+        public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0800ca;
+        public static final int Base_Widget_AppCompat_Button_Colored=0x7f08009b;
+        public static final int Base_Widget_AppCompat_Button_Small=0x7f080071;
+        public static final int Base_Widget_AppCompat_ButtonBar=0x7f080072;
+        public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0800cb;
+        public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f080073;
+        public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f080074;
+        public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0800cc;
         public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f080000;
-        public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0800a5;
-        public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f080062;
-        public static final int Base_Widget_AppCompat_EditText=0x7f080019;
-        public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0800a6;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0800a7;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0800a8;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f080063;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f080064;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f080065;
-        public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f080066;
-        public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f080067;
-        public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f080068;
-        public static final int Base_Widget_AppCompat_ListView=0x7f080069;
-        public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f08006a;
-        public static final int Base_Widget_AppCompat_ListView_Menu=0x7f08006b;
-        public static final int Base_Widget_AppCompat_PopupMenu=0x7f08006c;
-        public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f08006d;
-        public static final int Base_Widget_AppCompat_PopupWindow=0x7f0800a9;
-        public static final int Base_Widget_AppCompat_ProgressBar=0x7f08000e;
-        public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f08000f;
-        public static final int Base_Widget_AppCompat_RatingBar=0x7f08006e;
-        public static final int Base_Widget_AppCompat_SearchView=0x7f0800aa;
-        public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0800ab;
-        public static final int Base_Widget_AppCompat_Spinner=0x7f08006f;
-        public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f080070;
-        public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f080071;
-        public static final int Base_Widget_AppCompat_Toolbar=0x7f0800ac;
-        public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f080072;
-        public static final int CastExpandedController=0x7f0800ad;
-        public static final int CastIntroOverlay=0x7f0800ae;
-        public static final int CastMiniController=0x7f0800af;
-        public static final int CustomCastTheme=0x7f0800b0;
-        public static final int Platform_AppCompat=0x7f080010;
-        public static final int Platform_AppCompat_Light=0x7f080011;
-        public static final int Platform_ThemeOverlay_AppCompat=0x7f080073;
-        public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f080074;
-        public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f080075;
-        public static final int Platform_V11_AppCompat=0x7f080012;
-        public static final int Platform_V11_AppCompat_Light=0x7f080013;
-        public static final int Platform_V14_AppCompat=0x7f08001b;
-        public static final int Platform_V14_AppCompat_Light=0x7f08001c;
-        public static final int Platform_Widget_AppCompat_Spinner=0x7f080014;
-        public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f080022;
-        public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f080023;
-        public static final int RtlOverlay_Widget_AppCompat_ActionButton_Overflow=0x7f080024;
-        public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f080025;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f080026;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f080027;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f080028;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f080029;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f08002a;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f08002b;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f08002c;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f08002d;
-        public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f08002e;
-        public static final int TextAppearance_AppCompat=0x7f0800b1;
-        public static final int TextAppearance_AppCompat_Body1=0x7f0800b2;
-        public static final int TextAppearance_AppCompat_Body2=0x7f0800b3;
-        public static final int TextAppearance_AppCompat_Button=0x7f0800b4;
-        public static final int TextAppearance_AppCompat_Caption=0x7f0800b5;
-        public static final int TextAppearance_AppCompat_Display1=0x7f0800b6;
-        public static final int TextAppearance_AppCompat_Display2=0x7f0800b7;
-        public static final int TextAppearance_AppCompat_Display3=0x7f0800b8;
-        public static final int TextAppearance_AppCompat_Display4=0x7f0800b9;
-        public static final int TextAppearance_AppCompat_Headline=0x7f0800ba;
-        public static final int TextAppearance_AppCompat_Inverse=0x7f0800bb;
-        public static final int TextAppearance_AppCompat_Large=0x7f0800bc;
-        public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0800bd;
-        public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0800be;
-        public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0800bf;
-        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0800c0;
-        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0800c1;
-        public static final int TextAppearance_AppCompat_Medium=0x7f0800c2;
-        public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0800c3;
-        public static final int TextAppearance_AppCompat_Menu=0x7f0800c4;
-        public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0800c5;
-        public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0800c6;
-        public static final int TextAppearance_AppCompat_Small=0x7f0800c7;
-        public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0800c8;
-        public static final int TextAppearance_AppCompat_Subhead=0x7f0800c9;
-        public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0800ca;
-        public static final int TextAppearance_AppCompat_Title=0x7f0800cb;
-        public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0800cc;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0800cd;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0800ce;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0800cf;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0800d0;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0800d1;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0800d2;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0800d3;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0800d4;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0800d5;
-        public static final int TextAppearance_AppCompat_Widget_Button=0x7f0800d6;
-        public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0800d7;
-        public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0800d8;
-        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0800d9;
-        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0800da;
-        public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0800db;
-        public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0800dc;
-        public static final int TextAppearance_CastIntroOverlay_Button=0x7f0800dd;
-        public static final int TextAppearance_CastIntroOverlay_Title=0x7f0800de;
-        public static final int TextAppearance_CastMiniController_Subtitle=0x7f0800df;
-        public static final int TextAppearance_CastMiniController_Title=0x7f0800e0;
-        public static final int TextAppearance_StatusBar_EventContent=0x7f08001d;
-        public static final int TextAppearance_StatusBar_EventContent_Info=0x7f08001e;
-        public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f08001f;
-        public static final int TextAppearance_StatusBar_EventContent_Time=0x7f080020;
-        public static final int TextAppearance_StatusBar_EventContent_Title=0x7f080021;
-        public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0800e1;
-        public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0800e2;
-        public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0800e3;
-        public static final int Theme_AppCompat=0x7f0800e4;
-        public static final int Theme_AppCompat_CompactMenu=0x7f0800e5;
-        public static final int Theme_AppCompat_Dialog=0x7f0800e6;
-        public static final int Theme_AppCompat_Dialog_Alert=0x7f0800e7;
-        public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0800e8;
-        public static final int Theme_AppCompat_DialogWhenLarge=0x7f0800e9;
-        public static final int Theme_AppCompat_Light=0x7f0800ea;
-        public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0800eb;
-        public static final int Theme_AppCompat_Light_Dialog=0x7f0800ec;
-        public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0800ed;
-        public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0800ee;
-        public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0800ef;
-        public static final int Theme_AppCompat_Light_NoActionBar=0x7f0800f0;
-        public static final int Theme_AppCompat_NoActionBar=0x7f0800f1;
-        public static final int Theme_AppInvite_Preview=0x7f0800f2;
-        public static final int Theme_AppInvite_Preview_Base=0x7f080015;
-        public static final int Theme_IAPTheme=0x7f0800f3;
-        public static final int Theme_MediaRouter=0x7f0800f4;
-        public static final int Theme_MediaRouter_Light=0x7f0800f5;
-        public static final int ThemeOverlay_AppCompat=0x7f0800f6;
-        public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0800f7;
-        public static final int ThemeOverlay_AppCompat_Dark=0x7f0800f8;
-        public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0800f9;
-        public static final int ThemeOverlay_AppCompat_Light=0x7f0800fa;
-        public static final int WalletFragmentDefaultButtonTextAppearance=0x7f0800fb;
-        public static final int WalletFragmentDefaultDetailsHeaderTextAppearance=0x7f0800fc;
-        public static final int WalletFragmentDefaultDetailsTextAppearance=0x7f0800fd;
-        public static final int WalletFragmentDefaultStyle=0x7f0800fe;
-        public static final int Widget_AppCompat_ActionBar=0x7f0800ff;
-        public static final int Widget_AppCompat_ActionBar_Solid=0x7f080100;
-        public static final int Widget_AppCompat_ActionBar_TabBar=0x7f080101;
-        public static final int Widget_AppCompat_ActionBar_TabText=0x7f080102;
-        public static final int Widget_AppCompat_ActionBar_TabView=0x7f080103;
-        public static final int Widget_AppCompat_ActionButton=0x7f080104;
-        public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f080105;
-        public static final int Widget_AppCompat_ActionButton_Overflow=0x7f080106;
-        public static final int Widget_AppCompat_ActionMode=0x7f080107;
-        public static final int Widget_AppCompat_ActivityChooserView=0x7f080108;
-        public static final int Widget_AppCompat_AutoCompleteTextView=0x7f080109;
-        public static final int Widget_AppCompat_Button=0x7f08010a;
-        public static final int Widget_AppCompat_Button_Borderless=0x7f08010b;
-        public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f08010c;
-        public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f08010d;
-        public static final int Widget_AppCompat_Button_Colored=0x7f08010e;
-        public static final int Widget_AppCompat_Button_Small=0x7f08010f;
-        public static final int Widget_AppCompat_ButtonBar=0x7f080110;
-        public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f080111;
-        public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f080112;
-        public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f080113;
-        public static final int Widget_AppCompat_CompoundButton_Switch=0x7f080114;
-        public static final int Widget_AppCompat_DrawerArrowToggle=0x7f080115;
-        public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f080116;
-        public static final int Widget_AppCompat_EditText=0x7f080117;
-        public static final int Widget_AppCompat_Light_ActionBar=0x7f080118;
-        public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f080119;
-        public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f08011a;
-        public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f08011b;
-        public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f08011c;
-        public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f08011d;
-        public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f08011e;
-        public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f08011f;
-        public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f080120;
-        public static final int Widget_AppCompat_Light_ActionButton=0x7f080121;
-        public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f080122;
-        public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f080123;
-        public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f080124;
-        public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f080125;
-        public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f080126;
-        public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f080127;
-        public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f080128;
-        public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f080129;
-        public static final int Widget_AppCompat_Light_PopupMenu=0x7f08012a;
-        public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f08012b;
-        public static final int Widget_AppCompat_Light_SearchView=0x7f08012c;
-        public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f08012d;
-        public static final int Widget_AppCompat_ListPopupWindow=0x7f08012e;
-        public static final int Widget_AppCompat_ListView=0x7f08012f;
-        public static final int Widget_AppCompat_ListView_DropDown=0x7f080130;
-        public static final int Widget_AppCompat_ListView_Menu=0x7f080131;
-        public static final int Widget_AppCompat_PopupMenu=0x7f080132;
-        public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f080133;
-        public static final int Widget_AppCompat_PopupWindow=0x7f080134;
-        public static final int Widget_AppCompat_ProgressBar=0x7f080135;
-        public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f080136;
-        public static final int Widget_AppCompat_RatingBar=0x7f080137;
-        public static final int Widget_AppCompat_SearchView=0x7f080138;
-        public static final int Widget_AppCompat_SearchView_ActionBar=0x7f080139;
-        public static final int Widget_AppCompat_Spinner=0x7f08013a;
-        public static final int Widget_AppCompat_Spinner_DropDown=0x7f08013b;
-        public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f08013c;
-        public static final int Widget_AppCompat_Spinner_Underlined=0x7f08013d;
-        public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f08013e;
-        public static final int Widget_AppCompat_Toolbar=0x7f08013f;
-        public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f080140;
-        public static final int Widget_MediaRouter_Light_MediaRouteButton=0x7f080141;
-        public static final int Widget_MediaRouter_MediaRouteButton=0x7f080142;
+        public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0800cd;
+        public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f080075;
+        public static final int Base_Widget_AppCompat_EditText=0x7f080028;
+        public static final int Base_Widget_AppCompat_ImageButton=0x7f080076;
+        public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0800ce;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0800cf;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0800d0;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f080077;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f080078;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f080079;
+        public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f08007a;
+        public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f08007b;
+        public static final int Base_Widget_AppCompat_ListMenuView=0x7f0800d1;
+        public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f08007c;
+        public static final int Base_Widget_AppCompat_ListView=0x7f08007d;
+        public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f08007e;
+        public static final int Base_Widget_AppCompat_ListView_Menu=0x7f08007f;
+        public static final int Base_Widget_AppCompat_PopupMenu=0x7f080080;
+        public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f080081;
+        public static final int Base_Widget_AppCompat_PopupWindow=0x7f0800d2;
+        public static final int Base_Widget_AppCompat_ProgressBar=0x7f08001e;
+        public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f08001f;
+        public static final int Base_Widget_AppCompat_RatingBar=0x7f080082;
+        public static final int Base_Widget_AppCompat_RatingBar_Indicator=0x7f08009c;
+        public static final int Base_Widget_AppCompat_RatingBar_Small=0x7f08009d;
+        public static final int Base_Widget_AppCompat_SearchView=0x7f0800d3;
+        public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0800d4;
+        public static final int Base_Widget_AppCompat_SeekBar=0x7f080083;
+        public static final int Base_Widget_AppCompat_SeekBar_Discrete=0x7f0800d5;
+        public static final int Base_Widget_AppCompat_Spinner=0x7f080084;
+        public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f080004;
+        public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f080085;
+        public static final int Base_Widget_AppCompat_Toolbar=0x7f0800d6;
+        public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f080086;
+        public static final int Base_Widget_Design_AppBarLayout=0x7f0800d7;
+        public static final int Base_Widget_Design_TabLayout=0x7f0800d8;
+        public static final int Platform_AppCompat=0x7f080020;
+        public static final int Platform_AppCompat_Light=0x7f080021;
+        public static final int Platform_ThemeOverlay_AppCompat=0x7f080087;
+        public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f080088;
+        public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f080089;
+        public static final int Platform_V11_AppCompat=0x7f080022;
+        public static final int Platform_V11_AppCompat_Light=0x7f080023;
+        public static final int Platform_V14_AppCompat=0x7f08002a;
+        public static final int Platform_V14_AppCompat_Light=0x7f08002b;
+        public static final int Platform_V21_AppCompat=0x7f08008a;
+        public static final int Platform_V21_AppCompat_Light=0x7f08008b;
+        public static final int Platform_V25_AppCompat=0x7f0800a0;
+        public static final int Platform_V25_AppCompat_Light=0x7f0800a1;
+        public static final int Platform_Widget_AppCompat_Spinner=0x7f080024;
+        public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f080033;
+        public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f080034;
+        public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f080035;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f080036;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f080037;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f080038;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f080039;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f08003a;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f08003b;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f08003c;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f08003d;
+        public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f08003e;
+        public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f08003f;
+        public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f080040;
+        public static final int TextAppearance_AppCompat=0x7f0800d9;
+        public static final int TextAppearance_AppCompat_Body1=0x7f0800da;
+        public static final int TextAppearance_AppCompat_Body2=0x7f0800db;
+        public static final int TextAppearance_AppCompat_Button=0x7f0800dc;
+        public static final int TextAppearance_AppCompat_Caption=0x7f0800dd;
+        public static final int TextAppearance_AppCompat_Display1=0x7f0800de;
+        public static final int TextAppearance_AppCompat_Display2=0x7f0800df;
+        public static final int TextAppearance_AppCompat_Display3=0x7f0800e0;
+        public static final int TextAppearance_AppCompat_Display4=0x7f0800e1;
+        public static final int TextAppearance_AppCompat_Headline=0x7f0800e2;
+        public static final int TextAppearance_AppCompat_Inverse=0x7f0800e3;
+        public static final int TextAppearance_AppCompat_Large=0x7f0800e4;
+        public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0800e5;
+        public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0800e6;
+        public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0800e7;
+        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0800e8;
+        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0800e9;
+        public static final int TextAppearance_AppCompat_Medium=0x7f0800ea;
+        public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0800eb;
+        public static final int TextAppearance_AppCompat_Menu=0x7f0800ec;
+        public static final int TextAppearance_AppCompat_Notification=0x7f08002c;
+        public static final int TextAppearance_AppCompat_Notification_Info=0x7f08008c;
+        public static final int TextAppearance_AppCompat_Notification_Info_Media=0x7f08008d;
+        public static final int TextAppearance_AppCompat_Notification_Line2=0x7f0800ed;
+        public static final int TextAppearance_AppCompat_Notification_Line2_Media=0x7f0800ee;
+        public static final int TextAppearance_AppCompat_Notification_Media=0x7f08008e;
+        public static final int TextAppearance_AppCompat_Notification_Time=0x7f08008f;
+        public static final int TextAppearance_AppCompat_Notification_Time_Media=0x7f080090;
+        public static final int TextAppearance_AppCompat_Notification_Title=0x7f08002d;
+        public static final int TextAppearance_AppCompat_Notification_Title_Media=0x7f080091;
+        public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0800ef;
+        public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0800f0;
+        public static final int TextAppearance_AppCompat_Small=0x7f0800f1;
+        public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0800f2;
+        public static final int TextAppearance_AppCompat_Subhead=0x7f0800f3;
+        public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0800f4;
+        public static final int TextAppearance_AppCompat_Title=0x7f0800f5;
+        public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0800f6;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0800f7;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0800f8;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0800f9;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0800fa;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0800fb;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0800fc;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0800fd;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0800fe;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0800ff;
+        public static final int TextAppearance_AppCompat_Widget_Button=0x7f080100;
+        public static final int TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f080101;
+        public static final int TextAppearance_AppCompat_Widget_Button_Colored=0x7f080102;
+        public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f080103;
+        public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f080104;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f080105;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f080106;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f080107;
+        public static final int TextAppearance_AppCompat_Widget_Switch=0x7f080108;
+        public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f080109;
+        public static final int TextAppearance_Design_CollapsingToolbar_Expanded=0x7f08010a;
+        public static final int TextAppearance_Design_Counter=0x7f08010b;
+        public static final int TextAppearance_Design_Counter_Overflow=0x7f08010c;
+        public static final int TextAppearance_Design_Error=0x7f08010d;
+        public static final int TextAppearance_Design_Hint=0x7f08010e;
+        public static final int TextAppearance_Design_Snackbar_Message=0x7f08010f;
+        public static final int TextAppearance_Design_Tab=0x7f080110;
+        public static final int TextAppearance_StatusBar_EventContent=0x7f08002e;
+        public static final int TextAppearance_StatusBar_EventContent_Info=0x7f08002f;
+        public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f080030;
+        public static final int TextAppearance_StatusBar_EventContent_Time=0x7f080031;
+        public static final int TextAppearance_StatusBar_EventContent_Title=0x7f080032;
+        public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f080111;
+        public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f080112;
+        public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f080113;
+        public static final int Theme_AppCompat=0x7f080114;
+        public static final int Theme_AppCompat_CompactMenu=0x7f080115;
+        public static final int Theme_AppCompat_DayNight=0x7f080005;
+        public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f080006;
+        public static final int Theme_AppCompat_DayNight_Dialog=0x7f080007;
+        public static final int Theme_AppCompat_DayNight_Dialog_Alert=0x7f080008;
+        public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f080009;
+        public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f08000a;
+        public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f08000b;
+        public static final int Theme_AppCompat_Dialog=0x7f080116;
+        public static final int Theme_AppCompat_Dialog_Alert=0x7f080117;
+        public static final int Theme_AppCompat_Dialog_MinWidth=0x7f080118;
+        public static final int Theme_AppCompat_DialogWhenLarge=0x7f080119;
+        public static final int Theme_AppCompat_Light=0x7f08011a;
+        public static final int Theme_AppCompat_Light_DarkActionBar=0x7f08011b;
+        public static final int Theme_AppCompat_Light_Dialog=0x7f08011c;
+        public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f08011d;
+        public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f08011e;
+        public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f08011f;
+        public static final int Theme_AppCompat_Light_NoActionBar=0x7f080120;
+        public static final int Theme_AppCompat_NoActionBar=0x7f080121;
+        public static final int Theme_Design=0x7f080122;
+        public static final int Theme_Design_BottomSheetDialog=0x7f080123;
+        public static final int Theme_Design_Light=0x7f080124;
+        public static final int Theme_Design_Light_BottomSheetDialog=0x7f080125;
+        public static final int Theme_Design_Light_NoActionBar=0x7f080126;
+        public static final int Theme_Design_NoActionBar=0x7f080127;
+        public static final int ThemeOverlay_AppCompat=0x7f080128;
+        public static final int ThemeOverlay_AppCompat_ActionBar=0x7f080129;
+        public static final int ThemeOverlay_AppCompat_Dark=0x7f08012a;
+        public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f08012b;
+        public static final int ThemeOverlay_AppCompat_Dialog=0x7f08012c;
+        public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f08012d;
+        public static final int ThemeOverlay_AppCompat_Light=0x7f08012e;
+        public static final int Widget_AppCompat_ActionBar=0x7f08012f;
+        public static final int Widget_AppCompat_ActionBar_Solid=0x7f080130;
+        public static final int Widget_AppCompat_ActionBar_TabBar=0x7f080131;
+        public static final int Widget_AppCompat_ActionBar_TabText=0x7f080132;
+        public static final int Widget_AppCompat_ActionBar_TabView=0x7f080133;
+        public static final int Widget_AppCompat_ActionButton=0x7f080134;
+        public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f080135;
+        public static final int Widget_AppCompat_ActionButton_Overflow=0x7f080136;
+        public static final int Widget_AppCompat_ActionMode=0x7f080137;
+        public static final int Widget_AppCompat_ActivityChooserView=0x7f080138;
+        public static final int Widget_AppCompat_AutoCompleteTextView=0x7f080139;
+        public static final int Widget_AppCompat_Button=0x7f08013a;
+        public static final int Widget_AppCompat_Button_Borderless=0x7f08013b;
+        public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f08013c;
+        public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f08013d;
+        public static final int Widget_AppCompat_Button_Colored=0x7f08013e;
+        public static final int Widget_AppCompat_Button_Small=0x7f08013f;
+        public static final int Widget_AppCompat_ButtonBar=0x7f080140;
+        public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f080141;
+        public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f080142;
+        public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f080143;
+        public static final int Widget_AppCompat_CompoundButton_Switch=0x7f080144;
+        public static final int Widget_AppCompat_DrawerArrowToggle=0x7f080145;
+        public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f080146;
+        public static final int Widget_AppCompat_EditText=0x7f080147;
+        public static final int Widget_AppCompat_ImageButton=0x7f080148;
+        public static final int Widget_AppCompat_Light_ActionBar=0x7f080149;
+        public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f08014a;
+        public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f08014b;
+        public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f08014c;
+        public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f08014d;
+        public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f08014e;
+        public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f08014f;
+        public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f080150;
+        public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f080151;
+        public static final int Widget_AppCompat_Light_ActionButton=0x7f080152;
+        public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f080153;
+        public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f080154;
+        public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f080155;
+        public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f080156;
+        public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f080157;
+        public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f080158;
+        public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f080159;
+        public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f08015a;
+        public static final int Widget_AppCompat_Light_PopupMenu=0x7f08015b;
+        public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f08015c;
+        public static final int Widget_AppCompat_Light_SearchView=0x7f08015d;
+        public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f08015e;
+        public static final int Widget_AppCompat_ListMenuView=0x7f08015f;
+        public static final int Widget_AppCompat_ListPopupWindow=0x7f080160;
+        public static final int Widget_AppCompat_ListView=0x7f080161;
+        public static final int Widget_AppCompat_ListView_DropDown=0x7f080162;
+        public static final int Widget_AppCompat_ListView_Menu=0x7f080163;
+        public static final int Widget_AppCompat_NotificationActionContainer=0x7f080092;
+        public static final int Widget_AppCompat_NotificationActionText=0x7f080093;
+        public static final int Widget_AppCompat_PopupMenu=0x7f080164;
+        public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f080165;
+        public static final int Widget_AppCompat_PopupWindow=0x7f080166;
+        public static final int Widget_AppCompat_ProgressBar=0x7f080167;
+        public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f080168;
+        public static final int Widget_AppCompat_RatingBar=0x7f080169;
+        public static final int Widget_AppCompat_RatingBar_Indicator=0x7f08016a;
+        public static final int Widget_AppCompat_RatingBar_Small=0x7f08016b;
+        public static final int Widget_AppCompat_SearchView=0x7f08016c;
+        public static final int Widget_AppCompat_SearchView_ActionBar=0x7f08016d;
+        public static final int Widget_AppCompat_SeekBar=0x7f08016e;
+        public static final int Widget_AppCompat_SeekBar_Discrete=0x7f08016f;
+        public static final int Widget_AppCompat_Spinner=0x7f080170;
+        public static final int Widget_AppCompat_Spinner_DropDown=0x7f080171;
+        public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f080172;
+        public static final int Widget_AppCompat_Spinner_Underlined=0x7f080173;
+        public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f080174;
+        public static final int Widget_AppCompat_Toolbar=0x7f080175;
+        public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f080176;
+        public static final int Widget_Design_AppBarLayout=0x7f080094;
+        public static final int Widget_Design_BottomNavigationView=0x7f080177;
+        public static final int Widget_Design_BottomSheet_Modal=0x7f080178;
+        public static final int Widget_Design_CollapsingToolbar=0x7f080179;
+        public static final int Widget_Design_CoordinatorLayout=0x7f08017a;
+        public static final int Widget_Design_FloatingActionButton=0x7f08017b;
+        public static final int Widget_Design_NavigationView=0x7f08017c;
+        public static final int Widget_Design_ScrimInsetsFrameLayout=0x7f08017d;
+        public static final int Widget_Design_Snackbar=0x7f08017e;
+        public static final int Widget_Design_TabLayout=0x7f080001;
+        public static final int Widget_Design_TextInputLayout=0x7f08017f;
     }
     public static final class styleable {
         /** Attributes that can be used with a ActionBar.
@@ -3439,9 +3388,11 @@ containing a value of this type.
            <tr><td><code>{@link #ActionBar_backgroundSplit mahmud.picosoft.islamiclecturecollection:backgroundSplit}</code></td><td></td></tr>
            <tr><td><code>{@link #ActionBar_backgroundStacked mahmud.picosoft.islamiclecturecollection:backgroundStacked}</code></td><td></td></tr>
            <tr><td><code>{@link #ActionBar_contentInsetEnd mahmud.picosoft.islamiclecturecollection:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEndWithActions mahmud.picosoft.islamiclecturecollection:contentInsetEndWithActions}</code></td><td></td></tr>
            <tr><td><code>{@link #ActionBar_contentInsetLeft mahmud.picosoft.islamiclecturecollection:contentInsetLeft}</code></td><td></td></tr>
            <tr><td><code>{@link #ActionBar_contentInsetRight mahmud.picosoft.islamiclecturecollection:contentInsetRight}</code></td><td></td></tr>
            <tr><td><code>{@link #ActionBar_contentInsetStart mahmud.picosoft.islamiclecturecollection:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation mahmud.picosoft.islamiclecturecollection:contentInsetStartWithNavigation}</code></td><td></td></tr>
            <tr><td><code>{@link #ActionBar_customNavigationLayout mahmud.picosoft.islamiclecturecollection:customNavigationLayout}</code></td><td></td></tr>
            <tr><td><code>{@link #ActionBar_displayOptions mahmud.picosoft.islamiclecturecollection:displayOptions}</code></td><td></td></tr>
            <tr><td><code>{@link #ActionBar_divider mahmud.picosoft.islamiclecturecollection:divider}</code></td><td></td></tr>
@@ -3467,9 +3418,11 @@ containing a value of this type.
            @see #ActionBar_backgroundSplit
            @see #ActionBar_backgroundStacked
            @see #ActionBar_contentInsetEnd
+           @see #ActionBar_contentInsetEndWithActions
            @see #ActionBar_contentInsetLeft
            @see #ActionBar_contentInsetRight
            @see #ActionBar_contentInsetStart
+           @see #ActionBar_contentInsetStartWithNavigation
            @see #ActionBar_customNavigationLayout
            @see #ActionBar_displayOptions
            @see #ActionBar_divider
@@ -3492,13 +3445,14 @@ containing a value of this type.
            @see #ActionBar_titleTextStyle
          */
         public static final int[] ActionBar = {
-            0x7f010002, 0x7f01000c, 0x7f01000d, 0x7f01000e,
-            0x7f01000f, 0x7f010010, 0x7f010011, 0x7f010012,
-            0x7f010013, 0x7f010014, 0x7f010015, 0x7f010016,
-            0x7f010017, 0x7f010018, 0x7f010019, 0x7f01001a,
-            0x7f01001b, 0x7f01001c, 0x7f01001d, 0x7f01001e,
-            0x7f01001f, 0x7f010020, 0x7f010021, 0x7f010022,
-            0x7f010023, 0x7f010024, 0x7f0100d4
+            0x7f010001, 0x7f010003, 0x7f010004, 0x7f010005,
+            0x7f010006, 0x7f010007, 0x7f010008, 0x7f010009,
+            0x7f01000a, 0x7f01000b, 0x7f01000c, 0x7f01000d,
+            0x7f01000e, 0x7f01000f, 0x7f010010, 0x7f010011,
+            0x7f010012, 0x7f010013, 0x7f010014, 0x7f010015,
+            0x7f010016, 0x7f010017, 0x7f010018, 0x7f010019,
+            0x7f01001a, 0x7f01001b, 0x7f01001c, 0x7f01001d,
+            0x7f010060
         };
         /**
           <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#background}
@@ -3551,6 +3505,22 @@ containing a value of this type.
         */
         public static final int ActionBar_contentInsetEnd = 21;
         /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#contentInsetEndWithActions}
+          attribute's value can be found in the {@link #ActionBar} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:contentInsetEndWithActions
+        */
+        public static final int ActionBar_contentInsetEndWithActions = 25;
+        /**
           <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
@@ -3598,6 +3568,22 @@ containing a value of this type.
           @attr name mahmud.picosoft.islamiclecturecollection:contentInsetStart
         */
         public static final int ActionBar_contentInsetStart = 20;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#contentInsetStartWithNavigation}
+          attribute's value can be found in the {@link #ActionBar} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:contentInsetStartWithNavigation
+        */
+        public static final int ActionBar_contentInsetStartWithNavigation = 24;
         /**
           <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
@@ -3655,7 +3641,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name mahmud.picosoft.islamiclecturecollection:elevation
         */
-        public static final int ActionBar_elevation = 24;
+        public static final int ActionBar_elevation = 26;
         /**
           <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
@@ -3695,7 +3681,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           @attr name mahmud.picosoft.islamiclecturecollection:homeAsUpIndicator
         */
-        public static final int ActionBar_homeAsUpIndicator = 26;
+        public static final int ActionBar_homeAsUpIndicator = 28;
         /**
           <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
@@ -3779,7 +3765,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           @attr name mahmud.picosoft.islamiclecturecollection:popupTheme
         */
-        public static final int ActionBar_popupTheme = 25;
+        public static final int ActionBar_popupTheme = 27;
         /**
           <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
@@ -3918,8 +3904,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #ActionMode_titleTextStyle
          */
         public static final int[] ActionMode = {
-            0x7f010002, 0x7f010010, 0x7f010011, 0x7f010015,
-            0x7f010017, 0x7f010025
+            0x7f010001, 0x7f010007, 0x7f010008, 0x7f01000c,
+            0x7f01000e, 0x7f01001e
         };
         /**
           <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#background}
@@ -4002,7 +3988,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #ActivityChooserView_initialActivityCount
          */
         public static final int[] ActivityChooserView = {
-            0x7f010026, 0x7f010027
+            0x7f01001f, 0x7f010020
         };
         /**
           <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#expandActivityOverflowButtonDrawable}
@@ -4028,65 +4014,6 @@ containing a value of this type.
           @attr name mahmud.picosoft.islamiclecturecollection:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
-        /** Attributes that can be used with a AdsAttrs.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AdsAttrs_adSize mahmud.picosoft.islamiclecturecollection:adSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #AdsAttrs_adSizes mahmud.picosoft.islamiclecturecollection:adSizes}</code></td><td></td></tr>
-           <tr><td><code>{@link #AdsAttrs_adUnitId mahmud.picosoft.islamiclecturecollection:adUnitId}</code></td><td></td></tr>
-           </table>
-           @see #AdsAttrs_adSize
-           @see #AdsAttrs_adSizes
-           @see #AdsAttrs_adUnitId
-         */
-        public static final int[] AdsAttrs = {
-            0x7f010028, 0x7f010029, 0x7f01002a
-        };
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#adSize}
-          attribute's value can be found in the {@link #AdsAttrs} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:adSize
-        */
-        public static final int AdsAttrs_adSize = 0;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#adSizes}
-          attribute's value can be found in the {@link #AdsAttrs} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:adSizes
-        */
-        public static final int AdsAttrs_adSizes = 1;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#adUnitId}
-          attribute's value can be found in the {@link #AdsAttrs} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:adUnitId
-        */
-        public static final int AdsAttrs_adUnitId = 2;
         /** Attributes that can be used with a AlertDialog.
            <p>Includes the following attributes:</p>
            <table>
@@ -4098,6 +4025,7 @@ containing a value of this type.
            <tr><td><code>{@link #AlertDialog_listItemLayout mahmud.picosoft.islamiclecturecollection:listItemLayout}</code></td><td></td></tr>
            <tr><td><code>{@link #AlertDialog_listLayout mahmud.picosoft.islamiclecturecollection:listLayout}</code></td><td></td></tr>
            <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout mahmud.picosoft.islamiclecturecollection:multiChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_showTitle mahmud.picosoft.islamiclecturecollection:showTitle}</code></td><td></td></tr>
            <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout mahmud.picosoft.islamiclecturecollection:singleChoiceItemLayout}</code></td><td></td></tr>
            </table>
            @see #AlertDialog_android_layout
@@ -4105,11 +4033,12 @@ containing a value of this type.
            @see #AlertDialog_listItemLayout
            @see #AlertDialog_listLayout
            @see #AlertDialog_multiChoiceItemLayout
+           @see #AlertDialog_showTitle
            @see #AlertDialog_singleChoiceItemLayout
          */
         public static final int[] AlertDialog = {
-            0x010100f2, 0x7f01002b, 0x7f01002c, 0x7f01002d,
-            0x7f01002e, 0x7f01002f
+            0x010100f2, 0x7f010021, 0x7f010022, 0x7f010023,
+            0x7f010024, 0x7f010025, 0x7f010026
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#layout}
@@ -4158,6 +4087,20 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AlertDialog_multiChoiceItemLayout = 3;
         /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#showTitle}
+          attribute's value can be found in the {@link #AlertDialog} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:showTitle
+        */
+        public static final int AlertDialog_showTitle = 6;
+        /**
           <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#singleChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
@@ -4167,6 +4110,317 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           @attr name mahmud.picosoft.islamiclecturecollection:singleChoiceItemLayout
         */
         public static final int AlertDialog_singleChoiceItemLayout = 4;
+        /** Attributes that can be used with a AppBarLayout.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #AppBarLayout_android_background android:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_elevation mahmud.picosoft.islamiclecturecollection:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_expanded mahmud.picosoft.islamiclecturecollection:expanded}</code></td><td></td></tr>
+           </table>
+           @see #AppBarLayout_android_background
+           @see #AppBarLayout_elevation
+           @see #AppBarLayout_expanded
+         */
+        public static final int[] AppBarLayout = {
+            0x010100d4, 0x7f01001c, 0x7f010027
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#background}
+          attribute's value can be found in the {@link #AppBarLayout} array.
+          @attr name android:background
+        */
+        public static final int AppBarLayout_android_background = 0;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#elevation}
+          attribute's value can be found in the {@link #AppBarLayout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:elevation
+        */
+        public static final int AppBarLayout_elevation = 1;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#expanded}
+          attribute's value can be found in the {@link #AppBarLayout} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:expanded
+        */
+        public static final int AppBarLayout_expanded = 2;
+        /** Attributes that can be used with a AppBarLayoutStates.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #AppBarLayoutStates_state_collapsed mahmud.picosoft.islamiclecturecollection:state_collapsed}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayoutStates_state_collapsible mahmud.picosoft.islamiclecturecollection:state_collapsible}</code></td><td></td></tr>
+           </table>
+           @see #AppBarLayoutStates_state_collapsed
+           @see #AppBarLayoutStates_state_collapsible
+         */
+        public static final int[] AppBarLayoutStates = {
+            0x7f010028, 0x7f010029
+        };
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#state_collapsed}
+          attribute's value can be found in the {@link #AppBarLayoutStates} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:state_collapsed
+        */
+        public static final int AppBarLayoutStates_state_collapsed = 0;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#state_collapsible}
+          attribute's value can be found in the {@link #AppBarLayoutStates} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:state_collapsible
+        */
+        public static final int AppBarLayoutStates_state_collapsible = 1;
+        /** Attributes that can be used with a AppBarLayout_Layout.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags mahmud.picosoft.islamiclecturecollection:layout_scrollFlags}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator mahmud.picosoft.islamiclecturecollection:layout_scrollInterpolator}</code></td><td></td></tr>
+           </table>
+           @see #AppBarLayout_Layout_layout_scrollFlags
+           @see #AppBarLayout_Layout_layout_scrollInterpolator
+         */
+        public static final int[] AppBarLayout_Layout = {
+            0x7f01002a, 0x7f01002b
+        };
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#layout_scrollFlags}
+          attribute's value can be found in the {@link #AppBarLayout_Layout} array.
+
+
+          <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>scroll</code></td><td>0x1</td><td></td></tr>
+<tr><td><code>exitUntilCollapsed</code></td><td>0x2</td><td></td></tr>
+<tr><td><code>enterAlways</code></td><td>0x4</td><td></td></tr>
+<tr><td><code>enterAlwaysCollapsed</code></td><td>0x8</td><td></td></tr>
+<tr><td><code>snap</code></td><td>0x10</td><td></td></tr>
+</table>
+          @attr name mahmud.picosoft.islamiclecturecollection:layout_scrollFlags
+        */
+        public static final int AppBarLayout_Layout_layout_scrollFlags = 0;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#layout_scrollInterpolator}
+          attribute's value can be found in the {@link #AppBarLayout_Layout} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:layout_scrollInterpolator
+        */
+        public static final int AppBarLayout_Layout_layout_scrollInterpolator = 1;
+        /** Attributes that can be used with a AppCompatImageView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatImageView_srcCompat mahmud.picosoft.islamiclecturecollection:srcCompat}</code></td><td></td></tr>
+           </table>
+           @see #AppCompatImageView_android_src
+           @see #AppCompatImageView_srcCompat
+         */
+        public static final int[] AppCompatImageView = {
+            0x01010119, 0x7f01002c
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#src}
+          attribute's value can be found in the {@link #AppCompatImageView} array.
+          @attr name android:src
+        */
+        public static final int AppCompatImageView_android_src = 0;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#srcCompat}
+          attribute's value can be found in the {@link #AppCompatImageView} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:srcCompat
+        */
+        public static final int AppCompatImageView_srcCompat = 1;
+        /** Attributes that can be used with a AppCompatSeekBar.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMark mahmud.picosoft.islamiclecturecollection:tickMark}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint mahmud.picosoft.islamiclecturecollection:tickMarkTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode mahmud.picosoft.islamiclecturecollection:tickMarkTintMode}</code></td><td></td></tr>
+           </table>
+           @see #AppCompatSeekBar_android_thumb
+           @see #AppCompatSeekBar_tickMark
+           @see #AppCompatSeekBar_tickMarkTint
+           @see #AppCompatSeekBar_tickMarkTintMode
+         */
+        public static final int[] AppCompatSeekBar = {
+            0x01010142, 0x7f01002d, 0x7f01002e, 0x7f01002f
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#thumb}
+          attribute's value can be found in the {@link #AppCompatSeekBar} array.
+          @attr name android:thumb
+        */
+        public static final int AppCompatSeekBar_android_thumb = 0;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#tickMark}
+          attribute's value can be found in the {@link #AppCompatSeekBar} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:tickMark
+        */
+        public static final int AppCompatSeekBar_tickMark = 1;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#tickMarkTint}
+          attribute's value can be found in the {@link #AppCompatSeekBar} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:tickMarkTint
+        */
+        public static final int AppCompatSeekBar_tickMarkTint = 2;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#tickMarkTintMode}
+          attribute's value can be found in the {@link #AppCompatSeekBar} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>src_over</code></td><td>3</td><td></td></tr>
+<tr><td><code>src_in</code></td><td>5</td><td></td></tr>
+<tr><td><code>src_atop</code></td><td>9</td><td></td></tr>
+<tr><td><code>multiply</code></td><td>14</td><td></td></tr>
+<tr><td><code>screen</code></td><td>15</td><td></td></tr>
+<tr><td><code>add</code></td><td>16</td><td></td></tr>
+</table>
+          @attr name mahmud.picosoft.islamiclecturecollection:tickMarkTintMode
+        */
+        public static final int AppCompatSeekBar_tickMarkTintMode = 3;
+        /** Attributes that can be used with a AppCompatTextHelper.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #AppCompatTextHelper_android_drawableBottom android:drawableBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextHelper_android_drawableEnd android:drawableEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextHelper_android_drawableLeft android:drawableLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextHelper_android_drawableRight android:drawableRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextHelper_android_drawableStart android:drawableStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextHelper_android_drawableTop android:drawableTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextHelper_android_textAppearance android:textAppearance}</code></td><td></td></tr>
+           </table>
+           @see #AppCompatTextHelper_android_drawableBottom
+           @see #AppCompatTextHelper_android_drawableEnd
+           @see #AppCompatTextHelper_android_drawableLeft
+           @see #AppCompatTextHelper_android_drawableRight
+           @see #AppCompatTextHelper_android_drawableStart
+           @see #AppCompatTextHelper_android_drawableTop
+           @see #AppCompatTextHelper_android_textAppearance
+         */
+        public static final int[] AppCompatTextHelper = {
+            0x01010034, 0x0101016d, 0x0101016e, 0x0101016f,
+            0x01010170, 0x01010392, 0x01010393
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#drawableBottom}
+          attribute's value can be found in the {@link #AppCompatTextHelper} array.
+          @attr name android:drawableBottom
+        */
+        public static final int AppCompatTextHelper_android_drawableBottom = 2;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#drawableEnd}
+          attribute's value can be found in the {@link #AppCompatTextHelper} array.
+          @attr name android:drawableEnd
+        */
+        public static final int AppCompatTextHelper_android_drawableEnd = 6;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#drawableLeft}
+          attribute's value can be found in the {@link #AppCompatTextHelper} array.
+          @attr name android:drawableLeft
+        */
+        public static final int AppCompatTextHelper_android_drawableLeft = 3;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#drawableRight}
+          attribute's value can be found in the {@link #AppCompatTextHelper} array.
+          @attr name android:drawableRight
+        */
+        public static final int AppCompatTextHelper_android_drawableRight = 4;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#drawableStart}
+          attribute's value can be found in the {@link #AppCompatTextHelper} array.
+          @attr name android:drawableStart
+        */
+        public static final int AppCompatTextHelper_android_drawableStart = 5;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#drawableTop}
+          attribute's value can be found in the {@link #AppCompatTextHelper} array.
+          @attr name android:drawableTop
+        */
+        public static final int AppCompatTextHelper_android_drawableTop = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
+          attribute's value can be found in the {@link #AppCompatTextHelper} array.
+          @attr name android:textAppearance
+        */
+        public static final int AppCompatTextHelper_android_textAppearance = 0;
         /** Attributes that can be used with a AppCompatTextView.
            <p>Includes the following attributes:</p>
            <table>
@@ -4199,158 +4453,614 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           @attr name mahmud.picosoft.islamiclecturecollection:textAllCaps
         */
         public static final int AppCompatTextView_textAllCaps = 1;
-        /** Attributes that can be used with a AppDataSearch.
-         */
-        public static final int[] AppDataSearch = {
-            
-        };
-        /** Attributes that can be used with a CastExpandedController.
+        /** Attributes that can be used with a AppCompatTheme.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CastExpandedController_castControlButtons mahmud.picosoft.islamiclecturecollection:castControlButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarDivider mahmud.picosoft.islamiclecturecollection:actionBarDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground mahmud.picosoft.islamiclecturecollection:actionBarItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme mahmud.picosoft.islamiclecturecollection:actionBarPopupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSize mahmud.picosoft.islamiclecturecollection:actionBarSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle mahmud.picosoft.islamiclecturecollection:actionBarSplitStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarStyle mahmud.picosoft.islamiclecturecollection:actionBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle mahmud.picosoft.islamiclecturecollection:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle mahmud.picosoft.islamiclecturecollection:actionBarTabStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle mahmud.picosoft.islamiclecturecollection:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTheme mahmud.picosoft.islamiclecturecollection:actionBarTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme mahmud.picosoft.islamiclecturecollection:actionBarWidgetTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle mahmud.picosoft.islamiclecturecollection:actionButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle mahmud.picosoft.islamiclecturecollection:actionDropDownStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance mahmud.picosoft.islamiclecturecollection:actionMenuTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor mahmud.picosoft.islamiclecturecollection:actionMenuTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeBackground mahmud.picosoft.islamiclecturecollection:actionModeBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle mahmud.picosoft.islamiclecturecollection:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable mahmud.picosoft.islamiclecturecollection:actionModeCloseDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable mahmud.picosoft.islamiclecturecollection:actionModeCopyDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable mahmud.picosoft.islamiclecturecollection:actionModeCutDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable mahmud.picosoft.islamiclecturecollection:actionModeFindDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable mahmud.picosoft.islamiclecturecollection:actionModePasteDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle mahmud.picosoft.islamiclecturecollection:actionModePopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable mahmud.picosoft.islamiclecturecollection:actionModeSelectAllDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable mahmud.picosoft.islamiclecturecollection:actionModeShareDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground mahmud.picosoft.islamiclecturecollection:actionModeSplitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeStyle mahmud.picosoft.islamiclecturecollection:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable mahmud.picosoft.islamiclecturecollection:actionModeWebSearchDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle mahmud.picosoft.islamiclecturecollection:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle mahmud.picosoft.islamiclecturecollection:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle mahmud.picosoft.islamiclecturecollection:activityChooserViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle mahmud.picosoft.islamiclecturecollection:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons mahmud.picosoft.islamiclecturecollection:alertDialogCenterButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle mahmud.picosoft.islamiclecturecollection:alertDialogStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme mahmud.picosoft.islamiclecturecollection:alertDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle mahmud.picosoft.islamiclecturecollection:autoCompleteTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle mahmud.picosoft.islamiclecturecollection:borderlessButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle mahmud.picosoft.islamiclecturecollection:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle mahmud.picosoft.islamiclecturecollection:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle mahmud.picosoft.islamiclecturecollection:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle mahmud.picosoft.islamiclecturecollection:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle mahmud.picosoft.islamiclecturecollection:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyle mahmud.picosoft.islamiclecturecollection:buttonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall mahmud.picosoft.islamiclecturecollection:buttonStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkboxStyle mahmud.picosoft.islamiclecturecollection:checkboxStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle mahmud.picosoft.islamiclecturecollection:checkedTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorAccent mahmud.picosoft.islamiclecturecollection:colorAccent}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating mahmud.picosoft.islamiclecturecollection:colorBackgroundFloating}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal mahmud.picosoft.islamiclecturecollection:colorButtonNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlActivated mahmud.picosoft.islamiclecturecollection:colorControlActivated}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight mahmud.picosoft.islamiclecturecollection:colorControlHighlight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlNormal mahmud.picosoft.islamiclecturecollection:colorControlNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimary mahmud.picosoft.islamiclecturecollection:colorPrimary}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark mahmud.picosoft.islamiclecturecollection:colorPrimaryDark}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal mahmud.picosoft.islamiclecturecollection:colorSwitchThumbNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_controlBackground mahmud.picosoft.islamiclecturecollection:controlBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding mahmud.picosoft.islamiclecturecollection:dialogPreferredPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogTheme mahmud.picosoft.islamiclecturecollection:dialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal mahmud.picosoft.islamiclecturecollection:dividerHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerVertical mahmud.picosoft.islamiclecturecollection:dividerVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle mahmud.picosoft.islamiclecturecollection:dropDownListViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight mahmud.picosoft.islamiclecturecollection:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextBackground mahmud.picosoft.islamiclecturecollection:editTextBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextColor mahmud.picosoft.islamiclecturecollection:editTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextStyle mahmud.picosoft.islamiclecturecollection:editTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator mahmud.picosoft.islamiclecturecollection:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle mahmud.picosoft.islamiclecturecollection:imageButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator mahmud.picosoft.islamiclecturecollection:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog mahmud.picosoft.islamiclecturecollection:listDividerAlertDialog}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle mahmud.picosoft.islamiclecturecollection:listMenuViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle mahmud.picosoft.islamiclecturecollection:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight mahmud.picosoft.islamiclecturecollection:listPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge mahmud.picosoft.islamiclecturecollection:listPreferredItemHeightLarge}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall mahmud.picosoft.islamiclecturecollection:listPreferredItemHeightSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft mahmud.picosoft.islamiclecturecollection:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight mahmud.picosoft.islamiclecturecollection:listPreferredItemPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelBackground mahmud.picosoft.islamiclecturecollection:panelBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme mahmud.picosoft.islamiclecturecollection:panelMenuListTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth mahmud.picosoft.islamiclecturecollection:panelMenuListWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle mahmud.picosoft.islamiclecturecollection:popupMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle mahmud.picosoft.islamiclecturecollection:popupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle mahmud.picosoft.islamiclecturecollection:radioButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle mahmud.picosoft.islamiclecturecollection:ratingBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator mahmud.picosoft.islamiclecturecollection:ratingBarStyleIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall mahmud.picosoft.islamiclecturecollection:ratingBarStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_searchViewStyle mahmud.picosoft.islamiclecturecollection:searchViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_seekBarStyle mahmud.picosoft.islamiclecturecollection:seekBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground mahmud.picosoft.islamiclecturecollection:selectableItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless mahmud.picosoft.islamiclecturecollection:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle mahmud.picosoft.islamiclecturecollection:spinnerDropDownItemStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerStyle mahmud.picosoft.islamiclecturecollection:spinnerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_switchStyle mahmud.picosoft.islamiclecturecollection:switchStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu mahmud.picosoft.islamiclecturecollection:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem mahmud.picosoft.islamiclecturecollection:textAppearanceListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall mahmud.picosoft.islamiclecturecollection:textAppearanceListItemSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader mahmud.picosoft.islamiclecturecollection:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle mahmud.picosoft.islamiclecturecollection:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle mahmud.picosoft.islamiclecturecollection:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu mahmud.picosoft.islamiclecturecollection:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem mahmud.picosoft.islamiclecturecollection:textColorAlertDialogListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl mahmud.picosoft.islamiclecturecollection:textColorSearchUrl}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle mahmud.picosoft.islamiclecturecollection:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarStyle mahmud.picosoft.islamiclecturecollection:toolbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBar mahmud.picosoft.islamiclecturecollection:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay mahmud.picosoft.islamiclecturecollection:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay mahmud.picosoft.islamiclecturecollection:windowActionModeOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor mahmud.picosoft.islamiclecturecollection:windowFixedHeightMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor mahmud.picosoft.islamiclecturecollection:windowFixedHeightMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor mahmud.picosoft.islamiclecturecollection:windowFixedWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor mahmud.picosoft.islamiclecturecollection:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor mahmud.picosoft.islamiclecturecollection:windowMinWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor mahmud.picosoft.islamiclecturecollection:windowMinWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowNoTitle mahmud.picosoft.islamiclecturecollection:windowNoTitle}</code></td><td></td></tr>
            </table>
-           @see #CastExpandedController_castControlButtons
+           @see #AppCompatTheme_actionBarDivider
+           @see #AppCompatTheme_actionBarItemBackground
+           @see #AppCompatTheme_actionBarPopupTheme
+           @see #AppCompatTheme_actionBarSize
+           @see #AppCompatTheme_actionBarSplitStyle
+           @see #AppCompatTheme_actionBarStyle
+           @see #AppCompatTheme_actionBarTabBarStyle
+           @see #AppCompatTheme_actionBarTabStyle
+           @see #AppCompatTheme_actionBarTabTextStyle
+           @see #AppCompatTheme_actionBarTheme
+           @see #AppCompatTheme_actionBarWidgetTheme
+           @see #AppCompatTheme_actionButtonStyle
+           @see #AppCompatTheme_actionDropDownStyle
+           @see #AppCompatTheme_actionMenuTextAppearance
+           @see #AppCompatTheme_actionMenuTextColor
+           @see #AppCompatTheme_actionModeBackground
+           @see #AppCompatTheme_actionModeCloseButtonStyle
+           @see #AppCompatTheme_actionModeCloseDrawable
+           @see #AppCompatTheme_actionModeCopyDrawable
+           @see #AppCompatTheme_actionModeCutDrawable
+           @see #AppCompatTheme_actionModeFindDrawable
+           @see #AppCompatTheme_actionModePasteDrawable
+           @see #AppCompatTheme_actionModePopupWindowStyle
+           @see #AppCompatTheme_actionModeSelectAllDrawable
+           @see #AppCompatTheme_actionModeShareDrawable
+           @see #AppCompatTheme_actionModeSplitBackground
+           @see #AppCompatTheme_actionModeStyle
+           @see #AppCompatTheme_actionModeWebSearchDrawable
+           @see #AppCompatTheme_actionOverflowButtonStyle
+           @see #AppCompatTheme_actionOverflowMenuStyle
+           @see #AppCompatTheme_activityChooserViewStyle
+           @see #AppCompatTheme_alertDialogButtonGroupStyle
+           @see #AppCompatTheme_alertDialogCenterButtons
+           @see #AppCompatTheme_alertDialogStyle
+           @see #AppCompatTheme_alertDialogTheme
+           @see #AppCompatTheme_android_windowAnimationStyle
+           @see #AppCompatTheme_android_windowIsFloating
+           @see #AppCompatTheme_autoCompleteTextViewStyle
+           @see #AppCompatTheme_borderlessButtonStyle
+           @see #AppCompatTheme_buttonBarButtonStyle
+           @see #AppCompatTheme_buttonBarNegativeButtonStyle
+           @see #AppCompatTheme_buttonBarNeutralButtonStyle
+           @see #AppCompatTheme_buttonBarPositiveButtonStyle
+           @see #AppCompatTheme_buttonBarStyle
+           @see #AppCompatTheme_buttonStyle
+           @see #AppCompatTheme_buttonStyleSmall
+           @see #AppCompatTheme_checkboxStyle
+           @see #AppCompatTheme_checkedTextViewStyle
+           @see #AppCompatTheme_colorAccent
+           @see #AppCompatTheme_colorBackgroundFloating
+           @see #AppCompatTheme_colorButtonNormal
+           @see #AppCompatTheme_colorControlActivated
+           @see #AppCompatTheme_colorControlHighlight
+           @see #AppCompatTheme_colorControlNormal
+           @see #AppCompatTheme_colorPrimary
+           @see #AppCompatTheme_colorPrimaryDark
+           @see #AppCompatTheme_colorSwitchThumbNormal
+           @see #AppCompatTheme_controlBackground
+           @see #AppCompatTheme_dialogPreferredPadding
+           @see #AppCompatTheme_dialogTheme
+           @see #AppCompatTheme_dividerHorizontal
+           @see #AppCompatTheme_dividerVertical
+           @see #AppCompatTheme_dropDownListViewStyle
+           @see #AppCompatTheme_dropdownListPreferredItemHeight
+           @see #AppCompatTheme_editTextBackground
+           @see #AppCompatTheme_editTextColor
+           @see #AppCompatTheme_editTextStyle
+           @see #AppCompatTheme_homeAsUpIndicator
+           @see #AppCompatTheme_imageButtonStyle
+           @see #AppCompatTheme_listChoiceBackgroundIndicator
+           @see #AppCompatTheme_listDividerAlertDialog
+           @see #AppCompatTheme_listMenuViewStyle
+           @see #AppCompatTheme_listPopupWindowStyle
+           @see #AppCompatTheme_listPreferredItemHeight
+           @see #AppCompatTheme_listPreferredItemHeightLarge
+           @see #AppCompatTheme_listPreferredItemHeightSmall
+           @see #AppCompatTheme_listPreferredItemPaddingLeft
+           @see #AppCompatTheme_listPreferredItemPaddingRight
+           @see #AppCompatTheme_panelBackground
+           @see #AppCompatTheme_panelMenuListTheme
+           @see #AppCompatTheme_panelMenuListWidth
+           @see #AppCompatTheme_popupMenuStyle
+           @see #AppCompatTheme_popupWindowStyle
+           @see #AppCompatTheme_radioButtonStyle
+           @see #AppCompatTheme_ratingBarStyle
+           @see #AppCompatTheme_ratingBarStyleIndicator
+           @see #AppCompatTheme_ratingBarStyleSmall
+           @see #AppCompatTheme_searchViewStyle
+           @see #AppCompatTheme_seekBarStyle
+           @see #AppCompatTheme_selectableItemBackground
+           @see #AppCompatTheme_selectableItemBackgroundBorderless
+           @see #AppCompatTheme_spinnerDropDownItemStyle
+           @see #AppCompatTheme_spinnerStyle
+           @see #AppCompatTheme_switchStyle
+           @see #AppCompatTheme_textAppearanceLargePopupMenu
+           @see #AppCompatTheme_textAppearanceListItem
+           @see #AppCompatTheme_textAppearanceListItemSmall
+           @see #AppCompatTheme_textAppearancePopupMenuHeader
+           @see #AppCompatTheme_textAppearanceSearchResultSubtitle
+           @see #AppCompatTheme_textAppearanceSearchResultTitle
+           @see #AppCompatTheme_textAppearanceSmallPopupMenu
+           @see #AppCompatTheme_textColorAlertDialogListItem
+           @see #AppCompatTheme_textColorSearchUrl
+           @see #AppCompatTheme_toolbarNavigationButtonStyle
+           @see #AppCompatTheme_toolbarStyle
+           @see #AppCompatTheme_windowActionBar
+           @see #AppCompatTheme_windowActionBarOverlay
+           @see #AppCompatTheme_windowActionModeOverlay
+           @see #AppCompatTheme_windowFixedHeightMajor
+           @see #AppCompatTheme_windowFixedHeightMinor
+           @see #AppCompatTheme_windowFixedWidthMajor
+           @see #AppCompatTheme_windowFixedWidthMinor
+           @see #AppCompatTheme_windowMinWidthMajor
+           @see #AppCompatTheme_windowMinWidthMinor
+           @see #AppCompatTheme_windowNoTitle
          */
-        public static final int[] CastExpandedController = {
-            0x7f010039
+        public static final int[] AppCompatTheme = {
+            0x01010057, 0x010100ae, 0x7f010031, 0x7f010032,
+            0x7f010033, 0x7f010034, 0x7f010035, 0x7f010036,
+            0x7f010037, 0x7f010038, 0x7f010039, 0x7f01003a,
+            0x7f01003b, 0x7f01003c, 0x7f01003d, 0x7f01003e,
+            0x7f01003f, 0x7f010040, 0x7f010041, 0x7f010042,
+            0x7f010043, 0x7f010044, 0x7f010045, 0x7f010046,
+            0x7f010047, 0x7f010048, 0x7f010049, 0x7f01004a,
+            0x7f01004b, 0x7f01004c, 0x7f01004d, 0x7f01004e,
+            0x7f01004f, 0x7f010050, 0x7f010051, 0x7f010052,
+            0x7f010053, 0x7f010054, 0x7f010055, 0x7f010056,
+            0x7f010057, 0x7f010058, 0x7f010059, 0x7f01005a,
+            0x7f01005b, 0x7f01005c, 0x7f01005d, 0x7f01005e,
+            0x7f01005f, 0x7f010060, 0x7f010061, 0x7f010062,
+            0x7f010063, 0x7f010064, 0x7f010065, 0x7f010066,
+            0x7f010067, 0x7f010068, 0x7f010069, 0x7f01006a,
+            0x7f01006b, 0x7f01006c, 0x7f01006d, 0x7f01006e,
+            0x7f01006f, 0x7f010070, 0x7f010071, 0x7f010072,
+            0x7f010073, 0x7f010074, 0x7f010075, 0x7f010076,
+            0x7f010077, 0x7f010078, 0x7f010079, 0x7f01007a,
+            0x7f01007b, 0x7f01007c, 0x7f01007d, 0x7f01007e,
+            0x7f01007f, 0x7f010080, 0x7f010081, 0x7f010082,
+            0x7f010083, 0x7f010084, 0x7f010085, 0x7f010086,
+            0x7f010087, 0x7f010088, 0x7f010089, 0x7f01008a,
+            0x7f01008b, 0x7f01008c, 0x7f01008d, 0x7f01008e,
+            0x7f01008f, 0x7f010090, 0x7f010091, 0x7f010092,
+            0x7f010093, 0x7f010094, 0x7f010095, 0x7f010096,
+            0x7f010097, 0x7f010098, 0x7f010099, 0x7f01009a,
+            0x7f01009b, 0x7f01009c, 0x7f01009d, 0x7f01009e,
+            0x7f01009f, 0x7f0100a0, 0x7f0100a1
         };
         /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#castControlButtons}
-          attribute's value can be found in the {@link #CastExpandedController} array.
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionBarDivider}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:castControlButtons
+          @attr name mahmud.picosoft.islamiclecturecollection:actionBarDivider
         */
-        public static final int CastExpandedController_castControlButtons = 0;
-        /** Attributes that can be used with a CastIntroOverlay.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CastIntroOverlay_castBackgroundColor mahmud.picosoft.islamiclecturecollection:castBackgroundColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CastIntroOverlay_castButtonBackgroundColor mahmud.picosoft.islamiclecturecollection:castButtonBackgroundColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CastIntroOverlay_castButtonText mahmud.picosoft.islamiclecturecollection:castButtonText}</code></td><td></td></tr>
-           <tr><td><code>{@link #CastIntroOverlay_castButtonTextAppearance mahmud.picosoft.islamiclecturecollection:castButtonTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CastIntroOverlay_castFocusRadius mahmud.picosoft.islamiclecturecollection:castFocusRadius}</code></td><td></td></tr>
-           <tr><td><code>{@link #CastIntroOverlay_castTitleTextAppearance mahmud.picosoft.islamiclecturecollection:castTitleTextAppearance}</code></td><td></td></tr>
-           </table>
-           @see #CastIntroOverlay_castBackgroundColor
-           @see #CastIntroOverlay_castButtonBackgroundColor
-           @see #CastIntroOverlay_castButtonText
-           @see #CastIntroOverlay_castButtonTextAppearance
-           @see #CastIntroOverlay_castFocusRadius
-           @see #CastIntroOverlay_castTitleTextAppearance
-         */
-        public static final int[] CastIntroOverlay = {
-            0x7f010031, 0x7f010032, 0x7f010033, 0x7f010034,
-            0x7f010035, 0x7f010036
-        };
+        public static final int AppCompatTheme_actionBarDivider = 23;
         /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#castBackgroundColor}
-          attribute's value can be found in the {@link #CastIntroOverlay} array.
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:castBackgroundColor
-        */
-        public static final int CastIntroOverlay_castBackgroundColor = 0;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#castButtonBackgroundColor}
-          attribute's value can be found in the {@link #CastIntroOverlay} array.
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:castButtonBackgroundColor
-        */
-        public static final int CastIntroOverlay_castButtonBackgroundColor = 1;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#castButtonText}
-          attribute's value can be found in the {@link #CastIntroOverlay} array.
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-          @attr name mahmud.picosoft.islamiclecturecollection:castButtonText
-        */
-        public static final int CastIntroOverlay_castButtonText = 3;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#castButtonTextAppearance}
-          attribute's value can be found in the {@link #CastIntroOverlay} array.
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionBarItemBackground}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:castButtonTextAppearance
+          @attr name mahmud.picosoft.islamiclecturecollection:actionBarItemBackground
         */
-        public static final int CastIntroOverlay_castButtonTextAppearance = 2;
+        public static final int AppCompatTheme_actionBarItemBackground = 24;
         /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#castFocusRadius}
-          attribute's value can be found in the {@link #CastIntroOverlay} array.
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionBarPopupTheme}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:actionBarPopupTheme
+        */
+        public static final int AppCompatTheme_actionBarPopupTheme = 17;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionBarSize}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
-          @attr name mahmud.picosoft.islamiclecturecollection:castFocusRadius
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name mahmud.picosoft.islamiclecturecollection:actionBarSize
         */
-        public static final int CastIntroOverlay_castFocusRadius = 5;
+        public static final int AppCompatTheme_actionBarSize = 22;
         /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#castTitleTextAppearance}
-          attribute's value can be found in the {@link #CastIntroOverlay} array.
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionBarSplitStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:castTitleTextAppearance
+          @attr name mahmud.picosoft.islamiclecturecollection:actionBarSplitStyle
         */
-        public static final int CastIntroOverlay_castTitleTextAppearance = 4;
-        /** Attributes that can be used with a CastMiniController.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CastMiniController_castControlButtons mahmud.picosoft.islamiclecturecollection:castControlButtons}</code></td><td></td></tr>
-           <tr><td><code>{@link #CastMiniController_castShowImageThumbnail mahmud.picosoft.islamiclecturecollection:castShowImageThumbnail}</code></td><td></td></tr>
-           <tr><td><code>{@link #CastMiniController_castSubtitleTextAppearance mahmud.picosoft.islamiclecturecollection:castSubtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CastMiniController_castTitleTextAppearance mahmud.picosoft.islamiclecturecollection:castTitleTextAppearance}</code></td><td></td></tr>
-           </table>
-           @see #CastMiniController_castControlButtons
-           @see #CastMiniController_castShowImageThumbnail
-           @see #CastMiniController_castSubtitleTextAppearance
-           @see #CastMiniController_castTitleTextAppearance
-         */
-        public static final int[] CastMiniController = {
-            0x7f010035, 0x7f010037, 0x7f010038, 0x7f010039
-        };
+        public static final int AppCompatTheme_actionBarSplitStyle = 19;
         /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#castControlButtons}
-          attribute's value can be found in the {@link #CastMiniController} array.
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionBarStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:castControlButtons
+          @attr name mahmud.picosoft.islamiclecturecollection:actionBarStyle
         */
-        public static final int CastMiniController_castControlButtons = 3;
+        public static final int AppCompatTheme_actionBarStyle = 18;
         /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#castShowImageThumbnail}
-          attribute's value can be found in the {@link #CastMiniController} array.
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionBarTabBarStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:actionBarTabBarStyle
+        */
+        public static final int AppCompatTheme_actionBarTabBarStyle = 13;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionBarTabStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:actionBarTabStyle
+        */
+        public static final int AppCompatTheme_actionBarTabStyle = 12;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionBarTabTextStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:actionBarTabTextStyle
+        */
+        public static final int AppCompatTheme_actionBarTabTextStyle = 14;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionBarTheme}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:actionBarTheme
+        */
+        public static final int AppCompatTheme_actionBarTheme = 20;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionBarWidgetTheme}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:actionBarWidgetTheme
+        */
+        public static final int AppCompatTheme_actionBarWidgetTheme = 21;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionButtonStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:actionButtonStyle
+        */
+        public static final int AppCompatTheme_actionButtonStyle = 50;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionDropDownStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:actionDropDownStyle
+        */
+        public static final int AppCompatTheme_actionDropDownStyle = 46;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionMenuTextAppearance}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:actionMenuTextAppearance
+        */
+        public static final int AppCompatTheme_actionMenuTextAppearance = 25;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionMenuTextColor}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:actionMenuTextColor
+        */
+        public static final int AppCompatTheme_actionMenuTextColor = 26;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionModeBackground}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:actionModeBackground
+        */
+        public static final int AppCompatTheme_actionModeBackground = 29;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionModeCloseButtonStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:actionModeCloseButtonStyle
+        */
+        public static final int AppCompatTheme_actionModeCloseButtonStyle = 28;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionModeCloseDrawable}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:actionModeCloseDrawable
+        */
+        public static final int AppCompatTheme_actionModeCloseDrawable = 31;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionModeCopyDrawable}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:actionModeCopyDrawable
+        */
+        public static final int AppCompatTheme_actionModeCopyDrawable = 33;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionModeCutDrawable}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:actionModeCutDrawable
+        */
+        public static final int AppCompatTheme_actionModeCutDrawable = 32;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionModeFindDrawable}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:actionModeFindDrawable
+        */
+        public static final int AppCompatTheme_actionModeFindDrawable = 37;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionModePasteDrawable}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:actionModePasteDrawable
+        */
+        public static final int AppCompatTheme_actionModePasteDrawable = 34;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionModePopupWindowStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:actionModePopupWindowStyle
+        */
+        public static final int AppCompatTheme_actionModePopupWindowStyle = 39;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionModeSelectAllDrawable}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:actionModeSelectAllDrawable
+        */
+        public static final int AppCompatTheme_actionModeSelectAllDrawable = 35;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionModeShareDrawable}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:actionModeShareDrawable
+        */
+        public static final int AppCompatTheme_actionModeShareDrawable = 36;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionModeSplitBackground}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:actionModeSplitBackground
+        */
+        public static final int AppCompatTheme_actionModeSplitBackground = 30;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionModeStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:actionModeStyle
+        */
+        public static final int AppCompatTheme_actionModeStyle = 27;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionModeWebSearchDrawable}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:actionModeWebSearchDrawable
+        */
+        public static final int AppCompatTheme_actionModeWebSearchDrawable = 38;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionOverflowButtonStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:actionOverflowButtonStyle
+        */
+        public static final int AppCompatTheme_actionOverflowButtonStyle = 15;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionOverflowMenuStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:actionOverflowMenuStyle
+        */
+        public static final int AppCompatTheme_actionOverflowMenuStyle = 16;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#activityChooserViewStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:activityChooserViewStyle
+        */
+        public static final int AppCompatTheme_activityChooserViewStyle = 58;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#alertDialogButtonGroupStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:alertDialogButtonGroupStyle
+        */
+        public static final int AppCompatTheme_alertDialogButtonGroupStyle = 94;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#alertDialogCenterButtons}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
@@ -4359,29 +5069,1558 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:castShowImageThumbnail
+          @attr name mahmud.picosoft.islamiclecturecollection:alertDialogCenterButtons
         */
-        public static final int CastMiniController_castShowImageThumbnail = 1;
+        public static final int AppCompatTheme_alertDialogCenterButtons = 95;
         /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#castSubtitleTextAppearance}
-          attribute's value can be found in the {@link #CastMiniController} array.
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#alertDialogStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:castSubtitleTextAppearance
+          @attr name mahmud.picosoft.islamiclecturecollection:alertDialogStyle
         */
-        public static final int CastMiniController_castSubtitleTextAppearance = 2;
+        public static final int AppCompatTheme_alertDialogStyle = 93;
         /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#castTitleTextAppearance}
-          attribute's value can be found in the {@link #CastMiniController} array.
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#alertDialogTheme}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:castTitleTextAppearance
+          @attr name mahmud.picosoft.islamiclecturecollection:alertDialogTheme
         */
-        public static final int CastMiniController_castTitleTextAppearance = 0;
+        public static final int AppCompatTheme_alertDialogTheme = 96;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+          @attr name android:windowAnimationStyle
+        */
+        public static final int AppCompatTheme_android_windowAnimationStyle = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+          @attr name android:windowIsFloating
+        */
+        public static final int AppCompatTheme_android_windowIsFloating = 0;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#autoCompleteTextViewStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:autoCompleteTextViewStyle
+        */
+        public static final int AppCompatTheme_autoCompleteTextViewStyle = 101;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#borderlessButtonStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:borderlessButtonStyle
+        */
+        public static final int AppCompatTheme_borderlessButtonStyle = 55;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#buttonBarButtonStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:buttonBarButtonStyle
+        */
+        public static final int AppCompatTheme_buttonBarButtonStyle = 52;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#buttonBarNegativeButtonStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:buttonBarNegativeButtonStyle
+        */
+        public static final int AppCompatTheme_buttonBarNegativeButtonStyle = 99;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#buttonBarNeutralButtonStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:buttonBarNeutralButtonStyle
+        */
+        public static final int AppCompatTheme_buttonBarNeutralButtonStyle = 100;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#buttonBarPositiveButtonStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:buttonBarPositiveButtonStyle
+        */
+        public static final int AppCompatTheme_buttonBarPositiveButtonStyle = 98;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#buttonBarStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:buttonBarStyle
+        */
+        public static final int AppCompatTheme_buttonBarStyle = 51;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#buttonStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:buttonStyle
+        */
+        public static final int AppCompatTheme_buttonStyle = 102;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#buttonStyleSmall}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:buttonStyleSmall
+        */
+        public static final int AppCompatTheme_buttonStyleSmall = 103;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#checkboxStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:checkboxStyle
+        */
+        public static final int AppCompatTheme_checkboxStyle = 104;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#checkedTextViewStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:checkedTextViewStyle
+        */
+        public static final int AppCompatTheme_checkedTextViewStyle = 105;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#colorAccent}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:colorAccent
+        */
+        public static final int AppCompatTheme_colorAccent = 85;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#colorBackgroundFloating}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:colorBackgroundFloating
+        */
+        public static final int AppCompatTheme_colorBackgroundFloating = 92;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#colorButtonNormal}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:colorButtonNormal
+        */
+        public static final int AppCompatTheme_colorButtonNormal = 89;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#colorControlActivated}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:colorControlActivated
+        */
+        public static final int AppCompatTheme_colorControlActivated = 87;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#colorControlHighlight}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:colorControlHighlight
+        */
+        public static final int AppCompatTheme_colorControlHighlight = 88;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#colorControlNormal}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:colorControlNormal
+        */
+        public static final int AppCompatTheme_colorControlNormal = 86;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#colorPrimary}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:colorPrimary
+        */
+        public static final int AppCompatTheme_colorPrimary = 83;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#colorPrimaryDark}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:colorPrimaryDark
+        */
+        public static final int AppCompatTheme_colorPrimaryDark = 84;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#colorSwitchThumbNormal}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:colorSwitchThumbNormal
+        */
+        public static final int AppCompatTheme_colorSwitchThumbNormal = 90;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#controlBackground}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:controlBackground
+        */
+        public static final int AppCompatTheme_controlBackground = 91;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#dialogPreferredPadding}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:dialogPreferredPadding
+        */
+        public static final int AppCompatTheme_dialogPreferredPadding = 44;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#dialogTheme}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:dialogTheme
+        */
+        public static final int AppCompatTheme_dialogTheme = 43;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#dividerHorizontal}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:dividerHorizontal
+        */
+        public static final int AppCompatTheme_dividerHorizontal = 57;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#dividerVertical}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:dividerVertical
+        */
+        public static final int AppCompatTheme_dividerVertical = 56;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#dropDownListViewStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:dropDownListViewStyle
+        */
+        public static final int AppCompatTheme_dropDownListViewStyle = 75;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#dropdownListPreferredItemHeight}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:dropdownListPreferredItemHeight
+        */
+        public static final int AppCompatTheme_dropdownListPreferredItemHeight = 47;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#editTextBackground}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:editTextBackground
+        */
+        public static final int AppCompatTheme_editTextBackground = 64;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#editTextColor}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:editTextColor
+        */
+        public static final int AppCompatTheme_editTextColor = 63;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#editTextStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:editTextStyle
+        */
+        public static final int AppCompatTheme_editTextStyle = 106;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#homeAsUpIndicator}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:homeAsUpIndicator
+        */
+        public static final int AppCompatTheme_homeAsUpIndicator = 49;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#imageButtonStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:imageButtonStyle
+        */
+        public static final int AppCompatTheme_imageButtonStyle = 65;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#listChoiceBackgroundIndicator}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:listChoiceBackgroundIndicator
+        */
+        public static final int AppCompatTheme_listChoiceBackgroundIndicator = 82;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#listDividerAlertDialog}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:listDividerAlertDialog
+        */
+        public static final int AppCompatTheme_listDividerAlertDialog = 45;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#listMenuViewStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:listMenuViewStyle
+        */
+        public static final int AppCompatTheme_listMenuViewStyle = 114;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#listPopupWindowStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:listPopupWindowStyle
+        */
+        public static final int AppCompatTheme_listPopupWindowStyle = 76;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#listPreferredItemHeight}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:listPreferredItemHeight
+        */
+        public static final int AppCompatTheme_listPreferredItemHeight = 70;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#listPreferredItemHeightLarge}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:listPreferredItemHeightLarge
+        */
+        public static final int AppCompatTheme_listPreferredItemHeightLarge = 72;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#listPreferredItemHeightSmall}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:listPreferredItemHeightSmall
+        */
+        public static final int AppCompatTheme_listPreferredItemHeightSmall = 71;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#listPreferredItemPaddingLeft}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:listPreferredItemPaddingLeft
+        */
+        public static final int AppCompatTheme_listPreferredItemPaddingLeft = 73;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#listPreferredItemPaddingRight}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:listPreferredItemPaddingRight
+        */
+        public static final int AppCompatTheme_listPreferredItemPaddingRight = 74;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#panelBackground}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:panelBackground
+        */
+        public static final int AppCompatTheme_panelBackground = 79;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#panelMenuListTheme}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:panelMenuListTheme
+        */
+        public static final int AppCompatTheme_panelMenuListTheme = 81;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#panelMenuListWidth}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:panelMenuListWidth
+        */
+        public static final int AppCompatTheme_panelMenuListWidth = 80;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#popupMenuStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:popupMenuStyle
+        */
+        public static final int AppCompatTheme_popupMenuStyle = 61;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#popupWindowStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:popupWindowStyle
+        */
+        public static final int AppCompatTheme_popupWindowStyle = 62;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#radioButtonStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:radioButtonStyle
+        */
+        public static final int AppCompatTheme_radioButtonStyle = 107;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#ratingBarStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:ratingBarStyle
+        */
+        public static final int AppCompatTheme_ratingBarStyle = 108;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#ratingBarStyleIndicator}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:ratingBarStyleIndicator
+        */
+        public static final int AppCompatTheme_ratingBarStyleIndicator = 109;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#ratingBarStyleSmall}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:ratingBarStyleSmall
+        */
+        public static final int AppCompatTheme_ratingBarStyleSmall = 110;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#searchViewStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:searchViewStyle
+        */
+        public static final int AppCompatTheme_searchViewStyle = 69;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#seekBarStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:seekBarStyle
+        */
+        public static final int AppCompatTheme_seekBarStyle = 111;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#selectableItemBackground}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:selectableItemBackground
+        */
+        public static final int AppCompatTheme_selectableItemBackground = 53;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#selectableItemBackgroundBorderless}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:selectableItemBackgroundBorderless
+        */
+        public static final int AppCompatTheme_selectableItemBackgroundBorderless = 54;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#spinnerDropDownItemStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:spinnerDropDownItemStyle
+        */
+        public static final int AppCompatTheme_spinnerDropDownItemStyle = 48;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#spinnerStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:spinnerStyle
+        */
+        public static final int AppCompatTheme_spinnerStyle = 112;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#switchStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:switchStyle
+        */
+        public static final int AppCompatTheme_switchStyle = 113;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#textAppearanceLargePopupMenu}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:textAppearanceLargePopupMenu
+        */
+        public static final int AppCompatTheme_textAppearanceLargePopupMenu = 40;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#textAppearanceListItem}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:textAppearanceListItem
+        */
+        public static final int AppCompatTheme_textAppearanceListItem = 77;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#textAppearanceListItemSmall}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:textAppearanceListItemSmall
+        */
+        public static final int AppCompatTheme_textAppearanceListItemSmall = 78;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#textAppearancePopupMenuHeader}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:textAppearancePopupMenuHeader
+        */
+        public static final int AppCompatTheme_textAppearancePopupMenuHeader = 42;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#textAppearanceSearchResultSubtitle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:textAppearanceSearchResultSubtitle
+        */
+        public static final int AppCompatTheme_textAppearanceSearchResultSubtitle = 67;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#textAppearanceSearchResultTitle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:textAppearanceSearchResultTitle
+        */
+        public static final int AppCompatTheme_textAppearanceSearchResultTitle = 66;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#textAppearanceSmallPopupMenu}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:textAppearanceSmallPopupMenu
+        */
+        public static final int AppCompatTheme_textAppearanceSmallPopupMenu = 41;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#textColorAlertDialogListItem}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:textColorAlertDialogListItem
+        */
+        public static final int AppCompatTheme_textColorAlertDialogListItem = 97;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#textColorSearchUrl}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:textColorSearchUrl
+        */
+        public static final int AppCompatTheme_textColorSearchUrl = 68;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#toolbarNavigationButtonStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:toolbarNavigationButtonStyle
+        */
+        public static final int AppCompatTheme_toolbarNavigationButtonStyle = 60;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#toolbarStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:toolbarStyle
+        */
+        public static final int AppCompatTheme_toolbarStyle = 59;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#windowActionBar}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:windowActionBar
+        */
+        public static final int AppCompatTheme_windowActionBar = 2;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#windowActionBarOverlay}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:windowActionBarOverlay
+        */
+        public static final int AppCompatTheme_windowActionBarOverlay = 4;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#windowActionModeOverlay}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:windowActionModeOverlay
+        */
+        public static final int AppCompatTheme_windowActionModeOverlay = 5;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#windowFixedHeightMajor}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:windowFixedHeightMajor
+        */
+        public static final int AppCompatTheme_windowFixedHeightMajor = 9;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#windowFixedHeightMinor}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:windowFixedHeightMinor
+        */
+        public static final int AppCompatTheme_windowFixedHeightMinor = 7;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#windowFixedWidthMajor}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:windowFixedWidthMajor
+        */
+        public static final int AppCompatTheme_windowFixedWidthMajor = 6;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#windowFixedWidthMinor}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:windowFixedWidthMinor
+        */
+        public static final int AppCompatTheme_windowFixedWidthMinor = 8;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#windowMinWidthMajor}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:windowMinWidthMajor
+        */
+        public static final int AppCompatTheme_windowMinWidthMajor = 10;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#windowMinWidthMinor}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:windowMinWidthMinor
+        */
+        public static final int AppCompatTheme_windowMinWidthMinor = 11;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#windowNoTitle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:windowNoTitle
+        */
+        public static final int AppCompatTheme_windowNoTitle = 3;
+        /** Attributes that can be used with a BottomNavigationView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #BottomNavigationView_elevation mahmud.picosoft.islamiclecturecollection:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_itemBackground mahmud.picosoft.islamiclecturecollection:itemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_itemIconTint mahmud.picosoft.islamiclecturecollection:itemIconTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_itemTextColor mahmud.picosoft.islamiclecturecollection:itemTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_menu mahmud.picosoft.islamiclecturecollection:menu}</code></td><td></td></tr>
+           </table>
+           @see #BottomNavigationView_elevation
+           @see #BottomNavigationView_itemBackground
+           @see #BottomNavigationView_itemIconTint
+           @see #BottomNavigationView_itemTextColor
+           @see #BottomNavigationView_menu
+         */
+        public static final int[] BottomNavigationView = {
+            0x7f01001c, 0x7f0100dd, 0x7f0100de, 0x7f0100df,
+            0x7f0100e0
+        };
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#elevation}
+          attribute's value can be found in the {@link #BottomNavigationView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:elevation
+        */
+        public static final int BottomNavigationView_elevation = 0;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#itemBackground}
+          attribute's value can be found in the {@link #BottomNavigationView} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:itemBackground
+        */
+        public static final int BottomNavigationView_itemBackground = 4;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#itemIconTint}
+          attribute's value can be found in the {@link #BottomNavigationView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:itemIconTint
+        */
+        public static final int BottomNavigationView_itemIconTint = 2;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#itemTextColor}
+          attribute's value can be found in the {@link #BottomNavigationView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:itemTextColor
+        */
+        public static final int BottomNavigationView_itemTextColor = 3;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#menu}
+          attribute's value can be found in the {@link #BottomNavigationView} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:menu
+        */
+        public static final int BottomNavigationView_menu = 1;
+        /** Attributes that can be used with a BottomSheetBehavior_Layout.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable mahmud.picosoft.islamiclecturecollection:behavior_hideable}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight mahmud.picosoft.islamiclecturecollection:behavior_peekHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed mahmud.picosoft.islamiclecturecollection:behavior_skipCollapsed}</code></td><td></td></tr>
+           </table>
+           @see #BottomSheetBehavior_Layout_behavior_hideable
+           @see #BottomSheetBehavior_Layout_behavior_peekHeight
+           @see #BottomSheetBehavior_Layout_behavior_skipCollapsed
+         */
+        public static final int[] BottomSheetBehavior_Layout = {
+            0x7f0100a2, 0x7f0100a3, 0x7f0100a4
+        };
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#behavior_hideable}
+          attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:behavior_hideable
+        */
+        public static final int BottomSheetBehavior_Layout_behavior_hideable = 1;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#behavior_peekHeight}
+          attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>auto</code></td><td>-1</td><td></td></tr>
+</table>
+          @attr name mahmud.picosoft.islamiclecturecollection:behavior_peekHeight
+        */
+        public static final int BottomSheetBehavior_Layout_behavior_peekHeight = 0;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#behavior_skipCollapsed}
+          attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:behavior_skipCollapsed
+        */
+        public static final int BottomSheetBehavior_Layout_behavior_skipCollapsed = 2;
+        /** Attributes that can be used with a ButtonBarLayout.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ButtonBarLayout_allowStacking mahmud.picosoft.islamiclecturecollection:allowStacking}</code></td><td></td></tr>
+           </table>
+           @see #ButtonBarLayout_allowStacking
+         */
+        public static final int[] ButtonBarLayout = {
+            0x7f0100a5
+        };
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#allowStacking}
+          attribute's value can be found in the {@link #ButtonBarLayout} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:allowStacking
+        */
+        public static final int ButtonBarLayout_allowStacking = 0;
+        /** Attributes that can be used with a CollapsingToolbarLayout.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity mahmud.picosoft.islamiclecturecollection:collapsedTitleGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance mahmud.picosoft.islamiclecturecollection:collapsedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim mahmud.picosoft.islamiclecturecollection:contentScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity mahmud.picosoft.islamiclecturecollection:expandedTitleGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin mahmud.picosoft.islamiclecturecollection:expandedTitleMargin}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom mahmud.picosoft.islamiclecturecollection:expandedTitleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd mahmud.picosoft.islamiclecturecollection:expandedTitleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart mahmud.picosoft.islamiclecturecollection:expandedTitleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop mahmud.picosoft.islamiclecturecollection:expandedTitleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance mahmud.picosoft.islamiclecturecollection:expandedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration mahmud.picosoft.islamiclecturecollection:scrimAnimationDuration}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger mahmud.picosoft.islamiclecturecollection:scrimVisibleHeightTrigger}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim mahmud.picosoft.islamiclecturecollection:statusBarScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_title mahmud.picosoft.islamiclecturecollection:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled mahmud.picosoft.islamiclecturecollection:titleEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId mahmud.picosoft.islamiclecturecollection:toolbarId}</code></td><td></td></tr>
+           </table>
+           @see #CollapsingToolbarLayout_collapsedTitleGravity
+           @see #CollapsingToolbarLayout_collapsedTitleTextAppearance
+           @see #CollapsingToolbarLayout_contentScrim
+           @see #CollapsingToolbarLayout_expandedTitleGravity
+           @see #CollapsingToolbarLayout_expandedTitleMargin
+           @see #CollapsingToolbarLayout_expandedTitleMarginBottom
+           @see #CollapsingToolbarLayout_expandedTitleMarginEnd
+           @see #CollapsingToolbarLayout_expandedTitleMarginStart
+           @see #CollapsingToolbarLayout_expandedTitleMarginTop
+           @see #CollapsingToolbarLayout_expandedTitleTextAppearance
+           @see #CollapsingToolbarLayout_scrimAnimationDuration
+           @see #CollapsingToolbarLayout_scrimVisibleHeightTrigger
+           @see #CollapsingToolbarLayout_statusBarScrim
+           @see #CollapsingToolbarLayout_title
+           @see #CollapsingToolbarLayout_titleEnabled
+           @see #CollapsingToolbarLayout_toolbarId
+         */
+        public static final int[] CollapsingToolbarLayout = {
+            0x7f010003, 0x7f0100a6, 0x7f0100a7, 0x7f0100a8,
+            0x7f0100a9, 0x7f0100aa, 0x7f0100ab, 0x7f0100ac,
+            0x7f0100ad, 0x7f0100ae, 0x7f0100af, 0x7f0100b0,
+            0x7f0100b1, 0x7f0100b2, 0x7f0100b3, 0x7f0100b4
+        };
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#collapsedTitleGravity}
+          attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
+
+
+          <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>top</code></td><td>0x30</td><td></td></tr>
+<tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
+<tr><td><code>left</code></td><td>0x03</td><td></td></tr>
+<tr><td><code>right</code></td><td>0x05</td><td></td></tr>
+<tr><td><code>center_vertical</code></td><td>0x10</td><td></td></tr>
+<tr><td><code>fill_vertical</code></td><td>0x70</td><td></td></tr>
+<tr><td><code>center_horizontal</code></td><td>0x01</td><td></td></tr>
+<tr><td><code>center</code></td><td>0x11</td><td></td></tr>
+<tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
+<tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
+</table>
+          @attr name mahmud.picosoft.islamiclecturecollection:collapsedTitleGravity
+        */
+        public static final int CollapsingToolbarLayout_collapsedTitleGravity = 13;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#collapsedTitleTextAppearance}
+          attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:collapsedTitleTextAppearance
+        */
+        public static final int CollapsingToolbarLayout_collapsedTitleTextAppearance = 7;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#contentScrim}
+          attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:contentScrim
+        */
+        public static final int CollapsingToolbarLayout_contentScrim = 8;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#expandedTitleGravity}
+          attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
+
+
+          <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>top</code></td><td>0x30</td><td></td></tr>
+<tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
+<tr><td><code>left</code></td><td>0x03</td><td></td></tr>
+<tr><td><code>right</code></td><td>0x05</td><td></td></tr>
+<tr><td><code>center_vertical</code></td><td>0x10</td><td></td></tr>
+<tr><td><code>fill_vertical</code></td><td>0x70</td><td></td></tr>
+<tr><td><code>center_horizontal</code></td><td>0x01</td><td></td></tr>
+<tr><td><code>center</code></td><td>0x11</td><td></td></tr>
+<tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
+<tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
+</table>
+          @attr name mahmud.picosoft.islamiclecturecollection:expandedTitleGravity
+        */
+        public static final int CollapsingToolbarLayout_expandedTitleGravity = 14;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#expandedTitleMargin}
+          attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:expandedTitleMargin
+        */
+        public static final int CollapsingToolbarLayout_expandedTitleMargin = 1;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#expandedTitleMarginBottom}
+          attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:expandedTitleMarginBottom
+        */
+        public static final int CollapsingToolbarLayout_expandedTitleMarginBottom = 5;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#expandedTitleMarginEnd}
+          attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:expandedTitleMarginEnd
+        */
+        public static final int CollapsingToolbarLayout_expandedTitleMarginEnd = 4;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#expandedTitleMarginStart}
+          attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:expandedTitleMarginStart
+        */
+        public static final int CollapsingToolbarLayout_expandedTitleMarginStart = 2;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#expandedTitleMarginTop}
+          attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:expandedTitleMarginTop
+        */
+        public static final int CollapsingToolbarLayout_expandedTitleMarginTop = 3;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#expandedTitleTextAppearance}
+          attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:expandedTitleTextAppearance
+        */
+        public static final int CollapsingToolbarLayout_expandedTitleTextAppearance = 6;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#scrimAnimationDuration}
+          attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:scrimAnimationDuration
+        */
+        public static final int CollapsingToolbarLayout_scrimAnimationDuration = 12;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#scrimVisibleHeightTrigger}
+          attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:scrimVisibleHeightTrigger
+        */
+        public static final int CollapsingToolbarLayout_scrimVisibleHeightTrigger = 11;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#statusBarScrim}
+          attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:statusBarScrim
+        */
+        public static final int CollapsingToolbarLayout_statusBarScrim = 9;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#title}
+          attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:title
+        */
+        public static final int CollapsingToolbarLayout_title = 0;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#titleEnabled}
+          attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:titleEnabled
+        */
+        public static final int CollapsingToolbarLayout_titleEnabled = 15;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#toolbarId}
+          attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:toolbarId
+        */
+        public static final int CollapsingToolbarLayout_toolbarId = 10;
+        /** Attributes that can be used with a CollapsingToolbarLayout_Layout.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode mahmud.picosoft.islamiclecturecollection:layout_collapseMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier mahmud.picosoft.islamiclecturecollection:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
+           </table>
+           @see #CollapsingToolbarLayout_Layout_layout_collapseMode
+           @see #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier
+         */
+        public static final int[] CollapsingToolbarLayout_Layout = {
+            0x7f0100b5, 0x7f0100b6
+        };
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#layout_collapseMode}
+          attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>pin</code></td><td>1</td><td></td></tr>
+<tr><td><code>parallax</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name mahmud.picosoft.islamiclecturecollection:layout_collapseMode
+        */
+        public static final int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#layout_collapseParallaxMultiplier}
+          attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:layout_collapseParallaxMultiplier
+        */
+        public static final int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = 1;
+        /** Attributes that can be used with a ColorStateListItem.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ColorStateListItem_alpha mahmud.picosoft.islamiclecturecollection:alpha}</code></td><td></td></tr>
+           <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
+           <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
+           </table>
+           @see #ColorStateListItem_alpha
+           @see #ColorStateListItem_android_alpha
+           @see #ColorStateListItem_android_color
+         */
+        public static final int[] ColorStateListItem = {
+            0x010101a5, 0x0101031f, 0x7f0100b7
+        };
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#alpha}
+          attribute's value can be found in the {@link #ColorStateListItem} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:alpha
+        */
+        public static final int ColorStateListItem_alpha = 2;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#alpha}
+          attribute's value can be found in the {@link #ColorStateListItem} array.
+          @attr name android:alpha
+        */
+        public static final int ColorStateListItem_android_alpha = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#color}
+          attribute's value can be found in the {@link #ColorStateListItem} array.
+          @attr name android:color
+        */
+        public static final int ColorStateListItem_android_color = 0;
         /** Attributes that can be used with a CompoundButton.
            <p>Includes the following attributes:</p>
            <table>
@@ -4397,7 +6636,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #CompoundButton_buttonTintMode
          */
         public static final int[] CompoundButton = {
-            0x01010107, 0x7f01003a, 0x7f01003b
+            0x01010107, 0x7f0100b8, 0x7f0100b9
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#button}
@@ -4440,37 +6679,115 @@ containing a value of this type.
           @attr name mahmud.picosoft.islamiclecturecollection:buttonTintMode
         */
         public static final int CompoundButton_buttonTintMode = 2;
-        /** Attributes that can be used with a Corpus.
+        /** Attributes that can be used with a CoordinatorLayout.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Corpus_contentProviderUri mahmud.picosoft.islamiclecturecollection:contentProviderUri}</code></td><td></td></tr>
-           <tr><td><code>{@link #Corpus_corpusId mahmud.picosoft.islamiclecturecollection:corpusId}</code></td><td></td></tr>
-           <tr><td><code>{@link #Corpus_corpusVersion mahmud.picosoft.islamiclecturecollection:corpusVersion}</code></td><td></td></tr>
-           <tr><td><code>{@link #Corpus_documentMaxAgeSecs mahmud.picosoft.islamiclecturecollection:documentMaxAgeSecs}</code></td><td></td></tr>
-           <tr><td><code>{@link #Corpus_perAccountTemplate mahmud.picosoft.islamiclecturecollection:perAccountTemplate}</code></td><td></td></tr>
-           <tr><td><code>{@link #Corpus_schemaOrgType mahmud.picosoft.islamiclecturecollection:schemaOrgType}</code></td><td></td></tr>
-           <tr><td><code>{@link #Corpus_semanticallySearchable mahmud.picosoft.islamiclecturecollection:semanticallySearchable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Corpus_trimmable mahmud.picosoft.islamiclecturecollection:trimmable}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_keylines mahmud.picosoft.islamiclecturecollection:keylines}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground mahmud.picosoft.islamiclecturecollection:statusBarBackground}</code></td><td></td></tr>
            </table>
-           @see #Corpus_contentProviderUri
-           @see #Corpus_corpusId
-           @see #Corpus_corpusVersion
-           @see #Corpus_documentMaxAgeSecs
-           @see #Corpus_perAccountTemplate
-           @see #Corpus_schemaOrgType
-           @see #Corpus_semanticallySearchable
-           @see #Corpus_trimmable
+           @see #CoordinatorLayout_keylines
+           @see #CoordinatorLayout_statusBarBackground
          */
-        public static final int[] Corpus = {
-            0x7f01003c, 0x7f01003d, 0x7f01003e, 0x7f01003f,
-            0x7f010040, 0x7f010041, 0x7f010042, 0x7f010043
+        public static final int[] CoordinatorLayout = {
+            0x7f0100ba, 0x7f0100bb
         };
         /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#contentProviderUri}
-          attribute's value can be found in the {@link #Corpus} array.
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#keylines}
+          attribute's value can be found in the {@link #CoordinatorLayout} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:keylines
+        */
+        public static final int CoordinatorLayout_keylines = 0;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#statusBarBackground}
+          attribute's value can be found in the {@link #CoordinatorLayout} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:statusBarBackground
+        */
+        public static final int CoordinatorLayout_statusBarBackground = 1;
+        /** Attributes that can be used with a CoordinatorLayout_Layout.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor mahmud.picosoft.islamiclecturecollection:layout_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity mahmud.picosoft.islamiclecturecollection:layout_anchorGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior mahmud.picosoft.islamiclecturecollection:layout_behavior}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges mahmud.picosoft.islamiclecturecollection:layout_dodgeInsetEdges}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge mahmud.picosoft.islamiclecturecollection:layout_insetEdge}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline mahmud.picosoft.islamiclecturecollection:layout_keyline}</code></td><td></td></tr>
+           </table>
+           @see #CoordinatorLayout_Layout_android_layout_gravity
+           @see #CoordinatorLayout_Layout_layout_anchor
+           @see #CoordinatorLayout_Layout_layout_anchorGravity
+           @see #CoordinatorLayout_Layout_layout_behavior
+           @see #CoordinatorLayout_Layout_layout_dodgeInsetEdges
+           @see #CoordinatorLayout_Layout_layout_insetEdge
+           @see #CoordinatorLayout_Layout_layout_keyline
+         */
+        public static final int[] CoordinatorLayout_Layout = {
+            0x010100b3, 0x7f0100bc, 0x7f0100bd, 0x7f0100be,
+            0x7f0100bf, 0x7f0100c0, 0x7f0100c1
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#layout_gravity}
+          attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
+          @attr name android:layout_gravity
+        */
+        public static final int CoordinatorLayout_Layout_android_layout_gravity = 0;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#layout_anchor}
+          attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:layout_anchor
+        */
+        public static final int CoordinatorLayout_Layout_layout_anchor = 2;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#layout_anchorGravity}
+          attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
+
+
+          <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>top</code></td><td>0x30</td><td></td></tr>
+<tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
+<tr><td><code>left</code></td><td>0x03</td><td></td></tr>
+<tr><td><code>right</code></td><td>0x05</td><td></td></tr>
+<tr><td><code>center_vertical</code></td><td>0x10</td><td></td></tr>
+<tr><td><code>fill_vertical</code></td><td>0x70</td><td></td></tr>
+<tr><td><code>center_horizontal</code></td><td>0x01</td><td></td></tr>
+<tr><td><code>fill_horizontal</code></td><td>0x07</td><td></td></tr>
+<tr><td><code>center</code></td><td>0x11</td><td></td></tr>
+<tr><td><code>fill</code></td><td>0x77</td><td></td></tr>
+<tr><td><code>clip_vertical</code></td><td>0x80</td><td></td></tr>
+<tr><td><code>clip_horizontal</code></td><td>0x08</td><td></td></tr>
+<tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
+<tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
+</table>
+          @attr name mahmud.picosoft.islamiclecturecollection:layout_anchorGravity
+        */
+        public static final int CoordinatorLayout_Layout_layout_anchorGravity = 4;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#layout_behavior}
+          attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
@@ -4479,40 +6796,57 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:contentProviderUri
+          @attr name mahmud.picosoft.islamiclecturecollection:layout_behavior
         */
-        public static final int Corpus_contentProviderUri = 2;
+        public static final int CoordinatorLayout_Layout_layout_behavior = 1;
         /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#corpusId}
-          attribute's value can be found in the {@link #Corpus} array.
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#layout_dodgeInsetEdges}
+          attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:corpusId
+          <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0x0</td><td></td></tr>
+<tr><td><code>top</code></td><td>0x30</td><td></td></tr>
+<tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
+<tr><td><code>left</code></td><td>0x03</td><td></td></tr>
+<tr><td><code>right</code></td><td>0x03</td><td></td></tr>
+<tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
+<tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
+<tr><td><code>all</code></td><td>0x77</td><td></td></tr>
+</table>
+          @attr name mahmud.picosoft.islamiclecturecollection:layout_dodgeInsetEdges
         */
-        public static final int Corpus_corpusId = 0;
+        public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges = 6;
         /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#corpusVersion}
-          attribute's value can be found in the {@link #Corpus} array.
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#layout_insetEdge}
+          attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:corpusVersion
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0x0</td><td></td></tr>
+<tr><td><code>top</code></td><td>0x30</td><td></td></tr>
+<tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
+<tr><td><code>left</code></td><td>0x03</td><td></td></tr>
+<tr><td><code>right</code></td><td>0x03</td><td></td></tr>
+<tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
+<tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
+</table>
+          @attr name mahmud.picosoft.islamiclecturecollection:layout_insetEdge
         */
-        public static final int Corpus_corpusVersion = 1;
+        public static final int CoordinatorLayout_Layout_layout_insetEdge = 5;
         /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#documentMaxAgeSecs}
-          attribute's value can be found in the {@link #Corpus} array.
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#layout_keyline}
+          attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
           <p>Must be an integer value, such as "<code>100</code>".
@@ -4521,161 +6855,61 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:documentMaxAgeSecs
+          @attr name mahmud.picosoft.islamiclecturecollection:layout_keyline
         */
-        public static final int Corpus_documentMaxAgeSecs = 6;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#perAccountTemplate}
-          attribute's value can be found in the {@link #Corpus} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:perAccountTemplate
-        */
-        public static final int Corpus_perAccountTemplate = 7;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#schemaOrgType}
-          attribute's value can be found in the {@link #Corpus} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:schemaOrgType
-        */
-        public static final int Corpus_schemaOrgType = 4;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#semanticallySearchable}
-          attribute's value can be found in the {@link #Corpus} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:semanticallySearchable
-        */
-        public static final int Corpus_semanticallySearchable = 5;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#trimmable}
-          attribute's value can be found in the {@link #Corpus} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:trimmable
-        */
-        public static final int Corpus_trimmable = 3;
-        /** Attributes that can be used with a CustomCastTheme.
+        public static final int CoordinatorLayout_Layout_layout_keyline = 3;
+        /** Attributes that can be used with a DesignTheme.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CustomCastTheme_castExpandedControllerStyle mahmud.picosoft.islamiclecturecollection:castExpandedControllerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #CustomCastTheme_castIntroOverlayStyle mahmud.picosoft.islamiclecturecollection:castIntroOverlayStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #CustomCastTheme_castMiniControllerStyle mahmud.picosoft.islamiclecturecollection:castMiniControllerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme mahmud.picosoft.islamiclecturecollection:bottomSheetDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_bottomSheetStyle mahmud.picosoft.islamiclecturecollection:bottomSheetStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_textColorError mahmud.picosoft.islamiclecturecollection:textColorError}</code></td><td></td></tr>
            </table>
-           @see #CustomCastTheme_castExpandedControllerStyle
-           @see #CustomCastTheme_castIntroOverlayStyle
-           @see #CustomCastTheme_castMiniControllerStyle
+           @see #DesignTheme_bottomSheetDialogTheme
+           @see #DesignTheme_bottomSheetStyle
+           @see #DesignTheme_textColorError
          */
-        public static final int[] CustomCastTheme = {
-            0x7f010044, 0x7f010045, 0x7f010046
+        public static final int[] DesignTheme = {
+            0x7f0100c2, 0x7f0100c3, 0x7f0100c4
         };
         /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#castExpandedControllerStyle}
-          attribute's value can be found in the {@link #CustomCastTheme} array.
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#bottomSheetDialogTheme}
+          attribute's value can be found in the {@link #DesignTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:castExpandedControllerStyle
+          @attr name mahmud.picosoft.islamiclecturecollection:bottomSheetDialogTheme
         */
-        public static final int CustomCastTheme_castExpandedControllerStyle = 2;
+        public static final int DesignTheme_bottomSheetDialogTheme = 0;
         /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#castIntroOverlayStyle}
-          attribute's value can be found in the {@link #CustomCastTheme} array.
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#bottomSheetStyle}
+          attribute's value can be found in the {@link #DesignTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:castIntroOverlayStyle
+          @attr name mahmud.picosoft.islamiclecturecollection:bottomSheetStyle
         */
-        public static final int CustomCastTheme_castIntroOverlayStyle = 0;
+        public static final int DesignTheme_bottomSheetStyle = 1;
         /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#castMiniControllerStyle}
-          attribute's value can be found in the {@link #CustomCastTheme} array.
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#textColorError}
+          attribute's value can be found in the {@link #DesignTheme} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:castMiniControllerStyle
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:textColorError
         */
-        public static final int CustomCastTheme_castMiniControllerStyle = 1;
-        /** Attributes that can be used with a CustomWalletTheme.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CustomWalletTheme_toolbarTextColorStyle mahmud.picosoft.islamiclecturecollection:toolbarTextColorStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #CustomWalletTheme_windowTransitionStyle mahmud.picosoft.islamiclecturecollection:windowTransitionStyle}</code></td><td></td></tr>
-           </table>
-           @see #CustomWalletTheme_toolbarTextColorStyle
-           @see #CustomWalletTheme_windowTransitionStyle
-         */
-        public static final int[] CustomWalletTheme = {
-            0x7f010047, 0x7f010048
-        };
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#toolbarTextColorStyle}
-          attribute's value can be found in the {@link #CustomWalletTheme} array.
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>light</code></td><td>1</td><td></td></tr>
-<tr><td><code>dark</code></td><td>2</td><td></td></tr>
-</table>
-          @attr name mahmud.picosoft.islamiclecturecollection:toolbarTextColorStyle
-        */
-        public static final int CustomWalletTheme_toolbarTextColorStyle = 1;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#windowTransitionStyle}
-          attribute's value can be found in the {@link #CustomWalletTheme} array.
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>slide</code></td><td>1</td><td></td></tr>
-<tr><td><code>none</code></td><td>2</td><td></td></tr>
-</table>
-          @attr name mahmud.picosoft.islamiclecturecollection:windowTransitionStyle
-        */
-        public static final int CustomWalletTheme_windowTransitionStyle = 0;
+        public static final int DesignTheme_textColorError = 2;
         /** Attributes that can be used with a DrawerArrowToggle.
            <p>Includes the following attributes:</p>
            <table>
@@ -4701,8 +6935,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #DrawerArrowToggle_thickness
          */
         public static final int[] DrawerArrowToggle = {
-            0x7f010049, 0x7f01004a, 0x7f01004b, 0x7f01004c,
-            0x7f01004d, 0x7f01004e, 0x7f01004f, 0x7f010050
+            0x7f0100c5, 0x7f0100c6, 0x7f0100c7, 0x7f0100c8,
+            0x7f0100c9, 0x7f0100ca, 0x7f0100cb, 0x7f0100cc
         };
         /**
           <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#arrowHeadLength}
@@ -4829,216 +7063,52 @@ containing a value of this type.
           @attr name mahmud.picosoft.islamiclecturecollection:thickness
         */
         public static final int DrawerArrowToggle_thickness = 7;
-        /** Attributes that can be used with a FeatureParam.
+        /** Attributes that can be used with a FloatingActionButton.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FeatureParam_paramName mahmud.picosoft.islamiclecturecollection:paramName}</code></td><td></td></tr>
-           <tr><td><code>{@link #FeatureParam_paramValue mahmud.picosoft.islamiclecturecollection:paramValue}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTint mahmud.picosoft.islamiclecturecollection:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode mahmud.picosoft.islamiclecturecollection:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_borderWidth mahmud.picosoft.islamiclecturecollection:borderWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_elevation mahmud.picosoft.islamiclecturecollection:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fabSize mahmud.picosoft.islamiclecturecollection:fabSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ mahmud.picosoft.islamiclecturecollection:pressedTranslationZ}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_rippleColor mahmud.picosoft.islamiclecturecollection:rippleColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_useCompatPadding mahmud.picosoft.islamiclecturecollection:useCompatPadding}</code></td><td></td></tr>
            </table>
-           @see #FeatureParam_paramName
-           @see #FeatureParam_paramValue
+           @see #FloatingActionButton_backgroundTint
+           @see #FloatingActionButton_backgroundTintMode
+           @see #FloatingActionButton_borderWidth
+           @see #FloatingActionButton_elevation
+           @see #FloatingActionButton_fabSize
+           @see #FloatingActionButton_pressedTranslationZ
+           @see #FloatingActionButton_rippleColor
+           @see #FloatingActionButton_useCompatPadding
          */
-        public static final int[] FeatureParam = {
-            0x7f010051, 0x7f010052
+        public static final int[] FloatingActionButton = {
+            0x7f01001c, 0x7f0100cd, 0x7f0100ce, 0x7f0100cf,
+            0x7f0100d0, 0x7f0100d1, 0x7f010138, 0x7f010139
         };
         /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#paramName}
-          attribute's value can be found in the {@link #FeatureParam} array.
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#backgroundTint}
+          attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:paramName
+          @attr name mahmud.picosoft.islamiclecturecollection:backgroundTint
         */
-        public static final int FeatureParam_paramName = 0;
+        public static final int FloatingActionButton_backgroundTint = 6;
         /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#paramValue}
-          attribute's value can be found in the {@link #FeatureParam} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:paramValue
-        */
-        public static final int FeatureParam_paramValue = 1;
-        /** Attributes that can be used with a GlobalSearch.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #GlobalSearch_defaultIntentAction mahmud.picosoft.islamiclecturecollection:defaultIntentAction}</code></td><td></td></tr>
-           <tr><td><code>{@link #GlobalSearch_defaultIntentActivity mahmud.picosoft.islamiclecturecollection:defaultIntentActivity}</code></td><td></td></tr>
-           <tr><td><code>{@link #GlobalSearch_defaultIntentData mahmud.picosoft.islamiclecturecollection:defaultIntentData}</code></td><td></td></tr>
-           <tr><td><code>{@link #GlobalSearch_searchEnabled mahmud.picosoft.islamiclecturecollection:searchEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #GlobalSearch_searchLabel mahmud.picosoft.islamiclecturecollection:searchLabel}</code></td><td></td></tr>
-           <tr><td><code>{@link #GlobalSearch_settingsDescription mahmud.picosoft.islamiclecturecollection:settingsDescription}</code></td><td></td></tr>
-           </table>
-           @see #GlobalSearch_defaultIntentAction
-           @see #GlobalSearch_defaultIntentActivity
-           @see #GlobalSearch_defaultIntentData
-           @see #GlobalSearch_searchEnabled
-           @see #GlobalSearch_searchLabel
-           @see #GlobalSearch_settingsDescription
-         */
-        public static final int[] GlobalSearch = {
-            0x7f010053, 0x7f010054, 0x7f010055, 0x7f010056,
-            0x7f010057, 0x7f010058
-        };
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#defaultIntentAction}
-          attribute's value can be found in the {@link #GlobalSearch} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:defaultIntentAction
-        */
-        public static final int GlobalSearch_defaultIntentAction = 3;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#defaultIntentActivity}
-          attribute's value can be found in the {@link #GlobalSearch} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:defaultIntentActivity
-        */
-        public static final int GlobalSearch_defaultIntentActivity = 5;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#defaultIntentData}
-          attribute's value can be found in the {@link #GlobalSearch} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:defaultIntentData
-        */
-        public static final int GlobalSearch_defaultIntentData = 4;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#searchEnabled}
-          attribute's value can be found in the {@link #GlobalSearch} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:searchEnabled
-        */
-        public static final int GlobalSearch_searchEnabled = 0;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#searchLabel}
-          attribute's value can be found in the {@link #GlobalSearch} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:searchLabel
-        */
-        public static final int GlobalSearch_searchLabel = 1;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#settingsDescription}
-          attribute's value can be found in the {@link #GlobalSearch} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:settingsDescription
-        */
-        public static final int GlobalSearch_settingsDescription = 2;
-        /** Attributes that can be used with a GlobalSearchCorpus.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #GlobalSearchCorpus_allowShortcuts mahmud.picosoft.islamiclecturecollection:allowShortcuts}</code></td><td></td></tr>
-           </table>
-           @see #GlobalSearchCorpus_allowShortcuts
-         */
-        public static final int[] GlobalSearchCorpus = {
-            0x7f010059
-        };
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#allowShortcuts}
-          attribute's value can be found in the {@link #GlobalSearchCorpus} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:allowShortcuts
-        */
-        public static final int GlobalSearchCorpus_allowShortcuts = 0;
-        /** Attributes that can be used with a GlobalSearchSection.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #GlobalSearchSection_sectionContent mahmud.picosoft.islamiclecturecollection:sectionContent}</code></td><td></td></tr>
-           <tr><td><code>{@link #GlobalSearchSection_sectionType mahmud.picosoft.islamiclecturecollection:sectionType}</code></td><td></td></tr>
-           </table>
-           @see #GlobalSearchSection_sectionContent
-           @see #GlobalSearchSection_sectionType
-         */
-        public static final int[] GlobalSearchSection = {
-            0x7f01005a, 0x7f01005b
-        };
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#sectionContent}
-          attribute's value can be found in the {@link #GlobalSearchSection} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:sectionContent
-        */
-        public static final int GlobalSearchSection_sectionContent = 1;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#sectionType}
-          attribute's value can be found in the {@link #GlobalSearchSection} array.
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#backgroundTintMode}
+          attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
           <p>Must be one of the following constant values.</p>
@@ -5047,61 +7117,50 @@ containing a value of this type.
 <colgroup align="left" />
 <colgroup align="left" />
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>text1</code></td><td>0</td><td></td></tr>
-<tr><td><code>text2</code></td><td>1</td><td></td></tr>
-<tr><td><code>icon_uri</code></td><td>2</td><td></td></tr>
-<tr><td><code>intent_action</code></td><td>3</td><td></td></tr>
-<tr><td><code>intent_data</code></td><td>4</td><td></td></tr>
-<tr><td><code>intent_data_id</code></td><td>5</td><td></td></tr>
-<tr><td><code>intent_extra_data</code></td><td>6</td><td></td></tr>
-<tr><td><code>large_icon_uri</code></td><td>7</td><td></td></tr>
-<tr><td><code>intent_activity</code></td><td>8</td><td></td></tr>
-<tr><td><code>thing_proto</code></td><td>9</td><td></td></tr>
+<tr><td><code>src_over</code></td><td>3</td><td></td></tr>
+<tr><td><code>src_in</code></td><td>5</td><td></td></tr>
+<tr><td><code>src_atop</code></td><td>9</td><td></td></tr>
+<tr><td><code>multiply</code></td><td>14</td><td></td></tr>
+<tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name mahmud.picosoft.islamiclecturecollection:sectionType
+          @attr name mahmud.picosoft.islamiclecturecollection:backgroundTintMode
         */
-        public static final int GlobalSearchSection_sectionType = 0;
-        /** Attributes that can be used with a IMECorpus.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #IMECorpus_inputEnabled mahmud.picosoft.islamiclecturecollection:inputEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #IMECorpus_sourceClass mahmud.picosoft.islamiclecturecollection:sourceClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #IMECorpus_toAddressesSection mahmud.picosoft.islamiclecturecollection:toAddressesSection}</code></td><td></td></tr>
-           <tr><td><code>{@link #IMECorpus_userInputSection mahmud.picosoft.islamiclecturecollection:userInputSection}</code></td><td></td></tr>
-           <tr><td><code>{@link #IMECorpus_userInputTag mahmud.picosoft.islamiclecturecollection:userInputTag}</code></td><td></td></tr>
-           <tr><td><code>{@link #IMECorpus_userInputValue mahmud.picosoft.islamiclecturecollection:userInputValue}</code></td><td></td></tr>
-           </table>
-           @see #IMECorpus_inputEnabled
-           @see #IMECorpus_sourceClass
-           @see #IMECorpus_toAddressesSection
-           @see #IMECorpus_userInputSection
-           @see #IMECorpus_userInputTag
-           @see #IMECorpus_userInputValue
-         */
-        public static final int[] IMECorpus = {
-            0x7f01005c, 0x7f01005d, 0x7f01005e, 0x7f01005f,
-            0x7f010060, 0x7f010061
-        };
+        public static final int FloatingActionButton_backgroundTintMode = 7;
         /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#inputEnabled}
-          attribute's value can be found in the {@link #IMECorpus} array.
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#borderWidth}
+          attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:inputEnabled
+          @attr name mahmud.picosoft.islamiclecturecollection:borderWidth
         */
-        public static final int IMECorpus_inputEnabled = 0;
+        public static final int FloatingActionButton_borderWidth = 4;
         /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#sourceClass}
-          attribute's value can be found in the {@link #IMECorpus} array.
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#elevation}
+          attribute's value can be found in the {@link #FloatingActionButton} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:elevation
+        */
+        public static final int FloatingActionButton_elevation = 0;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#fabSize}
+          attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
           <p>Must be one of the following constant values.</p>
@@ -5110,69 +7169,128 @@ containing a value of this type.
 <colgroup align="left" />
 <colgroup align="left" />
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>email</code></td><td>0</td><td></td></tr>
-<tr><td><code>contact</code></td><td>1</td><td></td></tr>
-<tr><td><code>instant_message</code></td><td>2</td><td></td></tr>
+<tr><td><code>auto</code></td><td>-1</td><td></td></tr>
+<tr><td><code>normal</code></td><td>0</td><td></td></tr>
+<tr><td><code>mini</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name mahmud.picosoft.islamiclecturecollection:sourceClass
+          @attr name mahmud.picosoft.islamiclecturecollection:fabSize
         */
-        public static final int IMECorpus_sourceClass = 1;
+        public static final int FloatingActionButton_fabSize = 2;
         /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#toAddressesSection}
-          attribute's value can be found in the {@link #IMECorpus} array.
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#pressedTranslationZ}
+          attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:toAddressesSection
+          @attr name mahmud.picosoft.islamiclecturecollection:pressedTranslationZ
         */
-        public static final int IMECorpus_toAddressesSection = 5;
+        public static final int FloatingActionButton_pressedTranslationZ = 3;
         /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#userInputSection}
-          attribute's value can be found in the {@link #IMECorpus} array.
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#rippleColor}
+          attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:userInputSection
+          @attr name mahmud.picosoft.islamiclecturecollection:rippleColor
         */
-        public static final int IMECorpus_userInputSection = 3;
+        public static final int FloatingActionButton_rippleColor = 1;
         /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#userInputTag}
-          attribute's value can be found in the {@link #IMECorpus} array.
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#useCompatPadding}
+          attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:userInputTag
+          @attr name mahmud.picosoft.islamiclecturecollection:useCompatPadding
         */
-        public static final int IMECorpus_userInputTag = 2;
+        public static final int FloatingActionButton_useCompatPadding = 5;
+        /** Attributes that can be used with a FloatingActionButton_Behavior_Layout.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide mahmud.picosoft.islamiclecturecollection:behavior_autoHide}</code></td><td></td></tr>
+           </table>
+           @see #FloatingActionButton_Behavior_Layout_behavior_autoHide
+         */
+        public static final int[] FloatingActionButton_Behavior_Layout = {
+            0x7f0100d2
+        };
         /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#userInputValue}
-          attribute's value can be found in the {@link #IMECorpus} array.
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#behavior_autoHide}
+          attribute's value can be found in the {@link #FloatingActionButton_Behavior_Layout} array.
 
 
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:userInputValue
+          @attr name mahmud.picosoft.islamiclecturecollection:behavior_autoHide
         */
-        public static final int IMECorpus_userInputValue = 4;
+        public static final int FloatingActionButton_Behavior_Layout_behavior_autoHide = 0;
+        /** Attributes that can be used with a ForegroundLinearLayout.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ForegroundLinearLayout_android_foreground android:foreground}</code></td><td></td></tr>
+           <tr><td><code>{@link #ForegroundLinearLayout_android_foregroundGravity android:foregroundGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding mahmud.picosoft.islamiclecturecollection:foregroundInsidePadding}</code></td><td></td></tr>
+           </table>
+           @see #ForegroundLinearLayout_android_foreground
+           @see #ForegroundLinearLayout_android_foregroundGravity
+           @see #ForegroundLinearLayout_foregroundInsidePadding
+         */
+        public static final int[] ForegroundLinearLayout = {
+            0x01010109, 0x01010200, 0x7f0100d3
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#foreground}
+          attribute's value can be found in the {@link #ForegroundLinearLayout} array.
+          @attr name android:foreground
+        */
+        public static final int ForegroundLinearLayout_android_foreground = 0;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#foregroundGravity}
+          attribute's value can be found in the {@link #ForegroundLinearLayout} array.
+          @attr name android:foregroundGravity
+        */
+        public static final int ForegroundLinearLayout_android_foregroundGravity = 1;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#foregroundInsidePadding}
+          attribute's value can be found in the {@link #ForegroundLinearLayout} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:foregroundInsidePadding
+        */
+        public static final int ForegroundLinearLayout_foregroundInsidePadding = 2;
         /** Attributes that can be used with a LinearLayoutCompat.
            <p>Includes the following attributes:</p>
            <table>
@@ -5201,8 +7319,8 @@ containing a value of this type.
          */
         public static final int[] LinearLayoutCompat = {
             0x010100af, 0x010100c4, 0x01010126, 0x01010127,
-            0x01010128, 0x7f010014, 0x7f010062, 0x7f010063,
-            0x7f010064
+            0x01010128, 0x7f01000b, 0x7f0100d4, 0x7f0100d5,
+            0x7f0100d6
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#baselineAligned}
@@ -5363,498 +7481,6 @@ containing a value of this type.
           @attr name android:dropDownVerticalOffset
         */
         public static final int ListPopupWindow_android_dropDownVerticalOffset = 1;
-        /** Attributes that can be used with a LoadingImageView.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #LoadingImageView_circleCrop mahmud.picosoft.islamiclecturecollection:circleCrop}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoadingImageView_imageAspectRatio mahmud.picosoft.islamiclecturecollection:imageAspectRatio}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust mahmud.picosoft.islamiclecturecollection:imageAspectRatioAdjust}</code></td><td></td></tr>
-           </table>
-           @see #LoadingImageView_circleCrop
-           @see #LoadingImageView_imageAspectRatio
-           @see #LoadingImageView_imageAspectRatioAdjust
-         */
-        public static final int[] LoadingImageView = {
-            0x7f010065, 0x7f010066, 0x7f010067
-        };
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#circleCrop}
-          attribute's value can be found in the {@link #LoadingImageView} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:circleCrop
-        */
-        public static final int LoadingImageView_circleCrop = 2;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#imageAspectRatio}
-          attribute's value can be found in the {@link #LoadingImageView} array.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:imageAspectRatio
-        */
-        public static final int LoadingImageView_imageAspectRatio = 1;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#imageAspectRatioAdjust}
-          attribute's value can be found in the {@link #LoadingImageView} array.
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>none</code></td><td>0</td><td></td></tr>
-<tr><td><code>adjust_width</code></td><td>1</td><td></td></tr>
-<tr><td><code>adjust_height</code></td><td>2</td><td></td></tr>
-</table>
-          @attr name mahmud.picosoft.islamiclecturecollection:imageAspectRatioAdjust
-        */
-        public static final int LoadingImageView_imageAspectRatioAdjust = 0;
-        /** Attributes that can be used with a MapAttrs.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MapAttrs_ambientEnabled mahmud.picosoft.islamiclecturecollection:ambientEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraBearing mahmud.picosoft.islamiclecturecollection:cameraBearing}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraMaxZoomPreference mahmud.picosoft.islamiclecturecollection:cameraMaxZoomPreference}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraMinZoomPreference mahmud.picosoft.islamiclecturecollection:cameraMinZoomPreference}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTargetLat mahmud.picosoft.islamiclecturecollection:cameraTargetLat}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTargetLng mahmud.picosoft.islamiclecturecollection:cameraTargetLng}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTilt mahmud.picosoft.islamiclecturecollection:cameraTilt}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraZoom mahmud.picosoft.islamiclecturecollection:cameraZoom}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_latLngBoundsNorthEastLatitude mahmud.picosoft.islamiclecturecollection:latLngBoundsNorthEastLatitude}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_latLngBoundsNorthEastLongitude mahmud.picosoft.islamiclecturecollection:latLngBoundsNorthEastLongitude}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_latLngBoundsSouthWestLatitude mahmud.picosoft.islamiclecturecollection:latLngBoundsSouthWestLatitude}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_latLngBoundsSouthWestLongitude mahmud.picosoft.islamiclecturecollection:latLngBoundsSouthWestLongitude}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_liteMode mahmud.picosoft.islamiclecturecollection:liteMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_mapType mahmud.picosoft.islamiclecturecollection:mapType}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiCompass mahmud.picosoft.islamiclecturecollection:uiCompass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiMapToolbar mahmud.picosoft.islamiclecturecollection:uiMapToolbar}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiRotateGestures mahmud.picosoft.islamiclecturecollection:uiRotateGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiScrollGestures mahmud.picosoft.islamiclecturecollection:uiScrollGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiTiltGestures mahmud.picosoft.islamiclecturecollection:uiTiltGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiZoomControls mahmud.picosoft.islamiclecturecollection:uiZoomControls}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiZoomGestures mahmud.picosoft.islamiclecturecollection:uiZoomGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_useViewLifecycle mahmud.picosoft.islamiclecturecollection:useViewLifecycle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_zOrderOnTop mahmud.picosoft.islamiclecturecollection:zOrderOnTop}</code></td><td></td></tr>
-           </table>
-           @see #MapAttrs_ambientEnabled
-           @see #MapAttrs_cameraBearing
-           @see #MapAttrs_cameraMaxZoomPreference
-           @see #MapAttrs_cameraMinZoomPreference
-           @see #MapAttrs_cameraTargetLat
-           @see #MapAttrs_cameraTargetLng
-           @see #MapAttrs_cameraTilt
-           @see #MapAttrs_cameraZoom
-           @see #MapAttrs_latLngBoundsNorthEastLatitude
-           @see #MapAttrs_latLngBoundsNorthEastLongitude
-           @see #MapAttrs_latLngBoundsSouthWestLatitude
-           @see #MapAttrs_latLngBoundsSouthWestLongitude
-           @see #MapAttrs_liteMode
-           @see #MapAttrs_mapType
-           @see #MapAttrs_uiCompass
-           @see #MapAttrs_uiMapToolbar
-           @see #MapAttrs_uiRotateGestures
-           @see #MapAttrs_uiScrollGestures
-           @see #MapAttrs_uiTiltGestures
-           @see #MapAttrs_uiZoomControls
-           @see #MapAttrs_uiZoomGestures
-           @see #MapAttrs_useViewLifecycle
-           @see #MapAttrs_zOrderOnTop
-         */
-        public static final int[] MapAttrs = {
-            0x7f010068, 0x7f010069, 0x7f01006a, 0x7f01006b,
-            0x7f01006c, 0x7f01006d, 0x7f01006e, 0x7f01006f,
-            0x7f010070, 0x7f010071, 0x7f010072, 0x7f010073,
-            0x7f010074, 0x7f010075, 0x7f010076, 0x7f010077,
-            0x7f010078, 0x7f010079, 0x7f01007a, 0x7f01007b,
-            0x7f01007c, 0x7f01007d, 0x7f01007e
-        };
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#ambientEnabled}
-          attribute's value can be found in the {@link #MapAttrs} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:ambientEnabled
-        */
-        public static final int MapAttrs_ambientEnabled = 16;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#cameraBearing}
-          attribute's value can be found in the {@link #MapAttrs} array.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:cameraBearing
-        */
-        public static final int MapAttrs_cameraBearing = 1;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#cameraMaxZoomPreference}
-          attribute's value can be found in the {@link #MapAttrs} array.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:cameraMaxZoomPreference
-        */
-        public static final int MapAttrs_cameraMaxZoomPreference = 18;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#cameraMinZoomPreference}
-          attribute's value can be found in the {@link #MapAttrs} array.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:cameraMinZoomPreference
-        */
-        public static final int MapAttrs_cameraMinZoomPreference = 17;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#cameraTargetLat}
-          attribute's value can be found in the {@link #MapAttrs} array.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:cameraTargetLat
-        */
-        public static final int MapAttrs_cameraTargetLat = 2;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#cameraTargetLng}
-          attribute's value can be found in the {@link #MapAttrs} array.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:cameraTargetLng
-        */
-        public static final int MapAttrs_cameraTargetLng = 3;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#cameraTilt}
-          attribute's value can be found in the {@link #MapAttrs} array.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:cameraTilt
-        */
-        public static final int MapAttrs_cameraTilt = 4;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#cameraZoom}
-          attribute's value can be found in the {@link #MapAttrs} array.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:cameraZoom
-        */
-        public static final int MapAttrs_cameraZoom = 5;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#latLngBoundsNorthEastLatitude}
-          attribute's value can be found in the {@link #MapAttrs} array.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:latLngBoundsNorthEastLatitude
-        */
-        public static final int MapAttrs_latLngBoundsNorthEastLatitude = 21;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#latLngBoundsNorthEastLongitude}
-          attribute's value can be found in the {@link #MapAttrs} array.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:latLngBoundsNorthEastLongitude
-        */
-        public static final int MapAttrs_latLngBoundsNorthEastLongitude = 22;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#latLngBoundsSouthWestLatitude}
-          attribute's value can be found in the {@link #MapAttrs} array.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:latLngBoundsSouthWestLatitude
-        */
-        public static final int MapAttrs_latLngBoundsSouthWestLatitude = 19;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#latLngBoundsSouthWestLongitude}
-          attribute's value can be found in the {@link #MapAttrs} array.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:latLngBoundsSouthWestLongitude
-        */
-        public static final int MapAttrs_latLngBoundsSouthWestLongitude = 20;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#liteMode}
-          attribute's value can be found in the {@link #MapAttrs} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:liteMode
-        */
-        public static final int MapAttrs_liteMode = 6;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#mapType}
-          attribute's value can be found in the {@link #MapAttrs} array.
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>none</code></td><td>0</td><td></td></tr>
-<tr><td><code>normal</code></td><td>1</td><td></td></tr>
-<tr><td><code>satellite</code></td><td>2</td><td></td></tr>
-<tr><td><code>terrain</code></td><td>3</td><td></td></tr>
-<tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
-</table>
-          @attr name mahmud.picosoft.islamiclecturecollection:mapType
-        */
-        public static final int MapAttrs_mapType = 0;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#uiCompass}
-          attribute's value can be found in the {@link #MapAttrs} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:uiCompass
-        */
-        public static final int MapAttrs_uiCompass = 7;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#uiMapToolbar}
-          attribute's value can be found in the {@link #MapAttrs} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:uiMapToolbar
-        */
-        public static final int MapAttrs_uiMapToolbar = 15;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#uiRotateGestures}
-          attribute's value can be found in the {@link #MapAttrs} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:uiRotateGestures
-        */
-        public static final int MapAttrs_uiRotateGestures = 8;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#uiScrollGestures}
-          attribute's value can be found in the {@link #MapAttrs} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:uiScrollGestures
-        */
-        public static final int MapAttrs_uiScrollGestures = 9;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#uiTiltGestures}
-          attribute's value can be found in the {@link #MapAttrs} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:uiTiltGestures
-        */
-        public static final int MapAttrs_uiTiltGestures = 10;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#uiZoomControls}
-          attribute's value can be found in the {@link #MapAttrs} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:uiZoomControls
-        */
-        public static final int MapAttrs_uiZoomControls = 11;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#uiZoomGestures}
-          attribute's value can be found in the {@link #MapAttrs} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:uiZoomGestures
-        */
-        public static final int MapAttrs_uiZoomGestures = 12;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#useViewLifecycle}
-          attribute's value can be found in the {@link #MapAttrs} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:useViewLifecycle
-        */
-        public static final int MapAttrs_useViewLifecycle = 13;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#zOrderOnTop}
-          attribute's value can be found in the {@link #MapAttrs} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:zOrderOnTop
-        */
-        public static final int MapAttrs_zOrderOnTop = 14;
-        /** Attributes that can be used with a MediaRouteButton.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MediaRouteButton_android_minHeight android:minHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #MediaRouteButton_android_minWidth android:minWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #MediaRouteButton_externalRouteEnabledDrawable mahmud.picosoft.islamiclecturecollection:externalRouteEnabledDrawable}</code></td><td></td></tr>
-           </table>
-           @see #MediaRouteButton_android_minHeight
-           @see #MediaRouteButton_android_minWidth
-           @see #MediaRouteButton_externalRouteEnabledDrawable
-         */
-        public static final int[] MediaRouteButton = {
-            0x0101013f, 0x01010140, 0x7f01007f
-        };
-        /**
-          <p>This symbol is the offset where the {@link android.R.attr#minHeight}
-          attribute's value can be found in the {@link #MediaRouteButton} array.
-          @attr name android:minHeight
-        */
-        public static final int MediaRouteButton_android_minHeight = 1;
-        /**
-          <p>This symbol is the offset where the {@link android.R.attr#minWidth}
-          attribute's value can be found in the {@link #MediaRouteButton} array.
-          @attr name android:minWidth
-        */
-        public static final int MediaRouteButton_android_minWidth = 0;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#externalRouteEnabledDrawable}
-          attribute's value can be found in the {@link #MediaRouteButton} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:externalRouteEnabledDrawable
-        */
-        public static final int MediaRouteButton_externalRouteEnabledDrawable = 2;
         /** Attributes that can be used with a MenuGroup.
            <p>Includes the following attributes:</p>
            <table>
@@ -5961,8 +7587,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x01010002, 0x0101000e, 0x010100d0, 0x01010106,
             0x01010194, 0x010101de, 0x010101df, 0x010101e1,
             0x010101e2, 0x010101e3, 0x010101e4, 0x010101e5,
-            0x0101026f, 0x7f010080, 0x7f010081, 0x7f010082,
-            0x7f010083
+            0x0101026f, 0x7f0100d7, 0x7f0100d8, 0x7f0100d9,
+            0x7f0100da
         };
         /**
           <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionLayout}
@@ -6114,6 +7740,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_preserveIconSpacing mahmud.picosoft.islamiclecturecollection:preserveIconSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_subMenuArrow mahmud.picosoft.islamiclecturecollection:subMenuArrow}</code></td><td></td></tr>
            </table>
            @see #MenuView_android_headerBackground
            @see #MenuView_android_horizontalDivider
@@ -6123,10 +7750,12 @@ containing a value of this type.
            @see #MenuView_android_verticalDivider
            @see #MenuView_android_windowAnimationStyle
            @see #MenuView_preserveIconSpacing
+           @see #MenuView_subMenuArrow
          */
         public static final int[] MenuView = {
             0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e,
-            0x0101012f, 0x01010130, 0x01010131, 0x7f010084
+            0x0101012f, 0x01010130, 0x01010131, 0x7f0100db,
+            0x7f0100dc
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#headerBackground}
@@ -6184,21 +7813,176 @@ containing a value of this type.
           @attr name mahmud.picosoft.islamiclecturecollection:preserveIconSpacing
         */
         public static final int MenuView_preserveIconSpacing = 7;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#subMenuArrow}
+          attribute's value can be found in the {@link #MenuView} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:subMenuArrow
+        */
+        public static final int MenuView_subMenuArrow = 8;
+        /** Attributes that can be used with a NavigationView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #NavigationView_android_background android:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_android_fitsSystemWindows android:fitsSystemWindows}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_elevation mahmud.picosoft.islamiclecturecollection:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_headerLayout mahmud.picosoft.islamiclecturecollection:headerLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemBackground mahmud.picosoft.islamiclecturecollection:itemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemIconTint mahmud.picosoft.islamiclecturecollection:itemIconTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextAppearance mahmud.picosoft.islamiclecturecollection:itemTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextColor mahmud.picosoft.islamiclecturecollection:itemTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_menu mahmud.picosoft.islamiclecturecollection:menu}</code></td><td></td></tr>
+           </table>
+           @see #NavigationView_android_background
+           @see #NavigationView_android_fitsSystemWindows
+           @see #NavigationView_android_maxWidth
+           @see #NavigationView_elevation
+           @see #NavigationView_headerLayout
+           @see #NavigationView_itemBackground
+           @see #NavigationView_itemIconTint
+           @see #NavigationView_itemTextAppearance
+           @see #NavigationView_itemTextColor
+           @see #NavigationView_menu
+         */
+        public static final int[] NavigationView = {
+            0x010100d4, 0x010100dd, 0x0101011f, 0x7f01001c,
+            0x7f0100dd, 0x7f0100de, 0x7f0100df, 0x7f0100e0,
+            0x7f0100e1, 0x7f0100e2
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#background}
+          attribute's value can be found in the {@link #NavigationView} array.
+          @attr name android:background
+        */
+        public static final int NavigationView_android_background = 0;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#fitsSystemWindows}
+          attribute's value can be found in the {@link #NavigationView} array.
+          @attr name android:fitsSystemWindows
+        */
+        public static final int NavigationView_android_fitsSystemWindows = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
+          attribute's value can be found in the {@link #NavigationView} array.
+          @attr name android:maxWidth
+        */
+        public static final int NavigationView_android_maxWidth = 2;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#elevation}
+          attribute's value can be found in the {@link #NavigationView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:elevation
+        */
+        public static final int NavigationView_elevation = 3;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#headerLayout}
+          attribute's value can be found in the {@link #NavigationView} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:headerLayout
+        */
+        public static final int NavigationView_headerLayout = 9;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#itemBackground}
+          attribute's value can be found in the {@link #NavigationView} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:itemBackground
+        */
+        public static final int NavigationView_itemBackground = 7;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#itemIconTint}
+          attribute's value can be found in the {@link #NavigationView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:itemIconTint
+        */
+        public static final int NavigationView_itemIconTint = 5;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#itemTextAppearance}
+          attribute's value can be found in the {@link #NavigationView} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:itemTextAppearance
+        */
+        public static final int NavigationView_itemTextAppearance = 8;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#itemTextColor}
+          attribute's value can be found in the {@link #NavigationView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:itemTextColor
+        */
+        public static final int NavigationView_itemTextColor = 6;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#menu}
+          attribute's value can be found in the {@link #NavigationView} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:menu
+        */
+        public static final int NavigationView_menu = 4;
         /** Attributes that can be used with a PopupWindow.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
            <tr><td><code>{@link #PopupWindow_overlapAnchor mahmud.picosoft.islamiclecturecollection:overlapAnchor}</code></td><td></td></tr>
            </table>
+           @see #PopupWindow_android_popupAnimationStyle
            @see #PopupWindow_android_popupBackground
            @see #PopupWindow_overlapAnchor
          */
         public static final int[] PopupWindow = {
-            0x01010176, 0x7f010085
+            0x01010176, 0x010102c9, 0x7f0100e3
         };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#popupAnimationStyle}
+          attribute's value can be found in the {@link #PopupWindow} array.
+          @attr name android:popupAnimationStyle
+        */
+        public static final int PopupWindow_android_popupAnimationStyle = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
           attribute's value can be found in the {@link #PopupWindow} array.
@@ -6218,7 +8002,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name mahmud.picosoft.islamiclecturecollection:overlapAnchor
         */
-        public static final int PopupWindow_overlapAnchor = 1;
+        public static final int PopupWindow_overlapAnchor = 2;
         /** Attributes that can be used with a PopupWindowBackgroundState.
            <p>Includes the following attributes:</p>
            <table>
@@ -6230,7 +8014,7 @@ containing a value of this type.
            @see #PopupWindowBackgroundState_state_above_anchor
          */
         public static final int[] PopupWindowBackgroundState = {
-            0x7f010086
+            0x7f0100e4
         };
         /**
           <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#state_above_anchor}
@@ -6246,6 +8030,199 @@ containing a value of this type.
           @attr name mahmud.picosoft.islamiclecturecollection:state_above_anchor
         */
         public static final int PopupWindowBackgroundState_state_above_anchor = 0;
+        /** Attributes that can be used with a RecycleListView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons mahmud.picosoft.islamiclecturecollection:paddingBottomNoButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecycleListView_paddingTopNoTitle mahmud.picosoft.islamiclecturecollection:paddingTopNoTitle}</code></td><td></td></tr>
+           </table>
+           @see #RecycleListView_paddingBottomNoButtons
+           @see #RecycleListView_paddingTopNoTitle
+         */
+        public static final int[] RecycleListView = {
+            0x7f0100e5, 0x7f0100e6
+        };
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#paddingBottomNoButtons}
+          attribute's value can be found in the {@link #RecycleListView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:paddingBottomNoButtons
+        */
+        public static final int RecycleListView_paddingBottomNoButtons = 0;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#paddingTopNoTitle}
+          attribute's value can be found in the {@link #RecycleListView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:paddingTopNoTitle
+        */
+        public static final int RecycleListView_paddingTopNoTitle = 1;
+        /** Attributes that can be used with a RecyclerView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #RecyclerView_android_descendantFocusability android:descendantFocusability}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_layoutManager mahmud.picosoft.islamiclecturecollection:layoutManager}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_reverseLayout mahmud.picosoft.islamiclecturecollection:reverseLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_spanCount mahmud.picosoft.islamiclecturecollection:spanCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_stackFromEnd mahmud.picosoft.islamiclecturecollection:stackFromEnd}</code></td><td></td></tr>
+           </table>
+           @see #RecyclerView_android_descendantFocusability
+           @see #RecyclerView_android_orientation
+           @see #RecyclerView_layoutManager
+           @see #RecyclerView_reverseLayout
+           @see #RecyclerView_spanCount
+           @see #RecyclerView_stackFromEnd
+         */
+        public static final int[] RecyclerView = {
+            0x010100c4, 0x010100f1, 0x7f0100e7, 0x7f0100e8,
+            0x7f0100e9, 0x7f0100ea
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#descendantFocusability}
+          attribute's value can be found in the {@link #RecyclerView} array.
+          @attr name android:descendantFocusability
+        */
+        public static final int RecyclerView_android_descendantFocusability = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#orientation}
+          attribute's value can be found in the {@link #RecyclerView} array.
+          @attr name android:orientation
+        */
+        public static final int RecyclerView_android_orientation = 0;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#layoutManager}
+          attribute's value can be found in the {@link #RecyclerView} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:layoutManager
+        */
+        public static final int RecyclerView_layoutManager = 2;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#reverseLayout}
+          attribute's value can be found in the {@link #RecyclerView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:reverseLayout
+        */
+        public static final int RecyclerView_reverseLayout = 4;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#spanCount}
+          attribute's value can be found in the {@link #RecyclerView} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:spanCount
+        */
+        public static final int RecyclerView_spanCount = 3;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#stackFromEnd}
+          attribute's value can be found in the {@link #RecyclerView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:stackFromEnd
+        */
+        public static final int RecyclerView_stackFromEnd = 5;
+        /** Attributes that can be used with a ScrimInsetsFrameLayout.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground mahmud.picosoft.islamiclecturecollection:insetForeground}</code></td><td></td></tr>
+           </table>
+           @see #ScrimInsetsFrameLayout_insetForeground
+         */
+        public static final int[] ScrimInsetsFrameLayout = {
+            0x7f0100eb
+        };
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#insetForeground}
+          attribute's value can be found in the {@link #ScrimInsetsFrameLayout} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:insetForeground
+        */
+        public static final int ScrimInsetsFrameLayout_insetForeground = 0;
+        /** Attributes that can be used with a ScrollingViewBehavior_Layout.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop mahmud.picosoft.islamiclecturecollection:behavior_overlapTop}</code></td><td></td></tr>
+           </table>
+           @see #ScrollingViewBehavior_Layout_behavior_overlapTop
+         */
+        public static final int[] ScrollingViewBehavior_Layout = {
+            0x7f0100ec
+        };
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#behavior_overlapTop}
+          attribute's value can be found in the {@link #ScrollingViewBehavior_Layout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:behavior_overlapTop
+        */
+        public static final int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
         /** Attributes that can be used with a SearchView.
            <p>Includes the following attributes:</p>
            <table>
@@ -6290,10 +8267,10 @@ containing a value of this type.
          */
         public static final int[] SearchView = {
             0x010100da, 0x0101011f, 0x01010220, 0x01010264,
-            0x7f010087, 0x7f010088, 0x7f010089, 0x7f01008a,
-            0x7f01008b, 0x7f01008c, 0x7f01008d, 0x7f01008e,
-            0x7f01008f, 0x7f010090, 0x7f010091, 0x7f010092,
-            0x7f010093
+            0x7f0100ed, 0x7f0100ee, 0x7f0100ef, 0x7f0100f0,
+            0x7f0100f1, 0x7f0100f2, 0x7f0100f3, 0x7f0100f4,
+            0x7f0100f5, 0x7f0100f6, 0x7f0100f7, 0x7f0100f8,
+            0x7f0100f9
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -6461,237 +8438,61 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           @attr name mahmud.picosoft.islamiclecturecollection:voiceIcon
         */
         public static final int SearchView_voiceIcon = 12;
-        /** Attributes that can be used with a Section.
+        /** Attributes that can be used with a SnackbarLayout.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Section_indexPrefixes mahmud.picosoft.islamiclecturecollection:indexPrefixes}</code></td><td></td></tr>
-           <tr><td><code>{@link #Section_noIndex mahmud.picosoft.islamiclecturecollection:noIndex}</code></td><td></td></tr>
-           <tr><td><code>{@link #Section_schemaOrgProperty mahmud.picosoft.islamiclecturecollection:schemaOrgProperty}</code></td><td></td></tr>
-           <tr><td><code>{@link #Section_sectionFormat mahmud.picosoft.islamiclecturecollection:sectionFormat}</code></td><td></td></tr>
-           <tr><td><code>{@link #Section_sectionId mahmud.picosoft.islamiclecturecollection:sectionId}</code></td><td></td></tr>
-           <tr><td><code>{@link #Section_sectionWeight mahmud.picosoft.islamiclecturecollection:sectionWeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Section_subsectionSeparator mahmud.picosoft.islamiclecturecollection:subsectionSeparator}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_elevation mahmud.picosoft.islamiclecturecollection:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth mahmud.picosoft.islamiclecturecollection:maxActionInlineWidth}</code></td><td></td></tr>
            </table>
-           @see #Section_indexPrefixes
-           @see #Section_noIndex
-           @see #Section_schemaOrgProperty
-           @see #Section_sectionFormat
-           @see #Section_sectionId
-           @see #Section_sectionWeight
-           @see #Section_subsectionSeparator
+           @see #SnackbarLayout_android_maxWidth
+           @see #SnackbarLayout_elevation
+           @see #SnackbarLayout_maxActionInlineWidth
          */
-        public static final int[] Section = {
-            0x7f010094, 0x7f010095, 0x7f010096, 0x7f010097,
-            0x7f010098, 0x7f010099, 0x7f01009a
+        public static final int[] SnackbarLayout = {
+            0x0101011f, 0x7f01001c, 0x7f0100fa
         };
         /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#indexPrefixes}
-          attribute's value can be found in the {@link #Section} array.
+          <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
+          attribute's value can be found in the {@link #SnackbarLayout} array.
+          @attr name android:maxWidth
+        */
+        public static final int SnackbarLayout_android_maxWidth = 0;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#elevation}
+          attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:indexPrefixes
+          @attr name mahmud.picosoft.islamiclecturecollection:elevation
         */
-        public static final int Section_indexPrefixes = 4;
+        public static final int SnackbarLayout_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#noIndex}
-          attribute's value can be found in the {@link #Section} array.
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#maxActionInlineWidth}
+          attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:noIndex
+          @attr name mahmud.picosoft.islamiclecturecollection:maxActionInlineWidth
         */
-        public static final int Section_noIndex = 2;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#schemaOrgProperty}
-          attribute's value can be found in the {@link #Section} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:schemaOrgProperty
-        */
-        public static final int Section_schemaOrgProperty = 6;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#sectionFormat}
-          attribute's value can be found in the {@link #Section} array.
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>plain</code></td><td>0</td><td></td></tr>
-<tr><td><code>html</code></td><td>1</td><td></td></tr>
-<tr><td><code>rfc822</code></td><td>2</td><td></td></tr>
-<tr><td><code>url</code></td><td>3</td><td></td></tr>
-</table>
-          @attr name mahmud.picosoft.islamiclecturecollection:sectionFormat
-        */
-        public static final int Section_sectionFormat = 1;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#sectionId}
-          attribute's value can be found in the {@link #Section} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:sectionId
-        */
-        public static final int Section_sectionId = 0;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#sectionWeight}
-          attribute's value can be found in the {@link #Section} array.
-
-
-          <p>Must be an integer value, such as "<code>100</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:sectionWeight
-        */
-        public static final int Section_sectionWeight = 3;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#subsectionSeparator}
-          attribute's value can be found in the {@link #Section} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:subsectionSeparator
-        */
-        public static final int Section_subsectionSeparator = 5;
-        /** Attributes that can be used with a SectionFeature.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SectionFeature_featureType mahmud.picosoft.islamiclecturecollection:featureType}</code></td><td></td></tr>
-           </table>
-           @see #SectionFeature_featureType
-         */
-        public static final int[] SectionFeature = {
-            0x7f01009b
-        };
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#featureType}
-          attribute's value can be found in the {@link #SectionFeature} array.
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>match_global_nicknames</code></td><td>1</td><td></td></tr>
-<tr><td><code>demote_common_words</code></td><td>2</td><td></td></tr>
-<tr><td><code>demote_rfc822_hostnames</code></td><td>3</td><td></td></tr>
-<tr><td><code>omnibox_url_section</code></td><td>4</td><td></td></tr>
-<tr><td><code>omnibox_title_section</code></td><td>5</td><td></td></tr>
-<tr><td><code>index_entity_types</code></td><td>6</td><td></td></tr>
-</table>
-          @attr name mahmud.picosoft.islamiclecturecollection:featureType
-        */
-        public static final int SectionFeature_featureType = 0;
-        /** Attributes that can be used with a SignInButton.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SignInButton_buttonSize mahmud.picosoft.islamiclecturecollection:buttonSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #SignInButton_colorScheme mahmud.picosoft.islamiclecturecollection:colorScheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #SignInButton_scopeUris mahmud.picosoft.islamiclecturecollection:scopeUris}</code></td><td></td></tr>
-           </table>
-           @see #SignInButton_buttonSize
-           @see #SignInButton_colorScheme
-           @see #SignInButton_scopeUris
-         */
-        public static final int[] SignInButton = {
-            0x7f01009c, 0x7f01009d, 0x7f01009e
-        };
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#buttonSize}
-          attribute's value can be found in the {@link #SignInButton} array.
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>standard</code></td><td>0</td><td></td></tr>
-<tr><td><code>wide</code></td><td>1</td><td></td></tr>
-<tr><td><code>icon_only</code></td><td>2</td><td></td></tr>
-</table>
-          @attr name mahmud.picosoft.islamiclecturecollection:buttonSize
-        */
-        public static final int SignInButton_buttonSize = 0;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#colorScheme}
-          attribute's value can be found in the {@link #SignInButton} array.
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>dark</code></td><td>0</td><td></td></tr>
-<tr><td><code>light</code></td><td>1</td><td></td></tr>
-<tr><td><code>auto</code></td><td>2</td><td></td></tr>
-</table>
-          @attr name mahmud.picosoft.islamiclecturecollection:colorScheme
-        */
-        public static final int SignInButton_colorScheme = 1;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#scopeUris}
-          attribute's value can be found in the {@link #SignInButton} array.
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-          @attr name mahmud.picosoft.islamiclecturecollection:scopeUris
-        */
-        public static final int SignInButton_scopeUris = 2;
+        public static final int SnackbarLayout_maxActionInlineWidth = 2;
         /** Attributes that can be used with a Spinner.
            <p>Includes the following attributes:</p>
            <table>
@@ -6699,36 +8500,45 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_android_entries android:entries}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_popupTheme mahmud.picosoft.islamiclecturecollection:popupTheme}</code></td><td></td></tr>
            </table>
            @see #Spinner_android_dropDownWidth
+           @see #Spinner_android_entries
            @see #Spinner_android_popupBackground
            @see #Spinner_android_prompt
            @see #Spinner_popupTheme
          */
         public static final int[] Spinner = {
-            0x01010176, 0x0101017b, 0x01010262, 0x7f010024
+            0x010100b2, 0x01010176, 0x0101017b, 0x01010262,
+            0x7f01001d
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#dropDownWidth}
           attribute's value can be found in the {@link #Spinner} array.
           @attr name android:dropDownWidth
         */
-        public static final int Spinner_android_dropDownWidth = 2;
+        public static final int Spinner_android_dropDownWidth = 3;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#entries}
+          attribute's value can be found in the {@link #Spinner} array.
+          @attr name android:entries
+        */
+        public static final int Spinner_android_entries = 0;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
           attribute's value can be found in the {@link #Spinner} array.
           @attr name android:popupBackground
         */
-        public static final int Spinner_android_popupBackground = 0;
+        public static final int Spinner_android_popupBackground = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#prompt}
           attribute's value can be found in the {@link #Spinner} array.
           @attr name android:prompt
         */
-        public static final int Spinner_android_prompt = 1;
+        public static final int Spinner_android_prompt = 2;
         /**
           <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#popupTheme}
           attribute's value can be found in the {@link #Spinner} array.
@@ -6738,7 +8548,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           @attr name mahmud.picosoft.islamiclecturecollection:popupTheme
         */
-        public static final int Spinner_popupTheme = 3;
+        public static final int Spinner_popupTheme = 4;
         /** Attributes that can be used with a SwitchCompat.
            <p>Includes the following attributes:</p>
            <table>
@@ -6754,7 +8564,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #SwitchCompat_switchPadding mahmud.picosoft.islamiclecturecollection:switchPadding}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_switchTextAppearance mahmud.picosoft.islamiclecturecollection:switchTextAppearance}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_thumbTextPadding mahmud.picosoft.islamiclecturecollection:thumbTextPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTint mahmud.picosoft.islamiclecturecollection:thumbTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTintMode mahmud.picosoft.islamiclecturecollection:thumbTintMode}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_track mahmud.picosoft.islamiclecturecollection:track}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_trackTint mahmud.picosoft.islamiclecturecollection:trackTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_trackTintMode mahmud.picosoft.islamiclecturecollection:trackTintMode}</code></td><td></td></tr>
            </table>
            @see #SwitchCompat_android_textOff
            @see #SwitchCompat_android_textOn
@@ -6765,12 +8579,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #SwitchCompat_switchPadding
            @see #SwitchCompat_switchTextAppearance
            @see #SwitchCompat_thumbTextPadding
+           @see #SwitchCompat_thumbTint
+           @see #SwitchCompat_thumbTintMode
            @see #SwitchCompat_track
+           @see #SwitchCompat_trackTint
+           @see #SwitchCompat_trackTintMode
          */
         public static final int[] SwitchCompat = {
-            0x01010124, 0x01010125, 0x01010142, 0x7f01009f,
-            0x7f0100a0, 0x7f0100a1, 0x7f0100a2, 0x7f0100a3,
-            0x7f0100a4, 0x7f0100a5
+            0x01010124, 0x01010125, 0x01010142, 0x7f0100fb,
+            0x7f0100fc, 0x7f0100fd, 0x7f0100fe, 0x7f0100ff,
+            0x7f010100, 0x7f010101, 0x7f010102, 0x7f010103,
+            0x7f010104, 0x7f010105
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textOff}
@@ -6803,7 +8622,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name mahmud.picosoft.islamiclecturecollection:showText
         */
-        public static final int SwitchCompat_showText = 9;
+        public static final int SwitchCompat_showText = 13;
         /**
           <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
@@ -6817,7 +8636,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name mahmud.picosoft.islamiclecturecollection:splitTrack
         */
-        public static final int SwitchCompat_splitTrack = 8;
+        public static final int SwitchCompat_splitTrack = 12;
         /**
           <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
@@ -6833,7 +8652,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name mahmud.picosoft.islamiclecturecollection:switchMinWidth
         */
-        public static final int SwitchCompat_switchMinWidth = 6;
+        public static final int SwitchCompat_switchMinWidth = 10;
         /**
           <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
@@ -6849,7 +8668,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name mahmud.picosoft.islamiclecturecollection:switchPadding
         */
-        public static final int SwitchCompat_switchPadding = 7;
+        public static final int SwitchCompat_switchPadding = 11;
         /**
           <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
@@ -6859,7 +8678,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           @attr name mahmud.picosoft.islamiclecturecollection:switchTextAppearance
         */
-        public static final int SwitchCompat_switchTextAppearance = 5;
+        public static final int SwitchCompat_switchTextAppearance = 9;
         /**
           <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
@@ -6875,7 +8694,43 @@ theme attribute (in the form
 containing a value of this type.
           @attr name mahmud.picosoft.islamiclecturecollection:thumbTextPadding
         */
-        public static final int SwitchCompat_thumbTextPadding = 4;
+        public static final int SwitchCompat_thumbTextPadding = 8;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#thumbTint}
+          attribute's value can be found in the {@link #SwitchCompat} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:thumbTint
+        */
+        public static final int SwitchCompat_thumbTint = 3;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#thumbTintMode}
+          attribute's value can be found in the {@link #SwitchCompat} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>src_over</code></td><td>3</td><td></td></tr>
+<tr><td><code>src_in</code></td><td>5</td><td></td></tr>
+<tr><td><code>src_atop</code></td><td>9</td><td></td></tr>
+<tr><td><code>multiply</code></td><td>14</td><td></td></tr>
+<tr><td><code>screen</code></td><td>15</td><td></td></tr>
+<tr><td><code>add</code></td><td>16</td><td></td></tr>
+</table>
+          @attr name mahmud.picosoft.islamiclecturecollection:thumbTintMode
+        */
+        public static final int SwitchCompat_thumbTintMode = 4;
         /**
           <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
@@ -6885,20 +8740,390 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           @attr name mahmud.picosoft.islamiclecturecollection:track
         */
-        public static final int SwitchCompat_track = 3;
+        public static final int SwitchCompat_track = 5;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#trackTint}
+          attribute's value can be found in the {@link #SwitchCompat} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:trackTint
+        */
+        public static final int SwitchCompat_trackTint = 6;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#trackTintMode}
+          attribute's value can be found in the {@link #SwitchCompat} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>src_over</code></td><td>3</td><td></td></tr>
+<tr><td><code>src_in</code></td><td>5</td><td></td></tr>
+<tr><td><code>src_atop</code></td><td>9</td><td></td></tr>
+<tr><td><code>multiply</code></td><td>14</td><td></td></tr>
+<tr><td><code>screen</code></td><td>15</td><td></td></tr>
+<tr><td><code>add</code></td><td>16</td><td></td></tr>
+</table>
+          @attr name mahmud.picosoft.islamiclecturecollection:trackTintMode
+        */
+        public static final int SwitchCompat_trackTintMode = 7;
+        /** Attributes that can be used with a TabItem.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #TabItem_android_icon android:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabItem_android_layout android:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabItem_android_text android:text}</code></td><td></td></tr>
+           </table>
+           @see #TabItem_android_icon
+           @see #TabItem_android_layout
+           @see #TabItem_android_text
+         */
+        public static final int[] TabItem = {
+            0x01010002, 0x010100f2, 0x0101014f
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#icon}
+          attribute's value can be found in the {@link #TabItem} array.
+          @attr name android:icon
+        */
+        public static final int TabItem_android_icon = 0;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#layout}
+          attribute's value can be found in the {@link #TabItem} array.
+          @attr name android:layout
+        */
+        public static final int TabItem_android_layout = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#text}
+          attribute's value can be found in the {@link #TabItem} array.
+          @attr name android:text
+        */
+        public static final int TabItem_android_text = 2;
+        /** Attributes that can be used with a TabLayout.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #TabLayout_tabBackground mahmud.picosoft.islamiclecturecollection:tabBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabContentStart mahmud.picosoft.islamiclecturecollection:tabContentStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabGravity mahmud.picosoft.islamiclecturecollection:tabGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorColor mahmud.picosoft.islamiclecturecollection:tabIndicatorColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorHeight mahmud.picosoft.islamiclecturecollection:tabIndicatorHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMaxWidth mahmud.picosoft.islamiclecturecollection:tabMaxWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMinWidth mahmud.picosoft.islamiclecturecollection:tabMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMode mahmud.picosoft.islamiclecturecollection:tabMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPadding mahmud.picosoft.islamiclecturecollection:tabPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingBottom mahmud.picosoft.islamiclecturecollection:tabPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingEnd mahmud.picosoft.islamiclecturecollection:tabPaddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingStart mahmud.picosoft.islamiclecturecollection:tabPaddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingTop mahmud.picosoft.islamiclecturecollection:tabPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabSelectedTextColor mahmud.picosoft.islamiclecturecollection:tabSelectedTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextAppearance mahmud.picosoft.islamiclecturecollection:tabTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextColor mahmud.picosoft.islamiclecturecollection:tabTextColor}</code></td><td></td></tr>
+           </table>
+           @see #TabLayout_tabBackground
+           @see #TabLayout_tabContentStart
+           @see #TabLayout_tabGravity
+           @see #TabLayout_tabIndicatorColor
+           @see #TabLayout_tabIndicatorHeight
+           @see #TabLayout_tabMaxWidth
+           @see #TabLayout_tabMinWidth
+           @see #TabLayout_tabMode
+           @see #TabLayout_tabPadding
+           @see #TabLayout_tabPaddingBottom
+           @see #TabLayout_tabPaddingEnd
+           @see #TabLayout_tabPaddingStart
+           @see #TabLayout_tabPaddingTop
+           @see #TabLayout_tabSelectedTextColor
+           @see #TabLayout_tabTextAppearance
+           @see #TabLayout_tabTextColor
+         */
+        public static final int[] TabLayout = {
+            0x7f010106, 0x7f010107, 0x7f010108, 0x7f010109,
+            0x7f01010a, 0x7f01010b, 0x7f01010c, 0x7f01010d,
+            0x7f01010e, 0x7f01010f, 0x7f010110, 0x7f010111,
+            0x7f010112, 0x7f010113, 0x7f010114, 0x7f010115
+        };
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#tabBackground}
+          attribute's value can be found in the {@link #TabLayout} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:tabBackground
+        */
+        public static final int TabLayout_tabBackground = 3;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#tabContentStart}
+          attribute's value can be found in the {@link #TabLayout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:tabContentStart
+        */
+        public static final int TabLayout_tabContentStart = 2;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#tabGravity}
+          attribute's value can be found in the {@link #TabLayout} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>fill</code></td><td>0</td><td></td></tr>
+<tr><td><code>center</code></td><td>1</td><td></td></tr>
+</table>
+          @attr name mahmud.picosoft.islamiclecturecollection:tabGravity
+        */
+        public static final int TabLayout_tabGravity = 5;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#tabIndicatorColor}
+          attribute's value can be found in the {@link #TabLayout} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:tabIndicatorColor
+        */
+        public static final int TabLayout_tabIndicatorColor = 0;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#tabIndicatorHeight}
+          attribute's value can be found in the {@link #TabLayout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:tabIndicatorHeight
+        */
+        public static final int TabLayout_tabIndicatorHeight = 1;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#tabMaxWidth}
+          attribute's value can be found in the {@link #TabLayout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:tabMaxWidth
+        */
+        public static final int TabLayout_tabMaxWidth = 7;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#tabMinWidth}
+          attribute's value can be found in the {@link #TabLayout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:tabMinWidth
+        */
+        public static final int TabLayout_tabMinWidth = 6;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#tabMode}
+          attribute's value can be found in the {@link #TabLayout} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>scrollable</code></td><td>0</td><td></td></tr>
+<tr><td><code>fixed</code></td><td>1</td><td></td></tr>
+</table>
+          @attr name mahmud.picosoft.islamiclecturecollection:tabMode
+        */
+        public static final int TabLayout_tabMode = 4;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#tabPadding}
+          attribute's value can be found in the {@link #TabLayout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:tabPadding
+        */
+        public static final int TabLayout_tabPadding = 15;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#tabPaddingBottom}
+          attribute's value can be found in the {@link #TabLayout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:tabPaddingBottom
+        */
+        public static final int TabLayout_tabPaddingBottom = 14;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#tabPaddingEnd}
+          attribute's value can be found in the {@link #TabLayout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:tabPaddingEnd
+        */
+        public static final int TabLayout_tabPaddingEnd = 13;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#tabPaddingStart}
+          attribute's value can be found in the {@link #TabLayout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:tabPaddingStart
+        */
+        public static final int TabLayout_tabPaddingStart = 11;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#tabPaddingTop}
+          attribute's value can be found in the {@link #TabLayout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:tabPaddingTop
+        */
+        public static final int TabLayout_tabPaddingTop = 12;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#tabSelectedTextColor}
+          attribute's value can be found in the {@link #TabLayout} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:tabSelectedTextColor
+        */
+        public static final int TabLayout_tabSelectedTextColor = 10;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#tabTextAppearance}
+          attribute's value can be found in the {@link #TabLayout} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:tabTextAppearance
+        */
+        public static final int TabLayout_tabTextAppearance = 8;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#tabTextColor}
+          attribute's value can be found in the {@link #TabLayout} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:tabTextColor
+        */
+        public static final int TabLayout_tabTextColor = 9;
         /** Attributes that can be used with a TextAppearance.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #TextAppearance_android_shadowColor android:shadowColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_android_shadowDx android:shadowDx}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_android_shadowDy android:shadowDy}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_textColor android:textColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_android_textColorHint android:textColorHint}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_textSize android:textSize}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_textStyle android:textStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_typeface android:typeface}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_textAllCaps mahmud.picosoft.islamiclecturecollection:textAllCaps}</code></td><td></td></tr>
            </table>
+           @see #TextAppearance_android_shadowColor
+           @see #TextAppearance_android_shadowDx
+           @see #TextAppearance_android_shadowDy
+           @see #TextAppearance_android_shadowRadius
            @see #TextAppearance_android_textColor
+           @see #TextAppearance_android_textColorHint
            @see #TextAppearance_android_textSize
            @see #TextAppearance_android_textStyle
            @see #TextAppearance_android_typeface
@@ -6906,14 +9131,45 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
          */
         public static final int[] TextAppearance = {
             0x01010095, 0x01010096, 0x01010097, 0x01010098,
-            0x7f010030
+            0x0101009a, 0x01010161, 0x01010162, 0x01010163,
+            0x01010164, 0x7f010030
         };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#shadowColor}
+          attribute's value can be found in the {@link #TextAppearance} array.
+          @attr name android:shadowColor
+        */
+        public static final int TextAppearance_android_shadowColor = 5;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#shadowDx}
+          attribute's value can be found in the {@link #TextAppearance} array.
+          @attr name android:shadowDx
+        */
+        public static final int TextAppearance_android_shadowDx = 6;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#shadowDy}
+          attribute's value can be found in the {@link #TextAppearance} array.
+          @attr name android:shadowDy
+        */
+        public static final int TextAppearance_android_shadowDy = 7;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#shadowRadius}
+          attribute's value can be found in the {@link #TextAppearance} array.
+          @attr name android:shadowRadius
+        */
+        public static final int TextAppearance_android_shadowRadius = 8;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textColor}
           attribute's value can be found in the {@link #TextAppearance} array.
           @attr name android:textColor
         */
         public static final int TextAppearance_android_textColor = 3;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#textColorHint}
+          attribute's value can be found in the {@link #TextAppearance} array.
+          @attr name android:textColorHint
+        */
+        public static final int TextAppearance_android_textColorHint = 4;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textSize}
           attribute's value can be found in the {@link #TextAppearance} array.
@@ -6942,1516 +9198,248 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
           @attr name mahmud.picosoft.islamiclecturecollection:textAllCaps
         */
-        public static final int TextAppearance_textAllCaps = 4;
-        /** Attributes that can be used with a Theme.
+        public static final int TextAppearance_textAllCaps = 9;
+        /** Attributes that can be used with a TextInputLayout.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Theme_actionBarDivider mahmud.picosoft.islamiclecturecollection:actionBarDivider}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarItemBackground mahmud.picosoft.islamiclecturecollection:actionBarItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarPopupTheme mahmud.picosoft.islamiclecturecollection:actionBarPopupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarSize mahmud.picosoft.islamiclecturecollection:actionBarSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarSplitStyle mahmud.picosoft.islamiclecturecollection:actionBarSplitStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarStyle mahmud.picosoft.islamiclecturecollection:actionBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabBarStyle mahmud.picosoft.islamiclecturecollection:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabStyle mahmud.picosoft.islamiclecturecollection:actionBarTabStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabTextStyle mahmud.picosoft.islamiclecturecollection:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTheme mahmud.picosoft.islamiclecturecollection:actionBarTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarWidgetTheme mahmud.picosoft.islamiclecturecollection:actionBarWidgetTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionButtonStyle mahmud.picosoft.islamiclecturecollection:actionButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionDropDownStyle mahmud.picosoft.islamiclecturecollection:actionDropDownStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextAppearance mahmud.picosoft.islamiclecturecollection:actionMenuTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextColor mahmud.picosoft.islamiclecturecollection:actionMenuTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeBackground mahmud.picosoft.islamiclecturecollection:actionModeBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle mahmud.picosoft.islamiclecturecollection:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseDrawable mahmud.picosoft.islamiclecturecollection:actionModeCloseDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCopyDrawable mahmud.picosoft.islamiclecturecollection:actionModeCopyDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCutDrawable mahmud.picosoft.islamiclecturecollection:actionModeCutDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeFindDrawable mahmud.picosoft.islamiclecturecollection:actionModeFindDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModePasteDrawable mahmud.picosoft.islamiclecturecollection:actionModePasteDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModePopupWindowStyle mahmud.picosoft.islamiclecturecollection:actionModePopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable mahmud.picosoft.islamiclecturecollection:actionModeSelectAllDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeShareDrawable mahmud.picosoft.islamiclecturecollection:actionModeShareDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeSplitBackground mahmud.picosoft.islamiclecturecollection:actionModeSplitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeStyle mahmud.picosoft.islamiclecturecollection:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable mahmud.picosoft.islamiclecturecollection:actionModeWebSearchDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowButtonStyle mahmud.picosoft.islamiclecturecollection:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowMenuStyle mahmud.picosoft.islamiclecturecollection:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_activityChooserViewStyle mahmud.picosoft.islamiclecturecollection:activityChooserViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogButtonGroupStyle mahmud.picosoft.islamiclecturecollection:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogCenterButtons mahmud.picosoft.islamiclecturecollection:alertDialogCenterButtons}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogStyle mahmud.picosoft.islamiclecturecollection:alertDialogStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogTheme mahmud.picosoft.islamiclecturecollection:alertDialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_autoCompleteTextViewStyle mahmud.picosoft.islamiclecturecollection:autoCompleteTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_borderlessButtonStyle mahmud.picosoft.islamiclecturecollection:borderlessButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarButtonStyle mahmud.picosoft.islamiclecturecollection:buttonBarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarNegativeButtonStyle mahmud.picosoft.islamiclecturecollection:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarNeutralButtonStyle mahmud.picosoft.islamiclecturecollection:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarPositiveButtonStyle mahmud.picosoft.islamiclecturecollection:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarStyle mahmud.picosoft.islamiclecturecollection:buttonBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonStyle mahmud.picosoft.islamiclecturecollection:buttonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonStyleSmall mahmud.picosoft.islamiclecturecollection:buttonStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_checkboxStyle mahmud.picosoft.islamiclecturecollection:checkboxStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_checkedTextViewStyle mahmud.picosoft.islamiclecturecollection:checkedTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorAccent mahmud.picosoft.islamiclecturecollection:colorAccent}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorButtonNormal mahmud.picosoft.islamiclecturecollection:colorButtonNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlActivated mahmud.picosoft.islamiclecturecollection:colorControlActivated}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlHighlight mahmud.picosoft.islamiclecturecollection:colorControlHighlight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlNormal mahmud.picosoft.islamiclecturecollection:colorControlNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorPrimary mahmud.picosoft.islamiclecturecollection:colorPrimary}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorPrimaryDark mahmud.picosoft.islamiclecturecollection:colorPrimaryDark}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorSwitchThumbNormal mahmud.picosoft.islamiclecturecollection:colorSwitchThumbNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_controlBackground mahmud.picosoft.islamiclecturecollection:controlBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dialogPreferredPadding mahmud.picosoft.islamiclecturecollection:dialogPreferredPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dialogTheme mahmud.picosoft.islamiclecturecollection:dialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dividerHorizontal mahmud.picosoft.islamiclecturecollection:dividerHorizontal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dividerVertical mahmud.picosoft.islamiclecturecollection:dividerVertical}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dropDownListViewStyle mahmud.picosoft.islamiclecturecollection:dropDownListViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight mahmud.picosoft.islamiclecturecollection:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextBackground mahmud.picosoft.islamiclecturecollection:editTextBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextColor mahmud.picosoft.islamiclecturecollection:editTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextStyle mahmud.picosoft.islamiclecturecollection:editTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_homeAsUpIndicator mahmud.picosoft.islamiclecturecollection:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator mahmud.picosoft.islamiclecturecollection:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listDividerAlertDialog mahmud.picosoft.islamiclecturecollection:listDividerAlertDialog}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPopupWindowStyle mahmud.picosoft.islamiclecturecollection:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeight mahmud.picosoft.islamiclecturecollection:listPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge mahmud.picosoft.islamiclecturecollection:listPreferredItemHeightLarge}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall mahmud.picosoft.islamiclecturecollection:listPreferredItemHeightSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft mahmud.picosoft.islamiclecturecollection:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight mahmud.picosoft.islamiclecturecollection:listPreferredItemPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelBackground mahmud.picosoft.islamiclecturecollection:panelBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListTheme mahmud.picosoft.islamiclecturecollection:panelMenuListTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListWidth mahmud.picosoft.islamiclecturecollection:panelMenuListWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_popupMenuStyle mahmud.picosoft.islamiclecturecollection:popupMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_popupWindowStyle mahmud.picosoft.islamiclecturecollection:popupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_radioButtonStyle mahmud.picosoft.islamiclecturecollection:radioButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_ratingBarStyle mahmud.picosoft.islamiclecturecollection:ratingBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_searchViewStyle mahmud.picosoft.islamiclecturecollection:searchViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackground mahmud.picosoft.islamiclecturecollection:selectableItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless mahmud.picosoft.islamiclecturecollection:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle mahmud.picosoft.islamiclecturecollection:spinnerDropDownItemStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_spinnerStyle mahmud.picosoft.islamiclecturecollection:spinnerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_switchStyle mahmud.picosoft.islamiclecturecollection:switchStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu mahmud.picosoft.islamiclecturecollection:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItem mahmud.picosoft.islamiclecturecollection:textAppearanceListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItemSmall mahmud.picosoft.islamiclecturecollection:textAppearanceListItemSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle mahmud.picosoft.islamiclecturecollection:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle mahmud.picosoft.islamiclecturecollection:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu mahmud.picosoft.islamiclecturecollection:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textColorAlertDialogListItem mahmud.picosoft.islamiclecturecollection:textColorAlertDialogListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textColorSearchUrl mahmud.picosoft.islamiclecturecollection:textColorSearchUrl}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle mahmud.picosoft.islamiclecturecollection:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_toolbarStyle mahmud.picosoft.islamiclecturecollection:toolbarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionBar mahmud.picosoft.islamiclecturecollection:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionBarOverlay mahmud.picosoft.islamiclecturecollection:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionModeOverlay mahmud.picosoft.islamiclecturecollection:windowActionModeOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMajor mahmud.picosoft.islamiclecturecollection:windowFixedHeightMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMinor mahmud.picosoft.islamiclecturecollection:windowFixedHeightMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMajor mahmud.picosoft.islamiclecturecollection:windowFixedWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMinor mahmud.picosoft.islamiclecturecollection:windowFixedWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowMinWidthMajor mahmud.picosoft.islamiclecturecollection:windowMinWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowMinWidthMinor mahmud.picosoft.islamiclecturecollection:windowMinWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowNoTitle mahmud.picosoft.islamiclecturecollection:windowNoTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_android_hint android:hint}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_android_textColorHint android:textColorHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterEnabled mahmud.picosoft.islamiclecturecollection:counterEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterMaxLength mahmud.picosoft.islamiclecturecollection:counterMaxLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance mahmud.picosoft.islamiclecturecollection:counterOverflowTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterTextAppearance mahmud.picosoft.islamiclecturecollection:counterTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorEnabled mahmud.picosoft.islamiclecturecollection:errorEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorTextAppearance mahmud.picosoft.islamiclecturecollection:errorTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled mahmud.picosoft.islamiclecturecollection:hintAnimationEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintEnabled mahmud.picosoft.islamiclecturecollection:hintEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintTextAppearance mahmud.picosoft.islamiclecturecollection:hintTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription mahmud.picosoft.islamiclecturecollection:passwordToggleContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable mahmud.picosoft.islamiclecturecollection:passwordToggleDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled mahmud.picosoft.islamiclecturecollection:passwordToggleEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleTint mahmud.picosoft.islamiclecturecollection:passwordToggleTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode mahmud.picosoft.islamiclecturecollection:passwordToggleTintMode}</code></td><td></td></tr>
            </table>
-           @see #Theme_actionBarDivider
-           @see #Theme_actionBarItemBackground
-           @see #Theme_actionBarPopupTheme
-           @see #Theme_actionBarSize
-           @see #Theme_actionBarSplitStyle
-           @see #Theme_actionBarStyle
-           @see #Theme_actionBarTabBarStyle
-           @see #Theme_actionBarTabStyle
-           @see #Theme_actionBarTabTextStyle
-           @see #Theme_actionBarTheme
-           @see #Theme_actionBarWidgetTheme
-           @see #Theme_actionButtonStyle
-           @see #Theme_actionDropDownStyle
-           @see #Theme_actionMenuTextAppearance
-           @see #Theme_actionMenuTextColor
-           @see #Theme_actionModeBackground
-           @see #Theme_actionModeCloseButtonStyle
-           @see #Theme_actionModeCloseDrawable
-           @see #Theme_actionModeCopyDrawable
-           @see #Theme_actionModeCutDrawable
-           @see #Theme_actionModeFindDrawable
-           @see #Theme_actionModePasteDrawable
-           @see #Theme_actionModePopupWindowStyle
-           @see #Theme_actionModeSelectAllDrawable
-           @see #Theme_actionModeShareDrawable
-           @see #Theme_actionModeSplitBackground
-           @see #Theme_actionModeStyle
-           @see #Theme_actionModeWebSearchDrawable
-           @see #Theme_actionOverflowButtonStyle
-           @see #Theme_actionOverflowMenuStyle
-           @see #Theme_activityChooserViewStyle
-           @see #Theme_alertDialogButtonGroupStyle
-           @see #Theme_alertDialogCenterButtons
-           @see #Theme_alertDialogStyle
-           @see #Theme_alertDialogTheme
-           @see #Theme_android_windowAnimationStyle
-           @see #Theme_android_windowIsFloating
-           @see #Theme_autoCompleteTextViewStyle
-           @see #Theme_borderlessButtonStyle
-           @see #Theme_buttonBarButtonStyle
-           @see #Theme_buttonBarNegativeButtonStyle
-           @see #Theme_buttonBarNeutralButtonStyle
-           @see #Theme_buttonBarPositiveButtonStyle
-           @see #Theme_buttonBarStyle
-           @see #Theme_buttonStyle
-           @see #Theme_buttonStyleSmall
-           @see #Theme_checkboxStyle
-           @see #Theme_checkedTextViewStyle
-           @see #Theme_colorAccent
-           @see #Theme_colorButtonNormal
-           @see #Theme_colorControlActivated
-           @see #Theme_colorControlHighlight
-           @see #Theme_colorControlNormal
-           @see #Theme_colorPrimary
-           @see #Theme_colorPrimaryDark
-           @see #Theme_colorSwitchThumbNormal
-           @see #Theme_controlBackground
-           @see #Theme_dialogPreferredPadding
-           @see #Theme_dialogTheme
-           @see #Theme_dividerHorizontal
-           @see #Theme_dividerVertical
-           @see #Theme_dropDownListViewStyle
-           @see #Theme_dropdownListPreferredItemHeight
-           @see #Theme_editTextBackground
-           @see #Theme_editTextColor
-           @see #Theme_editTextStyle
-           @see #Theme_homeAsUpIndicator
-           @see #Theme_listChoiceBackgroundIndicator
-           @see #Theme_listDividerAlertDialog
-           @see #Theme_listPopupWindowStyle
-           @see #Theme_listPreferredItemHeight
-           @see #Theme_listPreferredItemHeightLarge
-           @see #Theme_listPreferredItemHeightSmall
-           @see #Theme_listPreferredItemPaddingLeft
-           @see #Theme_listPreferredItemPaddingRight
-           @see #Theme_panelBackground
-           @see #Theme_panelMenuListTheme
-           @see #Theme_panelMenuListWidth
-           @see #Theme_popupMenuStyle
-           @see #Theme_popupWindowStyle
-           @see #Theme_radioButtonStyle
-           @see #Theme_ratingBarStyle
-           @see #Theme_searchViewStyle
-           @see #Theme_selectableItemBackground
-           @see #Theme_selectableItemBackgroundBorderless
-           @see #Theme_spinnerDropDownItemStyle
-           @see #Theme_spinnerStyle
-           @see #Theme_switchStyle
-           @see #Theme_textAppearanceLargePopupMenu
-           @see #Theme_textAppearanceListItem
-           @see #Theme_textAppearanceListItemSmall
-           @see #Theme_textAppearanceSearchResultSubtitle
-           @see #Theme_textAppearanceSearchResultTitle
-           @see #Theme_textAppearanceSmallPopupMenu
-           @see #Theme_textColorAlertDialogListItem
-           @see #Theme_textColorSearchUrl
-           @see #Theme_toolbarNavigationButtonStyle
-           @see #Theme_toolbarStyle
-           @see #Theme_windowActionBar
-           @see #Theme_windowActionBarOverlay
-           @see #Theme_windowActionModeOverlay
-           @see #Theme_windowFixedHeightMajor
-           @see #Theme_windowFixedHeightMinor
-           @see #Theme_windowFixedWidthMajor
-           @see #Theme_windowFixedWidthMinor
-           @see #Theme_windowMinWidthMajor
-           @see #Theme_windowMinWidthMinor
-           @see #Theme_windowNoTitle
+           @see #TextInputLayout_android_hint
+           @see #TextInputLayout_android_textColorHint
+           @see #TextInputLayout_counterEnabled
+           @see #TextInputLayout_counterMaxLength
+           @see #TextInputLayout_counterOverflowTextAppearance
+           @see #TextInputLayout_counterTextAppearance
+           @see #TextInputLayout_errorEnabled
+           @see #TextInputLayout_errorTextAppearance
+           @see #TextInputLayout_hintAnimationEnabled
+           @see #TextInputLayout_hintEnabled
+           @see #TextInputLayout_hintTextAppearance
+           @see #TextInputLayout_passwordToggleContentDescription
+           @see #TextInputLayout_passwordToggleDrawable
+           @see #TextInputLayout_passwordToggleEnabled
+           @see #TextInputLayout_passwordToggleTint
+           @see #TextInputLayout_passwordToggleTintMode
          */
-        public static final int[] Theme = {
-            0x01010057, 0x010100ae, 0x7f0100a6, 0x7f0100a7,
-            0x7f0100a8, 0x7f0100a9, 0x7f0100aa, 0x7f0100ab,
-            0x7f0100ac, 0x7f0100ad, 0x7f0100ae, 0x7f0100af,
-            0x7f0100b0, 0x7f0100b1, 0x7f0100b2, 0x7f0100b3,
-            0x7f0100b4, 0x7f0100b5, 0x7f0100b6, 0x7f0100b7,
-            0x7f0100b8, 0x7f0100b9, 0x7f0100ba, 0x7f0100bb,
-            0x7f0100bc, 0x7f0100bd, 0x7f0100be, 0x7f0100bf,
-            0x7f0100c0, 0x7f0100c1, 0x7f0100c2, 0x7f0100c3,
-            0x7f0100c4, 0x7f0100c5, 0x7f0100c6, 0x7f0100c7,
-            0x7f0100c8, 0x7f0100c9, 0x7f0100ca, 0x7f0100cb,
-            0x7f0100cc, 0x7f0100cd, 0x7f0100ce, 0x7f0100cf,
-            0x7f0100d0, 0x7f0100d1, 0x7f0100d2, 0x7f0100d3,
-            0x7f0100d4, 0x7f0100d5, 0x7f0100d6, 0x7f0100d7,
-            0x7f0100d8, 0x7f0100d9, 0x7f0100da, 0x7f0100db,
-            0x7f0100dc, 0x7f0100dd, 0x7f0100de, 0x7f0100df,
-            0x7f0100e0, 0x7f0100e1, 0x7f0100e2, 0x7f0100e3,
-            0x7f0100e4, 0x7f0100e5, 0x7f0100e6, 0x7f0100e7,
-            0x7f0100e8, 0x7f0100e9, 0x7f0100ea, 0x7f0100eb,
-            0x7f0100ec, 0x7f0100ed, 0x7f0100ee, 0x7f0100ef,
-            0x7f0100f0, 0x7f0100f1, 0x7f0100f2, 0x7f0100f3,
-            0x7f0100f4, 0x7f0100f5, 0x7f0100f6, 0x7f0100f7,
-            0x7f0100f8, 0x7f0100f9, 0x7f0100fa, 0x7f0100fb,
-            0x7f0100fc, 0x7f0100fd, 0x7f0100fe, 0x7f0100ff,
-            0x7f010100, 0x7f010101, 0x7f010102, 0x7f010103,
-            0x7f010104, 0x7f010105, 0x7f010106, 0x7f010107,
-            0x7f010108, 0x7f010109, 0x7f01010a, 0x7f01010b,
-            0x7f01010c, 0x7f01010d, 0x7f01010e, 0x7f01010f
+        public static final int[] TextInputLayout = {
+            0x0101009a, 0x01010150, 0x7f010116, 0x7f010117,
+            0x7f010118, 0x7f010119, 0x7f01011a, 0x7f01011b,
+            0x7f01011c, 0x7f01011d, 0x7f01011e, 0x7f01011f,
+            0x7f010120, 0x7f010121, 0x7f010122, 0x7f010123
         };
         /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionBarDivider}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:actionBarDivider
+          <p>This symbol is the offset where the {@link android.R.attr#hint}
+          attribute's value can be found in the {@link #TextInputLayout} array.
+          @attr name android:hint
         */
-        public static final int Theme_actionBarDivider = 23;
+        public static final int TextInputLayout_android_hint = 1;
         /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionBarItemBackground}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:actionBarItemBackground
+          <p>This symbol is the offset where the {@link android.R.attr#textColorHint}
+          attribute's value can be found in the {@link #TextInputLayout} array.
+          @attr name android:textColorHint
         */
-        public static final int Theme_actionBarItemBackground = 24;
+        public static final int TextInputLayout_android_textColorHint = 0;
         /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionBarPopupTheme}
-          attribute's value can be found in the {@link #Theme} array.
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#counterEnabled}
+          attribute's value can be found in the {@link #TextInputLayout} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:actionBarPopupTheme
-        */
-        public static final int Theme_actionBarPopupTheme = 17;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionBarSize}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-<p>May be one of the following constant values.</p>
+          @attr name mahmud.picosoft.islamiclecturecollection:counterEnabled
+        */
+        public static final int TextInputLayout_counterEnabled = 6;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#counterMaxLength}
+          attribute's value can be found in the {@link #TextInputLayout} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:counterMaxLength
+        */
+        public static final int TextInputLayout_counterMaxLength = 7;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#counterOverflowTextAppearance}
+          attribute's value can be found in the {@link #TextInputLayout} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:counterOverflowTextAppearance
+        */
+        public static final int TextInputLayout_counterOverflowTextAppearance = 9;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#counterTextAppearance}
+          attribute's value can be found in the {@link #TextInputLayout} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:counterTextAppearance
+        */
+        public static final int TextInputLayout_counterTextAppearance = 8;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#errorEnabled}
+          attribute's value can be found in the {@link #TextInputLayout} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:errorEnabled
+        */
+        public static final int TextInputLayout_errorEnabled = 4;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#errorTextAppearance}
+          attribute's value can be found in the {@link #TextInputLayout} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:errorTextAppearance
+        */
+        public static final int TextInputLayout_errorTextAppearance = 5;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#hintAnimationEnabled}
+          attribute's value can be found in the {@link #TextInputLayout} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:hintAnimationEnabled
+        */
+        public static final int TextInputLayout_hintAnimationEnabled = 10;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#hintEnabled}
+          attribute's value can be found in the {@link #TextInputLayout} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:hintEnabled
+        */
+        public static final int TextInputLayout_hintEnabled = 3;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#hintTextAppearance}
+          attribute's value can be found in the {@link #TextInputLayout} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:hintTextAppearance
+        */
+        public static final int TextInputLayout_hintTextAppearance = 2;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#passwordToggleContentDescription}
+          attribute's value can be found in the {@link #TextInputLayout} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:passwordToggleContentDescription
+        */
+        public static final int TextInputLayout_passwordToggleContentDescription = 13;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#passwordToggleDrawable}
+          attribute's value can be found in the {@link #TextInputLayout} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name mahmud.picosoft.islamiclecturecollection:passwordToggleDrawable
+        */
+        public static final int TextInputLayout_passwordToggleDrawable = 12;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#passwordToggleEnabled}
+          attribute's value can be found in the {@link #TextInputLayout} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:passwordToggleEnabled
+        */
+        public static final int TextInputLayout_passwordToggleEnabled = 11;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#passwordToggleTint}
+          attribute's value can be found in the {@link #TextInputLayout} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:passwordToggleTint
+        */
+        public static final int TextInputLayout_passwordToggleTint = 14;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#passwordToggleTintMode}
+          attribute's value can be found in the {@link #TextInputLayout} array.
+
+
+          <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
 <colgroup align="left" />
 <colgroup align="left" />
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
+<tr><td><code>src_over</code></td><td>3</td><td></td></tr>
+<tr><td><code>src_in</code></td><td>5</td><td></td></tr>
+<tr><td><code>src_atop</code></td><td>9</td><td></td></tr>
+<tr><td><code>multiply</code></td><td>14</td><td></td></tr>
+<tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name mahmud.picosoft.islamiclecturecollection:actionBarSize
+          @attr name mahmud.picosoft.islamiclecturecollection:passwordToggleTintMode
         */
-        public static final int Theme_actionBarSize = 22;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionBarSplitStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:actionBarSplitStyle
-        */
-        public static final int Theme_actionBarSplitStyle = 19;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionBarStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:actionBarStyle
-        */
-        public static final int Theme_actionBarStyle = 18;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionBarTabBarStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:actionBarTabBarStyle
-        */
-        public static final int Theme_actionBarTabBarStyle = 13;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionBarTabStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:actionBarTabStyle
-        */
-        public static final int Theme_actionBarTabStyle = 12;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionBarTabTextStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:actionBarTabTextStyle
-        */
-        public static final int Theme_actionBarTabTextStyle = 14;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionBarTheme}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:actionBarTheme
-        */
-        public static final int Theme_actionBarTheme = 20;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionBarWidgetTheme}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:actionBarWidgetTheme
-        */
-        public static final int Theme_actionBarWidgetTheme = 21;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionButtonStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:actionButtonStyle
-        */
-        public static final int Theme_actionButtonStyle = 49;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionDropDownStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:actionDropDownStyle
-        */
-        public static final int Theme_actionDropDownStyle = 45;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionMenuTextAppearance}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:actionMenuTextAppearance
-        */
-        public static final int Theme_actionMenuTextAppearance = 25;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionMenuTextColor}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:actionMenuTextColor
-        */
-        public static final int Theme_actionMenuTextColor = 26;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionModeBackground}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:actionModeBackground
-        */
-        public static final int Theme_actionModeBackground = 29;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionModeCloseButtonStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:actionModeCloseButtonStyle
-        */
-        public static final int Theme_actionModeCloseButtonStyle = 28;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionModeCloseDrawable}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:actionModeCloseDrawable
-        */
-        public static final int Theme_actionModeCloseDrawable = 31;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionModeCopyDrawable}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:actionModeCopyDrawable
-        */
-        public static final int Theme_actionModeCopyDrawable = 33;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionModeCutDrawable}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:actionModeCutDrawable
-        */
-        public static final int Theme_actionModeCutDrawable = 32;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionModeFindDrawable}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:actionModeFindDrawable
-        */
-        public static final int Theme_actionModeFindDrawable = 37;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionModePasteDrawable}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:actionModePasteDrawable
-        */
-        public static final int Theme_actionModePasteDrawable = 34;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionModePopupWindowStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:actionModePopupWindowStyle
-        */
-        public static final int Theme_actionModePopupWindowStyle = 39;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionModeSelectAllDrawable}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:actionModeSelectAllDrawable
-        */
-        public static final int Theme_actionModeSelectAllDrawable = 35;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionModeShareDrawable}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:actionModeShareDrawable
-        */
-        public static final int Theme_actionModeShareDrawable = 36;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionModeSplitBackground}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:actionModeSplitBackground
-        */
-        public static final int Theme_actionModeSplitBackground = 30;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionModeStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:actionModeStyle
-        */
-        public static final int Theme_actionModeStyle = 27;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionModeWebSearchDrawable}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:actionModeWebSearchDrawable
-        */
-        public static final int Theme_actionModeWebSearchDrawable = 38;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionOverflowButtonStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:actionOverflowButtonStyle
-        */
-        public static final int Theme_actionOverflowButtonStyle = 15;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#actionOverflowMenuStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:actionOverflowMenuStyle
-        */
-        public static final int Theme_actionOverflowMenuStyle = 16;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#activityChooserViewStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:activityChooserViewStyle
-        */
-        public static final int Theme_activityChooserViewStyle = 57;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#alertDialogButtonGroupStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:alertDialogButtonGroupStyle
-        */
-        public static final int Theme_alertDialogButtonGroupStyle = 91;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#alertDialogCenterButtons}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:alertDialogCenterButtons
-        */
-        public static final int Theme_alertDialogCenterButtons = 92;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#alertDialogStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:alertDialogStyle
-        */
-        public static final int Theme_alertDialogStyle = 90;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#alertDialogTheme}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:alertDialogTheme
-        */
-        public static final int Theme_alertDialogTheme = 93;
-        /**
-          <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
-          attribute's value can be found in the {@link #Theme} array.
-          @attr name android:windowAnimationStyle
-        */
-        public static final int Theme_android_windowAnimationStyle = 1;
-        /**
-          <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
-          attribute's value can be found in the {@link #Theme} array.
-          @attr name android:windowIsFloating
-        */
-        public static final int Theme_android_windowIsFloating = 0;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#autoCompleteTextViewStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:autoCompleteTextViewStyle
-        */
-        public static final int Theme_autoCompleteTextViewStyle = 98;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#borderlessButtonStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:borderlessButtonStyle
-        */
-        public static final int Theme_borderlessButtonStyle = 54;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#buttonBarButtonStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:buttonBarButtonStyle
-        */
-        public static final int Theme_buttonBarButtonStyle = 51;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#buttonBarNegativeButtonStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:buttonBarNegativeButtonStyle
-        */
-        public static final int Theme_buttonBarNegativeButtonStyle = 96;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#buttonBarNeutralButtonStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:buttonBarNeutralButtonStyle
-        */
-        public static final int Theme_buttonBarNeutralButtonStyle = 97;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#buttonBarPositiveButtonStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:buttonBarPositiveButtonStyle
-        */
-        public static final int Theme_buttonBarPositiveButtonStyle = 95;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#buttonBarStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:buttonBarStyle
-        */
-        public static final int Theme_buttonBarStyle = 50;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#buttonStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:buttonStyle
-        */
-        public static final int Theme_buttonStyle = 99;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#buttonStyleSmall}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:buttonStyleSmall
-        */
-        public static final int Theme_buttonStyleSmall = 100;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#checkboxStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:checkboxStyle
-        */
-        public static final int Theme_checkboxStyle = 101;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#checkedTextViewStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:checkedTextViewStyle
-        */
-        public static final int Theme_checkedTextViewStyle = 102;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#colorAccent}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:colorAccent
-        */
-        public static final int Theme_colorAccent = 83;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#colorButtonNormal}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:colorButtonNormal
-        */
-        public static final int Theme_colorButtonNormal = 87;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#colorControlActivated}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:colorControlActivated
-        */
-        public static final int Theme_colorControlActivated = 85;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#colorControlHighlight}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:colorControlHighlight
-        */
-        public static final int Theme_colorControlHighlight = 86;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#colorControlNormal}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:colorControlNormal
-        */
-        public static final int Theme_colorControlNormal = 84;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#colorPrimary}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:colorPrimary
-        */
-        public static final int Theme_colorPrimary = 81;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#colorPrimaryDark}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:colorPrimaryDark
-        */
-        public static final int Theme_colorPrimaryDark = 82;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#colorSwitchThumbNormal}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:colorSwitchThumbNormal
-        */
-        public static final int Theme_colorSwitchThumbNormal = 88;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#controlBackground}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:controlBackground
-        */
-        public static final int Theme_controlBackground = 89;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#dialogPreferredPadding}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:dialogPreferredPadding
-        */
-        public static final int Theme_dialogPreferredPadding = 43;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#dialogTheme}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:dialogTheme
-        */
-        public static final int Theme_dialogTheme = 42;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#dividerHorizontal}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:dividerHorizontal
-        */
-        public static final int Theme_dividerHorizontal = 56;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#dividerVertical}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:dividerVertical
-        */
-        public static final int Theme_dividerVertical = 55;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#dropDownListViewStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:dropDownListViewStyle
-        */
-        public static final int Theme_dropDownListViewStyle = 73;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#dropdownListPreferredItemHeight}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:dropdownListPreferredItemHeight
-        */
-        public static final int Theme_dropdownListPreferredItemHeight = 46;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#editTextBackground}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:editTextBackground
-        */
-        public static final int Theme_editTextBackground = 63;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#editTextColor}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:editTextColor
-        */
-        public static final int Theme_editTextColor = 62;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#editTextStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:editTextStyle
-        */
-        public static final int Theme_editTextStyle = 103;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#homeAsUpIndicator}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:homeAsUpIndicator
-        */
-        public static final int Theme_homeAsUpIndicator = 48;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#listChoiceBackgroundIndicator}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:listChoiceBackgroundIndicator
-        */
-        public static final int Theme_listChoiceBackgroundIndicator = 80;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#listDividerAlertDialog}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:listDividerAlertDialog
-        */
-        public static final int Theme_listDividerAlertDialog = 44;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#listPopupWindowStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:listPopupWindowStyle
-        */
-        public static final int Theme_listPopupWindowStyle = 74;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#listPreferredItemHeight}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:listPreferredItemHeight
-        */
-        public static final int Theme_listPreferredItemHeight = 68;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#listPreferredItemHeightLarge}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:listPreferredItemHeightLarge
-        */
-        public static final int Theme_listPreferredItemHeightLarge = 70;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#listPreferredItemHeightSmall}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:listPreferredItemHeightSmall
-        */
-        public static final int Theme_listPreferredItemHeightSmall = 69;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#listPreferredItemPaddingLeft}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:listPreferredItemPaddingLeft
-        */
-        public static final int Theme_listPreferredItemPaddingLeft = 71;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#listPreferredItemPaddingRight}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:listPreferredItemPaddingRight
-        */
-        public static final int Theme_listPreferredItemPaddingRight = 72;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#panelBackground}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:panelBackground
-        */
-        public static final int Theme_panelBackground = 77;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#panelMenuListTheme}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:panelMenuListTheme
-        */
-        public static final int Theme_panelMenuListTheme = 79;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#panelMenuListWidth}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:panelMenuListWidth
-        */
-        public static final int Theme_panelMenuListWidth = 78;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#popupMenuStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:popupMenuStyle
-        */
-        public static final int Theme_popupMenuStyle = 60;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#popupWindowStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:popupWindowStyle
-        */
-        public static final int Theme_popupWindowStyle = 61;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#radioButtonStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:radioButtonStyle
-        */
-        public static final int Theme_radioButtonStyle = 104;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#ratingBarStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:ratingBarStyle
-        */
-        public static final int Theme_ratingBarStyle = 105;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#searchViewStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:searchViewStyle
-        */
-        public static final int Theme_searchViewStyle = 67;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#selectableItemBackground}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:selectableItemBackground
-        */
-        public static final int Theme_selectableItemBackground = 52;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#selectableItemBackgroundBorderless}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:selectableItemBackgroundBorderless
-        */
-        public static final int Theme_selectableItemBackgroundBorderless = 53;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#spinnerDropDownItemStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:spinnerDropDownItemStyle
-        */
-        public static final int Theme_spinnerDropDownItemStyle = 47;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#spinnerStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:spinnerStyle
-        */
-        public static final int Theme_spinnerStyle = 106;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#switchStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:switchStyle
-        */
-        public static final int Theme_switchStyle = 107;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#textAppearanceLargePopupMenu}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:textAppearanceLargePopupMenu
-        */
-        public static final int Theme_textAppearanceLargePopupMenu = 40;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#textAppearanceListItem}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:textAppearanceListItem
-        */
-        public static final int Theme_textAppearanceListItem = 75;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#textAppearanceListItemSmall}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:textAppearanceListItemSmall
-        */
-        public static final int Theme_textAppearanceListItemSmall = 76;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#textAppearanceSearchResultSubtitle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:textAppearanceSearchResultSubtitle
-        */
-        public static final int Theme_textAppearanceSearchResultSubtitle = 65;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#textAppearanceSearchResultTitle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:textAppearanceSearchResultTitle
-        */
-        public static final int Theme_textAppearanceSearchResultTitle = 64;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#textAppearanceSmallPopupMenu}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:textAppearanceSmallPopupMenu
-        */
-        public static final int Theme_textAppearanceSmallPopupMenu = 41;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#textColorAlertDialogListItem}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:textColorAlertDialogListItem
-        */
-        public static final int Theme_textColorAlertDialogListItem = 94;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#textColorSearchUrl}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:textColorSearchUrl
-        */
-        public static final int Theme_textColorSearchUrl = 66;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#toolbarNavigationButtonStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:toolbarNavigationButtonStyle
-        */
-        public static final int Theme_toolbarNavigationButtonStyle = 59;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#toolbarStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:toolbarStyle
-        */
-        public static final int Theme_toolbarStyle = 58;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#windowActionBar}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:windowActionBar
-        */
-        public static final int Theme_windowActionBar = 2;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#windowActionBarOverlay}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:windowActionBarOverlay
-        */
-        public static final int Theme_windowActionBarOverlay = 4;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#windowActionModeOverlay}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:windowActionModeOverlay
-        */
-        public static final int Theme_windowActionModeOverlay = 5;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#windowFixedHeightMajor}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:windowFixedHeightMajor
-        */
-        public static final int Theme_windowFixedHeightMajor = 9;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#windowFixedHeightMinor}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:windowFixedHeightMinor
-        */
-        public static final int Theme_windowFixedHeightMinor = 7;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#windowFixedWidthMajor}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:windowFixedWidthMajor
-        */
-        public static final int Theme_windowFixedWidthMajor = 6;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#windowFixedWidthMinor}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:windowFixedWidthMinor
-        */
-        public static final int Theme_windowFixedWidthMinor = 8;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#windowMinWidthMajor}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:windowMinWidthMajor
-        */
-        public static final int Theme_windowMinWidthMajor = 10;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#windowMinWidthMinor}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:windowMinWidthMinor
-        */
-        public static final int Theme_windowMinWidthMinor = 11;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#windowNoTitle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:windowNoTitle
-        */
-        public static final int Theme_windowNoTitle = 3;
+        public static final int TextInputLayout_passwordToggleTintMode = 15;
         /** Attributes that can be used with a Toolbar.
            <p>Includes the following attributes:</p>
            <table>
@@ -8460,12 +9448,15 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_buttonGravity mahmud.picosoft.islamiclecturecollection:buttonGravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_collapseContentDescription mahmud.picosoft.islamiclecturecollection:collapseContentDescription}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_collapseIcon mahmud.picosoft.islamiclecturecollection:collapseIcon}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_contentInsetEnd mahmud.picosoft.islamiclecturecollection:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEndWithActions mahmud.picosoft.islamiclecturecollection:contentInsetEndWithActions}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_contentInsetLeft mahmud.picosoft.islamiclecturecollection:contentInsetLeft}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_contentInsetRight mahmud.picosoft.islamiclecturecollection:contentInsetRight}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_contentInsetStart mahmud.picosoft.islamiclecturecollection:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation mahmud.picosoft.islamiclecturecollection:contentInsetStartWithNavigation}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_logo mahmud.picosoft.islamiclecturecollection:logo}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_logoDescription mahmud.picosoft.islamiclecturecollection:logoDescription}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_maxButtonHeight mahmud.picosoft.islamiclecturecollection:maxButtonHeight}</code></td><td></td></tr>
@@ -8476,6 +9467,7 @@ containing a value of this type.
            <tr><td><code>{@link #Toolbar_subtitleTextAppearance mahmud.picosoft.islamiclecturecollection:subtitleTextAppearance}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_subtitleTextColor mahmud.picosoft.islamiclecturecollection:subtitleTextColor}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_title mahmud.picosoft.islamiclecturecollection:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargin mahmud.picosoft.islamiclecturecollection:titleMargin}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_titleMarginBottom mahmud.picosoft.islamiclecturecollection:titleMarginBottom}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_titleMarginEnd mahmud.picosoft.islamiclecturecollection:titleMarginEnd}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_titleMarginStart mahmud.picosoft.islamiclecturecollection:titleMarginStart}</code></td><td></td></tr>
@@ -8486,12 +9478,15 @@ containing a value of this type.
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
+           @see #Toolbar_buttonGravity
            @see #Toolbar_collapseContentDescription
            @see #Toolbar_collapseIcon
            @see #Toolbar_contentInsetEnd
+           @see #Toolbar_contentInsetEndWithActions
            @see #Toolbar_contentInsetLeft
            @see #Toolbar_contentInsetRight
            @see #Toolbar_contentInsetStart
+           @see #Toolbar_contentInsetStartWithNavigation
            @see #Toolbar_logo
            @see #Toolbar_logoDescription
            @see #Toolbar_maxButtonHeight
@@ -8502,6 +9497,7 @@ containing a value of this type.
            @see #Toolbar_subtitleTextAppearance
            @see #Toolbar_subtitleTextColor
            @see #Toolbar_title
+           @see #Toolbar_titleMargin
            @see #Toolbar_titleMarginBottom
            @see #Toolbar_titleMarginEnd
            @see #Toolbar_titleMarginStart
@@ -8511,13 +9507,14 @@ containing a value of this type.
            @see #Toolbar_titleTextColor
          */
         public static final int[] Toolbar = {
-            0x010100af, 0x01010140, 0x7f01000c, 0x7f01000f,
-            0x7f010013, 0x7f01001f, 0x7f010020, 0x7f010021,
-            0x7f010022, 0x7f010024, 0x7f010110, 0x7f010111,
-            0x7f010112, 0x7f010113, 0x7f010114, 0x7f010115,
-            0x7f010116, 0x7f010117, 0x7f010118, 0x7f010119,
-            0x7f01011a, 0x7f01011b, 0x7f01011c, 0x7f01011d,
-            0x7f01011e
+            0x010100af, 0x01010140, 0x7f010003, 0x7f010006,
+            0x7f01000a, 0x7f010016, 0x7f010017, 0x7f010018,
+            0x7f010019, 0x7f01001a, 0x7f01001b, 0x7f01001d,
+            0x7f010124, 0x7f010125, 0x7f010126, 0x7f010127,
+            0x7f010128, 0x7f010129, 0x7f01012a, 0x7f01012b,
+            0x7f01012c, 0x7f01012d, 0x7f01012e, 0x7f01012f,
+            0x7f010130, 0x7f010131, 0x7f010132, 0x7f010133,
+            0x7f010134
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -8532,6 +9529,23 @@ containing a value of this type.
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#buttonGravity}
+          attribute's value can be found in the {@link #Toolbar} array.
+
+
+          <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>top</code></td><td>0x30</td><td></td></tr>
+<tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
+</table>
+          @attr name mahmud.picosoft.islamiclecturecollection:buttonGravity
+        */
+        public static final int Toolbar_buttonGravity = 21;
+        /**
           <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
@@ -8544,7 +9558,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name mahmud.picosoft.islamiclecturecollection:collapseContentDescription
         */
-        public static final int Toolbar_collapseContentDescription = 19;
+        public static final int Toolbar_collapseContentDescription = 23;
         /**
           <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
@@ -8554,7 +9568,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           @attr name mahmud.picosoft.islamiclecturecollection:collapseIcon
         */
-        public static final int Toolbar_collapseIcon = 18;
+        public static final int Toolbar_collapseIcon = 22;
         /**
           <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
@@ -8571,6 +9585,22 @@ containing a value of this type.
           @attr name mahmud.picosoft.islamiclecturecollection:contentInsetEnd
         */
         public static final int Toolbar_contentInsetEnd = 6;
+        /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#contentInsetEndWithActions}
+          attribute's value can be found in the {@link #Toolbar} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:contentInsetEndWithActions
+        */
+        public static final int Toolbar_contentInsetEndWithActions = 10;
         /**
           <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
@@ -8620,6 +9650,22 @@ containing a value of this type.
         */
         public static final int Toolbar_contentInsetStart = 5;
         /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#contentInsetStartWithNavigation}
+          attribute's value can be found in the {@link #Toolbar} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:contentInsetStartWithNavigation
+        */
+        public static final int Toolbar_contentInsetStartWithNavigation = 9;
+        /**
           <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#logo}
           attribute's value can be found in the {@link #Toolbar} array.
 
@@ -8642,7 +9688,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name mahmud.picosoft.islamiclecturecollection:logoDescription
         */
-        public static final int Toolbar_logoDescription = 22;
+        public static final int Toolbar_logoDescription = 26;
         /**
           <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
@@ -8658,7 +9704,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name mahmud.picosoft.islamiclecturecollection:maxButtonHeight
         */
-        public static final int Toolbar_maxButtonHeight = 17;
+        public static final int Toolbar_maxButtonHeight = 20;
         /**
           <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
@@ -8672,7 +9718,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name mahmud.picosoft.islamiclecturecollection:navigationContentDescription
         */
-        public static final int Toolbar_navigationContentDescription = 21;
+        public static final int Toolbar_navigationContentDescription = 25;
         /**
           <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
@@ -8682,7 +9728,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           @attr name mahmud.picosoft.islamiclecturecollection:navigationIcon
         */
-        public static final int Toolbar_navigationIcon = 20;
+        public static final int Toolbar_navigationIcon = 24;
         /**
           <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
@@ -8692,7 +9738,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           @attr name mahmud.picosoft.islamiclecturecollection:popupTheme
         */
-        public static final int Toolbar_popupTheme = 9;
+        public static final int Toolbar_popupTheme = 11;
         /**
           <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
@@ -8716,7 +9762,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           @attr name mahmud.picosoft.islamiclecturecollection:subtitleTextAppearance
         */
-        public static final int Toolbar_subtitleTextAppearance = 11;
+        public static final int Toolbar_subtitleTextAppearance = 13;
         /**
           <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#subtitleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
@@ -8731,7 +9777,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name mahmud.picosoft.islamiclecturecollection:subtitleTextColor
         */
-        public static final int Toolbar_subtitleTextColor = 24;
+        public static final int Toolbar_subtitleTextColor = 28;
         /**
           <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
@@ -8747,6 +9793,22 @@ containing a value of this type.
         */
         public static final int Toolbar_title = 2;
         /**
+          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#titleMargin}
+          attribute's value can be found in the {@link #Toolbar} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name mahmud.picosoft.islamiclecturecollection:titleMargin
+        */
+        public static final int Toolbar_titleMargin = 14;
+        /**
           <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
@@ -8761,7 +9823,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name mahmud.picosoft.islamiclecturecollection:titleMarginBottom
         */
-        public static final int Toolbar_titleMarginBottom = 16;
+        public static final int Toolbar_titleMarginBottom = 18;
         /**
           <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
@@ -8777,7 +9839,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name mahmud.picosoft.islamiclecturecollection:titleMarginEnd
         */
-        public static final int Toolbar_titleMarginEnd = 14;
+        public static final int Toolbar_titleMarginEnd = 16;
         /**
           <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
@@ -8793,7 +9855,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name mahmud.picosoft.islamiclecturecollection:titleMarginStart
         */
-        public static final int Toolbar_titleMarginStart = 13;
+        public static final int Toolbar_titleMarginStart = 15;
         /**
           <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
@@ -8809,7 +9871,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name mahmud.picosoft.islamiclecturecollection:titleMarginTop
         */
-        public static final int Toolbar_titleMarginTop = 15;
+        public static final int Toolbar_titleMarginTop = 17;
         /**
           <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
@@ -8825,7 +9887,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name mahmud.picosoft.islamiclecturecollection:titleMargins
         */
-        public static final int Toolbar_titleMargins = 12;
+        public static final int Toolbar_titleMargins = 19;
         /**
           <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
@@ -8835,7 +9897,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           @attr name mahmud.picosoft.islamiclecturecollection:titleTextAppearance
         */
-        public static final int Toolbar_titleTextAppearance = 10;
+        public static final int Toolbar_titleTextAppearance = 12;
         /**
           <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#titleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
@@ -8850,7 +9912,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name mahmud.picosoft.islamiclecturecollection:titleTextColor
         */
-        public static final int Toolbar_titleTextColor = 23;
+        public static final int Toolbar_titleTextColor = 27;
         /** Attributes that can be used with a View.
            <p>Includes the following attributes:</p>
            <table>
@@ -8870,8 +9932,8 @@ containing a value of this type.
            @see #View_theme
          */
         public static final int[] View = {
-            0x01010000, 0x010100da, 0x7f01011f, 0x7f010120,
-            0x7f010121
+            0x01010000, 0x010100da, 0x7f010135, 0x7f010136,
+            0x7f010137
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -8942,7 +10004,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #ViewBackgroundHelper_backgroundTintMode
          */
         public static final int[] ViewBackgroundHelper = {
-            0x010100d4, 0x7f010122, 0x7f010123
+            0x010100d4, 0x7f010138, 0x7f010139
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -9020,307 +10082,5 @@ containing a value of this type.
           @attr name android:layout
         */
         public static final int ViewStubCompat_android_layout = 1;
-        /** Attributes that can be used with a WalletFragmentOptions.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_appTheme mahmud.picosoft.islamiclecturecollection:appTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_environment mahmud.picosoft.islamiclecturecollection:environment}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_fragmentMode mahmud.picosoft.islamiclecturecollection:fragmentMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_fragmentStyle mahmud.picosoft.islamiclecturecollection:fragmentStyle}</code></td><td></td></tr>
-           </table>
-           @see #WalletFragmentOptions_appTheme
-           @see #WalletFragmentOptions_environment
-           @see #WalletFragmentOptions_fragmentMode
-           @see #WalletFragmentOptions_fragmentStyle
-         */
-        public static final int[] WalletFragmentOptions = {
-            0x7f010124, 0x7f010125, 0x7f010126, 0x7f010127
-        };
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#appTheme}
-          attribute's value can be found in the {@link #WalletFragmentOptions} array.
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>holo_dark</code></td><td>0</td><td></td></tr>
-<tr><td><code>holo_light</code></td><td>1</td><td></td></tr>
-</table>
-          @attr name mahmud.picosoft.islamiclecturecollection:appTheme
-        */
-        public static final int WalletFragmentOptions_appTheme = 0;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#environment}
-          attribute's value can be found in the {@link #WalletFragmentOptions} array.
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>production</code></td><td>1</td><td></td></tr>
-<tr><td><code>test</code></td><td>3</td><td></td></tr>
-<tr><td><code>sandbox</code></td><td>0</td><td></td></tr>
-<tr><td><code>strict_sandbox</code></td><td>2</td><td></td></tr>
-</table>
-          @attr name mahmud.picosoft.islamiclecturecollection:environment
-        */
-        public static final int WalletFragmentOptions_environment = 1;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#fragmentMode}
-          attribute's value can be found in the {@link #WalletFragmentOptions} array.
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>buyButton</code></td><td>1</td><td></td></tr>
-<tr><td><code>selectionDetails</code></td><td>2</td><td></td></tr>
-</table>
-          @attr name mahmud.picosoft.islamiclecturecollection:fragmentMode
-        */
-        public static final int WalletFragmentOptions_fragmentMode = 3;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#fragmentStyle}
-          attribute's value can be found in the {@link #WalletFragmentOptions} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:fragmentStyle
-        */
-        public static final int WalletFragmentOptions_fragmentStyle = 2;
-        /** Attributes that can be used with a WalletFragmentStyle.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonAppearance mahmud.picosoft.islamiclecturecollection:buyButtonAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonHeight mahmud.picosoft.islamiclecturecollection:buyButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonText mahmud.picosoft.islamiclecturecollection:buyButtonText}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonWidth mahmud.picosoft.islamiclecturecollection:buyButtonWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsBackground mahmud.picosoft.islamiclecturecollection:maskedWalletDetailsBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonBackground mahmud.picosoft.islamiclecturecollection:maskedWalletDetailsButtonBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance mahmud.picosoft.islamiclecturecollection:maskedWalletDetailsButtonTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance mahmud.picosoft.islamiclecturecollection:maskedWalletDetailsHeaderTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoImageType mahmud.picosoft.islamiclecturecollection:maskedWalletDetailsLogoImageType}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoTextColor mahmud.picosoft.islamiclecturecollection:maskedWalletDetailsLogoTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsTextAppearance mahmud.picosoft.islamiclecturecollection:maskedWalletDetailsTextAppearance}</code></td><td></td></tr>
-           </table>
-           @see #WalletFragmentStyle_buyButtonAppearance
-           @see #WalletFragmentStyle_buyButtonHeight
-           @see #WalletFragmentStyle_buyButtonText
-           @see #WalletFragmentStyle_buyButtonWidth
-           @see #WalletFragmentStyle_maskedWalletDetailsBackground
-           @see #WalletFragmentStyle_maskedWalletDetailsButtonBackground
-           @see #WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance
-           @see #WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance
-           @see #WalletFragmentStyle_maskedWalletDetailsLogoImageType
-           @see #WalletFragmentStyle_maskedWalletDetailsLogoTextColor
-           @see #WalletFragmentStyle_maskedWalletDetailsTextAppearance
-         */
-        public static final int[] WalletFragmentStyle = {
-            0x7f010128, 0x7f010129, 0x7f01012a, 0x7f01012b,
-            0x7f01012c, 0x7f01012d, 0x7f01012e, 0x7f01012f,
-            0x7f010130, 0x7f010131, 0x7f010132
-        };
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#buyButtonAppearance}
-          attribute's value can be found in the {@link #WalletFragmentStyle} array.
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>google_wallet_classic</code></td><td>1</td><td></td></tr>
-<tr><td><code>google_wallet_grayscale</code></td><td>2</td><td></td></tr>
-<tr><td><code>google_wallet_monochrome</code></td><td>3</td><td></td></tr>
-<tr><td><code>android_pay_dark</code></td><td>4</td><td></td></tr>
-<tr><td><code>android_pay_light</code></td><td>5</td><td></td></tr>
-<tr><td><code>android_pay_light_with_border</code></td><td>6</td><td></td></tr>
-<tr><td><code>classic</code></td><td>1</td><td></td></tr>
-<tr><td><code>grayscale</code></td><td>2</td><td></td></tr>
-<tr><td><code>monochrome</code></td><td>3</td><td></td></tr>
-</table>
-          @attr name mahmud.picosoft.islamiclecturecollection:buyButtonAppearance
-        */
-        public static final int WalletFragmentStyle_buyButtonAppearance = 3;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#buyButtonHeight}
-          attribute's value can be found in the {@link #WalletFragmentStyle} array.
-
-
-          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-<p>May be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>match_parent</code></td><td>-1</td><td></td></tr>
-<tr><td><code>wrap_content</code></td><td>-2</td><td></td></tr>
-</table>
-          @attr name mahmud.picosoft.islamiclecturecollection:buyButtonHeight
-        */
-        public static final int WalletFragmentStyle_buyButtonHeight = 0;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#buyButtonText}
-          attribute's value can be found in the {@link #WalletFragmentStyle} array.
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>buy_with</code></td><td>5</td><td></td></tr>
-<tr><td><code>logo_only</code></td><td>6</td><td></td></tr>
-<tr><td><code>donate_with</code></td><td>7</td><td></td></tr>
-<tr><td><code>buy_with_google</code></td><td>1</td><td></td></tr>
-<tr><td><code>buy_now</code></td><td>2</td><td></td></tr>
-<tr><td><code>book_now</code></td><td>3</td><td></td></tr>
-<tr><td><code>donate_with_google</code></td><td>4</td><td></td></tr>
-</table>
-          @attr name mahmud.picosoft.islamiclecturecollection:buyButtonText
-        */
-        public static final int WalletFragmentStyle_buyButtonText = 2;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#buyButtonWidth}
-          attribute's value can be found in the {@link #WalletFragmentStyle} array.
-
-
-          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-<p>May be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>match_parent</code></td><td>-1</td><td></td></tr>
-<tr><td><code>wrap_content</code></td><td>-2</td><td></td></tr>
-</table>
-          @attr name mahmud.picosoft.islamiclecturecollection:buyButtonWidth
-        */
-        public static final int WalletFragmentStyle_buyButtonWidth = 1;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#maskedWalletDetailsBackground}
-          attribute's value can be found in the {@link #WalletFragmentStyle} array.
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:maskedWalletDetailsBackground
-        */
-        public static final int WalletFragmentStyle_maskedWalletDetailsBackground = 6;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#maskedWalletDetailsButtonBackground}
-          attribute's value can be found in the {@link #WalletFragmentStyle} array.
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:maskedWalletDetailsButtonBackground
-        */
-        public static final int WalletFragmentStyle_maskedWalletDetailsButtonBackground = 8;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#maskedWalletDetailsButtonTextAppearance}
-          attribute's value can be found in the {@link #WalletFragmentStyle} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:maskedWalletDetailsButtonTextAppearance
-        */
-        public static final int WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance = 7;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#maskedWalletDetailsHeaderTextAppearance}
-          attribute's value can be found in the {@link #WalletFragmentStyle} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:maskedWalletDetailsHeaderTextAppearance
-        */
-        public static final int WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance = 5;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#maskedWalletDetailsLogoImageType}
-          attribute's value can be found in the {@link #WalletFragmentStyle} array.
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>google_wallet_classic</code></td><td>1</td><td></td></tr>
-<tr><td><code>google_wallet_monochrome</code></td><td>2</td><td></td></tr>
-<tr><td><code>android_pay</code></td><td>3</td><td></td></tr>
-<tr><td><code>classic</code></td><td>1</td><td></td></tr>
-<tr><td><code>monochrome</code></td><td>2</td><td></td></tr>
-</table>
-          @attr name mahmud.picosoft.islamiclecturecollection:maskedWalletDetailsLogoImageType
-        */
-        public static final int WalletFragmentStyle_maskedWalletDetailsLogoImageType = 10;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#maskedWalletDetailsLogoTextColor}
-          attribute's value can be found in the {@link #WalletFragmentStyle} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name mahmud.picosoft.islamiclecturecollection:maskedWalletDetailsLogoTextColor
-        */
-        public static final int WalletFragmentStyle_maskedWalletDetailsLogoTextColor = 9;
-        /**
-          <p>This symbol is the offset where the {@link mahmud.picosoft.islamiclecturecollection.R.attr#maskedWalletDetailsTextAppearance}
-          attribute's value can be found in the {@link #WalletFragmentStyle} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name mahmud.picosoft.islamiclecturecollection:maskedWalletDetailsTextAppearance
-        */
-        public static final int WalletFragmentStyle_maskedWalletDetailsTextAppearance = 4;
     };
 }

@@ -45,12 +45,12 @@
             android:layout_alignParentBottom="true"
             android:gravity="bottom" >
 
-            <com.google.android.gms.ads.AdView
+            <!--<com.google.android.gms.ads.AdView
                 android:id="@+id/homeAdView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-5332068873521163/4744550531" />
+                ads:adUnitId="ca-app-pub-5332068873521163/4744550531" />-->
         </LinearLayout>
     </RelativeLayout>
 
